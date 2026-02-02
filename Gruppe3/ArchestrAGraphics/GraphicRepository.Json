@@ -2,7 +2,7 @@
   "CDIVersion": "6150.0474.4204.1",
   "IASVersion": "20.1.10000",
   "ApplicationName": "Gruppe3",
-  "DBChangeLog": 22,
+  "DBChangeLog": 23,
   "UniqueToolsetId": 1702,
   "UniqueSymbolId": 812,
   "IncludeAllGraphics": false,
@@ -20,7 +20,7 @@
       "CategoryId": 26,
       "IsProtected": false,
       "MyDIName": "",
-      "ModifiedTimeStamp": 134139858918252546,
+      "ModifiedTimeStamp": 134144994308235170,
       "IsCheckedOut": false
     },
     "802": {

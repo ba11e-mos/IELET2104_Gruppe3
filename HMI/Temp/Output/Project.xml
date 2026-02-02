@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project SchemaVersion="2.21.28.0">
+  <Guid>5f485c4d-e89a-4531-936e-a361ed40687e</Guid>
+  <ProjectFiles>
+    <ProjectFile Name="AlarmServer.neo" ModifiedDate="2026-02-02T10:58:21.9395429+01:00" Length="1053" />
+    <ProjectFile Name="MultipleLanguages.neo" ModifiedDate="2026-02-02T12:12:17.5820998+01:00" Length="4226" />
+    <ProjectFile Name="Expressions.neo" ModifiedDate="2026-02-02T10:58:22.2188215+01:00" Length="457" />
+    <ProjectFile Name="LicenseRootComponent.neo" ModifiedDate="2026-02-02T10:58:26.3474769+01:00" Length="8675" />
+    <ProjectFile Name="Tags.neo" ModifiedDate="2026-02-02T11:50:56.9797951+01:00" Length="8208" />
+    <ProjectFile Name="ProjectConfiguration.neo" ModifiedDate="2026-02-02T10:58:22.3449885+01:00" Length="6377" />
+    <ProjectFile Name="Security.neo" ModifiedDate="2026-02-02T10:58:22.3549849+01:00" Length="449" />
+    <ProjectFile Name="Security.xml" ModifiedDate="2026-02-02T10:58:22.3659849+01:00" Length="693" />
+    <ProjectFile Name="SntpClientRootComponent.neo" ModifiedDate="2026-02-02T10:58:22.3775627+01:00" Length="468" />
+    <ProjectFile Name="ProjectImages.neo" ModifiedDate="2026-02-02T12:12:17.5971003+01:00" Length="454" />
+    <ProjectFile Name="Symbols\light_green electrical.lib" ModifiedDate="2026-02-02T12:06:39.898071+01:00" Length="27200" />
+    <ProjectFile Name="Symbols\light_red_fl electrical.lib" ModifiedDate="2026-02-02T12:06:39.9770439+01:00" Length="25484" />
+    <ProjectFile Name="Symbols\button black.lib" ModifiedDate="2026-02-02T12:09:48.6162773+01:00" Length="23615" />
+    <ProjectFile Name="Symbols\button blue.lib" ModifiedDate="2026-02-02T12:09:48.7320418+01:00" Length="20992" />
+    <ProjectFile Name="Symbols\button gray.lib" ModifiedDate="2026-02-02T12:09:48.8571757+01:00" Length="21769" />
+    <ProjectFile Name="Symbols\button green.lib" ModifiedDate="2026-02-02T12:09:48.9587237+01:00" Length="24062" />
+    <ProjectFile Name="Symbols\button orange.lib" ModifiedDate="2026-02-02T12:09:49.1499024+01:00" Length="22948" />
+    <ProjectFile Name="Symbols\button purple.lib" ModifiedDate="2026-02-02T12:09:49.2229031+01:00" Length="23453" />
+    <ProjectFile Name="Symbols\button red.lib" ModifiedDate="2026-02-02T12:09:49.2806192+01:00" Length="22995" />
+    <ProjectFile Name="Symbols\button yellow.lib" ModifiedDate="2026-02-02T12:09:49.3836217+01:00" Length="24287" />
+    <ProjectFile Name="Screen1.neoxaml" ModifiedDate="2026-02-02T12:12:17.6110995+01:00" Length="796" />
+    <ProjectFile Name="Screen1.Script.cs" ModifiedDate="2026-02-02T12:12:17.6121016+01:00" Length="984" />
+    <ProjectFile Name="Screen1.xaml" ModifiedDate="2026-02-02T12:12:17.6597034+01:00" Length="16735" />
+    <ProjectFile Name="Printer1.xml" ModifiedDate="2026-02-02T10:58:22.8121328+01:00" Length="850" />
+    <ProjectFile Name="Controller1.neo" ModifiedDate="2026-02-02T11:50:57.0267959+01:00" Length="2480" />
+  </ProjectFiles>
+</Project>

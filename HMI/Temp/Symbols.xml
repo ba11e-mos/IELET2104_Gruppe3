@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Symbols>
+  <Symbol FileName="button green.bmp" Transparent="true" Width="100" Height="100" />
+  <Symbol FileName="button black.bmp" Transparent="true" Width="100" Height="100" />
+  <Symbol FileName="button yellow.bmp" Transparent="true" Width="100" Height="100" />
+  <Symbol FileName="button orange.bmp" Transparent="true" Width="100" Height="100" />
+  <Symbol FileName="button blue.bmp" Transparent="true" Width="100" Height="100" />
+  <Symbol FileName="button red.bmp" Transparent="true" Width="100" Height="100" />
+  <Symbol FileName="button purple.bmp" Transparent="true" Width="100" Height="100" />
+  <Symbol FileName="button gray.bmp" Transparent="true" Width="100" Height="100" />
+</Symbols>

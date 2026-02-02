@@ -1,12 +1,12 @@
 {
-  "GraphicVersion": 1,
+  "GraphicVersion": 2,
   "VisualElementID": 801,
   "GObjectId": 801,
   "HelpId": "",
   "VisualElementName": "$InTouchViewApp_001",
   "IsProtected": false,
   "ContextObject": "",
-  "TimeStamp": -1310937219,
+  "TimeStamp": 1608424877,
   "VisualElementType": "Application",
   "Errors": [
     ""
