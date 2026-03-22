@@ -1,0 +1,18 @@
+KEPServerEX - Intouch - Adresse
+
+flow_glob - FlowRate
+FO_flow_glob - FO_pådrag
+kd_hmi - 
+ki_hmi - 
+kp_hmi - 
+manuell_hmi - 
+organ_glob - 
+pådrag_glob - 
+slider_glob - Referanse
+tank_glob - TankNivå
+tf_hmi - 
+ventil_1_glob - Ventil1
+ventil_2_glob - Ventil2
+ventil_3_glob - Ventil3
+
+P_Kp_Raw - P_Kp_Raw (Valgt kp verdi * 1000) - D20
