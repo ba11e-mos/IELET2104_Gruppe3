@@ -1,21 +1,21 @@
 KEPServerEX - Intouch - Adresse
 
-flow_glob - FlowRate
+flow_glob - FlowRate - d10
 FO_flow_glob - FO_pådrag
-kd_hmi - 
-ki_hmi - 
-kp_hmi - 
+kd_hmi - kd_hmi - d16
+ki_hmi - ki_hmi - d14
+kp_hmi - kp_hmi - d12
 manuell_hmi - 
 organ_glob - 
-pådrag_glob - 
-slider_glob - Referanse
-tank_glob - TankNivå
-tf_hmi - 
-ventil_1_glob - Ventil1
-ventil_2_glob - Ventil2
-ventil_3_glob - Ventil3
+pådrag_glob - Pådrag - d12
+slider_glob - Referanse - d20
+tank_glob - TankNivå - d0
+tf_hmi - tf_hmi - d18
+ventil_1_glob - Ventil1 - m20
+ventil_2_glob - Ventil2 - m21
+ventil_3_glob - Ventil3 - m22
 
-P_Kp_Raw - P_Kp_Raw - D30   (Valgt input verdi * 1000)
+P_Kp_Raw - P_Kp_Raw - D30   (Valgt input verdi * 1000) (Satt av mellomrom i tilfelle de trenger å endres til dword (I/O message) for å ha 32bit
 PI_Kp_Raw - PI_Kp_Raw - D32 
 PD_Kp_Raw - PD_Kp_Raw - D34 
 PID_Kp_Raw - PID_Kp_Raw - D36
@@ -25,3 +25,5 @@ PID_Ti_Raw - PID_Ti_Raw - D39
 
 PD_Td_Raw - PD_Td_Raw - D40
 PID_Td_Raw - PID_Td_Raw - D41
+
+regulatorType - RegulatorType - 
