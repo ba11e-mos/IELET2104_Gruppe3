@@ -18,16 +18,16 @@
         <Item Target="Tags" TargetProperty="V1_bool" Source="Controller1.DataItem1" />
         <Item Target="Tags" TargetProperty="V2_bool" Source="Controller1.DataItem2" />
         <Item Target="Tags" TargetProperty="V3_bool" Source="Controller1.DataItem3" />
-        <Item Target="Tags" TargetProperty="Styring_frekvens_eller_ventil" Source="Controller1.DataItem4" />
-        <Item Target="Tags" TargetProperty="Modus" Source="Controller1.DataItem5" />
-        <Item Target="Tags" TargetProperty="Pådrag" Source="Controller1.DataItem6" />
-        <Item Target="Tags" TargetProperty="Frekvensomformer_åpning" Source="Controller1.DataItem7" />
-        <Item Target="Tags" TargetProperty="Regventil_åpning" Source="Controller1.DataItem8" />
-        <Item Target="Tags" TargetProperty="Settpunkt" Source="Controller1.DataItem10" />
-        <Item Target="Tags" TargetProperty="iKp" Source="Controller1.DataItem9" />
-        <Item Target="Tags" TargetProperty="iKi" Source="Controller1.DataItem11" />
-        <Item Target="Tags" TargetProperty="iKd" Source="Controller1.DataItem12" />
-        <Item Target="Tags" TargetProperty="Tank" Source="Controller1.DataItem13" />
+        <Item Target="Tags" TargetProperty="Prosessverdi" Source="Controller1.DataItem7" />
+        <Item Target="Tags" TargetProperty="Modus" Source="Controller1.DataItem6" />
+        <Item Target="Tags" TargetProperty="Pådrag" Source="Controller1.DataItem5" />
+        <Item Target="Tags" TargetProperty="Alarm_synling" Source="Controller1.DataItem4" />
+        <Item Target="Tags" TargetProperty="Frekvensomformer_åpning" Source="Controller1.DataItem8" />
+        <Item Target="Tags" TargetProperty="Kp" Source="Controller1.DataItem10" />
+        <Item Target="Tags" TargetProperty="Ki" Source="Controller1.DataItem11" />
+        <Item Target="Tags" TargetProperty="Kd" Source="Controller1.DataItem12" />
+        <Item Target="Tags" TargetProperty="Settpunkt" Source="Controller1.DataItem13" />
+        <Item Target="Tags" TargetProperty="Organ" Source="Controller1.DataItem9" />
       </Items>
     </Category>
     <Category Name="Recipe">
@@ -41,15 +41,9 @@
     </Category>
     <Category Name="Script">
       <Items>
-        <Item Target="Tags.Script.cs" TargetProperty="ValueChange" Source="Tags.Kp" />
-        <Item Target="Tags.Script.cs" TargetProperty="ValueChange" Source="Tags.Ki" />
-        <Item Target="Tags.Script.cs" TargetProperty="ValueChange" Source="Tags.Kd" />
-        <Item Target="Tags.Script.cs" Source="Tags.Kp" />
-        <Item Target="Tags.Script.cs" Source="Tags.iKp" />
-        <Item Target="Tags.Script.cs" Source="Tags.Ki" />
-        <Item Target="Tags.Script.cs" Source="Tags.Kd" />
-        <Item Target="Tags.Script.cs" Source="Tags.iKi" />
-        <Item Target="Tags.Script.cs" Source="Tags.iKd" />
+        <Item Target="Tags.Script.cs" TargetProperty="ValueChange" Source="Tags.Styring_frekvens_eller_ventil" />
+        <Item Target="Tags.Script.cs" Source="Tags.Styring_frekvens_eller_ventil" />
+        <Item Target="Tags.Script.cs" Source="Tags.Organ" />
       </Items>
     </Category>
     <Category Name="StructuredTag">

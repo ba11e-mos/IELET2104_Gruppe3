@@ -16,16 +16,7 @@ namespace Neo.ApplicationFramework.Generated
     using Neo.ApplicationFramework.Interfaces;
     
     
-    public partial class Tags
+    public partial class Trender
     {
-		
-		void Styring_frekvens_eller_ventil_ValueChange(System.Object sender, Neo.ApplicationFramework.Interfaces.Events.ValueChangedEventArgs e)
-		{
-			if (Styring_frekvens_eller_ventil.Value == 1)
-				Globals.Tags.Organ.Value = 1;	
-			else if (Styring_frekvens_eller_ventil.Value == 2)
-				Globals.Tags.Organ.Value = 0;
-		}			
-		
     }
 }

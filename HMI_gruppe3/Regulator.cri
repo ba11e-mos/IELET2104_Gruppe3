@@ -61,9 +61,9 @@
     <Category Name="GlobalDataItem">
       <Items>
         <Item xsi:type="ActionItem" Target="Regulator.Button" TargetProperty="Actions" Source="Tags.Auto_man_farger" Event="Click" Action="Set Analog" Param="" />
-        <Item Target="Regulator.Button" TargetProperty="Value" Source="Tags.Modus" />
         <Item Target="Regulator.Button" TargetProperty="Background" Source="Tags.Auto_man_farger" />
         <Item xsi:type="ActionItem" Target="Regulator.Button2" TargetProperty="Actions" Source="Tags.Auto_man_farger" Event="Click" Action="Set Analog" Param="" />
+        <Item Target="Regulator.Button2" TargetProperty="Value" Source="Tags.Modus" />
         <Item Target="Regulator.Button2" TargetProperty="Background" Source="Tags.Auto_man_farger" />
         <Item xsi:type="ActionItem" Target="Regulator.Button3" TargetProperty="Actions" Source="Tags.PID_farger" Event="Click" Action="Set Analog" Param="" />
         <Item Target="Regulator.Button3" TargetProperty="Background" Source="Tags.PID_farger" />
@@ -78,12 +78,12 @@
         <Item xsi:type="ActionItem" Target="Regulator.Button17" TargetProperty="Actions" Source="Tags.PID_farger" Event="Click" Action="Set Analog" Param="" />
         <Item Target="Regulator.Button17" TargetProperty="Background" Source="Tags.PID_farger" />
         <Item Target="Regulator.AnalogNumeric" TargetProperty="Value" Source="Tags.Kp" />
-        <Item Target="Regulator.AnalogNumeric" TargetProperty="NumberOfDecimals" Source="Tags.Kp" />
         <Item Target="Regulator.Text11" TargetProperty="Foreground" Source="Tags.PID_farger" />
         <Item Target="Regulator.AnalogNumeric2" TargetProperty="Value" Source="Tags.Ki" />
         <Item Target="Regulator.Text12" TargetProperty="Foreground" Source="Tags.PID_farger" />
         <Item Target="Regulator.AnalogNumeric3" TargetProperty="Value" Source="Tags.Kd" />
         <Item Target="Regulator.AnalogNumeric4" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Auto_man_farger" />
+        <Item Target="Regulator.AnalogNumeric5" TargetProperty="Value" Source="Tags.Pådrag" />
         <Item Target="Regulator.AnalogNumeric5" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Auto_man_farger" />
         <Item Target="Regulator.Text14" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Auto_man_farger" />
         <Item xsi:type="ActionItem" Target="Regulator.Button6" TargetProperty="Actions" Source="Tags.PID_farger" Event="Click" Action="Set Analog" Param="" />
