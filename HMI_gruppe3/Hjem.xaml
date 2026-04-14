@@ -460,14 +460,14 @@
         </nacd1:StringIntervalMapper>
       </nact:TouchComboBoxHost.IntervalMapper>
     </nact:TouchComboBoxHost>
-    <nacc1:LinearMeter Orientation="Vertical" MajorTickCount="6" MinorTickCount="1" IndicatorColor="#FF5C83B4" Background="#FFFFFFFF" Foreground="#FF000000" FontSize="12" Width="175" Height="282" ScaleVisible="Visible" Transparent="Visible" ScaleColor="#FF000000" IndicatorMargin="8,14,31.65,14" RequiresTransparency="False" ForceTransparency="False" FontFamily="Tahoma" Name="m_LinearMeter" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="41" Canvas.Left="43" Canvas.Top="175" Style="{nac1:StyleMarkupExtension Vintage_Compact}">
+    <nacc1:LinearMeter Orientation="Vertical" MajorTickCount="6" MinorTickCount="1" IndicatorColor="#FF0000FF" Background="#FFFFFFFF" Foreground="#FF000000" FontSize="12" Width="175" Height="282" ScaleVisible="Visible" Transparent="Visible" ScaleColor="#FF000000" IndicatorMargin="8,14,31.65,14" RequiresTransparency="False" ForceTransparency="False" FontFamily="Tahoma" FontStyle="Normal" FontWeight="Normal" Name="m_LinearMeter" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="41" Canvas.Left="43" Canvas.Top="175" Style="{nac1:StyleMarkupExtension Vintage_Compact}">
       <nacc1:LinearMeter.Resources>
         <ResourceDictionary>
           <nacc:VariantValueConverter x:Key="ValueConverter" />
         </ResourceDictionary>
       </nacc1:LinearMeter.Resources>
       <nacc1:LinearMeter.Value>
-        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.Tank].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True">
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.Prosessverdi].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True">
           <Binding.FallbackValue>
             <s:Double>0</s:Double>
           </Binding.FallbackValue>
@@ -857,8 +857,8 @@
     <nacc1:Ellipse Fill="#FFFF0000" Stroke="#FF000000" StrokeThickness="1" Name="m_Ellipse3" Width="35" Height="35" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="46" nacb1:BlinkProperties.BlinkInterval="800" Canvas.Left="422" Canvas.Top="563">
       <nacc1:Ellipse.Resources>
         <ResourceDictionary>
-          <nacd1:BoolDynamicsConverter x:Key="IsBlinkEnabledConverter" DefaultValue="False" TrueValue="1" />
           <nacd1:BoolDynamicsConverter x:Key="VisibleDynamicsValueConverter" DefaultValue="True" TrueValue="1" />
+          <nacd1:BoolDynamicsConverter x:Key="IsBlinkEnabledConverter" DefaultValue="False" TrueValue="1" />
         </ResourceDictionary>
       </nacc1:Ellipse.Resources>
       <nacb1:BlinkProperties.IsBlinkEnabled>
@@ -903,8 +903,8 @@
     <nac:AnalogNumericFX AutoStretchFont="False" NumberOfDecimals="0" MaxNumberOfCharacters="2" LimitNumberOfCharacters="True" Suffix="%" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontFamily="Tahoma" UndoLimit="1" Transparent="Visible" BorderBrush="#FF7F9DB9" BorderThickness="1,1,1,1" Foreground="#FF000000" FontSize="20" Padding="2,2,2,2" Name="m_AnalogNumeric" Width="44" Height="29" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="50" KeyboardNavigation.TabNavigation="None" Canvas.Left="21" Canvas.Top="46">
       <nac:AnalogNumericFX.Resources>
         <ResourceDictionary>
-          <nacc:VariantValueConverter x:Key="ValueConverter" />
           <nacd1:BoolDynamicsConverter x:Key="VisibleDynamicsValueConverter" DefaultValue="True" TrueValue="1" />
+          <nacc:VariantValueConverter x:Key="ValueConverter" />
         </ResourceDictionary>
       </nac:AnalogNumericFX.Resources>
       <nac:AnalogNumericFX.Value>
@@ -939,8 +939,8 @@
     <nac:AnalogNumericFX AutoStretchFont="False" NumberOfDecimals="0" MaxNumberOfCharacters="2" LimitNumberOfCharacters="True" Suffix="%" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontFamily="Tahoma" UndoLimit="1" Transparent="Visible" BorderBrush="#FF7F9DB9" BorderThickness="1,1,1,1" Foreground="#FF000000" FontSize="20" Padding="2,2,2,2" Name="m_AnalogNumeric2" Width="44" Height="29" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="51" KeyboardNavigation.TabNavigation="None" Canvas.Left="118" Canvas.Top="34">
       <nac:AnalogNumericFX.Resources>
         <ResourceDictionary>
-          <nacc:VariantValueConverter x:Key="ValueConverter" />
           <nacd1:BoolDynamicsConverter x:Key="VisibleDynamicsValueConverter" DefaultValue="True" TrueValue="2" />
+          <nacc:VariantValueConverter x:Key="ValueConverter" />
         </ResourceDictionary>
       </nac:AnalogNumericFX.Resources>
       <nac:AnalogNumericFX.Value>

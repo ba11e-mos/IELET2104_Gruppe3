@@ -50,11 +50,6 @@ namespace Neo.ApplicationFramework.Generated
 		{
 		}
 		
-		public Neo.ApplicationFramework.Interfaces.VariantValue flttoint(Neo.ApplicationFramework.Interfaces.VariantValue value)
-		{
-			return value;
-		}
-		
 		[System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Never)]
 		private void ApplyLanguageInternal()
 		{

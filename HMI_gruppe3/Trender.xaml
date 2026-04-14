@@ -150,8 +150,8 @@
     <nacc:Ellipse Fill="#FFFF0000" Stroke="#FF000000" StrokeThickness="1" Name="m_Ellipse3" Width="35" Height="35" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="32" nacb:BlinkProperties.BlinkInterval="800" Canvas.Left="422" Canvas.Top="563">
       <nacc:Ellipse.Resources>
         <ResourceDictionary>
-          <nacd1:BoolDynamicsConverter x:Key="IsBlinkEnabledConverter" DefaultValue="False" TrueValue="1" />
           <nacd1:BoolDynamicsConverter x:Key="VisibleDynamicsValueConverter" DefaultValue="True" TrueValue="1" />
+          <nacd1:BoolDynamicsConverter x:Key="IsBlinkEnabledConverter" DefaultValue="False" TrueValue="1" />
         </ResourceDictionary>
       </nacc:Ellipse.Resources>
       <nacb:BlinkProperties.IsBlinkEnabled>

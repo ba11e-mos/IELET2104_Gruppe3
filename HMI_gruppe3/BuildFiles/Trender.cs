@@ -289,7 +289,7 @@ namespace Neo.ApplicationFramework.Generated {
             this.m_DigitalClock.ScreenOwnerName = "Trender";
             this.m_DigitalClock.ShowDayOfWeek = false;
             this.m_DigitalClock.ShowSeconds = true;
-            this.m_DigitalClock.Text = "20.03.2026 13:26:29";
+            this.m_DigitalClock.Text = "14.04.2026 12:23:10";
             this.m_DigitalClock.Top = 13;
             this.m_DigitalClock.VisibleDynamicsValue = true;
             this.m_DigitalClock.Width = 205;

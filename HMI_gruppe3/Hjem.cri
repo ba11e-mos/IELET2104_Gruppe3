@@ -72,7 +72,7 @@
         <Item Target="Hjem.SymbolViewbox" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.V2_bool" />
         <Item Target="Hjem.SymbolViewbox2" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.V1_bool" />
         <Item Target="Hjem.TouchComboBox" TargetProperty="Value" Source="Tags.Styring_frekvens_eller_ventil" />
-        <Item Target="Hjem.LinearMeter" TargetProperty="Value" Source="Tags.Tank" />
+        <Item Target="Hjem.LinearMeter" TargetProperty="Value" Source="Tags.Prosessverdi" />
         <Item Target="Hjem.SymbolViewbox1" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.V3_bool" />
         <Item Target="Hjem.SymbolViewbox6" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Start_Stopp_farger" />
         <Item Target="Hjem.SymbolViewbox8" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Start_Stopp_farger" />
