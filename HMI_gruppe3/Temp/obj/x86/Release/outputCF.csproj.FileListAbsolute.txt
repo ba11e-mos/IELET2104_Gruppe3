@@ -262,3 +262,5 @@
 \\sambaad.stud.ntnu.no\amalilau\.profil\stud\datasal\Desktop\HMI_gruppe3\Temp\obj\x86\Release\ResolveAssemblyReference.cache
 \\sambaad.stud.ntnu.no\amalilau\.profil\stud\datasal\Desktop\HMI_gruppe3\Temp\obj\x86\Release\HMI_gruppe3.exe
 \\sambaad.stud.ntnu.no\amalilau\.profil\stud\datasal\Desktop\HMI_gruppe3\Temp\obj\x86\Release\HMI_gruppe3.pdb
+\\sambaad.stud.ntnu.no\noast\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3\Temp\obj\x86\Release\ResolveAssemblyReference.cache
+\\sambaad.stud.ntnu.no\noast\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3\Temp\obj\x86\Release\HMI_gruppe3.exe

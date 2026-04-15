@@ -125,7 +125,9 @@
       </Items>
     </Category>
     <Category Name="Script">
-      <Items />
+      <Items>
+        <Item Target="Regulator.Script.cs" Source="Tags.Modus" />
+      </Items>
     </Category>
     <Category Name="StructuredTag">
       <Items>

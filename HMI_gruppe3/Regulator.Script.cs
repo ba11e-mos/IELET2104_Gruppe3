@@ -18,10 +18,18 @@ namespace Neo.ApplicationFramework.Generated
     
     public partial class Regulator
     {
+		
 		void Button_Click(System.Object sender, System.EventArgs e)
 		{
-				
+			Globals.Tags.Modus.Value = true;
+
 		}
+
+		void Button2_Click(System.Object sender, System.EventArgs e)
+		{
+			Globals.Tags.Modus.Value = false;
+		}
+		
 		
     }
 }
