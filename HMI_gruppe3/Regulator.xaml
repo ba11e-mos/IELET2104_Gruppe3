@@ -125,6 +125,11 @@
       <nac:Button.TextDecorations>
         <TextDecorationCollection />
       </nac:Button.TextDecorations>
+      <nai:ScriptProperties.ScriptEvents>
+        <nai:ScriptEventList>
+          <nacxs:EventHandlerInfo EventName="Click" MethodName="Button2_Click" />
+        </nai:ScriptEventList>
+      </nai:ScriptProperties.ScriptEvents>
       <nai:ActionProperties.Actions>
         <nai:ActionList>
           <nata:Action Name="Set Analog">
@@ -752,8 +757,8 @@
     <nac:AnalogNumericFX AutoStretchFont="False" MaxValue="100" Suffix="%" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontFamily="Tahoma" UndoLimit="1" Transparent="Visible" BorderBrush="#FF7F9DB9" BorderThickness="1,1,1,1" Foreground="#FF000000" FontSize="26" Padding="2,2,2,2" Name="m_AnalogNumeric5" Width="200" Height="60" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="23" KeyboardNavigation.TabNavigation="None" Canvas.Left="558" Canvas.Top="422">
       <nac:AnalogNumericFX.Resources>
         <ResourceDictionary>
-          <nacc:VariantValueConverter x:Key="ValueConverter" />
           <nacd1:BoolDynamicsConverter x:Key="VisibleDynamicsValueConverter" DefaultValue="True" TrueValue="1" />
+          <nacc:VariantValueConverter x:Key="ValueConverter" />
         </ResourceDictionary>
       </nac:AnalogNumericFX.Resources>
       <nac:AnalogNumericFX.Value>
@@ -992,8 +997,8 @@
     <nacc1:Ellipse Fill="#FFFF0000" Stroke="#FF000000" StrokeThickness="1" Name="m_Ellipse3" Width="35" Height="35" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="51" nacb:BlinkProperties.BlinkInterval="800" Canvas.Left="422" Canvas.Top="564">
       <nacc1:Ellipse.Resources>
         <ResourceDictionary>
-          <nacd1:BoolDynamicsConverter x:Key="VisibleDynamicsValueConverter" DefaultValue="True" TrueValue="1" />
           <nacd1:BoolDynamicsConverter x:Key="IsBlinkEnabledConverter" DefaultValue="False" TrueValue="1" />
+          <nacd1:BoolDynamicsConverter x:Key="VisibleDynamicsValueConverter" DefaultValue="True" TrueValue="1" />
         </ResourceDictionary>
       </nacc1:Ellipse.Resources>
       <nacb:BlinkProperties.IsBlinkEnabled>
