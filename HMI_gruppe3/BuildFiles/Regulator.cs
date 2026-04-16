@@ -92,6 +92,8 @@ namespace Neo.ApplicationFramework.Generated {
         
         private Neo.ApplicationFramework.Controls.Controls.EllipseCF m_Ellipse;
         
+        private Neo.ApplicationFramework.Controls.Controls.Label m_Text2;
+        
         private bool m_Initialized_Regulator;
         
         private Neo.ApplicationFramework.Common.Dynamics.BrushDynamicsConverterCF brushdynamicsconvertercf1;
@@ -119,7 +121,12 @@ namespace Neo.ApplicationFramework.Generated {
         public Regulator() {
             this.InitializeComponent();
             this.Button2.Click += new System.EventHandler(this.Button2_Click);
+            this.Button3.Click += new System.EventHandler(this.Button3_Click);
+            this.Button4.Click += new System.EventHandler(this.Button4_Click);
+            this.Button17.Click += new System.EventHandler(this.Button17_Click);
             this.Button.Click += new System.EventHandler(this.Button_Click);
+            this.Button6.Click += new System.EventHandler(this.Button6_Click);
+            this.Adapter.Opened += new System.EventHandler(this.Regulator_Opened);
             this.m_Button2.Click += new System.EventHandler(this.m_Button2_Action_Click);
             this.m_Button3.Click += new System.EventHandler(this.m_Button3_Action_Click);
             this.m_Button4.Click += new System.EventHandler(this.m_Button4_Action_Click);
@@ -351,6 +358,12 @@ namespace Neo.ApplicationFramework.Generated {
             }
         }
         
+        protected Neo.ApplicationFramework.Controls.Script.TextControlCFAdapter Text2 {
+            get {
+                return this.AdapterService.CreateAdapter<Neo.ApplicationFramework.Controls.Script.TextControlCFAdapter>(this.m_Text2);
+            }
+        }
+        
         private void InitializeComponent() {
             this.brushdynamicsconvertercf11 = new Neo.ApplicationFramework.Common.Dynamics.BrushDynamicsConverterCF();
             this.brushdynamicsconvertercf10 = new Neo.ApplicationFramework.Common.Dynamics.BrushDynamicsConverterCF();
@@ -436,6 +449,7 @@ namespace Neo.ApplicationFramework.Generated {
             this.m_Text9 = new Neo.ApplicationFramework.Controls.Controls.Label();
             this.m_Ellipse2 = new Neo.ApplicationFramework.Controls.Controls.EllipseCF();
             this.m_Ellipse = new Neo.ApplicationFramework.Controls.Controls.EllipseCF();
+            this.m_Text2 = new Neo.ApplicationFramework.Controls.Controls.Label();
             ((System.ComponentModel.ISupportInitialize)(this.m_Button2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.m_Button3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.m_Button4)).BeginInit();
@@ -468,6 +482,7 @@ namespace Neo.ApplicationFramework.Generated {
             ((System.ComponentModel.ISupportInitialize)(this.m_Button1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.m_Text8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.m_Text9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.m_Text2)).BeginInit();
             this.SuspendLayout();
             // 
             // Regulator
@@ -754,12 +769,14 @@ namespace Neo.ApplicationFramework.Generated {
             this.m_AnalogNumeric.BlinkDynamicsValue = false;
             this.m_AnalogNumeric.BorderBrush = new Neo.ApplicationFramework.Common.Graphics.Logic.BrushCF(System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(157)))), ((int)(((byte)(185))))), System.Drawing.Color.Empty, Neo.ApplicationFramework.Interfaces.FillDirection.None);
             this.m_AnalogNumeric.BorderThickness = new Neo.ApplicationFramework.Common.Graphics.Logic.ThicknessCF(1D, 1D, 1D, 1D);
+            this.m_AnalogNumeric.DisplayFormat = Neo.ApplicationFramework.Interfaces.AnalogNumericDisplayFormat.Decimal;
             this.m_AnalogNumeric.EnabledDynamicsValue = true;
             this.m_AnalogNumeric.FontSizePixels = 26;
             this.m_AnalogNumeric.Height = 60;
             this.m_AnalogNumeric.Left = 50;
             this.m_AnalogNumeric.MaxValue = 100D;
             this.m_AnalogNumeric.Name = "m_AnalogNumeric";
+            this.m_AnalogNumeric.NumberOfDecimals = 3;
             this.m_AnalogNumeric.ScreenOwnerName = "Regulator";
             this.m_AnalogNumeric.Top = 264;
             this.m_AnalogNumeric.VisibleDynamicsValue = true;
@@ -806,12 +823,14 @@ namespace Neo.ApplicationFramework.Generated {
             this.m_AnalogNumeric2.BlinkDynamicsValue = false;
             this.m_AnalogNumeric2.BorderBrush = new Neo.ApplicationFramework.Common.Graphics.Logic.BrushCF(System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(157)))), ((int)(((byte)(185))))), System.Drawing.Color.Empty, Neo.ApplicationFramework.Interfaces.FillDirection.None);
             this.m_AnalogNumeric2.BorderThickness = new Neo.ApplicationFramework.Common.Graphics.Logic.ThicknessCF(1D, 1D, 1D, 1D);
+            this.m_AnalogNumeric2.DisplayFormat = Neo.ApplicationFramework.Interfaces.AnalogNumericDisplayFormat.Decimal;
             this.m_AnalogNumeric2.EnabledDynamicsValue = true;
             this.m_AnalogNumeric2.FontSizePixels = 26;
             this.m_AnalogNumeric2.Height = 60;
             this.m_AnalogNumeric2.Left = 193;
             this.m_AnalogNumeric2.MaxValue = 100D;
             this.m_AnalogNumeric2.Name = "m_AnalogNumeric2";
+            this.m_AnalogNumeric2.NumberOfDecimals = 3;
             this.m_AnalogNumeric2.ScreenOwnerName = "Regulator";
             this.m_AnalogNumeric2.Top = 264;
             this.m_AnalogNumeric2.VisibleDynamicsValue = true;
@@ -849,12 +868,14 @@ namespace Neo.ApplicationFramework.Generated {
             this.m_AnalogNumeric3.BlinkDynamicsValue = false;
             this.m_AnalogNumeric3.BorderBrush = new Neo.ApplicationFramework.Common.Graphics.Logic.BrushCF(System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(157)))), ((int)(((byte)(185))))), System.Drawing.Color.Empty, Neo.ApplicationFramework.Interfaces.FillDirection.None);
             this.m_AnalogNumeric3.BorderThickness = new Neo.ApplicationFramework.Common.Graphics.Logic.ThicknessCF(1D, 1D, 1D, 1D);
+            this.m_AnalogNumeric3.DisplayFormat = Neo.ApplicationFramework.Interfaces.AnalogNumericDisplayFormat.Decimal;
             this.m_AnalogNumeric3.EnabledDynamicsValue = true;
             this.m_AnalogNumeric3.FontSizePixels = 26;
             this.m_AnalogNumeric3.Height = 60;
             this.m_AnalogNumeric3.Left = 324;
             this.m_AnalogNumeric3.MaxValue = 100D;
             this.m_AnalogNumeric3.Name = "m_AnalogNumeric3";
+            this.m_AnalogNumeric3.NumberOfDecimals = 3;
             this.m_AnalogNumeric3.ScreenOwnerName = "Regulator";
             this.m_AnalogNumeric3.Top = 264;
             this.m_AnalogNumeric3.VisibleDynamicsValue = true;
@@ -1002,7 +1023,7 @@ namespace Neo.ApplicationFramework.Generated {
             this.m_DigitalClock.ScreenOwnerName = "Regulator";
             this.m_DigitalClock.ShowDayOfWeek = false;
             this.m_DigitalClock.ShowSeconds = true;
-            this.m_DigitalClock.Text = "16.04.2026 10:26:40";
+            this.m_DigitalClock.Text = "16.04.2026 17:27:14";
             this.m_DigitalClock.Top = 24;
             this.m_DigitalClock.VisibleDynamicsValue = true;
             this.m_DigitalClock.Width = 205;
@@ -1222,6 +1243,19 @@ namespace Neo.ApplicationFramework.Generated {
             this.m_Ellipse.Top = 38;
             this.m_Ellipse.VisibleDynamicsValue = true;
             this.m_Ellipse.Width = 35;
+            // 
+            // m_Text2
+            // 
+            this.m_Text2.BlinkDynamicsValue = false;
+            this.m_Text2.EnabledDynamicsValue = true;
+            this.m_Text2.FontSizePixels = 20;
+            this.m_Text2.Height = 21;
+            this.m_Text2.Left = 129;
+            this.m_Text2.Name = "m_Text2";
+            this.m_Text2.ScreenOwnerName = "Regulator";
+            this.m_Text2.Top = 505;
+            this.m_Text2.VisibleDynamicsValue = true;
+            this.m_Text2.Width = 319;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.ClientSize = new System.Drawing.Size(800, 600);
             this.IsCacheable = true;
@@ -1313,6 +1347,7 @@ namespace Neo.ApplicationFramework.Generated {
             this.DrawingPrimitives.Add(this.m_Text9);
             this.DrawingPrimitives.Add(this.m_Ellipse2);
             this.DrawingPrimitives.Add(this.m_Ellipse);
+            this.DrawingPrimitives.Add(this.m_Text2);
             ((System.ComponentModel.ISupportInitialize)(this.m_Button2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.m_Button3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.m_Button4)).EndInit();
@@ -1345,6 +1380,7 @@ namespace Neo.ApplicationFramework.Generated {
             ((System.ComponentModel.ISupportInitialize)(this.m_Button1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.m_Text8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.m_Text9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.m_Text2)).EndInit();
         }
         
         private void m_Button2_Action_Click(object sender, System.EventArgs e) {
@@ -1437,6 +1473,7 @@ namespace Neo.ApplicationFramework.Generated {
             this.m_Button1.Text = resources.GetText("Regulator.Button1.Text", "Regulering");
             this.m_Text8.Text = resources.GetText("Regulator.Text8.Text", "Alarm");
             this.m_Text9.Text = resources.GetText("Regulator.Text9.Text", "Alarm");
+            this.m_Text2.Text = resources.GetText("Regulator.Text2.Text", "Verdier som hentes/sendes til pls må være andre enn interne:)");
             this.ApplyResourcesOnForm();
         }
         

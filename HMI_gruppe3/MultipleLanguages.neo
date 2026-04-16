@@ -448,6 +448,11 @@
           <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Curve" />
         </ReferenceValue>
       </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="Regulator" ObjectName="Text2" PropertyName="Text" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Verdier som hentes/sendes til pls må være andre enn interne:)" />
+        </ReferenceValue>
+      </Object>
     </ResourceItems>
   </Object>
 </NeoItem>

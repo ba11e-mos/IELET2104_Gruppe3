@@ -26,12 +26,39 @@ namespace Neo.ApplicationFramework.Generated
 			else if (Styring_frekvens_eller_ventil.Value == 2)
 				Globals.Tags.Organ.Value = 0;
 		}			
+
+
+
+		void OppdaterRegulatorType()
+		{
+			bool harKp = Globals.Tags.Kp.Value > 0.0;
+			bool harKi = Globals.Tags.Ki.Value > 0.0;
+			bool harKd = Globals.Tags.Kd.Value > 0.0;
+
+			if (harKp && !harKi && !harKd)
+				Globals.Tags.Regulatortype.Value = "P";
+			else if (harKp && harKi && !harKd)
+				Globals.Tags.Regulatortype.Value = "PI";
+			else if (harKp && !harKi && harKd)
+				Globals.Tags.Regulatortype.Value = "PD";
+			else if (harKp && harKi && harKd)
+				Globals.Tags.Regulatortype.Value = "PID";
+			else
+				Globals.Tags.Regulatortype.Value = "Ingen";
+		}	
+		
+		void Kd_ValueChange(System.Object sender, Neo.ApplicationFramework.Interfaces.Events.ValueChangedEventArgs e)
+		{
+			OppdaterRegulatorType();
+		}			
+		void Ki_ValueChange(System.Object sender, Neo.ApplicationFramework.Interfaces.Events.ValueChangedEventArgs e)
+		{
+			OppdaterRegulatorType();
+		}			
 		void Kp_ValueChange(System.Object sender, Neo.ApplicationFramework.Interfaces.Events.ValueChangedEventArgs e)
 		{
-			if (Kp.Value > 0 && Ki.Value > 0 && Kd.Value > 0)
-				  
-			
-		}		
-		
+			OppdaterRegulatorType();
+		}
+	
     }
 }

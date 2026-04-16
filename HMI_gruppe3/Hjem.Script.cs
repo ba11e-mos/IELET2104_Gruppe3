@@ -19,5 +19,10 @@ namespace Neo.ApplicationFramework.Generated
     public partial class Hjem
     {
 		
+		void Hjem_Opened(System.Object sender, System.EventArgs e)
+		{
+			Text3.Text = Globals.Tags.Regulatortype.Value.ToString();
+			Text7.Text = Globals.Tags.sModus.Value.ToString();
+		}
     }
 }

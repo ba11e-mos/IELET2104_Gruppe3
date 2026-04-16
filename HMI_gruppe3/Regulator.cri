@@ -56,6 +56,7 @@
         <Item Target="Regulator.Button1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
         <Item Target="Regulator.Text8" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
         <Item Target="Regulator.Text9" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Regulator.Text2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
       </Items>
     </Category>
     <Category Name="GlobalDataItem">
@@ -119,7 +120,7 @@
           <ScreenName>Regulator</ScreenName>
         </Item>
         <Item xsi:type="ScreenObjectsCrossReferenceItem">
-          <ObjectsCount>36</ObjectsCount>
+          <ObjectsCount>37</ObjectsCount>
           <ScreenName>Regulator</ScreenName>
         </Item>
       </Items>
@@ -127,6 +128,10 @@
     <Category Name="Script">
       <Items>
         <Item Target="Regulator.Script.cs" Source="Tags.Modus" />
+        <Item Target="Regulator.Script.cs" Source="Tags.sModus" />
+        <Item Target="Regulator.Script.cs" Source="Tags.Kp" />
+        <Item Target="Regulator.Script.cs" Source="Tags.Ki" />
+        <Item Target="Regulator.Script.cs" Source="Tags.Kd" />
       </Items>
     </Category>
     <Category Name="StructuredTag">

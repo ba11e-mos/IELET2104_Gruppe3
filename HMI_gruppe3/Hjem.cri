@@ -76,8 +76,6 @@
         <Item Target="Hjem.SymbolViewbox1" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.V3_bool" />
         <Item Target="Hjem.SymbolViewbox6" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Start_Stopp_farger" />
         <Item Target="Hjem.SymbolViewbox8" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Start_Stopp_farger" />
-        <Item Target="Hjem.Text7" TargetProperty="Value" Source="Tags.Modus" />
-        <Item Target="Hjem.Text3" TargetProperty="Value" Source="Tags.Regulatortype" />
         <Item Target="Hjem.AnalogNumeric3" TargetProperty="Value" Source="Tags.Pådrag" />
         <Item Target="Hjem.AnalogNumeric1" TargetProperty="Value" Source="Tags.Prosessverdi" />
         <Item Target="Hjem.Ellipse1" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Alarm_synling" />
@@ -135,7 +133,10 @@
       </Items>
     </Category>
     <Category Name="Script">
-      <Items />
+      <Items>
+        <Item Target="Hjem.Script.cs" Source="Tags.Regulatortype" />
+        <Item Target="Hjem.Script.cs" Source="Tags.sModus" />
+      </Items>
     </Category>
     <Category Name="StructuredTag">
       <Items>
