@@ -42,7 +42,11 @@
     <Category Name="Script">
       <Items>
         <Item Target="Tags.Script.cs" TargetProperty="ValueChange" Source="Tags.Styring_frekvens_eller_ventil" />
+        <Item Target="Tags.Script.cs" TargetProperty="ValueChange" Source="Tags.Kp" />
         <Item Target="Tags.Script.cs" Source="Tags.Styring_frekvens_eller_ventil" />
+        <Item Target="Tags.Script.cs" Source="Tags.Kp" />
+        <Item Target="Tags.Script.cs" Source="Tags.Ki" />
+        <Item Target="Tags.Script.cs" Source="Tags.Kd" />
         <Item Target="Tags.Script.cs" Source="Tags.Organ" />
       </Items>
     </Category>

@@ -757,8 +757,8 @@
     <nac:AnalogNumericFX AutoStretchFont="False" MaxValue="100" Suffix="%" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontFamily="Tahoma" UndoLimit="1" Transparent="Visible" BorderBrush="#FF7F9DB9" BorderThickness="1,1,1,1" Foreground="#FF000000" FontSize="26" Padding="2,2,2,2" Name="m_AnalogNumeric5" Width="200" Height="60" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="23" KeyboardNavigation.TabNavigation="None" Canvas.Left="558" Canvas.Top="422">
       <nac:AnalogNumericFX.Resources>
         <ResourceDictionary>
-          <nacd1:BoolDynamicsConverter x:Key="VisibleDynamicsValueConverter" DefaultValue="True" TrueValue="1" />
           <nacc:VariantValueConverter x:Key="ValueConverter" />
+          <nacd1:BoolDynamicsConverter x:Key="VisibleDynamicsValueConverter" DefaultValue="True" TrueValue="1" />
         </ResourceDictionary>
       </nac:AnalogNumericFX.Resources>
       <nac:AnalogNumericFX.Value>
@@ -980,7 +980,7 @@
         </nai:ActionList>
       </nai:ActionProperties.Actions>
     </nac:Button>
-    <nacc1:Ellipse Fill="#FFFFA500" Stroke="#FF000000" StrokeThickness="1" Name="m_Ellipse1" Width="35" Height="35" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="48" nacb:BlinkProperties.IsBlinkEnabled="False" nacb:BlinkProperties.BlinkInterval="800" Canvas.Left="422" Canvas.Top="563">
+    <nacc1:Ellipse Fill="#FFFFA500" Stroke="#FF000000" StrokeThickness="1" Name="m_Ellipse1" Width="35" Height="35" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="48" Canvas.Left="422" Canvas.Top="563" nacb:BlinkProperties.IsBlinkEnabled="False" nacb:BlinkProperties.BlinkInterval="800">
       <nacc1:Ellipse.Resources>
         <ResourceDictionary>
           <nacd1:BoolDynamicsConverter x:Key="VisibleDynamicsValueConverter" DefaultValue="True" TrueValue="1" />
@@ -994,11 +994,11 @@
         </Binding>
       </nacb:BlinkProperties.VisibleDynamicsValue>
     </nacc1:Ellipse>
-    <nacc1:Ellipse Fill="#FFFF0000" Stroke="#FF000000" StrokeThickness="1" Name="m_Ellipse3" Width="35" Height="35" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="51" nacb:BlinkProperties.BlinkInterval="800" Canvas.Left="422" Canvas.Top="564">
+    <nacc1:Ellipse Fill="#FFFF0000" Stroke="#FF000000" StrokeThickness="1" Name="m_Ellipse3" Width="35" Height="35" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="51" Canvas.Left="422" Canvas.Top="564" nacb:BlinkProperties.BlinkInterval="800">
       <nacc1:Ellipse.Resources>
         <ResourceDictionary>
-          <nacd1:BoolDynamicsConverter x:Key="IsBlinkEnabledConverter" DefaultValue="False" TrueValue="1" />
           <nacd1:BoolDynamicsConverter x:Key="VisibleDynamicsValueConverter" DefaultValue="True" TrueValue="1" />
+          <nacd1:BoolDynamicsConverter x:Key="IsBlinkEnabledConverter" DefaultValue="False" TrueValue="1" />
         </ResourceDictionary>
       </nacc1:Ellipse.Resources>
       <nacb:BlinkProperties.IsBlinkEnabled>
@@ -1050,7 +1050,7 @@
         <TextDecorationCollection />
       </nac:Label.TextDecorations>
     </nac:Label>
-    <nacc1:Ellipse Fill="#FFFFA500" Stroke="#FF000000" StrokeThickness="1" Name="m_Ellipse2" Width="35" Height="35" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="54" nacb:BlinkProperties.BlinkInterval="1200" Canvas.Left="286" Canvas.Top="38">
+    <nacc1:Ellipse Fill="#FFFFA500" Stroke="#FF000000" StrokeThickness="1" Name="m_Ellipse2" Width="35" Height="35" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="54" Canvas.Left="286" Canvas.Top="38" nacb:BlinkProperties.BlinkInterval="1200">
       <nacc1:Ellipse.Resources>
         <ResourceDictionary>
           <nacd1:BoolDynamicsConverter x:Key="VisibleDynamicsValueConverter" DefaultValue="True" TrueValue="1" />
@@ -1064,7 +1064,7 @@
         </Binding>
       </nacb:BlinkProperties.VisibleDynamicsValue>
     </nacc1:Ellipse>
-    <nacc1:Ellipse Fill="#FFFF0000" Stroke="#FF000000" StrokeThickness="1" Name="m_Ellipse" Width="35" Height="35" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="55" nacb:BlinkProperties.BlinkInterval="1200" Canvas.Left="286" Canvas.Top="38">
+    <nacc1:Ellipse Fill="#FFFF0000" Stroke="#FF000000" StrokeThickness="1" Name="m_Ellipse" Width="35" Height="35" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="55" Canvas.Left="286" Canvas.Top="38" nacb:BlinkProperties.BlinkInterval="1200">
       <nacc1:Ellipse.Resources>
         <ResourceDictionary>
           <nacd1:BoolDynamicsConverter x:Key="VisibleDynamicsValueConverter" DefaultValue="True" TrueValue="1" />

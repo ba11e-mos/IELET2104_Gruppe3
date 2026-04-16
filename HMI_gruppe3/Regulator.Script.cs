@@ -22,12 +22,14 @@ namespace Neo.ApplicationFramework.Generated
 		void Button_Click(System.Object sender, System.EventArgs e)
 		{
 			Globals.Tags.Modus.Value = true;
+			Globals.Hjem.Text7.Text = "Manuell";
 
 		}
 
 		void Button2_Click(System.Object sender, System.EventArgs e)
 		{
 			Globals.Tags.Modus.Value = false;
+			Globals.Hjem.Text7.Text = "Auto";
 		}
 		
 		

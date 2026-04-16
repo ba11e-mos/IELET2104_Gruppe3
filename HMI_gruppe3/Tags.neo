@@ -194,6 +194,9 @@
             </DataItemNames>
           </Object>
         </GlobalDataSubItems>
+        <Events>
+          <Event Name="ValueChange" EventHandler="Kp_ValueChange" />
+        </Events>
       </Object>
       <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DataType="DT_INTEGER2" GlobalDataType="DT_REAL4" d1p1:Site.Name="Ki" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e">
         <GlobalDataSubItems>

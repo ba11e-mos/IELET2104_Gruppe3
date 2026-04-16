@@ -26,6 +26,12 @@ namespace Neo.ApplicationFramework.Generated
 			else if (Styring_frekvens_eller_ventil.Value == 2)
 				Globals.Tags.Organ.Value = 0;
 		}			
+		void Kp_ValueChange(System.Object sender, Neo.ApplicationFramework.Interfaces.Events.ValueChangedEventArgs e)
+		{
+			if (Kp.Value > 0 && Ki.Value > 0 && Kd.Value > 0)
+				  
+			
+		}		
 		
     }
 }

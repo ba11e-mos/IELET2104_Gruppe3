@@ -19,9 +19,5 @@ namespace Neo.ApplicationFramework.Generated
     public partial class Hjem
     {
 		
-		void Button_Click(System.Object sender, System.EventArgs e)
-		{ 
-			
-		}
     }
 }

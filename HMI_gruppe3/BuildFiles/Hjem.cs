@@ -1147,7 +1147,7 @@ namespace Neo.ApplicationFramework.Generated {
             this.m_DigitalClock.ScreenOwnerName = "Hjem";
             this.m_DigitalClock.ShowDayOfWeek = false;
             this.m_DigitalClock.ShowSeconds = true;
-            this.m_DigitalClock.Text = "15.04.2026 09:46:45";
+            this.m_DigitalClock.Text = "16.04.2026 09:20:42";
             this.m_DigitalClock.Top = 24;
             this.m_DigitalClock.VisibleDynamicsValue = true;
             this.m_DigitalClock.Width = 205;

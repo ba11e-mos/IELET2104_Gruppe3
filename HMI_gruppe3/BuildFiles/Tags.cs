@@ -38,7 +38,7 @@ namespace Neo.ApplicationFramework.Generated
 		
 		public Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem Regulatortype;
 		
-		public Neo.ApplicationFramework.Tools.OpcClient.LightweightTag Modus;
+		public Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem Modus;
 		
 		public Neo.ApplicationFramework.Tools.OpcClient.LightweightTag Pådrag;
 		
@@ -109,7 +109,7 @@ namespace Neo.ApplicationFramework.Generated
 			this.Styring_frekvens_eller_ventil = new Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem("Styring_frekvens_eller_ventil", ((Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE)(Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE.DT_DEFAULT)), ((short)(1)), 0D, 1D, ((short)(0)), false, "Value Change", ((Neo.ApplicationFramework.Interfaces.AccessRights)((Neo.ApplicationFramework.Interfaces.AccessRights.Read | Neo.ApplicationFramework.Interfaces.AccessRights.Write))), "PollGroup1", false, false, ((Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE)(Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE.DT_INTEGER2)), "", ((short)(1)), "", "");
 			this.Prosessverdi = new Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem("Prosessverdi", ((Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE)(Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE.DT_INTEGER2)), ((short)(1)), 0D, 1D, ((short)(0)), false, "Value Change", Neo.ApplicationFramework.Interfaces.AccessRights.Read, "PollGroup1", false, false, ((Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE)(Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE.DT_REAL8)), "", ((short)(1)), "", "");
 			this.Regulatortype = new Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem("Regulatortype", ((Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE)(Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE.DT_DEFAULT)), ((short)(1)), 0D, 1D, ((short)(0)), false, "Value Change", Neo.ApplicationFramework.Interfaces.AccessRights.Read, "PollGroup1", false, false, ((Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE)(Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE.DT_STRING)), "", ((short)(1)), "", "");
-			this.Modus = new Neo.ApplicationFramework.Tools.OpcClient.LightweightTag("Modus", "Controller1.DataItem6", 500, ((Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE)(Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE.DT_BOOLEAN)), false, "", null);
+			this.Modus = new Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem("Modus", ((Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE)(Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE.DT_BIT)), ((short)(1)), 0D, 1D, ((short)(0)), false, "Value Change", ((Neo.ApplicationFramework.Interfaces.AccessRights)((Neo.ApplicationFramework.Interfaces.AccessRights.Read | Neo.ApplicationFramework.Interfaces.AccessRights.Write))), "PollGroup1", false, false, ((Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE)(Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE.DT_BOOLEAN)), "", ((short)(1)), "", "");
 			this.Pådrag = new Neo.ApplicationFramework.Tools.OpcClient.LightweightTag("Pådrag", "Controller1.DataItem5", 500, ((Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE)(Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE.DT_REAL8)), false, "", null);
 			this.Alarm_synling = new Neo.ApplicationFramework.Tools.OpcClient.LightweightTag("Alarm_synling", "Controller1.DataItem4", 500, ((Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE)(Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE.DT_BOOLEAN)), false, "", null);
 			this.Kritisk_alarm_synling = new Neo.ApplicationFramework.Tools.OpcClient.LightweightTag("Kritisk_alarm_synling", "", 500, ((Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE)(Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE.DT_BOOLEAN)), false, "", null);
@@ -145,10 +145,14 @@ namespace Neo.ApplicationFramework.Generated
 							"Controller1"}, new string[] {
 							"DataItem7"}, true));
 			this.Regulatortype.GlobalDataSubItems.Add(new Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem(null, 0, new string[0], new string[0], true));
+			this.Modus.GlobalDataSubItems.Add(new Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem(null, 0, new string[] {
+							"Controller1"}, new string[] {
+							"DataItem6"}, true));
 			this.Frekvensomformer_åpning.GlobalDataSubItems.Add(new Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem(null, 0, new string[] {
 							"Controller1"}, new string[] {
 							"DataItem8"}, true));
 			this.Regventil_åpning.GlobalDataSubItems.Add(new Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem(null, 0, new string[0], new string[0], true));
+			this.Kp.ValueChange += new Neo.ApplicationFramework.Interfaces.Events.ValueChangedEventHandler(this.Kp_ValueChange);
 			this.Organ.GlobalDataSubItems.Add(new Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem(null, 0, new string[] {
 							"Controller1"}, new string[] {
 							"DataItem9"}, true));
@@ -163,7 +167,7 @@ namespace Neo.ApplicationFramework.Generated
 			this.GlobalDataItems.Add(this.Styring_frekvens_eller_ventil);
 			this.GlobalDataItems.Add(this.Prosessverdi);
 			this.GlobalDataItems.Add(this.Regulatortype);
-			this.LightweightTags.Add(this.Modus);
+			this.GlobalDataItems.Add(this.Modus);
 			this.LightweightTags.Add(this.Pådrag);
 			this.LightweightTags.Add(this.Alarm_synling);
 			this.LightweightTags.Add(this.Kritisk_alarm_synling);
