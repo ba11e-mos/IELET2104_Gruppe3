@@ -220,7 +220,7 @@ namespace Neo.ApplicationFramework.Generated {
             this.m_DigitalClock.ScreenOwnerName = "Alarmer";
             this.m_DigitalClock.ShowDayOfWeek = false;
             this.m_DigitalClock.ShowSeconds = true;
-            this.m_DigitalClock.Text = "14.04.2026 12:23:10";
+            this.m_DigitalClock.Text = "17.04.2026 11:22:55";
             this.m_DigitalClock.Top = 17;
             this.m_DigitalClock.VisibleDynamicsValue = true;
             this.m_DigitalClock.Width = 205;
