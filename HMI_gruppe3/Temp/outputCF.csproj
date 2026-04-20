@@ -17,7 +17,7 @@
     <PlatformFamilyName>WindowsCE</PlatformFamilyName>
     <PlatformID>E2BECB1F-8C8C-41ba-B736-9BE7D946A398</PlatformID>
     <WarningLevel>4</WarningLevel>
-    <OutputPath>\\sambaad.stud.ntnu.no\noast\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3\Temp\Output</OutputPath>
+    <OutputPath>\\sambaad.stud.ntnu.no\erikdoy\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3_Erik\Temp\Output</OutputPath>
     <InstallPath>C:\Program Files (x86)\Beijer Electronics AB\iX Developer 2\Bin</InstallPath>
     <CompactFrameworkPath>C:\Program Files (x86)\Microsoft.NET\SDK\CompactFramework\v3.5\WindowsCE</CompactFrameworkPath>
     <NoStdLib>true</NoStdLib>
@@ -190,36 +190,40 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="\\sambaad.stud.ntnu.no\noast\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3\BuildFiles\Alarmer.cs" />
-    <Compile Include="\\sambaad.stud.ntnu.no\noast\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3\BuildFiles\AlarmServer.cs" />
-    <Compile Include="\\sambaad.stud.ntnu.no\noast\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3\BuildFiles\Controller1.cs" />
-    <Compile Include="\\sambaad.stud.ntnu.no\noast\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3\BuildFiles\Expressions.cs" />
-    <Compile Include="\\sambaad.stud.ntnu.no\noast\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3\BuildFiles\Hjem.cs" />
-    <Compile Include="\\sambaad.stud.ntnu.no\noast\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3\BuildFiles\HMI_gruppe3.cs" />
-    <Compile Include="\\sambaad.stud.ntnu.no\noast\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3\BuildFiles\LicenseRootComponent.cs" />
-    <Compile Include="\\sambaad.stud.ntnu.no\noast\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3\BuildFiles\MultipleLanguages.cs" />
-    <Compile Include="\\sambaad.stud.ntnu.no\noast\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3\BuildFiles\ProjectConfiguration.cs" />
-    <Compile Include="\\sambaad.stud.ntnu.no\noast\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3\BuildFiles\ProjectImages.cs" />
-    <Compile Include="\\sambaad.stud.ntnu.no\noast\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3\BuildFiles\Regulator.cs" />
-    <Compile Include="\\sambaad.stud.ntnu.no\noast\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3\BuildFiles\Security.cs" />
-    <Compile Include="\\sambaad.stud.ntnu.no\noast\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3\BuildFiles\SntpClientRootComponent.cs" />
-    <Compile Include="\\sambaad.stud.ntnu.no\noast\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3\BuildFiles\Tags.cs" />
-    <Compile Include="\\sambaad.stud.ntnu.no\noast\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3\BuildFiles\Trender.cs" />
-    <Compile Include="\\sambaad.stud.ntnu.no\noast\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3\Hjem.Script.cs">
+    <Compile Include="\\sambaad.stud.ntnu.no\erikdoy\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3_Erik\AlarmServer.Script.cs">
+      <Link>AlarmServer.Script.cs</Link>
+      <DependentUpon>\\sambaad.stud.ntnu.no\erikdoy\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3_Erik\BuildFiles\AlarmServer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="\\sambaad.stud.ntnu.no\erikdoy\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3_Erik\BuildFiles\Alarmer.cs" />
+    <Compile Include="\\sambaad.stud.ntnu.no\erikdoy\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3_Erik\BuildFiles\AlarmServer.cs" />
+    <Compile Include="\\sambaad.stud.ntnu.no\erikdoy\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3_Erik\BuildFiles\Controller1.cs" />
+    <Compile Include="\\sambaad.stud.ntnu.no\erikdoy\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3_Erik\BuildFiles\Expressions.cs" />
+    <Compile Include="\\sambaad.stud.ntnu.no\erikdoy\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3_Erik\BuildFiles\Hjem.cs" />
+    <Compile Include="\\sambaad.stud.ntnu.no\erikdoy\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3_Erik\BuildFiles\HMI_gruppe3.cs" />
+    <Compile Include="\\sambaad.stud.ntnu.no\erikdoy\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3_Erik\BuildFiles\LicenseRootComponent.cs" />
+    <Compile Include="\\sambaad.stud.ntnu.no\erikdoy\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3_Erik\BuildFiles\MultipleLanguages.cs" />
+    <Compile Include="\\sambaad.stud.ntnu.no\erikdoy\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3_Erik\BuildFiles\ProjectConfiguration.cs" />
+    <Compile Include="\\sambaad.stud.ntnu.no\erikdoy\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3_Erik\BuildFiles\ProjectImages.cs" />
+    <Compile Include="\\sambaad.stud.ntnu.no\erikdoy\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3_Erik\BuildFiles\Regulator.cs" />
+    <Compile Include="\\sambaad.stud.ntnu.no\erikdoy\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3_Erik\BuildFiles\Security.cs" />
+    <Compile Include="\\sambaad.stud.ntnu.no\erikdoy\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3_Erik\BuildFiles\SntpClientRootComponent.cs" />
+    <Compile Include="\\sambaad.stud.ntnu.no\erikdoy\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3_Erik\BuildFiles\Tags.cs" />
+    <Compile Include="\\sambaad.stud.ntnu.no\erikdoy\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3_Erik\BuildFiles\Trender.cs" />
+    <Compile Include="\\sambaad.stud.ntnu.no\erikdoy\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3_Erik\Hjem.Script.cs">
       <Link>Hjem.Script.cs</Link>
-      <DependentUpon>\\sambaad.stud.ntnu.no\noast\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3\BuildFiles\Hjem.cs</DependentUpon>
+      <DependentUpon>\\sambaad.stud.ntnu.no\erikdoy\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3_Erik\BuildFiles\Hjem.cs</DependentUpon>
     </Compile>
-    <Compile Include="\\sambaad.stud.ntnu.no\noast\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3\Regulator.Script.cs">
+    <Compile Include="\\sambaad.stud.ntnu.no\erikdoy\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3_Erik\Regulator.Script.cs">
       <Link>Regulator.Script.cs</Link>
-      <DependentUpon>\\sambaad.stud.ntnu.no\noast\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3\BuildFiles\Regulator.cs</DependentUpon>
+      <DependentUpon>\\sambaad.stud.ntnu.no\erikdoy\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3_Erik\BuildFiles\Regulator.cs</DependentUpon>
     </Compile>
-    <Compile Include="\\sambaad.stud.ntnu.no\noast\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3\Tags.Script.cs">
+    <Compile Include="\\sambaad.stud.ntnu.no\erikdoy\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3_Erik\Tags.Script.cs">
       <Link>Tags.Script.cs</Link>
-      <DependentUpon>\\sambaad.stud.ntnu.no\noast\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3\BuildFiles\Tags.cs</DependentUpon>
+      <DependentUpon>\\sambaad.stud.ntnu.no\erikdoy\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3_Erik\BuildFiles\Tags.cs</DependentUpon>
     </Compile>
-    <Compile Include="\\sambaad.stud.ntnu.no\noast\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3\Trender.Script.cs">
+    <Compile Include="\\sambaad.stud.ntnu.no\erikdoy\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3_Erik\Trender.Script.cs">
       <Link>Trender.Script.cs</Link>
-      <DependentUpon>\\sambaad.stud.ntnu.no\noast\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3\BuildFiles\Trender.cs</DependentUpon>
+      <DependentUpon>\\sambaad.stud.ntnu.no\erikdoy\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3_Erik\BuildFiles\Trender.cs</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup />
@@ -349,7 +353,7 @@
       <Link>MELSEC_A_Series_(E71)_Ethernet_Pre2ce6.dll.ce6x86</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="C:\Users\noast\AppData\Local\Temp\Modules.cfgtool">
+    <Content Include="C:\Users\erikdoy\AppData\Local\Temp\Modules.cfgtool">
       <Link>Modules.cfgtool</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -357,59 +361,59 @@
       <Link>TAHOMA.TTF</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="\\sambaad.stud.ntnu.no\noast\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3\AlarmSettings.xml">
+    <Content Include="\\sambaad.stud.ntnu.no\erikdoy\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3_Erik\AlarmSettings.xml">
       <Link>AlarmSettings.xml</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="\\sambaad.stud.ntnu.no\noast\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3\BuildFiles\network.bin">
+    <Content Include="\\sambaad.stud.ntnu.no\erikdoy\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3_Erik\BuildFiles\network.bin">
       <Link>network.bin</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="\\sambaad.stud.ntnu.no\noast\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3\BuildFiles\RenderableControls.zip">
+    <Content Include="\\sambaad.stud.ntnu.no\erikdoy\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3_Erik\BuildFiles\RenderableControls.zip">
       <Link>RenderableControls.zip</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="\\sambaad.stud.ntnu.no\noast\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3\BuildFiles\Symbols.zip">
+    <Content Include="\\sambaad.stud.ntnu.no\erikdoy\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3_Erik\BuildFiles\Symbols.zip">
       <Link>Symbols.zip</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="\\sambaad.stud.ntnu.no\noast\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3\ComRegistration.config">
+    <Content Include="\\sambaad.stud.ntnu.no\erikdoy\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3_Erik\ComRegistration.config">
       <Link>ComRegistration.config</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="\\sambaad.stud.ntnu.no\noast\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3\Controller1.cfg">
+    <Content Include="\\sambaad.stud.ntnu.no\erikdoy\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3_Erik\Controller1.cfg">
       <Link>Controller1.cfg</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="\\sambaad.stud.ntnu.no\noast\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3\ControllerRunTimeSettings.xml">
+    <Content Include="\\sambaad.stud.ntnu.no\erikdoy\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3_Erik\ControllerRunTimeSettings.xml">
       <Link>ControllerRunTimeSettings.xml</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="\\sambaad.stud.ntnu.no\noast\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3\Features.xml">
+    <Content Include="\\sambaad.stud.ntnu.no\erikdoy\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3_Erik\Features.xml">
       <Link>Features.xml</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="\\sambaad.stud.ntnu.no\noast\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3\Printer1.xml">
+    <Content Include="\\sambaad.stud.ntnu.no\erikdoy\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3_Erik\Printer1.xml">
       <Link>Printer1.xml</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="\\sambaad.stud.ntnu.no\noast\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3\Project.xml">
+    <Content Include="\\sambaad.stud.ntnu.no\erikdoy\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3_Erik\Project.xml">
       <Link>Project.xml</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="\\sambaad.stud.ntnu.no\noast\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3\ScreenIDs.xml">
+    <Content Include="\\sambaad.stud.ntnu.no\erikdoy\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3_Erik\ScreenIDs.xml">
       <Link>ScreenIDs.xml</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="\\sambaad.stud.ntnu.no\noast\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3\Security.xml">
+    <Content Include="\\sambaad.stud.ntnu.no\erikdoy\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3_Erik\Security.xml">
       <Link>Security.xml</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="\\sambaad.stud.ntnu.no\noast\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3\Temp\PlatformFactory.xml">
+    <Content Include="\\sambaad.stud.ntnu.no\erikdoy\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3_Erik\Temp\PlatformFactory.xml">
       <Link>PlatformFactory.xml</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="\\sambaad.stud.ntnu.no\noast\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3\TrendDataConfig.xml">
+    <Content Include="\\sambaad.stud.ntnu.no\erikdoy\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3_Erik\TrendDataConfig.xml">
       <Link>TrendDataConfig.xml</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

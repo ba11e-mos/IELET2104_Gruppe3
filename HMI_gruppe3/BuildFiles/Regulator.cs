@@ -20,6 +20,16 @@ namespace Neo.ApplicationFramework.Generated {
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Never)]
     public partial class Regulator : Neo.ApplicationFramework.Controls.Controls.Form {
         
+        private Neo.ApplicationFramework.Controls.TouchComboBox.TouchComboBoxHostCF m_TouchComboBox;
+        
+        private Neo.ApplicationFramework.Controls.Controls.RectangleCF m_Rectangle4;
+        
+        private Neo.ApplicationFramework.Controls.Controls.RectangleCF m_Rectangle3;
+        
+        private Neo.ApplicationFramework.Controls.Controls.RectangleCF m_Rectangle1;
+        
+        private Neo.ApplicationFramework.Controls.Controls.RectangleCF m_Rectangle;
+        
         private Neo.ApplicationFramework.Controls.Controls.Button m_Button2;
         
         private Neo.ApplicationFramework.Controls.Controls.Button m_Button3;
@@ -92,7 +102,15 @@ namespace Neo.ApplicationFramework.Generated {
         
         private Neo.ApplicationFramework.Controls.Controls.EllipseCF m_Ellipse;
         
+        private Neo.ApplicationFramework.Controls.Controls.Label m_Text5;
+        
+        private Neo.ApplicationFramework.Controls.Controls.RectangleCF m_Rectangle8;
+        
         private Neo.ApplicationFramework.Controls.Controls.Label m_Text2;
+        
+        private Neo.ApplicationFramework.Controls.Controls.Label m_Text6;
+        
+        private Neo.ApplicationFramework.Controls.Controls.Label m_Text13;
         
         private bool m_Initialized_Regulator;
         
@@ -118,6 +136,14 @@ namespace Neo.ApplicationFramework.Generated {
         
         private Neo.ApplicationFramework.Common.Dynamics.BrushDynamicsConverterCF brushdynamicsconvertercf11;
         
+        private Neo.ApplicationFramework.Common.Dynamics.BrushDynamicsConverterCF brushdynamicsconvertercf12;
+        
+        private Neo.ApplicationFramework.Common.Dynamics.BrushDynamicsConverterCF brushdynamicsconvertercf13;
+        
+        private Neo.ApplicationFramework.Common.Dynamics.BrushDynamicsConverterCF brushdynamicsconvertercf14;
+        
+        private Neo.ApplicationFramework.Common.Dynamics.BrushDynamicsConverterCF brushdynamicsconvertercf15;
+        
         public Regulator() {
             this.InitializeComponent();
             this.Button2.Click += new System.EventHandler(this.Button2_Click);
@@ -140,6 +166,30 @@ namespace Neo.ApplicationFramework.Generated {
             this.m_Button13.Click += new System.EventHandler(this.m_Button13_Action_Click);
             this.m_Button1.Click += new System.EventHandler(this.m_Button1_Action_Click);
             this.ApplyLanguageInitialize();
+        }
+        
+        protected Neo.ApplicationFramework.Controls.Script.ShapeCFAdapter Rectangle4 {
+            get {
+                return this.AdapterService.CreateAdapter<Neo.ApplicationFramework.Controls.Script.ShapeCFAdapter>(this.m_Rectangle4);
+            }
+        }
+        
+        protected Neo.ApplicationFramework.Controls.Script.ShapeCFAdapter Rectangle3 {
+            get {
+                return this.AdapterService.CreateAdapter<Neo.ApplicationFramework.Controls.Script.ShapeCFAdapter>(this.m_Rectangle3);
+            }
+        }
+        
+        protected Neo.ApplicationFramework.Controls.Script.ShapeCFAdapter Rectangle1 {
+            get {
+                return this.AdapterService.CreateAdapter<Neo.ApplicationFramework.Controls.Script.ShapeCFAdapter>(this.m_Rectangle1);
+            }
+        }
+        
+        protected Neo.ApplicationFramework.Controls.Script.ShapeCFAdapter Rectangle {
+            get {
+                return this.AdapterService.CreateAdapter<Neo.ApplicationFramework.Controls.Script.ShapeCFAdapter>(this.m_Rectangle);
+            }
         }
         
         protected Neo.ApplicationFramework.Controls.Script.ButtonCFAdapter Button2 {
@@ -358,13 +408,47 @@ namespace Neo.ApplicationFramework.Generated {
             }
         }
         
+        protected Neo.ApplicationFramework.Controls.Script.TextControlCFAdapter Text5 {
+            get {
+                return this.AdapterService.CreateAdapter<Neo.ApplicationFramework.Controls.Script.TextControlCFAdapter>(this.m_Text5);
+            }
+        }
+        
+        protected Neo.ApplicationFramework.Controls.Script.TouchComboBoxCFAdapter TouchComboBox {
+            get {
+                return this.AdapterService.CreateAdapter<Neo.ApplicationFramework.Controls.Script.TouchComboBoxCFAdapter>(this.m_TouchComboBox);
+            }
+        }
+        
+        protected Neo.ApplicationFramework.Controls.Script.ShapeCFAdapter Rectangle8 {
+            get {
+                return this.AdapterService.CreateAdapter<Neo.ApplicationFramework.Controls.Script.ShapeCFAdapter>(this.m_Rectangle8);
+            }
+        }
+        
         protected Neo.ApplicationFramework.Controls.Script.TextControlCFAdapter Text2 {
             get {
                 return this.AdapterService.CreateAdapter<Neo.ApplicationFramework.Controls.Script.TextControlCFAdapter>(this.m_Text2);
             }
         }
         
+        protected Neo.ApplicationFramework.Controls.Script.TextControlCFAdapter Text6 {
+            get {
+                return this.AdapterService.CreateAdapter<Neo.ApplicationFramework.Controls.Script.TextControlCFAdapter>(this.m_Text6);
+            }
+        }
+        
+        protected Neo.ApplicationFramework.Controls.Script.TextControlCFAdapter Text13 {
+            get {
+                return this.AdapterService.CreateAdapter<Neo.ApplicationFramework.Controls.Script.TextControlCFAdapter>(this.m_Text13);
+            }
+        }
+        
         private void InitializeComponent() {
+            this.brushdynamicsconvertercf15 = new Neo.ApplicationFramework.Common.Dynamics.BrushDynamicsConverterCF();
+            this.brushdynamicsconvertercf14 = new Neo.ApplicationFramework.Common.Dynamics.BrushDynamicsConverterCF();
+            this.brushdynamicsconvertercf13 = new Neo.ApplicationFramework.Common.Dynamics.BrushDynamicsConverterCF();
+            this.brushdynamicsconvertercf12 = new Neo.ApplicationFramework.Common.Dynamics.BrushDynamicsConverterCF();
             this.brushdynamicsconvertercf11 = new Neo.ApplicationFramework.Common.Dynamics.BrushDynamicsConverterCF();
             this.brushdynamicsconvertercf10 = new Neo.ApplicationFramework.Common.Dynamics.BrushDynamicsConverterCF();
             this.brushdynamicsconvertercf9 = new Neo.ApplicationFramework.Common.Dynamics.BrushDynamicsConverterCF();
@@ -376,6 +460,9 @@ namespace Neo.ApplicationFramework.Generated {
             this.brushdynamicsconvertercf3 = new Neo.ApplicationFramework.Common.Dynamics.BrushDynamicsConverterCF();
             this.brushdynamicsconvertercf2 = new Neo.ApplicationFramework.Common.Dynamics.BrushDynamicsConverterCF();
             this.brushdynamicsconvertercf1 = new Neo.ApplicationFramework.Common.Dynamics.BrushDynamicsConverterCF();
+            Neo.ApplicationFramework.Common.Dynamics.StringIntervalMapperCF stringintervalmappercf1 = new Neo.ApplicationFramework.Common.Dynamics.StringIntervalMapperCF();
+            Neo.ApplicationFramework.Common.Dynamics.StringIntervalCF stringintervalcf1 = new Neo.ApplicationFramework.Common.Dynamics.StringIntervalCF();
+            Neo.ApplicationFramework.Common.Dynamics.StringIntervalCF stringintervalcf2 = new Neo.ApplicationFramework.Common.Dynamics.StringIntervalCF();
             Neo.ApplicationFramework.Common.Dynamics.BrushCFInterval brushcfinterval1 = new Neo.ApplicationFramework.Common.Dynamics.BrushCFInterval();
             Neo.ApplicationFramework.Common.Dynamics.BrushCFInterval brushcfinterval2 = new Neo.ApplicationFramework.Common.Dynamics.BrushCFInterval();
             Neo.ApplicationFramework.Common.Dynamics.SymbolIntervalMapper symbolintervalmapper1 = new Neo.ApplicationFramework.Common.Dynamics.SymbolIntervalMapper();
@@ -413,6 +500,21 @@ namespace Neo.ApplicationFramework.Generated {
             Neo.ApplicationFramework.Common.Dynamics.SymbolIntervalMapper symbolintervalmapper10 = new Neo.ApplicationFramework.Common.Dynamics.SymbolIntervalMapper();
             Neo.ApplicationFramework.Common.Dynamics.SymbolIntervalMapper symbolintervalmapper11 = new Neo.ApplicationFramework.Common.Dynamics.SymbolIntervalMapper();
             Neo.ApplicationFramework.Common.Dynamics.SymbolIntervalMapper symbolintervalmapper12 = new Neo.ApplicationFramework.Common.Dynamics.SymbolIntervalMapper();
+            Neo.ApplicationFramework.Common.Dynamics.BrushCFInterval brushcfinterval26 = new Neo.ApplicationFramework.Common.Dynamics.BrushCFInterval();
+            Neo.ApplicationFramework.Common.Dynamics.BrushCFInterval brushcfinterval27 = new Neo.ApplicationFramework.Common.Dynamics.BrushCFInterval();
+            Neo.ApplicationFramework.Common.Dynamics.StringIntervalMapperCF stringintervalmappercf2 = new Neo.ApplicationFramework.Common.Dynamics.StringIntervalMapperCF();
+            Neo.ApplicationFramework.Common.Dynamics.StringIntervalCF stringintervalcf3 = new Neo.ApplicationFramework.Common.Dynamics.StringIntervalCF();
+            Neo.ApplicationFramework.Common.Dynamics.StringIntervalCF stringintervalcf4 = new Neo.ApplicationFramework.Common.Dynamics.StringIntervalCF();
+            Neo.ApplicationFramework.Common.Dynamics.BrushCFInterval brushcfinterval28 = new Neo.ApplicationFramework.Common.Dynamics.BrushCFInterval();
+            Neo.ApplicationFramework.Common.Dynamics.BrushCFInterval brushcfinterval29 = new Neo.ApplicationFramework.Common.Dynamics.BrushCFInterval();
+            Neo.ApplicationFramework.Common.Dynamics.StringIntervalMapperCF stringintervalmappercf3 = new Neo.ApplicationFramework.Common.Dynamics.StringIntervalMapperCF();
+            Neo.ApplicationFramework.Common.Dynamics.StringIntervalCF stringintervalcf5 = new Neo.ApplicationFramework.Common.Dynamics.StringIntervalCF();
+            Neo.ApplicationFramework.Common.Dynamics.StringIntervalCF stringintervalcf6 = new Neo.ApplicationFramework.Common.Dynamics.StringIntervalCF();
+            this.m_TouchComboBox = new Neo.ApplicationFramework.Controls.TouchComboBox.TouchComboBoxHostCF();
+            this.m_Rectangle4 = new Neo.ApplicationFramework.Controls.Controls.RectangleCF();
+            this.m_Rectangle3 = new Neo.ApplicationFramework.Controls.Controls.RectangleCF();
+            this.m_Rectangle1 = new Neo.ApplicationFramework.Controls.Controls.RectangleCF();
+            this.m_Rectangle = new Neo.ApplicationFramework.Controls.Controls.RectangleCF();
             this.m_Button2 = new Neo.ApplicationFramework.Controls.Controls.Button();
             this.m_Button3 = new Neo.ApplicationFramework.Controls.Controls.Button();
             this.m_Button4 = new Neo.ApplicationFramework.Controls.Controls.Button();
@@ -449,7 +551,12 @@ namespace Neo.ApplicationFramework.Generated {
             this.m_Text9 = new Neo.ApplicationFramework.Controls.Controls.Label();
             this.m_Ellipse2 = new Neo.ApplicationFramework.Controls.Controls.EllipseCF();
             this.m_Ellipse = new Neo.ApplicationFramework.Controls.Controls.EllipseCF();
+            this.m_Text5 = new Neo.ApplicationFramework.Controls.Controls.Label();
+            this.m_Rectangle8 = new Neo.ApplicationFramework.Controls.Controls.RectangleCF();
             this.m_Text2 = new Neo.ApplicationFramework.Controls.Controls.Label();
+            this.m_Text6 = new Neo.ApplicationFramework.Controls.Controls.Label();
+            this.m_Text13 = new Neo.ApplicationFramework.Controls.Controls.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.m_TouchComboBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.m_Button2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.m_Button3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.m_Button4)).BeginInit();
@@ -482,14 +589,115 @@ namespace Neo.ApplicationFramework.Generated {
             ((System.ComponentModel.ISupportInitialize)(this.m_Button1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.m_Text8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.m_Text9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.m_Text5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.m_Text2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.m_Text6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.m_Text13)).BeginInit();
             this.SuspendLayout();
             // 
             // Regulator
             // 
-            this.Background = new Neo.ApplicationFramework.Common.Graphics.Logic.BrushCF(System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(227)))), ((int)(((byte)(227))))), System.Drawing.Color.Empty, Neo.ApplicationFramework.Interfaces.FillDirection.None);
+            this.Background = new Neo.ApplicationFramework.Common.Graphics.Logic.BrushCF(System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(167)))), ((int)(((byte)(167))))), System.Drawing.Color.Empty, Neo.ApplicationFramework.Interfaces.FillDirection.None);
             this.BorderStyle = Neo.ApplicationFramework.Interfaces.ScreenBorderStyle.ThreeDBorder;
             this.ControlBox = false;
+            // 
+            // m_TouchComboBox
+            // 
+            this.m_TouchComboBox.AlternateBackground = new Neo.ApplicationFramework.Common.Graphics.Logic.BrushCF(System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(161)))), ((int)(((byte)(161))))), System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(107)))), ((int)(((byte)(107))))), Neo.ApplicationFramework.Interfaces.FillDirection.VerticalTopToBottom);
+            this.m_TouchComboBox.AlternateForeground = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(232)))), ((int)(((byte)(232)))));
+            this.m_TouchComboBox.ArrowBoxWidth = 30;
+            this.m_TouchComboBox.Background = new Neo.ApplicationFramework.Common.Graphics.Logic.BrushCF(System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(227)))), ((int)(((byte)(227))))), System.Drawing.Color.Empty, Neo.ApplicationFramework.Interfaces.FillDirection.None);
+            this.m_TouchComboBox.BlinkDynamicsValue = false;
+            this.m_TouchComboBox.BorderColor = System.Drawing.SystemColors.WindowFrame;
+            this.m_TouchComboBox.BorderThickness = 1;
+            this.m_TouchComboBox.DelayLoad = false;
+            this.m_TouchComboBox.EnabledDynamicsValue = true;
+            this.m_TouchComboBox.FontName = "Tahoma";
+            this.m_TouchComboBox.FontSize = 18D;
+            this.m_TouchComboBox.Foreground = System.Drawing.Color.Black;
+            stringintervalmappercf1.DefaultValue = null;
+            stringintervalcf1.End = 1D;
+            stringintervalcf1.Start = 1D;
+            stringintervalcf1.Value = "Frekvensomformer";
+            stringintervalcf2.End = 2D;
+            stringintervalcf2.Start = 2D;
+            stringintervalcf2.Value = "Reguleringsventil";
+            stringintervalmappercf1.Intervals.Add(stringintervalcf1);
+            stringintervalmappercf1.Intervals.Add(stringintervalcf2);
+            this.m_TouchComboBox.IntervalMapper = stringintervalmappercf1;
+            this.m_TouchComboBox.IsSeparatorVisible = true;
+            this.m_TouchComboBox.ItemHeight = 30;
+            this.m_TouchComboBox.Location = new System.Drawing.Point(171, 420);
+            this.m_TouchComboBox.Name = "m_TouchComboBox";
+            this.m_TouchComboBox.ScrollBarWidth = 20;
+            this.m_TouchComboBox.SelectedBackground = new Neo.ApplicationFramework.Common.Graphics.Logic.BrushCF(System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(136)))), ((int)(((byte)(255))))), System.Drawing.Color.Empty, Neo.ApplicationFramework.Interfaces.FillDirection.None);
+            this.m_TouchComboBox.SelectedForeground = System.Drawing.Color.White;
+            this.m_TouchComboBox.SelectedItem = null;
+            this.m_TouchComboBox.SeparatorColor = System.Drawing.Color.White;
+            this.m_TouchComboBox.Size = new System.Drawing.Size(204, 36);
+            this.m_TouchComboBox.TabIndex = 2147483647;
+            this.m_TouchComboBox.TouchScrollSensitivity = 8;
+            this.m_TouchComboBox.VisibleDynamicsValue = true;
+            // 
+            // m_Rectangle4
+            // 
+            this.m_Rectangle4.BitmapEffect = new Neo.ApplicationFramework.Common.Graphics.Logic.BitmapEffectCF();
+            this.m_Rectangle4.BlinkDynamicsValue = false;
+            this.m_Rectangle4.EnabledDynamicsValue = true;
+            this.m_Rectangle4.Fill = new Neo.ApplicationFramework.Common.Graphics.Logic.BrushCF(System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(227)))), ((int)(((byte)(227))))), System.Drawing.Color.Empty, Neo.ApplicationFramework.Interfaces.FillDirection.None);
+            this.m_Rectangle4.Height = 44;
+            this.m_Rectangle4.Left = 553;
+            this.m_Rectangle4.Name = "m_Rectangle4";
+            this.m_Rectangle4.ScreenOwnerName = "Regulator";
+            this.m_Rectangle4.Stroke = new Neo.ApplicationFramework.Common.Graphics.Logic.BrushCF(System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0))))), System.Drawing.Color.Empty, Neo.ApplicationFramework.Interfaces.FillDirection.None);
+            this.m_Rectangle4.Top = 21;
+            this.m_Rectangle4.VisibleDynamicsValue = true;
+            this.m_Rectangle4.Width = 230;
+            // 
+            // m_Rectangle3
+            // 
+            this.m_Rectangle3.BitmapEffect = new Neo.ApplicationFramework.Common.Graphics.Logic.BitmapEffectCF();
+            this.m_Rectangle3.BlinkDynamicsValue = false;
+            this.m_Rectangle3.EnabledDynamicsValue = true;
+            this.m_Rectangle3.Fill = new Neo.ApplicationFramework.Common.Graphics.Logic.BrushCF(System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(227)))), ((int)(((byte)(227))))), System.Drawing.Color.Empty, Neo.ApplicationFramework.Interfaces.FillDirection.None);
+            this.m_Rectangle3.Height = 44;
+            this.m_Rectangle3.Left = 291;
+            this.m_Rectangle3.Name = "m_Rectangle3";
+            this.m_Rectangle3.ScreenOwnerName = "Regulator";
+            this.m_Rectangle3.Stroke = new Neo.ApplicationFramework.Common.Graphics.Logic.BrushCF(System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0))))), System.Drawing.Color.Empty, Neo.ApplicationFramework.Interfaces.FillDirection.None);
+            this.m_Rectangle3.Top = 21;
+            this.m_Rectangle3.VisibleDynamicsValue = true;
+            this.m_Rectangle3.Width = 240;
+            // 
+            // m_Rectangle1
+            // 
+            this.m_Rectangle1.BitmapEffect = new Neo.ApplicationFramework.Common.Graphics.Logic.BitmapEffectCF();
+            this.m_Rectangle1.BlinkDynamicsValue = false;
+            this.m_Rectangle1.EnabledDynamicsValue = true;
+            this.m_Rectangle1.Fill = new Neo.ApplicationFramework.Common.Graphics.Logic.BrushCF(System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(227)))), ((int)(((byte)(227))))), System.Drawing.Color.Empty, Neo.ApplicationFramework.Interfaces.FillDirection.None);
+            this.m_Rectangle1.Height = 454;
+            this.m_Rectangle1.Left = 394;
+            this.m_Rectangle1.Name = "m_Rectangle1";
+            this.m_Rectangle1.ScreenOwnerName = "Regulator";
+            this.m_Rectangle1.Stroke = new Neo.ApplicationFramework.Common.Graphics.Logic.BrushCF(System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0))))), System.Drawing.Color.Empty, Neo.ApplicationFramework.Interfaces.FillDirection.None);
+            this.m_Rectangle1.Top = 81;
+            this.m_Rectangle1.VisibleDynamicsValue = true;
+            this.m_Rectangle1.Width = 389;
+            // 
+            // m_Rectangle
+            // 
+            this.m_Rectangle.BitmapEffect = new Neo.ApplicationFramework.Common.Graphics.Logic.BitmapEffectCF();
+            this.m_Rectangle.BlinkDynamicsValue = false;
+            this.m_Rectangle.EnabledDynamicsValue = true;
+            this.m_Rectangle.Fill = new Neo.ApplicationFramework.Common.Graphics.Logic.BrushCF(System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(227)))), ((int)(((byte)(227))))), System.Drawing.Color.Empty, Neo.ApplicationFramework.Interfaces.FillDirection.None);
+            this.m_Rectangle.Height = 454;
+            this.m_Rectangle.Left = 25;
+            this.m_Rectangle.Name = "m_Rectangle";
+            this.m_Rectangle.ScreenOwnerName = "Regulator";
+            this.m_Rectangle.Stroke = new Neo.ApplicationFramework.Common.Graphics.Logic.BrushCF(System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0))))), System.Drawing.Color.Empty, Neo.ApplicationFramework.Interfaces.FillDirection.None);
+            this.m_Rectangle.Top = 81;
+            this.m_Rectangle.VisibleDynamicsValue = true;
+            this.m_Rectangle.Width = 361;
             // 
             // m_Button2
             // 
@@ -507,21 +715,21 @@ namespace Neo.ApplicationFramework.Generated {
             this.m_Button2.EnabledDynamicsValue = true;
             this.m_Button2.FontSizePixels = 26;
             this.m_Button2.ForceTransparency = true;
-            this.m_Button2.Height = 60;
+            this.m_Button2.Height = 40;
             this.m_Button2.IndicatorMargin = null;
-            this.m_Button2.Left = 656;
+            this.m_Button2.Left = 634;
             this.m_Button2.Name = "m_Button2";
             this.m_Button2.RequiresTransparency = true;
             this.m_Button2.ScreenOwnerName = "Regulator";
             this.m_Button2.SymbolIntervalMapper = symbolintervalmapper1;
             this.m_Button2.TextHeight = 31;
             this.m_Button2.TextValue = 0D;
-            this.m_Button2.TextWidth = 90;
-            this.m_Button2.Top = 128;
+            this.m_Button2.TextWidth = 96;
+            this.m_Button2.Top = 114;
             this.m_Button2.Value = 0D;
             this.m_Button2.VisibleDynamicsValue = true;
-            this.m_Button2.VisualPropertiesHashCode = -468956104;
-            this.m_Button2.Width = 100;
+            this.m_Button2.VisualPropertiesHashCode = 713970734;
+            this.m_Button2.Width = 106;
             // 
             // m_Button3
             // 
@@ -541,7 +749,7 @@ namespace Neo.ApplicationFramework.Generated {
             this.m_Button3.ForceTransparency = true;
             this.m_Button3.Height = 60;
             this.m_Button3.IndicatorMargin = null;
-            this.m_Button3.Left = 142;
+            this.m_Button3.Left = 500;
             this.m_Button3.Name = "m_Button3";
             this.m_Button3.RequiresTransparency = true;
             this.m_Button3.ScreenOwnerName = "Regulator";
@@ -549,7 +757,7 @@ namespace Neo.ApplicationFramework.Generated {
             this.m_Button3.TextHeight = 31;
             this.m_Button3.TextValue = 0D;
             this.m_Button3.TextWidth = 82;
-            this.m_Button3.Top = 130;
+            this.m_Button3.Top = 213;
             this.m_Button3.Value = 0D;
             this.m_Button3.VisibleDynamicsValue = true;
             this.m_Button3.VisualPropertiesHashCode = -1135561005;
@@ -573,7 +781,7 @@ namespace Neo.ApplicationFramework.Generated {
             this.m_Button4.ForceTransparency = true;
             this.m_Button4.Height = 60;
             this.m_Button4.IndicatorMargin = null;
-            this.m_Button4.Left = 233;
+            this.m_Button4.Left = 591;
             this.m_Button4.Name = "m_Button4";
             this.m_Button4.RequiresTransparency = true;
             this.m_Button4.ScreenOwnerName = "Regulator";
@@ -581,7 +789,7 @@ namespace Neo.ApplicationFramework.Generated {
             this.m_Button4.TextHeight = 31;
             this.m_Button4.TextValue = 0D;
             this.m_Button4.TextWidth = 82;
-            this.m_Button4.Top = 130;
+            this.m_Button4.Top = 213;
             this.m_Button4.Value = 0D;
             this.m_Button4.VisibleDynamicsValue = true;
             this.m_Button4.VisualPropertiesHashCode = -1135561005;
@@ -593,10 +801,10 @@ namespace Neo.ApplicationFramework.Generated {
             this.m_Text.EnabledDynamicsValue = true;
             this.m_Text.FontSizePixels = 26;
             this.m_Text.Height = 21;
-            this.m_Text.Left = 559;
+            this.m_Text.Left = 22;
             this.m_Text.Name = "m_Text";
             this.m_Text.ScreenOwnerName = "Regulator";
-            this.m_Text.Top = 226;
+            this.m_Text.Top = 114;
             this.m_Text.VisibleDynamicsValue = true;
             this.m_Text.Width = 79;
             // 
@@ -619,21 +827,21 @@ namespace Neo.ApplicationFramework.Generated {
             this.m_Button12.EnabledDynamicsValue = true;
             this.m_Button12.FontSizePixels = 26;
             this.m_Button12.ForceTransparency = true;
-            this.m_Button12.Height = 60;
+            this.m_Button12.Height = 44;
             this.m_Button12.IndicatorMargin = null;
-            this.m_Button12.Left = 556;
+            this.m_Button12.Left = 217;
             this.m_Button12.Name = "m_Button12";
             this.m_Button12.RequiresTransparency = true;
             this.m_Button12.ScreenOwnerName = "Regulator";
             this.m_Button12.SymbolIntervalMapper = symbolintervalmapper4;
             this.m_Button12.TextHeight = 31;
             this.m_Button12.TextValue = 0D;
-            this.m_Button12.TextWidth = 90;
-            this.m_Button12.Top = 264;
+            this.m_Button12.TextWidth = 65;
+            this.m_Button12.Top = 111;
             this.m_Button12.Value = 0D;
             this.m_Button12.VisibleDynamicsValue = true;
-            this.m_Button12.VisualPropertiesHashCode = -468956104;
-            this.m_Button12.Width = 100;
+            this.m_Button12.VisualPropertiesHashCode = -859540840;
+            this.m_Button12.Width = 75;
             // 
             // m_Button15
             // 
@@ -654,21 +862,21 @@ namespace Neo.ApplicationFramework.Generated {
             this.m_Button15.EnabledDynamicsValue = true;
             this.m_Button15.FontSizePixels = 26;
             this.m_Button15.ForceTransparency = true;
-            this.m_Button15.Height = 60;
+            this.m_Button15.Height = 44;
             this.m_Button15.IndicatorMargin = null;
-            this.m_Button15.Left = 656;
+            this.m_Button15.Left = 291;
             this.m_Button15.Name = "m_Button15";
             this.m_Button15.RequiresTransparency = true;
             this.m_Button15.ScreenOwnerName = "Regulator";
             this.m_Button15.SymbolIntervalMapper = symbolintervalmapper5;
             this.m_Button15.TextHeight = 31;
             this.m_Button15.TextValue = 0D;
-            this.m_Button15.TextWidth = 90;
-            this.m_Button15.Top = 264;
+            this.m_Button15.TextWidth = 62;
+            this.m_Button15.Top = 111;
             this.m_Button15.Value = 0D;
             this.m_Button15.VisibleDynamicsValue = true;
-            this.m_Button15.VisualPropertiesHashCode = -468956104;
-            this.m_Button15.Width = 100;
+            this.m_Button15.VisualPropertiesHashCode = 448209552;
+            this.m_Button15.Width = 72;
             // 
             // m_Text1
             // 
@@ -676,10 +884,10 @@ namespace Neo.ApplicationFramework.Generated {
             this.m_Text1.EnabledDynamicsValue = true;
             this.m_Text1.FontSizePixels = 26;
             this.m_Text1.Height = 21;
-            this.m_Text1.Left = 50;
+            this.m_Text1.Left = 407;
             this.m_Text1.Name = "m_Text1";
             this.m_Text1.ScreenOwnerName = "Regulator";
-            this.m_Text1.Top = 92;
+            this.m_Text1.Top = 173;
             this.m_Text1.VisibleDynamicsValue = true;
             this.m_Text1.Width = 76;
             // 
@@ -689,10 +897,10 @@ namespace Neo.ApplicationFramework.Generated {
             this.m_Text3.EnabledDynamicsValue = true;
             this.m_Text3.FontSizePixels = 26;
             this.m_Text3.Height = 21;
-            this.m_Text3.Left = 556;
+            this.m_Text3.Left = 410;
             this.m_Text3.Name = "m_Text3";
             this.m_Text3.ScreenOwnerName = "Regulator";
-            this.m_Text3.Top = 92;
+            this.m_Text3.Top = 115;
             this.m_Text3.VisibleDynamicsValue = true;
             this.m_Text3.Width = 38;
             // 
@@ -702,12 +910,12 @@ namespace Neo.ApplicationFramework.Generated {
             this.m_Text4.EnabledDynamicsValue = true;
             this.m_Text4.FontSizePixels = 26;
             this.m_Text4.Height = 21;
-            this.m_Text4.Left = 554;
+            this.m_Text4.Left = 25;
             this.m_Text4.Name = "m_Text4";
             this.m_Text4.ScreenOwnerName = "Regulator";
-            this.m_Text4.Top = 352;
+            this.m_Text4.Top = 197;
             this.m_Text4.VisibleDynamicsValue = true;
-            this.m_Text4.Width = 92;
+            this.m_Text4.Width = 75;
             // 
             // m_Text7
             // 
@@ -723,10 +931,10 @@ namespace Neo.ApplicationFramework.Generated {
             this.m_Text7.EnabledDynamicsValue = true;
             this.m_Text7.FontSizePixels = 26;
             this.m_Text7.Height = 21;
-            this.m_Text7.Left = 233;
+            this.m_Text7.Left = 55;
             this.m_Text7.Name = "m_Text7";
             this.m_Text7.ScreenOwnerName = "Regulator";
-            this.m_Text7.Top = 378;
+            this.m_Text7.Top = 363;
             this.m_Text7.VisibleDynamicsValue = true;
             this.m_Text7.Width = 50;
             // 
@@ -748,7 +956,7 @@ namespace Neo.ApplicationFramework.Generated {
             this.m_Button17.ForceTransparency = true;
             this.m_Button17.Height = 60;
             this.m_Button17.IndicatorMargin = null;
-            this.m_Button17.Left = 324;
+            this.m_Button17.Left = 682;
             this.m_Button17.Name = "m_Button17";
             this.m_Button17.RequiresTransparency = true;
             this.m_Button17.ScreenOwnerName = "Regulator";
@@ -756,7 +964,7 @@ namespace Neo.ApplicationFramework.Generated {
             this.m_Button17.TextHeight = 31;
             this.m_Button17.TextValue = 0D;
             this.m_Button17.TextWidth = 82;
-            this.m_Button17.Top = 130;
+            this.m_Button17.Top = 213;
             this.m_Button17.Value = 0D;
             this.m_Button17.VisibleDynamicsValue = true;
             this.m_Button17.VisualPropertiesHashCode = -1135561005;
@@ -772,13 +980,13 @@ namespace Neo.ApplicationFramework.Generated {
             this.m_AnalogNumeric.DisplayFormat = Neo.ApplicationFramework.Interfaces.AnalogNumericDisplayFormat.Decimal;
             this.m_AnalogNumeric.EnabledDynamicsValue = true;
             this.m_AnalogNumeric.FontSizePixels = 26;
-            this.m_AnalogNumeric.Height = 60;
-            this.m_AnalogNumeric.Left = 50;
+            this.m_AnalogNumeric.Height = 37;
+            this.m_AnalogNumeric.Left = 500;
             this.m_AnalogNumeric.MaxValue = 100D;
             this.m_AnalogNumeric.Name = "m_AnalogNumeric";
             this.m_AnalogNumeric.NumberOfDecimals = 3;
             this.m_AnalogNumeric.ScreenOwnerName = "Regulator";
-            this.m_AnalogNumeric.Top = 264;
+            this.m_AnalogNumeric.Top = 289;
             this.m_AnalogNumeric.VisibleDynamicsValue = true;
             this.m_AnalogNumeric.Width = 92;
             // 
@@ -788,10 +996,10 @@ namespace Neo.ApplicationFramework.Generated {
             this.m_Text10.EnabledDynamicsValue = true;
             this.m_Text10.FontSizePixels = 26;
             this.m_Text10.Height = 21;
-            this.m_Text10.Left = 51;
+            this.m_Text10.Left = 410;
             this.m_Text10.Name = "m_Text10";
             this.m_Text10.ScreenOwnerName = "Regulator";
-            this.m_Text10.Top = 226;
+            this.m_Text10.Top = 289;
             this.m_Text10.VisibleDynamicsValue = true;
             this.m_Text10.Width = 23;
             // 
@@ -809,10 +1017,10 @@ namespace Neo.ApplicationFramework.Generated {
             this.m_Text11.EnabledDynamicsValue = true;
             this.m_Text11.FontSizePixels = 26;
             this.m_Text11.Height = 21;
-            this.m_Text11.Left = 323;
+            this.m_Text11.Left = 410;
             this.m_Text11.Name = "m_Text11";
             this.m_Text11.ScreenOwnerName = "Regulator";
-            this.m_Text11.Top = 226;
+            this.m_Text11.Top = 393;
             this.m_Text11.VisibleDynamicsValue = true;
             this.m_Text11.Width = 23;
             // 
@@ -826,13 +1034,13 @@ namespace Neo.ApplicationFramework.Generated {
             this.m_AnalogNumeric2.DisplayFormat = Neo.ApplicationFramework.Interfaces.AnalogNumericDisplayFormat.Decimal;
             this.m_AnalogNumeric2.EnabledDynamicsValue = true;
             this.m_AnalogNumeric2.FontSizePixels = 26;
-            this.m_AnalogNumeric2.Height = 60;
-            this.m_AnalogNumeric2.Left = 193;
+            this.m_AnalogNumeric2.Height = 39;
+            this.m_AnalogNumeric2.Left = 500;
             this.m_AnalogNumeric2.MaxValue = 100D;
             this.m_AnalogNumeric2.Name = "m_AnalogNumeric2";
             this.m_AnalogNumeric2.NumberOfDecimals = 3;
             this.m_AnalogNumeric2.ScreenOwnerName = "Regulator";
-            this.m_AnalogNumeric2.Top = 264;
+            this.m_AnalogNumeric2.Top = 341;
             this.m_AnalogNumeric2.VisibleDynamicsValue = true;
             this.m_AnalogNumeric2.Width = 92;
             // 
@@ -854,10 +1062,10 @@ namespace Neo.ApplicationFramework.Generated {
             this.m_Text12.EnabledDynamicsValue = true;
             this.m_Text12.FontSizePixels = 26;
             this.m_Text12.Height = 21;
-            this.m_Text12.Left = 193;
+            this.m_Text12.Left = 409;
             this.m_Text12.Name = "m_Text12";
             this.m_Text12.ScreenOwnerName = "Regulator";
-            this.m_Text12.Top = 226;
+            this.m_Text12.Top = 342;
             this.m_Text12.VisibleDynamicsValue = true;
             this.m_Text12.Width = 19;
             // 
@@ -871,13 +1079,13 @@ namespace Neo.ApplicationFramework.Generated {
             this.m_AnalogNumeric3.DisplayFormat = Neo.ApplicationFramework.Interfaces.AnalogNumericDisplayFormat.Decimal;
             this.m_AnalogNumeric3.EnabledDynamicsValue = true;
             this.m_AnalogNumeric3.FontSizePixels = 26;
-            this.m_AnalogNumeric3.Height = 60;
-            this.m_AnalogNumeric3.Left = 324;
+            this.m_AnalogNumeric3.Height = 37;
+            this.m_AnalogNumeric3.Left = 500;
             this.m_AnalogNumeric3.MaxValue = 100D;
             this.m_AnalogNumeric3.Name = "m_AnalogNumeric3";
             this.m_AnalogNumeric3.NumberOfDecimals = 3;
             this.m_AnalogNumeric3.ScreenOwnerName = "Regulator";
-            this.m_AnalogNumeric3.Top = 264;
+            this.m_AnalogNumeric3.Top = 393;
             this.m_AnalogNumeric3.VisibleDynamicsValue = true;
             this.m_AnalogNumeric3.Width = 92;
             // 
@@ -887,12 +1095,12 @@ namespace Neo.ApplicationFramework.Generated {
             this.m_Text14.EnabledDynamicsValue = true;
             this.m_Text14.FontSizePixels = 26;
             this.m_Text14.Height = 21;
-            this.m_Text14.Left = 564;
+            this.m_Text14.Left = 25;
             this.m_Text14.Name = "m_Text14";
             this.m_Text14.ScreenOwnerName = "Regulator";
-            this.m_Text14.Top = 378;
+            this.m_Text14.Top = 224;
             this.m_Text14.VisibleDynamicsValue = true;
-            this.m_Text14.Width = 88;
+            this.m_Text14.Width = 72;
             // 
             // m_AnalogNumeric4
             // 
@@ -903,14 +1111,14 @@ namespace Neo.ApplicationFramework.Generated {
             this.m_AnalogNumeric4.BorderThickness = new Neo.ApplicationFramework.Common.Graphics.Logic.ThicknessCF(1D, 1D, 1D, 1D);
             this.m_AnalogNumeric4.EnabledDynamicsValue = true;
             this.m_AnalogNumeric4.FontSizePixels = 26;
-            this.m_AnalogNumeric4.Height = 60;
-            this.m_AnalogNumeric4.Left = 558;
+            this.m_AnalogNumeric4.Height = 39;
+            this.m_AnalogNumeric4.Left = 217;
             this.m_AnalogNumeric4.MaxValue = 100D;
             this.m_AnalogNumeric4.Name = "m_AnalogNumeric4";
             this.m_AnalogNumeric4.ScreenOwnerName = "Regulator";
-            this.m_AnalogNumeric4.Top = 422;
+            this.m_AnalogNumeric4.Top = 213;
             this.m_AnalogNumeric4.VisibleDynamicsValue = true;
-            this.m_AnalogNumeric4.Width = 200;
+            this.m_AnalogNumeric4.Width = 146;
             // 
             // m_AnalogNumeric5
             // 
@@ -921,14 +1129,14 @@ namespace Neo.ApplicationFramework.Generated {
             this.m_AnalogNumeric5.BorderThickness = new Neo.ApplicationFramework.Common.Graphics.Logic.ThicknessCF(1D, 1D, 1D, 1D);
             this.m_AnalogNumeric5.EnabledDynamicsValue = true;
             this.m_AnalogNumeric5.FontSizePixels = 26;
-            this.m_AnalogNumeric5.Height = 60;
-            this.m_AnalogNumeric5.Left = 558;
+            this.m_AnalogNumeric5.Height = 39;
+            this.m_AnalogNumeric5.Left = 217;
             this.m_AnalogNumeric5.MaxValue = 100D;
             this.m_AnalogNumeric5.Name = "m_AnalogNumeric5";
             this.m_AnalogNumeric5.ScreenOwnerName = "Regulator";
-            this.m_AnalogNumeric5.Top = 422;
+            this.m_AnalogNumeric5.Top = 213;
             this.m_AnalogNumeric5.VisibleDynamicsValue = true;
-            this.m_AnalogNumeric5.Width = 200;
+            this.m_AnalogNumeric5.Width = 146;
             // 
             // m_AnalogNumeric7
             // 
@@ -939,14 +1147,14 @@ namespace Neo.ApplicationFramework.Generated {
             this.m_AnalogNumeric7.BorderThickness = new Neo.ApplicationFramework.Common.Graphics.Logic.ThicknessCF(1D, 1D, 1D, 1D);
             this.m_AnalogNumeric7.EnabledDynamicsValue = true;
             this.m_AnalogNumeric7.FontSizePixels = 26;
-            this.m_AnalogNumeric7.Height = 60;
-            this.m_AnalogNumeric7.Left = 233;
+            this.m_AnalogNumeric7.Height = 36;
+            this.m_AnalogNumeric7.Left = 246;
             this.m_AnalogNumeric7.MaxValue = 100D;
             this.m_AnalogNumeric7.Name = "m_AnalogNumeric7";
             this.m_AnalogNumeric7.ScreenOwnerName = "Regulator";
-            this.m_AnalogNumeric7.Top = 423;
+            this.m_AnalogNumeric7.Top = 364;
             this.m_AnalogNumeric7.VisibleDynamicsValue = true;
-            this.m_AnalogNumeric7.Width = 92;
+            this.m_AnalogNumeric7.Width = 96;
             // 
             // m_AnalogNumeric8
             // 
@@ -957,14 +1165,14 @@ namespace Neo.ApplicationFramework.Generated {
             this.m_AnalogNumeric8.BorderThickness = new Neo.ApplicationFramework.Common.Graphics.Logic.ThicknessCF(1D, 1D, 1D, 1D);
             this.m_AnalogNumeric8.EnabledDynamicsValue = true;
             this.m_AnalogNumeric8.FontSizePixels = 26;
-            this.m_AnalogNumeric8.Height = 60;
-            this.m_AnalogNumeric8.Left = 50;
+            this.m_AnalogNumeric8.Height = 44;
+            this.m_AnalogNumeric8.Left = 246;
             this.m_AnalogNumeric8.MaxValue = 100D;
             this.m_AnalogNumeric8.Name = "m_AnalogNumeric8";
             this.m_AnalogNumeric8.ScreenOwnerName = "Regulator";
-            this.m_AnalogNumeric8.Top = 422;
+            this.m_AnalogNumeric8.Top = 286;
             this.m_AnalogNumeric8.VisibleDynamicsValue = true;
-            this.m_AnalogNumeric8.Width = 92;
+            this.m_AnalogNumeric8.Width = 96;
             // 
             // m_Text16
             // 
@@ -972,12 +1180,12 @@ namespace Neo.ApplicationFramework.Generated {
             this.m_Text16.EnabledDynamicsValue = true;
             this.m_Text16.FontSizePixels = 26;
             this.m_Text16.Height = 21;
-            this.m_Text16.Left = 43;
+            this.m_Text16.Left = 25;
             this.m_Text16.Name = "m_Text16";
             this.m_Text16.ScreenOwnerName = "Regulator";
-            this.m_Text16.Top = 377;
+            this.m_Text16.Top = 288;
             this.m_Text16.VisibleDynamicsValue = true;
-            this.m_Text16.Width = 55;
+            this.m_Text16.Width = 94;
             // 
             // m_Button
             // 
@@ -995,21 +1203,21 @@ namespace Neo.ApplicationFramework.Generated {
             this.m_Button.EnabledDynamicsValue = true;
             this.m_Button.FontSizePixels = 26;
             this.m_Button.ForceTransparency = true;
-            this.m_Button.Height = 60;
+            this.m_Button.Height = 40;
             this.m_Button.IndicatorMargin = null;
-            this.m_Button.Left = 556;
+            this.m_Button.Left = 534;
             this.m_Button.Name = "m_Button";
             this.m_Button.RequiresTransparency = true;
             this.m_Button.ScreenOwnerName = "Regulator";
             this.m_Button.SymbolIntervalMapper = symbolintervalmapper7;
             this.m_Button.TextHeight = 31;
             this.m_Button.TextValue = 0D;
-            this.m_Button.TextWidth = 90;
-            this.m_Button.Top = 128;
+            this.m_Button.TextWidth = 92;
+            this.m_Button.Top = 114;
             this.m_Button.Value = 0D;
             this.m_Button.VisibleDynamicsValue = true;
-            this.m_Button.VisualPropertiesHashCode = -468956104;
-            this.m_Button.Width = 100;
+            this.m_Button.VisualPropertiesHashCode = -654850870;
+            this.m_Button.Width = 102;
             // 
             // m_DigitalClock
             // 
@@ -1018,13 +1226,13 @@ namespace Neo.ApplicationFramework.Generated {
             this.m_DigitalClock.EnabledDynamicsValue = true;
             this.m_DigitalClock.FontSizePixels = 20;
             this.m_DigitalClock.Height = 30;
-            this.m_DigitalClock.Left = 543;
+            this.m_DigitalClock.Left = 563;
             this.m_DigitalClock.Name = "m_DigitalClock";
             this.m_DigitalClock.ScreenOwnerName = "Regulator";
             this.m_DigitalClock.ShowDayOfWeek = false;
             this.m_DigitalClock.ShowSeconds = true;
-            this.m_DigitalClock.Text = "17.04.2026 11:22:56";
-            this.m_DigitalClock.Top = 24;
+            this.m_DigitalClock.Text = "20.04.2026 11:02:08";
+            this.m_DigitalClock.Top = 27;
             this.m_DigitalClock.VisibleDynamicsValue = true;
             this.m_DigitalClock.Width = 205;
             // 
@@ -1046,7 +1254,7 @@ namespace Neo.ApplicationFramework.Generated {
             this.m_Button6.ForceTransparency = true;
             this.m_Button6.Height = 60;
             this.m_Button6.IndicatorMargin = null;
-            this.m_Button6.Left = 50;
+            this.m_Button6.Left = 408;
             this.m_Button6.Name = "m_Button6";
             this.m_Button6.RequiresTransparency = true;
             this.m_Button6.ScreenOwnerName = "Regulator";
@@ -1054,7 +1262,7 @@ namespace Neo.ApplicationFramework.Generated {
             this.m_Button6.TextHeight = 31;
             this.m_Button6.TextValue = 0D;
             this.m_Button6.TextWidth = 82;
-            this.m_Button6.Top = 130;
+            this.m_Button6.Top = 213;
             this.m_Button6.Value = 0D;
             this.m_Button6.VisibleDynamicsValue = true;
             this.m_Button6.VisualPropertiesHashCode = -1135561005;
@@ -1196,10 +1404,10 @@ namespace Neo.ApplicationFramework.Generated {
             this.m_Text8.EnabledDynamicsValue = true;
             this.m_Text8.FontSizePixels = 26;
             this.m_Text8.Height = 21;
-            this.m_Text8.Left = 318;
+            this.m_Text8.Left = 372;
             this.m_Text8.Name = "m_Text8";
             this.m_Text8.ScreenOwnerName = "Regulator";
-            this.m_Text8.Top = 37;
+            this.m_Text8.Top = 24;
             this.m_Text8.VisibleDynamicsValue = true;
             this.m_Text8.Width = 35;
             // 
@@ -1209,10 +1417,10 @@ namespace Neo.ApplicationFramework.Generated {
             this.m_Text9.EnabledDynamicsValue = true;
             this.m_Text9.FontSizePixels = 26;
             this.m_Text9.Height = 21;
-            this.m_Text9.Left = 318;
+            this.m_Text9.Left = 372;
             this.m_Text9.Name = "m_Text9";
             this.m_Text9.ScreenOwnerName = "Regulator";
-            this.m_Text9.Top = 37;
+            this.m_Text9.Top = 24;
             this.m_Text9.VisibleDynamicsValue = true;
             this.m_Text9.Width = 35;
             // 
@@ -1222,11 +1430,11 @@ namespace Neo.ApplicationFramework.Generated {
             this.m_Ellipse2.EnabledDynamicsValue = true;
             this.m_Ellipse2.Fill = new Neo.ApplicationFramework.Common.Graphics.Logic.BrushCF(System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(165)))), ((int)(((byte)(0))))), System.Drawing.Color.Empty, Neo.ApplicationFramework.Interfaces.FillDirection.None);
             this.m_Ellipse2.Height = 35;
-            this.m_Ellipse2.Left = 286;
+            this.m_Ellipse2.Left = 340;
             this.m_Ellipse2.Name = "m_Ellipse2";
             this.m_Ellipse2.ScreenOwnerName = "Regulator";
             this.m_Ellipse2.Stroke = new Neo.ApplicationFramework.Common.Graphics.Logic.BrushCF(System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0))))), System.Drawing.Color.Empty, Neo.ApplicationFramework.Interfaces.FillDirection.None);
-            this.m_Ellipse2.Top = 38;
+            this.m_Ellipse2.Top = 25;
             this.m_Ellipse2.VisibleDynamicsValue = true;
             this.m_Ellipse2.Width = 35;
             // 
@@ -1236,13 +1444,41 @@ namespace Neo.ApplicationFramework.Generated {
             this.m_Ellipse.EnabledDynamicsValue = true;
             this.m_Ellipse.Fill = new Neo.ApplicationFramework.Common.Graphics.Logic.BrushCF(System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(0)))), ((int)(((byte)(0))))), System.Drawing.Color.Empty, Neo.ApplicationFramework.Interfaces.FillDirection.None);
             this.m_Ellipse.Height = 35;
-            this.m_Ellipse.Left = 286;
+            this.m_Ellipse.Left = 340;
             this.m_Ellipse.Name = "m_Ellipse";
             this.m_Ellipse.ScreenOwnerName = "Regulator";
             this.m_Ellipse.Stroke = new Neo.ApplicationFramework.Common.Graphics.Logic.BrushCF(System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0))))), System.Drawing.Color.Empty, Neo.ApplicationFramework.Interfaces.FillDirection.None);
-            this.m_Ellipse.Top = 38;
+            this.m_Ellipse.Top = 25;
             this.m_Ellipse.VisibleDynamicsValue = true;
             this.m_Ellipse.Width = 35;
+            // 
+            // m_Text5
+            // 
+            this.m_Text5.BlinkDynamicsValue = false;
+            this.m_Text5.EnabledDynamicsValue = true;
+            this.m_Text5.FontSizePixels = 26;
+            this.m_Text5.Height = 21;
+            this.m_Text5.Left = 55;
+            this.m_Text5.Name = "m_Text5";
+            this.m_Text5.ScreenOwnerName = "Regulator";
+            this.m_Text5.Top = 420;
+            this.m_Text5.VisibleDynamicsValue = true;
+            this.m_Text5.Width = 41;
+            // 
+            // m_Rectangle8
+            // 
+            this.m_Rectangle8.BitmapEffect = new Neo.ApplicationFramework.Common.Graphics.Logic.BitmapEffectCF();
+            this.m_Rectangle8.BlinkDynamicsValue = false;
+            this.m_Rectangle8.EnabledDynamicsValue = true;
+            this.m_Rectangle8.Fill = new Neo.ApplicationFramework.Common.Graphics.Logic.BrushCF(System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(227)))), ((int)(((byte)(227))))), System.Drawing.Color.Empty, Neo.ApplicationFramework.Interfaces.FillDirection.None);
+            this.m_Rectangle8.Height = 44;
+            this.m_Rectangle8.Left = 22;
+            this.m_Rectangle8.Name = "m_Rectangle8";
+            this.m_Rectangle8.ScreenOwnerName = "Regulator";
+            this.m_Rectangle8.Stroke = new Neo.ApplicationFramework.Common.Graphics.Logic.BrushCF(System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0))))), System.Drawing.Color.Empty, Neo.ApplicationFramework.Interfaces.FillDirection.None);
+            this.m_Rectangle8.Top = 20;
+            this.m_Rectangle8.VisibleDynamicsValue = true;
+            this.m_Rectangle8.Width = 240;
             // 
             // m_Text2
             // 
@@ -1250,12 +1486,72 @@ namespace Neo.ApplicationFramework.Generated {
             this.m_Text2.EnabledDynamicsValue = true;
             this.m_Text2.FontSizePixels = 20;
             this.m_Text2.Height = 21;
-            this.m_Text2.Left = 129;
+            this.m_Text2.Left = 56;
             this.m_Text2.Name = "m_Text2";
             this.m_Text2.ScreenOwnerName = "Regulator";
-            this.m_Text2.Top = 505;
+            this.m_Text2.Top = 27;
             this.m_Text2.VisibleDynamicsValue = true;
-            this.m_Text2.Width = 319;
+            this.m_Text2.Width = 46;
+            // 
+            // m_Text6
+            // 
+            this.m_Text6.BlinkDynamicsValue = false;
+            brushdynamicsconvertercf12.BrushIntervalMapper.DefaultValue = new Neo.ApplicationFramework.Common.Graphics.Logic.BrushCF();
+            brushcfinterval26.Value = new Neo.ApplicationFramework.Common.Graphics.Logic.BrushCF(System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(28)))), ((int)(((byte)(36))))), System.Drawing.Color.Empty, Neo.ApplicationFramework.Interfaces.FillDirection.None);
+            brushcfinterval27.End = 1D;
+            brushcfinterval27.Start = 1D;
+            brushcfinterval27.Value = new Neo.ApplicationFramework.Common.Graphics.Logic.BrushCF(System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(177)))), ((int)(((byte)(76))))), System.Drawing.Color.Empty, Neo.ApplicationFramework.Interfaces.FillDirection.None);
+            brushdynamicsconvertercf12.BrushIntervalMapper.Intervals.Add(brushcfinterval26);
+            brushdynamicsconvertercf12.BrushIntervalMapper.Intervals.Add(brushcfinterval27);
+            brushdynamicsconvertercf13.BrushIntervalMapper.DefaultValue = new Neo.ApplicationFramework.Common.Graphics.Logic.BrushCF();
+            this.m_Text6.EnabledDynamicsValue = true;
+            this.m_Text6.FontSizePixels = 20;
+            this.m_Text6.Foreground = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.m_Text6.Height = 21;
+            this.m_Text6.Left = 149;
+            this.m_Text6.Name = "m_Text6";
+            this.m_Text6.ScreenOwnerName = "Regulator";
+            stringintervalmappercf2.DefaultValue = "StatusTxt";
+            stringintervalcf3.End = 1D;
+            stringintervalcf3.Start = 1D;
+            stringintervalcf3.Value = "DRIFT";
+            stringintervalcf4.Value = "INAKTIV";
+            stringintervalmappercf2.Intervals.Add(stringintervalcf3);
+            stringintervalmappercf2.Intervals.Add(stringintervalcf4);
+            this.m_Text6.TextIntervalMapper = stringintervalmappercf2;
+            this.m_Text6.Top = 27;
+            this.m_Text6.VisibleDynamicsValue = true;
+            this.m_Text6.Width = 49;
+            // 
+            // m_Text13
+            // 
+            this.m_Text13.BlinkDynamicsValue = false;
+            brushdynamicsconvertercf14.BrushIntervalMapper.DefaultValue = new Neo.ApplicationFramework.Common.Graphics.Logic.BrushCF();
+            brushcfinterval28.Value = new Neo.ApplicationFramework.Common.Graphics.Logic.BrushCF(System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(28)))), ((int)(((byte)(36))))), System.Drawing.Color.Empty, Neo.ApplicationFramework.Interfaces.FillDirection.None);
+            brushcfinterval29.End = 1D;
+            brushcfinterval29.Start = 1D;
+            brushcfinterval29.Value = new Neo.ApplicationFramework.Common.Graphics.Logic.BrushCF(System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(177)))), ((int)(((byte)(76))))), System.Drawing.Color.Empty, Neo.ApplicationFramework.Interfaces.FillDirection.None);
+            brushdynamicsconvertercf14.BrushIntervalMapper.Intervals.Add(brushcfinterval28);
+            brushdynamicsconvertercf14.BrushIntervalMapper.Intervals.Add(brushcfinterval29);
+            brushdynamicsconvertercf15.BrushIntervalMapper.DefaultValue = new Neo.ApplicationFramework.Common.Graphics.Logic.BrushCF();
+            this.m_Text13.EnabledDynamicsValue = true;
+            this.m_Text13.FontSizePixels = 20;
+            this.m_Text13.Foreground = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.m_Text13.Height = 21;
+            this.m_Text13.Left = 149;
+            this.m_Text13.Name = "m_Text13";
+            this.m_Text13.ScreenOwnerName = "Regulator";
+            stringintervalmappercf3.DefaultValue = "StatusTxt";
+            stringintervalcf5.End = 1D;
+            stringintervalcf5.Start = 1D;
+            stringintervalcf5.Value = "DRIFT";
+            stringintervalcf6.Value = "INAKTIV";
+            stringintervalmappercf3.Intervals.Add(stringintervalcf5);
+            stringintervalmappercf3.Intervals.Add(stringintervalcf6);
+            this.m_Text13.TextIntervalMapper = stringintervalmappercf3;
+            this.m_Text13.Top = 26;
+            this.m_Text13.VisibleDynamicsValue = true;
+            this.m_Text13.Width = 49;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.ClientSize = new System.Drawing.Size(800, 600);
             this.IsCacheable = true;
@@ -1305,12 +1601,18 @@ namespace Neo.ApplicationFramework.Generated {
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Never)]
         public override void AddControls() {
+            this.Controls.Add(this.m_TouchComboBox);
+            ((System.ComponentModel.ISupportInitialize)(this.m_TouchComboBox)).EndInit();
             base.AddControls();
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Never)]
         public override void AddDrawingPrimitives() {
             base.AddDrawingPrimitives();
+            this.DrawingPrimitives.Add(this.m_Rectangle4);
+            this.DrawingPrimitives.Add(this.m_Rectangle3);
+            this.DrawingPrimitives.Add(this.m_Rectangle1);
+            this.DrawingPrimitives.Add(this.m_Rectangle);
             this.DrawingPrimitives.Add(this.m_Button2);
             this.DrawingPrimitives.Add(this.m_Button3);
             this.DrawingPrimitives.Add(this.m_Button4);
@@ -1347,7 +1649,11 @@ namespace Neo.ApplicationFramework.Generated {
             this.DrawingPrimitives.Add(this.m_Text9);
             this.DrawingPrimitives.Add(this.m_Ellipse2);
             this.DrawingPrimitives.Add(this.m_Ellipse);
+            this.DrawingPrimitives.Add(this.m_Text5);
+            this.DrawingPrimitives.Add(this.m_Rectangle8);
             this.DrawingPrimitives.Add(this.m_Text2);
+            this.DrawingPrimitives.Add(this.m_Text6);
+            this.DrawingPrimitives.Add(this.m_Text13);
             ((System.ComponentModel.ISupportInitialize)(this.m_Button2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.m_Button3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.m_Button4)).EndInit();
@@ -1380,7 +1686,10 @@ namespace Neo.ApplicationFramework.Generated {
             ((System.ComponentModel.ISupportInitialize)(this.m_Button1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.m_Text8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.m_Text9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.m_Text5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.m_Text2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.m_Text6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.m_Text13)).EndInit();
         }
         
         private void m_Button2_Action_Click(object sender, System.EventArgs e) {
@@ -1455,7 +1764,7 @@ namespace Neo.ApplicationFramework.Generated {
             this.m_Button15.Text = resources.GetText("Regulator.Button15.Text", "På");
             this.m_Text1.Text = resources.GetText("Regulator.Text1.Text", "Regulatortype");
             this.m_Text3.Text = resources.GetText("Regulator.Text3.Text", "Modus");
-            this.m_Text4.Text = resources.GetText("Regulator.Text4.Text", "Nominelt pådrag:");
+            this.m_Text4.Text = resources.GetText("Regulator.Text4.Text", "Nom. pådrag:");
             this.m_Text7.Text = resources.GetText("Regulator.Text7.Text", "N (Td/N)");
             this.m_Button17.Text = resources.GetText("Regulator.Button17.Text", "PD");
             this.m_Text10.Text = resources.GetText("Regulator.Text10.Text", "Kp:");
@@ -1463,9 +1772,9 @@ namespace Neo.ApplicationFramework.Generated {
             this.m_Text12.Text = resources.GetText("Regulator.Text12.Text", "Ki:");
             this.m_AnalogNumeric4.Suffix = resources.GetText("Regulator.AnalogNumeric4.Suffix", "%");
             this.m_AnalogNumeric8.Suffix = resources.GetText("Regulator.AnalogNumeric8.Suffix", "%/s");
-            this.m_Text16.Text = resources.GetText("Regulator.Text16.Text", "Ratebegr.");
+            this.m_Text16.Text = resources.GetText("Regulator.Text16.Text", "Ratebegrensning:");
             this.m_AnalogNumeric5.Suffix = resources.GetText("Regulator.AnalogNumeric5.Suffix", "%");
-            this.m_Text14.Text = resources.GetText("Regulator.Text14.Text", "Manuelt pådrag:");
+            this.m_Text14.Text = resources.GetText("Regulator.Text14.Text", "Man. pådrag:");
             this.m_Button6.Text = resources.GetText("Regulator.Button6.Text", "P");
             this.m_Button11.Text = resources.GetText("Regulator.Button11.Text", "Alarmer");
             this.m_Button10.Text = resources.GetText("Regulator.Button10.Text", "Hjem");
@@ -1473,7 +1782,13 @@ namespace Neo.ApplicationFramework.Generated {
             this.m_Button1.Text = resources.GetText("Regulator.Button1.Text", "Regulering");
             this.m_Text8.Text = resources.GetText("Regulator.Text8.Text", "Alarm");
             this.m_Text9.Text = resources.GetText("Regulator.Text9.Text", "Alarm");
-            this.m_Text2.Text = resources.GetText("Regulator.Text2.Text", "Verdier som hentes/sendes til pls må være andre enn interne:)");
+            this.m_Text5.Text = resources.GetText("Regulator.Text5.Text", "Styring");
+            this.m_Text2.Text = resources.GetText("Regulator.Text2.Text", "STATUS");
+            this.m_Text6.Text = resources.GetText("Regulator.Text6.Text", "StatusTxt");
+            this.m_Text13.Text = resources.GetText("Regulator.Text13.Text", "StatusTxt");
+            resources.ApplyTexts(this.m_Text13, "Texts", "Regulator.Text13.Texts[0]", "DRIFT", "Regulator.Text13.Texts[1]", "INAKTIV");
+            resources.ApplyTexts(this.m_Text6, "Texts", "Regulator.Text6.Texts[0]", "DRIFT", "Regulator.Text6.Texts[1]", "INAKTIV");
+            resources.ApplyTexts(this.m_TouchComboBox, "Texts", "Regulator.TouchComboBox.Texts[0]", "Frekvensomformer", "Regulator.TouchComboBox.Texts[1]", "Reguleringsventil");
             this.ApplyResourcesOnForm();
         }
         
@@ -1498,87 +1813,114 @@ namespace Neo.ApplicationFramework.Generated {
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Never)]
         public override void ConnectDataBindings() {
             base.ConnectDataBindings();
-            Neo.ApplicationFramework.Common.Data.DynamicBinding dynamicBinding1 = new Neo.ApplicationFramework.Common.Data.DynamicBinding("VisibleDynamicsValue", Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateProxy("Tags.Auto_man_farger"), "Value", true, System.Windows.Forms.DataSourceUpdateMode.Never, Neo.ApplicationFramework.Common.Dynamics.BoolDynamicsConverterCF.TrueValueOne);
-            this.m_AnalogNumeric5.DataBindings.Add(dynamicBinding1);
+            Neo.ApplicationFramework.Common.Data.DynamicBinding dynamicBinding1 = new Neo.ApplicationFramework.Common.Data.DynamicBinding("VisibleDynamicsValue", Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateProxy("Tags.Kritisk_alarm_synling"), "Value", true, System.Windows.Forms.DataSourceUpdateMode.Never, Neo.ApplicationFramework.Common.Dynamics.BoolDynamicsConverterCF.TrueValueOne);
+            this.m_Text8.DataBindings.Add(dynamicBinding1);
             this.m_DynamicBindings.Add(dynamicBinding1);
-            Neo.ApplicationFramework.Common.Data.DynamicBinding dynamicBinding2 = new Neo.ApplicationFramework.Common.Data.DynamicBinding("Background", Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateProxy("Tags.Auto_man_farger"), "Value", true, System.Windows.Forms.DataSourceUpdateMode.Never, brushdynamicsconvertercf10);
-            this.m_Button.DataBindings.Add(dynamicBinding2);
+            Neo.ApplicationFramework.Common.Data.DynamicBinding dynamicBinding2 = new Neo.ApplicationFramework.Common.Data.DynamicBinding("VisibleDynamicsValue", Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateProxy("Tags.Kritisk_alarm_synling"), "Value", true, System.Windows.Forms.DataSourceUpdateMode.Never, Neo.ApplicationFramework.Common.Dynamics.BoolDynamicsConverterCF.TrueValueOne);
+            this.m_Ellipse3.DataBindings.Add(dynamicBinding2);
             this.m_DynamicBindings.Add(dynamicBinding2);
-            Neo.ApplicationFramework.Common.Data.DynamicBinding dynamicBinding3 = new Neo.ApplicationFramework.Common.Data.DynamicBinding("Background", Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateProxy("Tags.PID_farger"), "Value", true, System.Windows.Forms.DataSourceUpdateMode.Never, brushdynamicsconvertercf11);
-            this.m_Button6.DataBindings.Add(dynamicBinding3);
+            Neo.ApplicationFramework.Common.Data.DynamicBinding dynamicBinding3 = new Neo.ApplicationFramework.Common.Data.DynamicBinding("VisibleDynamicsValue", Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateProxy("Tags.Alarm_synling"), "Value", true, System.Windows.Forms.DataSourceUpdateMode.Never, Neo.ApplicationFramework.Common.Dynamics.BoolDynamicsConverterCF.TrueValueOne);
+            this.m_Ellipse2.DataBindings.Add(dynamicBinding3);
             this.m_DynamicBindings.Add(dynamicBinding3);
-            Neo.ApplicationFramework.Common.Data.DynamicBinding dynamicBinding4 = new Neo.ApplicationFramework.Common.Data.DynamicBinding("VisibleDynamicsValue", Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateProxy("Tags.Auto_man_farger"), "Value", true, System.Windows.Forms.DataSourceUpdateMode.Never, Neo.ApplicationFramework.Common.Dynamics.BoolDynamicsConverterCF.TrueValueOne);
-            this.m_Text14.DataBindings.Add(dynamicBinding4);
+            Neo.ApplicationFramework.Common.Data.DynamicBinding dynamicBinding4 = new Neo.ApplicationFramework.Common.Data.DynamicBinding("VisibleDynamicsValue", Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateProxy("Tags.Alarm_synling"), "Value", true, System.Windows.Forms.DataSourceUpdateMode.Never, Neo.ApplicationFramework.Common.Dynamics.BoolDynamicsConverterCF.TrueValueOne);
+            this.m_Text9.DataBindings.Add(dynamicBinding4);
             this.m_DynamicBindings.Add(dynamicBinding4);
-            Neo.ApplicationFramework.Common.Data.DynamicBinding dynamicBinding5 = new Neo.ApplicationFramework.Common.Data.DynamicBinding("VisibleDynamicsValue", Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateProxy("Tags.Auto_man_farger"), "Value", true, System.Windows.Forms.DataSourceUpdateMode.Never, new Neo.ApplicationFramework.Common.Dynamics.BoolDynamicsConverterCF("", 2));
-            this.m_AnalogNumeric4.DataBindings.Add(dynamicBinding5);
+            Neo.ApplicationFramework.Common.Data.DynamicBinding dynamicBinding5 = new Neo.ApplicationFramework.Common.Data.DynamicBinding("IsBlinkEnabled", Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateProxy("Tags.Kritisk_alarm_synling"), "Value", true, System.Windows.Forms.DataSourceUpdateMode.Never, Neo.ApplicationFramework.Common.Dynamics.BoolDynamicsConverterCF.TrueValueOne);
+            this.m_Ellipse3.DataBindings.Add(dynamicBinding5);
             this.m_DynamicBindings.Add(dynamicBinding5);
-            Neo.ApplicationFramework.Common.Data.DynamicBinding dynamicBinding6 = new Neo.ApplicationFramework.Common.Data.DynamicBinding("Value", Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateProxy("Tags.Pådrag"), "Value", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged, Neo.ApplicationFramework.Common.Dynamics.VariantValueConverterCF.Default);
-            this.m_AnalogNumeric5.DataBindings.Add(dynamicBinding6);
+            Neo.ApplicationFramework.Common.Data.DynamicBinding dynamicBinding6 = new Neo.ApplicationFramework.Common.Data.DynamicBinding("Background", Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateProxy("Tags.Auto_man_farger"), "Value", true, System.Windows.Forms.DataSourceUpdateMode.Never, brushdynamicsconvertercf10);
+            this.m_Button.DataBindings.Add(dynamicBinding6);
             this.m_DynamicBindings.Add(dynamicBinding6);
-            Neo.ApplicationFramework.Common.Data.DynamicBinding dynamicBinding7 = new Neo.ApplicationFramework.Common.Data.DynamicBinding("VisibleDynamicsValue", Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateProxy("Tags.Alarm_synling"), "Value", true, System.Windows.Forms.DataSourceUpdateMode.Never, Neo.ApplicationFramework.Common.Dynamics.BoolDynamicsConverterCF.TrueValueOne);
-            this.m_Ellipse1.DataBindings.Add(dynamicBinding7);
+            Neo.ApplicationFramework.Common.Data.DynamicBinding dynamicBinding7 = new Neo.ApplicationFramework.Common.Data.DynamicBinding("VisibleDynamicsValue", Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateProxy("Tags.Auto_man_farger"), "Value", true, System.Windows.Forms.DataSourceUpdateMode.Never, Neo.ApplicationFramework.Common.Dynamics.BoolDynamicsConverterCF.TrueValueOne);
+            this.m_AnalogNumeric5.DataBindings.Add(dynamicBinding7);
             this.m_DynamicBindings.Add(dynamicBinding7);
             Neo.ApplicationFramework.Common.Data.DynamicBinding dynamicBinding8 = new Neo.ApplicationFramework.Common.Data.DynamicBinding("VisibleDynamicsValue", Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateProxy("Tags.Alarm_synling"), "Value", true, System.Windows.Forms.DataSourceUpdateMode.Never, Neo.ApplicationFramework.Common.Dynamics.BoolDynamicsConverterCF.TrueValueOne);
-            this.m_Text9.DataBindings.Add(dynamicBinding8);
+            this.m_Ellipse1.DataBindings.Add(dynamicBinding8);
             this.m_DynamicBindings.Add(dynamicBinding8);
-            Neo.ApplicationFramework.Common.Data.DynamicBinding dynamicBinding9 = new Neo.ApplicationFramework.Common.Data.DynamicBinding("VisibleDynamicsValue", Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateProxy("Tags.Alarm_synling"), "Value", true, System.Windows.Forms.DataSourceUpdateMode.Never, Neo.ApplicationFramework.Common.Dynamics.BoolDynamicsConverterCF.TrueValueOne);
-            this.m_Ellipse2.DataBindings.Add(dynamicBinding9);
+            Neo.ApplicationFramework.Common.Data.DynamicBinding dynamicBinding9 = new Neo.ApplicationFramework.Common.Data.DynamicBinding("Background", Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateProxy("Tags.PID_farger"), "Value", true, System.Windows.Forms.DataSourceUpdateMode.Never, brushdynamicsconvertercf11);
+            this.m_Button6.DataBindings.Add(dynamicBinding9);
             this.m_DynamicBindings.Add(dynamicBinding9);
-            Neo.ApplicationFramework.Common.Data.DynamicBinding dynamicBinding10 = new Neo.ApplicationFramework.Common.Data.DynamicBinding("VisibleDynamicsValue", Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateProxy("Tags.Kritisk_alarm_synling"), "Value", true, System.Windows.Forms.DataSourceUpdateMode.Never, Neo.ApplicationFramework.Common.Dynamics.BoolDynamicsConverterCF.TrueValueOne);
-            this.m_Ellipse.DataBindings.Add(dynamicBinding10);
+            Neo.ApplicationFramework.Common.Data.DynamicBinding dynamicBinding10 = new Neo.ApplicationFramework.Common.Data.DynamicBinding("BorderBrush", Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateProxy("Tags.StatusTxt"), "Value", true, System.Windows.Forms.DataSourceUpdateMode.Never, brushdynamicsconvertercf14);
+            this.m_Text13.DataBindings.Add(dynamicBinding10);
             this.m_DynamicBindings.Add(dynamicBinding10);
-            Neo.ApplicationFramework.Common.Data.DynamicBinding dynamicBinding11 = new Neo.ApplicationFramework.Common.Data.DynamicBinding("IsBlinkEnabled", Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateProxy("Tags.Kritisk_alarm_synling"), "Value", true, System.Windows.Forms.DataSourceUpdateMode.Never, Neo.ApplicationFramework.Common.Dynamics.BoolDynamicsConverterCF.TrueValueOne);
-            this.m_Ellipse3.DataBindings.Add(dynamicBinding11);
+            Neo.ApplicationFramework.Common.Data.DynamicBinding dynamicBinding11 = new Neo.ApplicationFramework.Common.Data.DynamicBinding("Value", Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateProxy("Tags.StatusTxt"), "Value", true, System.Windows.Forms.DataSourceUpdateMode.Never, Neo.ApplicationFramework.Common.Dynamics.VariantValueConverterCF.Default);
+            this.m_Text13.DataBindings.Add(dynamicBinding11);
             this.m_DynamicBindings.Add(dynamicBinding11);
-            Neo.ApplicationFramework.Common.Data.DynamicBinding dynamicBinding12 = new Neo.ApplicationFramework.Common.Data.DynamicBinding("VisibleDynamicsValue", Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateProxy("Tags.Kritisk_alarm_synling"), "Value", true, System.Windows.Forms.DataSourceUpdateMode.Never, Neo.ApplicationFramework.Common.Dynamics.BoolDynamicsConverterCF.TrueValueOne);
-            this.m_Ellipse3.DataBindings.Add(dynamicBinding12);
+            Neo.ApplicationFramework.Common.Data.DynamicBinding dynamicBinding12 = new Neo.ApplicationFramework.Common.Data.DynamicBinding("VisibleDynamicsValue", Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateProxy("Tags.StatusTxt"), "Value", true, System.Windows.Forms.DataSourceUpdateMode.Never, Neo.ApplicationFramework.Common.Dynamics.BoolDynamicsConverterCF.TrueValueZero);
+            this.m_Text13.DataBindings.Add(dynamicBinding12);
             this.m_DynamicBindings.Add(dynamicBinding12);
-            Neo.ApplicationFramework.Common.Data.DynamicBinding dynamicBinding13 = new Neo.ApplicationFramework.Common.Data.DynamicBinding("VisibleDynamicsValue", Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateProxy("Tags.Kritisk_alarm_synling"), "Value", true, System.Windows.Forms.DataSourceUpdateMode.Never, Neo.ApplicationFramework.Common.Dynamics.BoolDynamicsConverterCF.TrueValueOne);
-            this.m_Text8.DataBindings.Add(dynamicBinding13);
+            Neo.ApplicationFramework.Common.Data.DynamicBinding dynamicBinding13 = new Neo.ApplicationFramework.Common.Data.DynamicBinding("Background", Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateProxy("Tags.StatusTxt"), "Value", true, System.Windows.Forms.DataSourceUpdateMode.Never, brushdynamicsconvertercf15);
+            this.m_Text13.DataBindings.Add(dynamicBinding13);
             this.m_DynamicBindings.Add(dynamicBinding13);
-            Neo.ApplicationFramework.Common.Data.DynamicBinding dynamicBinding14 = new Neo.ApplicationFramework.Common.Data.DynamicBinding("Value", Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateProxy("Tags.Kd"), "Value", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged, Neo.ApplicationFramework.Common.Dynamics.VariantValueConverterCF.Default);
-            this.m_AnalogNumeric3.DataBindings.Add(dynamicBinding14);
+            Neo.ApplicationFramework.Common.Data.DynamicBinding dynamicBinding14 = new Neo.ApplicationFramework.Common.Data.DynamicBinding("VisibleDynamicsValue", Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateProxy("Tags.StatusTxt"), "Value", true, System.Windows.Forms.DataSourceUpdateMode.Never, Neo.ApplicationFramework.Common.Dynamics.BoolDynamicsConverterCF.TrueValueOne);
+            this.m_Text6.DataBindings.Add(dynamicBinding14);
             this.m_DynamicBindings.Add(dynamicBinding14);
-            Neo.ApplicationFramework.Common.Data.DynamicBinding dynamicBinding15 = new Neo.ApplicationFramework.Common.Data.DynamicBinding("Background", Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateProxy("Tags.PID_farger"), "Value", true, System.Windows.Forms.DataSourceUpdateMode.Never, brushdynamicsconvertercf3);
-            this.m_Button4.DataBindings.Add(dynamicBinding15);
+            Neo.ApplicationFramework.Common.Data.DynamicBinding dynamicBinding15 = new Neo.ApplicationFramework.Common.Data.DynamicBinding("Value", Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateProxy("Tags.StatusTxt"), "Value", true, System.Windows.Forms.DataSourceUpdateMode.Never, Neo.ApplicationFramework.Common.Dynamics.VariantValueConverterCF.Default);
+            this.m_Text6.DataBindings.Add(dynamicBinding15);
             this.m_DynamicBindings.Add(dynamicBinding15);
-            Neo.ApplicationFramework.Common.Data.DynamicBinding dynamicBinding16 = new Neo.ApplicationFramework.Common.Data.DynamicBinding("Background", Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateProxy("Tags.Foroverkobling_farger"), "Value", true, System.Windows.Forms.DataSourceUpdateMode.Never, brushdynamicsconvertercf4);
-            this.m_Button12.DataBindings.Add(dynamicBinding16);
+            Neo.ApplicationFramework.Common.Data.DynamicBinding dynamicBinding16 = new Neo.ApplicationFramework.Common.Data.DynamicBinding("VisibleDynamicsValue", Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateProxy("Tags.Kritisk_alarm_synling"), "Value", true, System.Windows.Forms.DataSourceUpdateMode.Never, Neo.ApplicationFramework.Common.Dynamics.BoolDynamicsConverterCF.TrueValueOne);
+            this.m_Ellipse.DataBindings.Add(dynamicBinding16);
             this.m_DynamicBindings.Add(dynamicBinding16);
-            Neo.ApplicationFramework.Common.Data.DynamicBinding dynamicBinding17 = new Neo.ApplicationFramework.Common.Data.DynamicBinding("Background", Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateProxy("Tags.Foroverkobling_farger"), "Value", true, System.Windows.Forms.DataSourceUpdateMode.Never, brushdynamicsconvertercf5);
-            this.m_Button15.DataBindings.Add(dynamicBinding17);
+            Neo.ApplicationFramework.Common.Data.DynamicBinding dynamicBinding17 = new Neo.ApplicationFramework.Common.Data.DynamicBinding("Background", Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateProxy("Tags.StatusTxt"), "Value", true, System.Windows.Forms.DataSourceUpdateMode.Never, brushdynamicsconvertercf13);
+            this.m_Text6.DataBindings.Add(dynamicBinding17);
             this.m_DynamicBindings.Add(dynamicBinding17);
-            Neo.ApplicationFramework.Common.Data.DynamicBinding dynamicBinding18 = new Neo.ApplicationFramework.Common.Data.DynamicBinding("Value", Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateProxy("Tags.Modus"), "Value", true, System.Windows.Forms.DataSourceUpdateMode.Never, Neo.ApplicationFramework.Common.Dynamics.VariantValueConverterCF.Default);
-            this.m_Button2.DataBindings.Add(dynamicBinding18);
+            Neo.ApplicationFramework.Common.Data.DynamicBinding dynamicBinding18 = new Neo.ApplicationFramework.Common.Data.DynamicBinding("BorderBrush", Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateProxy("Tags.StatusTxt"), "Value", true, System.Windows.Forms.DataSourceUpdateMode.Never, brushdynamicsconvertercf12);
+            this.m_Text6.DataBindings.Add(dynamicBinding18);
             this.m_DynamicBindings.Add(dynamicBinding18);
-            Neo.ApplicationFramework.Common.Data.DynamicBinding dynamicBinding19 = new Neo.ApplicationFramework.Common.Data.DynamicBinding("Background", Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateProxy("Tags.Auto_man_farger"), "Value", true, System.Windows.Forms.DataSourceUpdateMode.Never, brushdynamicsconvertercf1);
-            this.m_Button2.DataBindings.Add(dynamicBinding19);
+            Neo.ApplicationFramework.Common.Data.DynamicBinding dynamicBinding19 = new Neo.ApplicationFramework.Common.Data.DynamicBinding("Background", Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateProxy("Tags.Foroverkobling_farger"), "Value", true, System.Windows.Forms.DataSourceUpdateMode.Never, brushdynamicsconvertercf5);
+            this.m_Button15.DataBindings.Add(dynamicBinding19);
             this.m_DynamicBindings.Add(dynamicBinding19);
-            Neo.ApplicationFramework.Common.Data.DynamicBinding dynamicBinding20 = new Neo.ApplicationFramework.Common.Data.DynamicBinding("Background", Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateProxy("Tags.PID_farger"), "Value", true, System.Windows.Forms.DataSourceUpdateMode.Never, brushdynamicsconvertercf2);
-            this.m_Button3.DataBindings.Add(dynamicBinding20);
+            Neo.ApplicationFramework.Common.Data.DynamicBinding dynamicBinding20 = new Neo.ApplicationFramework.Common.Data.DynamicBinding("Background", Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateProxy("Tags.Foroverkobling_farger"), "Value", true, System.Windows.Forms.DataSourceUpdateMode.Never, brushdynamicsconvertercf4);
+            this.m_Button12.DataBindings.Add(dynamicBinding20);
             this.m_DynamicBindings.Add(dynamicBinding20);
-            Neo.ApplicationFramework.Common.Data.DynamicBinding dynamicBinding21 = new Neo.ApplicationFramework.Common.Data.DynamicBinding("VisibleDynamicsValue", Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateProxy("Tags.Auto_man_farger"), "Value", true, System.Windows.Forms.DataSourceUpdateMode.Never, new Neo.ApplicationFramework.Common.Dynamics.BoolDynamicsConverterCF("", 2));
-            this.m_Text4.DataBindings.Add(dynamicBinding21);
+            Neo.ApplicationFramework.Common.Data.DynamicBinding dynamicBinding21 = new Neo.ApplicationFramework.Common.Data.DynamicBinding("Foreground", Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateProxy("Tags.PID_farger"), "Value", true, System.Windows.Forms.DataSourceUpdateMode.Never, brushdynamicsconvertercf6);
+            this.m_Text7.DataBindings.Add(dynamicBinding21);
             this.m_DynamicBindings.Add(dynamicBinding21);
-            Neo.ApplicationFramework.Common.Data.DynamicBinding dynamicBinding22 = new Neo.ApplicationFramework.Common.Data.DynamicBinding("Foreground", Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateProxy("Tags.PID_farger"), "Value", true, System.Windows.Forms.DataSourceUpdateMode.Never, brushdynamicsconvertercf8);
-            this.m_Text11.DataBindings.Add(dynamicBinding22);
+            Neo.ApplicationFramework.Common.Data.DynamicBinding dynamicBinding22 = new Neo.ApplicationFramework.Common.Data.DynamicBinding("VisibleDynamicsValue", Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateProxy("Tags.Auto_man_farger"), "Value", true, System.Windows.Forms.DataSourceUpdateMode.Never, new Neo.ApplicationFramework.Common.Dynamics.BoolDynamicsConverterCF("", 2));
+            this.m_Text4.DataBindings.Add(dynamicBinding22);
             this.m_DynamicBindings.Add(dynamicBinding22);
-            Neo.ApplicationFramework.Common.Data.DynamicBinding dynamicBinding23 = new Neo.ApplicationFramework.Common.Data.DynamicBinding("Value", Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateProxy("Tags.Ki"), "Value", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged, Neo.ApplicationFramework.Common.Dynamics.VariantValueConverterCF.Default);
-            this.m_AnalogNumeric2.DataBindings.Add(dynamicBinding23);
+            Neo.ApplicationFramework.Common.Data.DynamicBinding dynamicBinding23 = new Neo.ApplicationFramework.Common.Data.DynamicBinding("Background", Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateProxy("Tags.PID_farger"), "Value", true, System.Windows.Forms.DataSourceUpdateMode.Never, brushdynamicsconvertercf3);
+            this.m_Button4.DataBindings.Add(dynamicBinding23);
             this.m_DynamicBindings.Add(dynamicBinding23);
-            Neo.ApplicationFramework.Common.Data.DynamicBinding dynamicBinding24 = new Neo.ApplicationFramework.Common.Data.DynamicBinding("Foreground", Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateProxy("Tags.PID_farger"), "Value", true, System.Windows.Forms.DataSourceUpdateMode.Never, brushdynamicsconvertercf9);
-            this.m_Text12.DataBindings.Add(dynamicBinding24);
+            Neo.ApplicationFramework.Common.Data.DynamicBinding dynamicBinding24 = new Neo.ApplicationFramework.Common.Data.DynamicBinding("Value", Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateProxy("Tags.Modus"), "Value", true, System.Windows.Forms.DataSourceUpdateMode.Never, Neo.ApplicationFramework.Common.Dynamics.VariantValueConverterCF.Default);
+            this.m_Button2.DataBindings.Add(dynamicBinding24);
             this.m_DynamicBindings.Add(dynamicBinding24);
-            Neo.ApplicationFramework.Common.Data.DynamicBinding dynamicBinding25 = new Neo.ApplicationFramework.Common.Data.DynamicBinding("Foreground", Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateProxy("Tags.PID_farger"), "Value", true, System.Windows.Forms.DataSourceUpdateMode.Never, brushdynamicsconvertercf6);
-            this.m_Text7.DataBindings.Add(dynamicBinding25);
+            Neo.ApplicationFramework.Common.Data.DynamicBinding dynamicBinding25 = new Neo.ApplicationFramework.Common.Data.DynamicBinding("Value", Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateProxy("Tags.Styring_frekvens_eller_ventil"), "Value", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged, Neo.ApplicationFramework.Common.Dynamics.VariantValueConverterCF.Default);
+            this.m_TouchComboBox.DataBindings.Add(dynamicBinding25);
             this.m_DynamicBindings.Add(dynamicBinding25);
-            Neo.ApplicationFramework.Common.Data.DynamicBinding dynamicBinding26 = new Neo.ApplicationFramework.Common.Data.DynamicBinding("Background", Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateProxy("Tags.PID_farger"), "Value", true, System.Windows.Forms.DataSourceUpdateMode.Never, brushdynamicsconvertercf7);
-            this.m_Button17.DataBindings.Add(dynamicBinding26);
+            Neo.ApplicationFramework.Common.Data.DynamicBinding dynamicBinding26 = new Neo.ApplicationFramework.Common.Data.DynamicBinding("Background", Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateProxy("Tags.PID_farger"), "Value", true, System.Windows.Forms.DataSourceUpdateMode.Never, brushdynamicsconvertercf2);
+            this.m_Button3.DataBindings.Add(dynamicBinding26);
             this.m_DynamicBindings.Add(dynamicBinding26);
-            Neo.ApplicationFramework.Common.Data.DynamicBinding dynamicBinding27 = new Neo.ApplicationFramework.Common.Data.DynamicBinding("Value", Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateProxy("Tags.Kp"), "Value", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged, Neo.ApplicationFramework.Common.Dynamics.VariantValueConverterCF.Default);
-            this.m_AnalogNumeric.DataBindings.Add(dynamicBinding27);
+            Neo.ApplicationFramework.Common.Data.DynamicBinding dynamicBinding27 = new Neo.ApplicationFramework.Common.Data.DynamicBinding("Background", Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateProxy("Tags.Auto_man_farger"), "Value", true, System.Windows.Forms.DataSourceUpdateMode.Never, brushdynamicsconvertercf1);
+            this.m_Button2.DataBindings.Add(dynamicBinding27);
             this.m_DynamicBindings.Add(dynamicBinding27);
+            Neo.ApplicationFramework.Common.Data.DynamicBinding dynamicBinding28 = new Neo.ApplicationFramework.Common.Data.DynamicBinding("VisibleDynamicsValue", Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateProxy("Tags.Auto_man_farger"), "Value", true, System.Windows.Forms.DataSourceUpdateMode.Never, Neo.ApplicationFramework.Common.Dynamics.BoolDynamicsConverterCF.TrueValueOne);
+            this.m_Text14.DataBindings.Add(dynamicBinding28);
+            this.m_DynamicBindings.Add(dynamicBinding28);
+            Neo.ApplicationFramework.Common.Data.DynamicBinding dynamicBinding29 = new Neo.ApplicationFramework.Common.Data.DynamicBinding("Value", Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateProxy("Tags.Kd"), "Value", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged, Neo.ApplicationFramework.Common.Dynamics.VariantValueConverterCF.Default);
+            this.m_AnalogNumeric3.DataBindings.Add(dynamicBinding29);
+            this.m_DynamicBindings.Add(dynamicBinding29);
+            Neo.ApplicationFramework.Common.Data.DynamicBinding dynamicBinding30 = new Neo.ApplicationFramework.Common.Data.DynamicBinding("Value", Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateProxy("Tags.Pådrag"), "Value", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged, Neo.ApplicationFramework.Common.Dynamics.VariantValueConverterCF.Default);
+            this.m_AnalogNumeric5.DataBindings.Add(dynamicBinding30);
+            this.m_DynamicBindings.Add(dynamicBinding30);
+            Neo.ApplicationFramework.Common.Data.DynamicBinding dynamicBinding31 = new Neo.ApplicationFramework.Common.Data.DynamicBinding("VisibleDynamicsValue", Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateProxy("Tags.Auto_man_farger"), "Value", true, System.Windows.Forms.DataSourceUpdateMode.Never, new Neo.ApplicationFramework.Common.Dynamics.BoolDynamicsConverterCF("", 2));
+            this.m_AnalogNumeric4.DataBindings.Add(dynamicBinding31);
+            this.m_DynamicBindings.Add(dynamicBinding31);
+            Neo.ApplicationFramework.Common.Data.DynamicBinding dynamicBinding32 = new Neo.ApplicationFramework.Common.Data.DynamicBinding("Foreground", Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateProxy("Tags.PID_farger"), "Value", true, System.Windows.Forms.DataSourceUpdateMode.Never, brushdynamicsconvertercf9);
+            this.m_Text12.DataBindings.Add(dynamicBinding32);
+            this.m_DynamicBindings.Add(dynamicBinding32);
+            Neo.ApplicationFramework.Common.Data.DynamicBinding dynamicBinding33 = new Neo.ApplicationFramework.Common.Data.DynamicBinding("Value", Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateProxy("Tags.Kp"), "Value", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged, Neo.ApplicationFramework.Common.Dynamics.VariantValueConverterCF.Default);
+            this.m_AnalogNumeric.DataBindings.Add(dynamicBinding33);
+            this.m_DynamicBindings.Add(dynamicBinding33);
+            Neo.ApplicationFramework.Common.Data.DynamicBinding dynamicBinding34 = new Neo.ApplicationFramework.Common.Data.DynamicBinding("Background", Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateProxy("Tags.PID_farger"), "Value", true, System.Windows.Forms.DataSourceUpdateMode.Never, brushdynamicsconvertercf7);
+            this.m_Button17.DataBindings.Add(dynamicBinding34);
+            this.m_DynamicBindings.Add(dynamicBinding34);
+            Neo.ApplicationFramework.Common.Data.DynamicBinding dynamicBinding35 = new Neo.ApplicationFramework.Common.Data.DynamicBinding("Value", Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateProxy("Tags.Ki"), "Value", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged, Neo.ApplicationFramework.Common.Dynamics.VariantValueConverterCF.Default);
+            this.m_AnalogNumeric2.DataBindings.Add(dynamicBinding35);
+            this.m_DynamicBindings.Add(dynamicBinding35);
+            Neo.ApplicationFramework.Common.Data.DynamicBinding dynamicBinding36 = new Neo.ApplicationFramework.Common.Data.DynamicBinding("Foreground", Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateProxy("Tags.PID_farger"), "Value", true, System.Windows.Forms.DataSourceUpdateMode.Never, brushdynamicsconvertercf8);
+            this.m_Text11.DataBindings.Add(dynamicBinding36);
+            this.m_DynamicBindings.Add(dynamicBinding36);
         }
     }
 }

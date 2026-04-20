@@ -240,6 +240,16 @@
           <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" />
         </GlobalDataSubItems>
       </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" GlobalDataType="DT_BOOLEAN" d1p1:Site.Name="StatusTxt" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e">
+        <GlobalDataSubItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" />
+        </GlobalDataSubItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" GlobalDataType="DT_BOOLEAN" d1p1:Site.Name="Aktiv_Alarm" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e">
+        <GlobalDataSubItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" />
+        </GlobalDataSubItems>
+      </Object>
     </GlobalDataItems>
     <PollGroups>
       <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.PollGroup, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" Name="PollGroup1" Interval="500" d1p1:Site.Name="PollGroup1" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" />

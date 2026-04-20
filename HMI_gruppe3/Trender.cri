@@ -28,18 +28,23 @@
         <Item Target="Trender.Text1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
         <Item Target="Trender.Text2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
         <Item Target="Trender.TrendViewer" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
-        <Item Target="Trender.DigitalClock" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
         <Item Target="Trender.Button11" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
         <Item Target="Trender.Button10" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
         <Item Target="Trender.Button13" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
         <Item Target="Trender.Button" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Trender.DigitalClock" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
         <Item Target="Trender.Text8" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
         <Item Target="Trender.Text9" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Trender.Text11" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Trender.Text12" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Trender.Text10" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
       </Items>
     </Category>
     <Category Name="GlobalDataItem">
       <Items>
         <Item xsi:type="DecoratedItem" Target="Trender.TrendViewer.Curve" TargetProperty="DataSourceName" Source="Tags.Pådrag" />
+        <Item xsi:type="DecoratedItem" Target="Trender.TrendViewer.Curve1" TargetProperty="DataSourceName" Source="Tags.Settpunkt" />
+        <Item xsi:type="DecoratedItem" Target="Trender.TrendViewer.Curve2" TargetProperty="DataSourceName" Source="Tags.Prosessverdi" />
         <Item Target="Trender.Ellipse1" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Alarm_synling" />
         <Item Target="Trender.Ellipse3" TargetProperty="BlinkProperties.IsBlinkEnabled" Source="Tags.Kritisk_alarm_synling" />
         <Item Target="Trender.Ellipse3" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Kritisk_alarm_synling" />
@@ -47,6 +52,14 @@
         <Item Target="Trender.Text9" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Alarm_synling" />
         <Item Target="Trender.Ellipse2" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Alarm_synling" />
         <Item Target="Trender.Ellipse" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Kritisk_alarm_synling" />
+        <Item Target="Trender.Text11" TargetProperty="Value" Source="Tags.StatusTxt" />
+        <Item Target="Trender.Text11" TargetProperty="BorderBrush" Source="Tags.StatusTxt" />
+        <Item Target="Trender.Text11" TargetProperty="Background" Source="Tags.StatusTxt" />
+        <Item Target="Trender.Text11" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.StatusTxt" />
+        <Item Target="Trender.Text12" TargetProperty="Value" Source="Tags.StatusTxt" />
+        <Item Target="Trender.Text12" TargetProperty="BorderBrush" Source="Tags.StatusTxt" />
+        <Item Target="Trender.Text12" TargetProperty="Background" Source="Tags.StatusTxt" />
+        <Item Target="Trender.Text12" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.StatusTxt" />
       </Items>
     </Category>
     <Category Name="Object">
@@ -73,7 +86,7 @@
           <ScreenName>Trender</ScreenName>
         </Item>
         <Item xsi:type="ScreenObjectsCrossReferenceItem">
-          <ObjectsCount>15</ObjectsCount>
+          <ObjectsCount>21</ObjectsCount>
           <ScreenName>Trender</ScreenName>
         </Item>
       </Items>
@@ -92,9 +105,11 @@
     </Category>
     <Category Name="TrendViewer">
       <Items>
-        <Item xsi:type="TrendViewerItem" Target="Trender.TrendViewer" TrendWidth="569" TimeRangeBoundDataItem="" TimeRange="PT10M">
+        <Item xsi:type="TrendViewerItem" Target="Trender.TrendViewer" TrendWidth="549" TimeRangeBoundDataItem="" TimeRange="PT10M">
           <DataSourceNames>
             <DataSourceName>Tags.Pådrag</DataSourceName>
+            <DataSourceName>Tags.Settpunkt</DataSourceName>
+            <DataSourceName>Tags.Prosessverdi</DataSourceName>
           </DataSourceNames>
         </Item>
       </Items>

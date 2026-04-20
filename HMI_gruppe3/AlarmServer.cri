@@ -14,7 +14,17 @@
       <Items />
     </Category>
     <Category Name="GlobalDataItem">
-      <Items />
+      <Items>
+        <Item xsi:type="ActionItem" Target="AlarmServer" TargetProperty="Action" Source="Tags.Aktiv_Alarm" Event="AnyActive" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="AlarmServer" TargetProperty="Action" Source="Tags.Aktiv_Alarm" Event="AlarmActive" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="AlarmServer.Default.Prosessverdi" TargetProperty="Action" Source="Tags.Aktiv_Alarm" Event="AlarmActive" Action="Set Analog" Param="" />
+        <Item Target="AlarmServer.Default.Prosessverdi" TargetProperty="Value" Source="Tags.Prosessverdi" />
+        <Item Target="AlarmServer.Default.Prosessverdi1" TargetProperty="Value" Source="Tags.Prosessverdi" />
+        <Item Target="AlarmServer.Default.Prosessverdi2" TargetProperty="Value" Source="Tags.Prosessverdi" />
+        <Item Target="AlarmServer.Default.Prosessverdi3" TargetProperty="Value" Source="Tags.Prosessverdi" />
+        <Item Target="AlarmServer.Default.Prosessverdi4" TargetProperty="Value" Source="Tags.Alarm_synling" />
+        <Item Target="AlarmServer.Default.Prosessverdi5" TargetProperty="Value" Source="Tags.Kritisk_alarm_synling" />
+      </Items>
     </Category>
     <Category Name="Recipe">
       <Items />
@@ -29,7 +39,17 @@
       <Items />
     </Category>
     <Category Name="StructuredTag">
-      <Items />
+      <Items>
+        <Item xsi:type="ActionItem" Target="AlarmServer" TargetProperty="Action" Source="Tags.Aktiv_Alarm" Event="AnyActive" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="AlarmServer" TargetProperty="Action" Source="Tags.Aktiv_Alarm" Event="AlarmActive" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="AlarmServer.Default.Prosessverdi" TargetProperty="Action" Source="Tags.Aktiv_Alarm" Event="AlarmActive" Action="Set Analog" Param="" />
+        <Item Target="AlarmServer.Default.Prosessverdi" TargetProperty="Value" Source="Tags.Prosessverdi" />
+        <Item Target="AlarmServer.Default.Prosessverdi1" TargetProperty="Value" Source="Tags.Prosessverdi" />
+        <Item Target="AlarmServer.Default.Prosessverdi2" TargetProperty="Value" Source="Tags.Prosessverdi" />
+        <Item Target="AlarmServer.Default.Prosessverdi3" TargetProperty="Value" Source="Tags.Prosessverdi" />
+        <Item Target="AlarmServer.Default.Prosessverdi4" TargetProperty="Value" Source="Tags.Alarm_synling" />
+        <Item Target="AlarmServer.Default.Prosessverdi5" TargetProperty="Value" Source="Tags.Kritisk_alarm_synling" />
+      </Items>
     </Category>
   </Categories>
 </CrossReferences>

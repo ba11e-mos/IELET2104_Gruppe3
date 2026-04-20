@@ -1,0 +1,162 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.21.28.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="Regulator.Button" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Regulator.Button2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Regulator.Button3" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Regulator.Button4" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Regulator.Text" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Regulator.Button12" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Regulator.Button15" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Regulator.Text1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Regulator.Text3" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Regulator.Text4" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Regulator.Text7" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Regulator.Button17" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Regulator.AnalogNumeric" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Regulator.Text10" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Regulator.Text11" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Regulator.AnalogNumeric2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Regulator.Text12" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Regulator.AnalogNumeric3" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Regulator.AnalogNumeric4" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Regulator.AnalogNumeric7" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Regulator.AnalogNumeric8" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Regulator.Text16" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Regulator.AnalogNumeric5" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Regulator.Text14" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Regulator.DigitalClock" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Regulator.Button6" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Regulator.Button11" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Regulator.Button10" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Regulator.Button13" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Regulator.Button1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Regulator.Text8" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Regulator.Text9" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Regulator.Text2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item xsi:type="ActionItem" Target="Regulator.Button" TargetProperty="Actions" Source="Tags.Auto_man_farger" Event="Click" Action="Set Analog" Param="" />
+        <Item Target="Regulator.Button" TargetProperty="Background" Source="Tags.Auto_man_farger" />
+        <Item xsi:type="ActionItem" Target="Regulator.Button2" TargetProperty="Actions" Source="Tags.Auto_man_farger" Event="Click" Action="Set Analog" Param="" />
+        <Item Target="Regulator.Button2" TargetProperty="Value" Source="Tags.Modus" />
+        <Item Target="Regulator.Button2" TargetProperty="Background" Source="Tags.Auto_man_farger" />
+        <Item xsi:type="ActionItem" Target="Regulator.Button3" TargetProperty="Actions" Source="Tags.PID_farger" Event="Click" Action="Set Analog" Param="" />
+        <Item Target="Regulator.Button3" TargetProperty="Background" Source="Tags.PID_farger" />
+        <Item xsi:type="ActionItem" Target="Regulator.Button4" TargetProperty="Actions" Source="Tags.PID_farger" Event="Click" Action="Set Analog" Param="" />
+        <Item Target="Regulator.Button4" TargetProperty="Background" Source="Tags.PID_farger" />
+        <Item xsi:type="ActionItem" Target="Regulator.Button12" TargetProperty="Actions" Source="Tags.Foroverkobling_farger" Event="Click" Action="Set Analog" Param="" />
+        <Item Target="Regulator.Button12" TargetProperty="Background" Source="Tags.Foroverkobling_farger" />
+        <Item xsi:type="ActionItem" Target="Regulator.Button15" TargetProperty="Actions" Source="Tags.Foroverkobling_farger" Event="Click" Action="Set Analog" Param="" />
+        <Item Target="Regulator.Button15" TargetProperty="Background" Source="Tags.Foroverkobling_farger" />
+        <Item Target="Regulator.Text4" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Auto_man_farger" />
+        <Item Target="Regulator.Text7" TargetProperty="Foreground" Source="Tags.PID_farger" />
+        <Item xsi:type="ActionItem" Target="Regulator.Button17" TargetProperty="Actions" Source="Tags.PID_farger" Event="Click" Action="Set Analog" Param="" />
+        <Item Target="Regulator.Button17" TargetProperty="Background" Source="Tags.PID_farger" />
+        <Item Target="Regulator.AnalogNumeric" TargetProperty="Value" Source="Tags.Kp" />
+        <Item Target="Regulator.Text11" TargetProperty="Foreground" Source="Tags.PID_farger" />
+        <Item Target="Regulator.AnalogNumeric2" TargetProperty="Value" Source="Tags.Ki" />
+        <Item Target="Regulator.Text12" TargetProperty="Foreground" Source="Tags.PID_farger" />
+        <Item Target="Regulator.AnalogNumeric3" TargetProperty="Value" Source="Tags.Kd" />
+        <Item Target="Regulator.AnalogNumeric4" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Auto_man_farger" />
+        <Item Target="Regulator.AnalogNumeric5" TargetProperty="Value" Source="Tags.Pådrag" />
+        <Item Target="Regulator.AnalogNumeric5" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Auto_man_farger" />
+        <Item Target="Regulator.Text14" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Auto_man_farger" />
+        <Item xsi:type="ActionItem" Target="Regulator.Button6" TargetProperty="Actions" Source="Tags.PID_farger" Event="Click" Action="Set Analog" Param="" />
+        <Item Target="Regulator.Button6" TargetProperty="Background" Source="Tags.PID_farger" />
+        <Item Target="Regulator.Ellipse1" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Alarm_synling" />
+        <Item Target="Regulator.Ellipse3" TargetProperty="BlinkProperties.IsBlinkEnabled" Source="Tags.Kritisk_alarm_synling" />
+        <Item Target="Regulator.Ellipse3" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Kritisk_alarm_synling" />
+        <Item Target="Regulator.Text8" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Kritisk_alarm_synling" />
+        <Item Target="Regulator.Text9" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Alarm_synling" />
+        <Item Target="Regulator.Ellipse2" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Alarm_synling" />
+        <Item Target="Regulator.Ellipse" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Kritisk_alarm_synling" />
+      </Items>
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items />
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ActionItem" Target="Regulator.Button11" TargetProperty="Actions" Source="Alarmer" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="Regulator.Button10" TargetProperty="Actions" Source="Hjem" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="Regulator.Button13" TargetProperty="Actions" Source="Trender" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="Regulator.Button1" TargetProperty="Actions" Source="Regulator" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>Regulator</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>37</ObjectsCount>
+          <ScreenName>Regulator</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items>
+        <Item Target="Regulator.Script.cs" Source="Tags.Modus" />
+        <Item Target="Regulator.Script.cs" Source="Tags.sModus" />
+        <Item Target="Regulator.Script.cs" Source="Tags.Kp" />
+        <Item Target="Regulator.Script.cs" Source="Tags.Ki" />
+        <Item Target="Regulator.Script.cs" Source="Tags.Kd" />
+      </Items>
+    </Category>
+    <Category Name="StructuredTag">
+      <Items>
+        <Item xsi:type="ActionItem" Target="Regulator.Button" TargetProperty="Actions" Source="Tags.Auto_man_farger" Event="Click" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="Regulator.Button2" TargetProperty="Actions" Source="Tags.Auto_man_farger" Event="Click" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="Regulator.Button3" TargetProperty="Actions" Source="Tags.PID_farger" Event="Click" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="Regulator.Button4" TargetProperty="Actions" Source="Tags.PID_farger" Event="Click" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="Regulator.Button12" TargetProperty="Actions" Source="Tags.Foroverkobling_farger" Event="Click" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="Regulator.Button15" TargetProperty="Actions" Source="Tags.Foroverkobling_farger" Event="Click" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="Regulator.Button17" TargetProperty="Actions" Source="Tags.PID_farger" Event="Click" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="Regulator.Button6" TargetProperty="Actions" Source="Tags.PID_farger" Event="Click" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Symbol">
+      <Items />
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

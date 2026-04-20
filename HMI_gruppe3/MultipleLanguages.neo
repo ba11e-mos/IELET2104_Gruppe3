@@ -120,7 +120,7 @@
       </Object>
       <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="Regulator" ObjectName="Text4" PropertyName="Text" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
         <ReferenceValue>
-          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Nominelt pådrag:" />
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Nom. pådrag:" />
         </ReferenceValue>
       </Object>
       <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="Regulator" ObjectName="Text7" PropertyName="Text" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
@@ -210,7 +210,7 @@
       </Object>
       <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="Regulator" ObjectName="Text16" PropertyName="Text" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
         <ReferenceValue>
-          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Ratebegr." />
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Ratebegrensning:" />
         </ReferenceValue>
       </Object>
       <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="Hjem" ObjectName="Button14" PropertyName="Text" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
@@ -240,7 +240,7 @@
       </Object>
       <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="Regulator" ObjectName="Text14" PropertyName="Text" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
         <ReferenceValue>
-          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Manuelt pådrag:" />
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Man. pådrag:" />
         </ReferenceValue>
       </Object>
       <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="Hjem" ObjectName="Text" PropertyName="Text" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
@@ -403,26 +403,6 @@
           <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Alarm" />
         </ReferenceValue>
       </Object>
-      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="Alarmer" ObjectName="Text8" PropertyName="Text" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
-        <ReferenceValue>
-          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Alarm" />
-        </ReferenceValue>
-      </Object>
-      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="Alarmer" ObjectName="Text9" PropertyName="Text" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
-        <ReferenceValue>
-          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Alarm" />
-        </ReferenceValue>
-      </Object>
-      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="Trender" ObjectName="Text8" PropertyName="Text" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
-        <ReferenceValue>
-          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Alarm" />
-        </ReferenceValue>
-      </Object>
-      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="Trender" ObjectName="Text9" PropertyName="Text" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
-        <ReferenceValue>
-          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Alarm" />
-        </ReferenceValue>
-      </Object>
       <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="Hjem" ObjectName="AnalogNumeric" PropertyName="Prefix" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
         <ReferenceValue>
           <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="" />
@@ -448,9 +428,229 @@
           <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Curve" />
         </ReferenceValue>
       </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="Trender" ObjectName="TrendViewer" PropertyName="Curves[1].DisplayName" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Curve1" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="Trender" ObjectName="TrendViewer" PropertyName="Curves[2].DisplayName" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Curve2" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="Hjem" ObjectName="Text10" PropertyName="Text" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="STATUS" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="Trender" ObjectName="Text8" PropertyName="Text" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Alarm" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="Trender" ObjectName="Text9" PropertyName="Text" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Alarm" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="Alarmer" ObjectName="Text8" PropertyName="Text" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Alarm" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="Alarmer" ObjectName="Text9" PropertyName="Text" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Alarm" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="Regulator" ObjectName="Text5" PropertyName="Text" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Styring" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="Regulator" ObjectName="TouchComboBox" PropertyName="Texts[0]" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Frekvensomformer" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="Regulator" ObjectName="TouchComboBox" PropertyName="Texts[1]" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Reguleringsventil" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="Hjem" ObjectName="Text11" PropertyName="Text" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="StatusTxt" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="Hjem" ObjectName="Text11" PropertyName="Texts[0]" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="DRIFT" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="Hjem" ObjectName="Text11" PropertyName="Texts[1]" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="INAKTIV" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="Hjem" ObjectName="Text12" PropertyName="Text" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="StatusTxt" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="Hjem" ObjectName="Text12" PropertyName="Texts[0]" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="DRIFT" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="Hjem" ObjectName="Text12" PropertyName="Texts[1]" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="INAKTIV" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="Alarmer" ObjectName="Text10" PropertyName="Text" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="STATUS" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="Alarmer" ObjectName="Text11" PropertyName="Text" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="StatusTxt" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="Alarmer" ObjectName="Text11" PropertyName="Texts[0]" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="DRIFT" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="Alarmer" ObjectName="Text11" PropertyName="Texts[1]" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="INAKTIV" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="Alarmer" ObjectName="Text12" PropertyName="Text" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="StatusTxt" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="Alarmer" ObjectName="Text12" PropertyName="Texts[0]" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="DRIFT" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="Alarmer" ObjectName="Text12" PropertyName="Texts[1]" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="INAKTIV" />
+        </ReferenceValue>
+      </Object>
       <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="Regulator" ObjectName="Text2" PropertyName="Text" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
         <ReferenceValue>
-          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Verdier som hentes/sendes til pls må være andre enn interne:)" />
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="STATUS" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="Regulator" ObjectName="Text6" PropertyName="Text" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="StatusTxt" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="Regulator" ObjectName="Text6" PropertyName="Texts[0]" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="DRIFT" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="Regulator" ObjectName="Text6" PropertyName="Texts[1]" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="INAKTIV" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="Regulator" ObjectName="Text13" PropertyName="Text" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="StatusTxt" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="Regulator" ObjectName="Text13" PropertyName="Texts[0]" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="DRIFT" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="Regulator" ObjectName="Text13" PropertyName="Texts[1]" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="INAKTIV" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="Trender" ObjectName="Text10" PropertyName="Text" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="STATUS" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="Trender" ObjectName="Text11" PropertyName="Text" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="StatusTxt" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="Trender" ObjectName="Text11" PropertyName="Texts[0]" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="DRIFT" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="Trender" ObjectName="Text11" PropertyName="Texts[1]" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="INAKTIV" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="Trender" ObjectName="Text12" PropertyName="Text" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="StatusTxt" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="Trender" ObjectName="Text12" PropertyName="Texts[0]" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="DRIFT" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="Trender" ObjectName="Text12" PropertyName="Texts[1]" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="INAKTIV" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="AlarmServer" ObjectName="Default_Prosessverdi" PropertyName="StaticText" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="HIHI" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="AlarmServer" ObjectName="Default_Prosessverdi1" PropertyName="StaticText" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="HI" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="AlarmServer" ObjectName="Default_Prosessverdi2" PropertyName="StaticText" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="LO" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="AlarmServer" ObjectName="Default_Prosessverdi3" PropertyName="StaticText" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="LOLO" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="AlarmServer" ObjectName="Default_Prosessverdi4" PropertyName="StaticText" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Alarm" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="Hjem" ObjectName="Text13" PropertyName="Text" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="AKTIV" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="Hjem" ObjectName="Text13" PropertyName="Texts[0]" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="AKTIV" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="AlarmServer" ObjectName="Default_Prosessverdi5" PropertyName="StaticText" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Alarm_kritisk" />
         </ReferenceValue>
       </Object>
     </ResourceItems>

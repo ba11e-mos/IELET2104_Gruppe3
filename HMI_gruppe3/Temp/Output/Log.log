@@ -1,0 +1,575 @@
+[Header Microsoft Windows NT 6.2.9200.0]
+2026-04-20 12:26:46,189 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: DateTimeEditToolCF
+2026-04-20 12:26:46,193 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: DebugLoggerTool
+2026-04-20 12:26:46,193 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: DeviceManagerToolCF
+2026-04-20 12:26:46,193 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: DriverPropertiesToolCF
+2026-04-20 12:26:46,193 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: EmailSenderTool
+2026-04-20 12:26:46,194 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: LicenseToolCF
+2026-04-20 12:26:46,194 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: NativeToolCF
+2026-04-20 12:26:46,194 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: NetworkToolCF
+2026-04-20 12:26:46,194 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: PrinterToolCF
+2026-04-20 12:26:46,195 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: ProjectInformationToolCF
+2026-04-20 12:26:46,195 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: RecipeToolCF
+2026-04-20 12:26:46,195 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: RenderableControlTool
+2026-04-20 12:26:46,195 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: CommandLineTool
+2026-04-20 12:26:46,196 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: MessageFilterTool
+2026-04-20 12:26:46,196 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: NotifierService
+2026-04-20 12:26:46,196 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: PrintScreenToolCF
+2026-04-20 12:26:46,197 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: TimerToolCF
+2026-04-20 12:26:46,197 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: Run
+2026-04-20 12:26:46,197 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: SimulationTool
+2026-04-20 12:26:46,197 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: ScreenManager
+2026-04-20 12:26:46,198 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: SecurityManagerToolCF
+2026-04-20 12:26:46,198 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: ObjectSerializationToolCF
+2026-04-20 12:26:46,198 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: SMSSenderTool
+2026-04-20 12:26:46,198 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: StorageCacheTool
+2026-04-20 12:26:46,198 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: StructuredTypesToolCF
+2026-04-20 12:26:46,198 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: SymbolService
+2026-04-20 12:26:46,199 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: SystemInformationToolCF
+2026-04-20 12:26:46,199 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: KeyPanelConfigToolCF
+2026-04-20 12:26:46,199 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: ScopeToolCF
+2026-04-20 12:26:46,199 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: TimeInformationToolCF
+2026-04-20 12:26:46,199 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: TrendDataToolCF
+2026-04-20 12:26:46,199 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: WebServerConfigToolCF
+2026-04-20 12:26:46,289 [1] INFO  BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx [(null)] - System.DllNotFoundException: Unable to load DLL 'BeHwApi.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.BeHWAPI_IsOptimus()
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.IsOptimus()
+2026-04-20 12:26:46,291 [1] INFO  Neo.ApplicationFramework.Common.Runtime.GlobalsBase [(null)] - Version: 2.21.28.0
+2026-04-20 12:26:46,296 [1] INFO  BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx [(null)] - System.DllNotFoundException: Unable to load DLL 'BeHwApi.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.BeHWAPI_IsOptimus()
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.IsOptimus()
+2026-04-20 12:26:46,303 [1] INFO  Core.Engine.ToolManager.Private.ToolMgrCF [(null)] - Initializing ToolManager
+2026-04-20 12:26:46,442 [1] INFO  BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx [(null)] - System.DllNotFoundException: Unable to load DLL 'BeHwApi.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.BeHWAPI_IsOptimus()
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.IsOptimus()
+2026-04-20 12:26:46,525 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase [(null)] - Database: Integrity check started.
+2026-04-20 12:26:46,526 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase [(null)] - Database: Integrity check finished without errors.
+2026-04-20 12:26:46,574 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase [(null)] - Database: Cleanup started.
+2026-04-20 12:26:46,587 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase [(null)] - Database: Cleanup recovered 0 bytes.
+2026-04-20 12:26:46,603 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase [(null)] - NonVolatileDatabase: Integrity check started.
+2026-04-20 12:26:46,603 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase [(null)] - NonVolatileDatabase: Integrity check finished without errors.
+2026-04-20 12:26:46,613 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase [(null)] - NonVolatileDatabase: Cleanup started.
+2026-04-20 12:26:46,624 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase [(null)] - NonVolatileDatabase: Cleanup recovered 0 bytes.
+2026-04-20 12:26:46,812 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController [(null)] - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2026-04-20 12:26:54,611 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController [(null)] - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2026-04-20 12:26:54,611 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController [(null)] - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2026-04-20 12:26:54,612 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController [(null)] - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2026-04-20 12:26:54,612 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController [(null)] - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2026-04-20 12:26:54,612 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController [(null)] - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+[Header Microsoft Windows NT 6.2.9200.0]
+2026-04-20 12:33:11,780 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: PlatformFactoryToolCF
+2026-04-20 12:33:11,785 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: FeatureSecurityToolCF
+2026-04-20 12:33:11,785 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: StorageToolCF
+2026-04-20 12:33:11,796 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: SqlCeDatabaseTool
+2026-04-20 12:33:11,798 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: SQLiteDatabaseToolCF
+2026-04-20 12:33:11,799 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: SplashServiceTool
+2026-04-20 12:33:11,799 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: DatabaseToolCF
+2026-04-20 12:33:11,799 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: MultiLanguageToolCF
+2026-04-20 12:33:11,799 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: MessageBoxToolCF
+2026-04-20 12:33:11,799 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: OpcClientToolCF
+2026-04-20 12:33:11,799 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: SystemTagToolCF
+2026-04-20 12:33:11,800 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: StorageClientToolCF
+2026-04-20 12:33:11,800 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: NonVolatileToolCF
+2026-04-20 12:33:11,800 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: ProjectTool
+2026-04-20 12:33:11,800 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: AlarmTool
+2026-04-20 12:33:11,800 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: AuditTrailToolCF
+2026-04-20 12:33:11,801 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: UserChangedAuditTrailToolCF
+2026-04-20 12:33:11,804 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: BacklightTool
+2026-04-20 12:33:11,804 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: BrandTool
+2026-04-20 12:33:11,804 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: CachedDataItemToolCF
+2026-04-20 12:33:11,805 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: DateTimeEditToolCF
+2026-04-20 12:33:11,805 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: DebugLoggerTool
+2026-04-20 12:33:11,805 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: DeviceManagerToolCF
+2026-04-20 12:33:11,805 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: DriverPropertiesToolCF
+2026-04-20 12:33:11,805 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: EmailSenderTool
+2026-04-20 12:33:11,806 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: LicenseToolCF
+2026-04-20 12:33:11,806 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: NativeToolCF
+2026-04-20 12:33:11,806 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: NetworkToolCF
+2026-04-20 12:33:11,806 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: PrinterToolCF
+2026-04-20 12:33:11,806 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: ProjectInformationToolCF
+2026-04-20 12:33:11,806 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: RecipeToolCF
+2026-04-20 12:33:11,807 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: RenderableControlTool
+2026-04-20 12:33:11,807 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: CommandLineTool
+2026-04-20 12:33:11,807 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: MessageFilterTool
+2026-04-20 12:33:11,808 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: NotifierService
+2026-04-20 12:33:11,808 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: PrintScreenToolCF
+2026-04-20 12:33:11,808 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: TimerToolCF
+2026-04-20 12:33:11,808 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: Run
+2026-04-20 12:33:11,808 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: SimulationTool
+2026-04-20 12:33:11,809 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: ScreenManager
+2026-04-20 12:33:11,809 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: SecurityManagerToolCF
+2026-04-20 12:33:11,809 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: ObjectSerializationToolCF
+2026-04-20 12:33:11,809 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: SMSSenderTool
+2026-04-20 12:33:11,810 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: StorageCacheTool
+2026-04-20 12:33:11,810 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: StructuredTypesToolCF
+2026-04-20 12:33:11,810 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: SymbolService
+2026-04-20 12:33:11,810 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: SystemInformationToolCF
+2026-04-20 12:33:11,811 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: KeyPanelConfigToolCF
+2026-04-20 12:33:11,811 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: ScopeToolCF
+2026-04-20 12:33:11,811 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: TimeInformationToolCF
+2026-04-20 12:33:11,811 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: TrendDataToolCF
+2026-04-20 12:33:11,811 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: WebServerConfigToolCF
+2026-04-20 12:33:11,899 [1] INFO  BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx [(null)] - System.DllNotFoundException: Unable to load DLL 'BeHwApi.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.BeHWAPI_IsOptimus()
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.IsOptimus()
+2026-04-20 12:33:11,901 [1] INFO  Neo.ApplicationFramework.Common.Runtime.GlobalsBase [(null)] - Version: 2.21.28.0
+2026-04-20 12:33:11,907 [1] INFO  BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx [(null)] - System.DllNotFoundException: Unable to load DLL 'BeHwApi.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.BeHWAPI_IsOptimus()
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.IsOptimus()
+2026-04-20 12:33:11,913 [1] INFO  Core.Engine.ToolManager.Private.ToolMgrCF [(null)] - Initializing ToolManager
+2026-04-20 12:33:12,052 [1] INFO  BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx [(null)] - System.DllNotFoundException: Unable to load DLL 'BeHwApi.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.BeHWAPI_IsOptimus()
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.IsOptimus()
+2026-04-20 12:33:12,136 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase [(null)] - Database: Integrity check started.
+2026-04-20 12:33:12,137 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase [(null)] - Database: Integrity check finished without errors.
+2026-04-20 12:33:12,184 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase [(null)] - Database: Cleanup started.
+2026-04-20 12:33:12,196 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase [(null)] - Database: Cleanup recovered 0 bytes.
+2026-04-20 12:33:12,212 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase [(null)] - NonVolatileDatabase: Integrity check started.
+2026-04-20 12:33:12,212 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase [(null)] - NonVolatileDatabase: Integrity check finished without errors.
+2026-04-20 12:33:12,222 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase [(null)] - NonVolatileDatabase: Cleanup started.
+2026-04-20 12:33:12,233 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase [(null)] - NonVolatileDatabase: Cleanup recovered 0 bytes.
+2026-04-20 12:33:12,422 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController [(null)] - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2026-04-20 12:33:26,251 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController [(null)] - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2026-04-20 12:33:26,251 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController [(null)] - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2026-04-20 12:33:26,251 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController [(null)] - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2026-04-20 12:33:26,251 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController [(null)] - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2026-04-20 12:33:26,251 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController [(null)] - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+[Header Microsoft Windows NT 6.2.9200.0]
+2026-04-20 12:35:26,429 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: PlatformFactoryToolCF
+2026-04-20 12:35:26,434 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: FeatureSecurityToolCF
+2026-04-20 12:35:26,434 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: StorageToolCF
+2026-04-20 12:35:26,445 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: SqlCeDatabaseTool
+2026-04-20 12:35:26,448 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: SQLiteDatabaseToolCF
+2026-04-20 12:35:26,448 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: SplashServiceTool
+2026-04-20 12:35:26,448 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: DatabaseToolCF
+2026-04-20 12:35:26,448 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: MultiLanguageToolCF
+2026-04-20 12:35:26,448 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: MessageBoxToolCF
+2026-04-20 12:35:26,449 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: OpcClientToolCF
+2026-04-20 12:35:26,449 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: SystemTagToolCF
+2026-04-20 12:35:26,449 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: StorageClientToolCF
+2026-04-20 12:35:26,449 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: NonVolatileToolCF
+2026-04-20 12:35:26,449 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: ProjectTool
+2026-04-20 12:35:26,449 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: AlarmTool
+2026-04-20 12:35:26,450 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: AuditTrailToolCF
+2026-04-20 12:35:26,450 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: UserChangedAuditTrailToolCF
+2026-04-20 12:35:26,453 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: BacklightTool
+2026-04-20 12:35:26,453 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: BrandTool
+2026-04-20 12:35:26,453 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: CachedDataItemToolCF
+2026-04-20 12:35:26,454 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: DateTimeEditToolCF
+2026-04-20 12:35:26,454 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: DebugLoggerTool
+2026-04-20 12:35:26,454 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: DeviceManagerToolCF
+2026-04-20 12:35:26,454 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: DriverPropertiesToolCF
+2026-04-20 12:35:26,454 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: EmailSenderTool
+2026-04-20 12:35:26,455 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: LicenseToolCF
+2026-04-20 12:35:26,455 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: NativeToolCF
+2026-04-20 12:35:26,455 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: NetworkToolCF
+2026-04-20 12:35:26,455 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: PrinterToolCF
+2026-04-20 12:35:26,455 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: ProjectInformationToolCF
+2026-04-20 12:35:26,455 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: RecipeToolCF
+2026-04-20 12:35:26,456 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: RenderableControlTool
+2026-04-20 12:35:26,456 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: CommandLineTool
+2026-04-20 12:35:26,456 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: MessageFilterTool
+2026-04-20 12:35:26,457 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: NotifierService
+2026-04-20 12:35:26,457 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: PrintScreenToolCF
+2026-04-20 12:35:26,457 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: TimerToolCF
+2026-04-20 12:35:26,457 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: Run
+2026-04-20 12:35:26,457 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: SimulationTool
+2026-04-20 12:35:26,458 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: ScreenManager
+2026-04-20 12:35:26,458 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: SecurityManagerToolCF
+2026-04-20 12:35:26,458 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: ObjectSerializationToolCF
+2026-04-20 12:35:26,458 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: SMSSenderTool
+2026-04-20 12:35:26,458 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: StorageCacheTool
+2026-04-20 12:35:26,458 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: StructuredTypesToolCF
+2026-04-20 12:35:26,459 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: SymbolService
+2026-04-20 12:35:26,459 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: SystemInformationToolCF
+2026-04-20 12:35:26,459 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: KeyPanelConfigToolCF
+2026-04-20 12:35:26,459 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: ScopeToolCF
+2026-04-20 12:35:26,459 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: TimeInformationToolCF
+2026-04-20 12:35:26,459 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: TrendDataToolCF
+2026-04-20 12:35:26,460 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: WebServerConfigToolCF
+2026-04-20 12:35:26,550 [1] INFO  BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx [(null)] - System.DllNotFoundException: Unable to load DLL 'BeHwApi.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.BeHWAPI_IsOptimus()
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.IsOptimus()
+2026-04-20 12:35:26,552 [1] INFO  Neo.ApplicationFramework.Common.Runtime.GlobalsBase [(null)] - Version: 2.21.28.0
+2026-04-20 12:35:26,557 [1] INFO  BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx [(null)] - System.DllNotFoundException: Unable to load DLL 'BeHwApi.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.BeHWAPI_IsOptimus()
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.IsOptimus()
+2026-04-20 12:35:26,564 [1] INFO  Core.Engine.ToolManager.Private.ToolMgrCF [(null)] - Initializing ToolManager
+2026-04-20 12:35:26,701 [1] INFO  BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx [(null)] - System.DllNotFoundException: Unable to load DLL 'BeHwApi.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.BeHWAPI_IsOptimus()
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.IsOptimus()
+2026-04-20 12:35:26,786 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase [(null)] - Database: Integrity check started.
+2026-04-20 12:35:26,786 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase [(null)] - Database: Integrity check finished without errors.
+2026-04-20 12:35:26,834 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase [(null)] - Database: Cleanup started.
+2026-04-20 12:35:26,847 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase [(null)] - Database: Cleanup recovered 0 bytes.
+2026-04-20 12:35:26,864 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase [(null)] - NonVolatileDatabase: Integrity check started.
+2026-04-20 12:35:26,864 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase [(null)] - NonVolatileDatabase: Integrity check finished without errors.
+2026-04-20 12:35:26,873 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase [(null)] - NonVolatileDatabase: Cleanup started.
+2026-04-20 12:35:26,884 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase [(null)] - NonVolatileDatabase: Cleanup recovered 0 bytes.
+2026-04-20 12:35:27,072 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController [(null)] - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2026-04-20 12:35:41,203 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController [(null)] - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2026-04-20 12:35:41,203 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController [(null)] - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2026-04-20 12:35:41,203 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController [(null)] - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2026-04-20 12:35:41,204 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController [(null)] - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2026-04-20 12:35:41,204 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController [(null)] - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+[Header Microsoft Windows NT 6.2.9200.0]
+2026-04-20 12:36:28,005 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: PlatformFactoryToolCF
+2026-04-20 12:36:28,011 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: FeatureSecurityToolCF
+2026-04-20 12:36:28,011 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: StorageToolCF
+2026-04-20 12:36:28,022 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: SqlCeDatabaseTool
+2026-04-20 12:36:28,025 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: SQLiteDatabaseToolCF
+2026-04-20 12:36:28,025 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: SplashServiceTool
+2026-04-20 12:36:28,025 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: DatabaseToolCF
+2026-04-20 12:36:28,025 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: MultiLanguageToolCF
+2026-04-20 12:36:28,026 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: MessageBoxToolCF
+2026-04-20 12:36:28,026 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: OpcClientToolCF
+2026-04-20 12:36:28,026 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: SystemTagToolCF
+2026-04-20 12:36:28,027 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: StorageClientToolCF
+2026-04-20 12:36:28,027 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: NonVolatileToolCF
+2026-04-20 12:36:28,027 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: ProjectTool
+2026-04-20 12:36:28,027 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: AlarmTool
+2026-04-20 12:36:28,027 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: AuditTrailToolCF
+2026-04-20 12:36:28,028 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: UserChangedAuditTrailToolCF
+2026-04-20 12:36:28,031 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: BacklightTool
+2026-04-20 12:36:28,031 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: BrandTool
+2026-04-20 12:36:28,031 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: CachedDataItemToolCF
+2026-04-20 12:36:28,032 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: DateTimeEditToolCF
+2026-04-20 12:36:28,032 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: DebugLoggerTool
+2026-04-20 12:36:28,032 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: DeviceManagerToolCF
+2026-04-20 12:36:28,032 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: DriverPropertiesToolCF
+2026-04-20 12:36:28,032 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: EmailSenderTool
+2026-04-20 12:36:28,032 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: LicenseToolCF
+2026-04-20 12:36:28,032 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: NativeToolCF
+2026-04-20 12:36:28,032 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: NetworkToolCF
+2026-04-20 12:36:28,033 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: PrinterToolCF
+2026-04-20 12:36:28,033 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: ProjectInformationToolCF
+2026-04-20 12:36:28,033 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: RecipeToolCF
+2026-04-20 12:36:28,033 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: RenderableControlTool
+2026-04-20 12:36:28,034 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: CommandLineTool
+2026-04-20 12:36:28,034 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: MessageFilterTool
+2026-04-20 12:36:28,035 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: NotifierService
+2026-04-20 12:36:28,035 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: PrintScreenToolCF
+2026-04-20 12:36:28,035 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: TimerToolCF
+2026-04-20 12:36:28,035 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: Run
+2026-04-20 12:36:28,035 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: SimulationTool
+2026-04-20 12:36:28,035 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: ScreenManager
+2026-04-20 12:36:28,036 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: SecurityManagerToolCF
+2026-04-20 12:36:28,036 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: ObjectSerializationToolCF
+2026-04-20 12:36:28,036 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: SMSSenderTool
+2026-04-20 12:36:28,036 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: StorageCacheTool
+2026-04-20 12:36:28,036 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: StructuredTypesToolCF
+2026-04-20 12:36:28,037 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: SymbolService
+2026-04-20 12:36:28,037 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: SystemInformationToolCF
+2026-04-20 12:36:28,037 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: KeyPanelConfigToolCF
+2026-04-20 12:36:28,037 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: ScopeToolCF
+2026-04-20 12:36:28,037 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: TimeInformationToolCF
+2026-04-20 12:36:28,038 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: TrendDataToolCF
+2026-04-20 12:36:28,038 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: WebServerConfigToolCF
+2026-04-20 12:36:28,123 [1] INFO  BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx [(null)] - System.DllNotFoundException: Unable to load DLL 'BeHwApi.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.BeHWAPI_IsOptimus()
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.IsOptimus()
+2026-04-20 12:36:28,125 [1] INFO  Neo.ApplicationFramework.Common.Runtime.GlobalsBase [(null)] - Version: 2.21.28.0
+2026-04-20 12:36:28,130 [1] INFO  BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx [(null)] - System.DllNotFoundException: Unable to load DLL 'BeHwApi.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.BeHWAPI_IsOptimus()
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.IsOptimus()
+2026-04-20 12:36:28,138 [1] INFO  Core.Engine.ToolManager.Private.ToolMgrCF [(null)] - Initializing ToolManager
+2026-04-20 12:36:28,156 [1] INFO  BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx [(null)] - System.DllNotFoundException: Unable to load DLL 'BeHwApi.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.BeHWAPI_IsOptimus()
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.IsOptimus()
+2026-04-20 12:36:28,244 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase [(null)] - Database: Integrity check started.
+2026-04-20 12:36:28,244 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase [(null)] - Database: Integrity check finished without errors.
+2026-04-20 12:36:28,295 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase [(null)] - Database: Cleanup started.
+2026-04-20 12:36:28,306 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase [(null)] - Database: Cleanup recovered 0 bytes.
+2026-04-20 12:36:28,323 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase [(null)] - NonVolatileDatabase: Integrity check started.
+2026-04-20 12:36:28,323 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase [(null)] - NonVolatileDatabase: Integrity check finished without errors.
+2026-04-20 12:36:28,331 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase [(null)] - NonVolatileDatabase: Cleanup started.
+2026-04-20 12:36:28,341 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase [(null)] - NonVolatileDatabase: Cleanup recovered 0 bytes.
+2026-04-20 12:36:28,524 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController [(null)] - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2026-04-20 12:37:10,387 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController [(null)] - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2026-04-20 12:37:10,387 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController [(null)] - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2026-04-20 12:37:10,387 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController [(null)] - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2026-04-20 12:37:10,387 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController [(null)] - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2026-04-20 12:37:10,387 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController [(null)] - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+[Header Microsoft Windows NT 6.2.9200.0]
+2026-04-20 12:39:33,553 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: PlatformFactoryToolCF
+2026-04-20 12:39:33,558 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: FeatureSecurityToolCF
+2026-04-20 12:39:33,558 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: StorageToolCF
+2026-04-20 12:39:33,568 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: SqlCeDatabaseTool
+2026-04-20 12:39:33,571 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: SQLiteDatabaseToolCF
+2026-04-20 12:39:33,571 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: SplashServiceTool
+2026-04-20 12:39:33,571 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: DatabaseToolCF
+2026-04-20 12:39:33,571 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: MultiLanguageToolCF
+2026-04-20 12:39:33,572 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: MessageBoxToolCF
+2026-04-20 12:39:33,572 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: OpcClientToolCF
+2026-04-20 12:39:33,572 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: SystemTagToolCF
+2026-04-20 12:39:33,573 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: StorageClientToolCF
+2026-04-20 12:39:33,573 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: NonVolatileToolCF
+2026-04-20 12:39:33,573 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: ProjectTool
+2026-04-20 12:39:33,573 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: AlarmTool
+2026-04-20 12:39:33,573 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: AuditTrailToolCF
+2026-04-20 12:39:33,574 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: UserChangedAuditTrailToolCF
+2026-04-20 12:39:33,576 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: BacklightTool
+2026-04-20 12:39:33,577 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: BrandTool
+2026-04-20 12:39:33,577 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: CachedDataItemToolCF
+2026-04-20 12:39:33,578 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: DateTimeEditToolCF
+2026-04-20 12:39:33,578 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: DebugLoggerTool
+2026-04-20 12:39:33,578 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: DeviceManagerToolCF
+2026-04-20 12:39:33,578 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: DriverPropertiesToolCF
+2026-04-20 12:39:33,578 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: EmailSenderTool
+2026-04-20 12:39:33,578 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: LicenseToolCF
+2026-04-20 12:39:33,578 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: NativeToolCF
+2026-04-20 12:39:33,578 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: NetworkToolCF
+2026-04-20 12:39:33,579 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: PrinterToolCF
+2026-04-20 12:39:33,579 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: ProjectInformationToolCF
+2026-04-20 12:39:33,579 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: RecipeToolCF
+2026-04-20 12:39:33,579 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: RenderableControlTool
+2026-04-20 12:39:33,579 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: CommandLineTool
+2026-04-20 12:39:33,580 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: MessageFilterTool
+2026-04-20 12:39:33,580 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: NotifierService
+2026-04-20 12:39:33,581 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: PrintScreenToolCF
+2026-04-20 12:39:33,581 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: TimerToolCF
+2026-04-20 12:39:33,581 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: Run
+2026-04-20 12:39:33,581 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: SimulationTool
+2026-04-20 12:39:33,581 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: ScreenManager
+2026-04-20 12:39:33,582 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: SecurityManagerToolCF
+2026-04-20 12:39:33,582 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: ObjectSerializationToolCF
+2026-04-20 12:39:33,582 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: SMSSenderTool
+2026-04-20 12:39:33,582 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: StorageCacheTool
+2026-04-20 12:39:33,582 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: StructuredTypesToolCF
+2026-04-20 12:39:33,583 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: SymbolService
+2026-04-20 12:39:33,583 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: SystemInformationToolCF
+2026-04-20 12:39:33,583 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: KeyPanelConfigToolCF
+2026-04-20 12:39:33,583 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: ScopeToolCF
+2026-04-20 12:39:33,583 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: TimeInformationToolCF
+2026-04-20 12:39:33,583 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: TrendDataToolCF
+2026-04-20 12:39:33,583 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: WebServerConfigToolCF
+2026-04-20 12:39:33,672 [1] INFO  BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx [(null)] - System.DllNotFoundException: Unable to load DLL 'BeHwApi.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.BeHWAPI_IsOptimus()
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.IsOptimus()
+2026-04-20 12:39:33,675 [1] INFO  Neo.ApplicationFramework.Common.Runtime.GlobalsBase [(null)] - Version: 2.21.28.0
+2026-04-20 12:39:33,680 [1] INFO  BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx [(null)] - System.DllNotFoundException: Unable to load DLL 'BeHwApi.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.BeHWAPI_IsOptimus()
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.IsOptimus()
+2026-04-20 12:39:33,688 [1] INFO  Core.Engine.ToolManager.Private.ToolMgrCF [(null)] - Initializing ToolManager
+2026-04-20 12:39:33,846 [1] INFO  BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx [(null)] - System.DllNotFoundException: Unable to load DLL 'BeHwApi.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.BeHWAPI_IsOptimus()
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.IsOptimus()
+2026-04-20 12:39:33,942 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase [(null)] - Database: Integrity check started.
+2026-04-20 12:39:33,943 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase [(null)] - Database: Integrity check finished without errors.
+2026-04-20 12:39:33,989 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase [(null)] - Database: Cleanup started.
+2026-04-20 12:39:34,002 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase [(null)] - Database: Cleanup recovered 0 bytes.
+2026-04-20 12:39:34,018 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase [(null)] - NonVolatileDatabase: Integrity check started.
+2026-04-20 12:39:34,018 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase [(null)] - NonVolatileDatabase: Integrity check finished without errors.
+2026-04-20 12:39:34,028 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase [(null)] - NonVolatileDatabase: Cleanup started.
+2026-04-20 12:39:34,038 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase [(null)] - NonVolatileDatabase: Cleanup recovered 0 bytes.
+2026-04-20 12:39:34,221 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController [(null)] - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2026-04-20 12:40:09,694 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController [(null)] - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2026-04-20 12:40:09,695 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController [(null)] - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2026-04-20 12:40:09,695 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController [(null)] - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2026-04-20 12:40:09,695 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController [(null)] - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2026-04-20 12:40:09,695 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController [(null)] - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+[Header Microsoft Windows NT 6.2.9200.0]
+2026-04-20 12:40:50,821 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: PlatformFactoryToolCF
+2026-04-20 12:40:50,826 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: FeatureSecurityToolCF
+2026-04-20 12:40:50,826 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: StorageToolCF
+2026-04-20 12:40:50,837 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: SqlCeDatabaseTool
+2026-04-20 12:40:50,839 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: SQLiteDatabaseToolCF
+2026-04-20 12:40:50,839 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: SplashServiceTool
+2026-04-20 12:40:50,840 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: DatabaseToolCF
+2026-04-20 12:40:50,840 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: MultiLanguageToolCF
+2026-04-20 12:40:50,840 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: MessageBoxToolCF
+2026-04-20 12:40:50,840 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: OpcClientToolCF
+2026-04-20 12:40:50,840 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: SystemTagToolCF
+2026-04-20 12:40:50,841 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: StorageClientToolCF
+2026-04-20 12:40:50,841 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: NonVolatileToolCF
+2026-04-20 12:40:50,841 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: ProjectTool
+2026-04-20 12:40:50,841 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: AlarmTool
+2026-04-20 12:40:50,841 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: AuditTrailToolCF
+2026-04-20 12:40:50,842 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: UserChangedAuditTrailToolCF
+2026-04-20 12:40:50,845 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: BacklightTool
+2026-04-20 12:40:50,846 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: BrandTool
+2026-04-20 12:40:50,846 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: CachedDataItemToolCF
+2026-04-20 12:40:50,846 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: DateTimeEditToolCF
+2026-04-20 12:40:50,846 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: DebugLoggerTool
+2026-04-20 12:40:50,846 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: DeviceManagerToolCF
+2026-04-20 12:40:50,847 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: DriverPropertiesToolCF
+2026-04-20 12:40:50,847 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: EmailSenderTool
+2026-04-20 12:40:50,847 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: LicenseToolCF
+2026-04-20 12:40:50,847 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: NativeToolCF
+2026-04-20 12:40:50,847 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: NetworkToolCF
+2026-04-20 12:40:50,847 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: PrinterToolCF
+2026-04-20 12:40:50,847 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: ProjectInformationToolCF
+2026-04-20 12:40:50,847 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: RecipeToolCF
+2026-04-20 12:40:50,848 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: RenderableControlTool
+2026-04-20 12:40:50,848 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: CommandLineTool
+2026-04-20 12:40:50,848 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: MessageFilterTool
+2026-04-20 12:40:50,849 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: NotifierService
+2026-04-20 12:40:50,849 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: PrintScreenToolCF
+2026-04-20 12:40:50,849 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: TimerToolCF
+2026-04-20 12:40:50,850 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: Run
+2026-04-20 12:40:50,850 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: SimulationTool
+2026-04-20 12:40:50,850 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: ScreenManager
+2026-04-20 12:40:50,850 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: SecurityManagerToolCF
+2026-04-20 12:40:50,850 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: ObjectSerializationToolCF
+2026-04-20 12:40:50,851 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: SMSSenderTool
+2026-04-20 12:40:50,851 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: StorageCacheTool
+2026-04-20 12:40:50,851 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: StructuredTypesToolCF
+2026-04-20 12:40:50,851 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: SymbolService
+2026-04-20 12:40:50,852 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: SystemInformationToolCF
+2026-04-20 12:40:50,852 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: KeyPanelConfigToolCF
+2026-04-20 12:40:50,852 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: ScopeToolCF
+2026-04-20 12:40:50,852 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: TimeInformationToolCF
+2026-04-20 12:40:50,852 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: TrendDataToolCF
+2026-04-20 12:40:50,852 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: WebServerConfigToolCF
+2026-04-20 12:40:50,945 [1] INFO  BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx [(null)] - System.DllNotFoundException: Unable to load DLL 'BeHwApi.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.BeHWAPI_IsOptimus()
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.IsOptimus()
+2026-04-20 12:40:50,947 [1] INFO  Neo.ApplicationFramework.Common.Runtime.GlobalsBase [(null)] - Version: 2.21.28.0
+2026-04-20 12:40:50,958 [1] INFO  BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx [(null)] - System.DllNotFoundException: Unable to load DLL 'BeHwApi.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.BeHWAPI_IsOptimus()
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.IsOptimus()
+2026-04-20 12:40:50,963 [1] INFO  Core.Engine.ToolManager.Private.ToolMgrCF [(null)] - Initializing ToolManager
+2026-04-20 12:40:51,104 [1] INFO  BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx [(null)] - System.DllNotFoundException: Unable to load DLL 'BeHwApi.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.BeHWAPI_IsOptimus()
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.IsOptimus()
+2026-04-20 12:40:51,189 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase [(null)] - Database: Integrity check started.
+2026-04-20 12:40:51,189 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase [(null)] - Database: Integrity check finished without errors.
+2026-04-20 12:40:51,237 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase [(null)] - Database: Cleanup started.
+2026-04-20 12:40:51,251 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase [(null)] - Database: Cleanup recovered 0 bytes.
+2026-04-20 12:40:51,267 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase [(null)] - NonVolatileDatabase: Integrity check started.
+2026-04-20 12:40:51,267 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase [(null)] - NonVolatileDatabase: Integrity check finished without errors.
+2026-04-20 12:40:51,277 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase [(null)] - NonVolatileDatabase: Cleanup started.
+2026-04-20 12:40:51,288 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase [(null)] - NonVolatileDatabase: Cleanup recovered 0 bytes.
+2026-04-20 12:40:51,477 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController [(null)] - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2026-04-20 12:41:05,102 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController [(null)] - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2026-04-20 12:41:05,103 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController [(null)] - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2026-04-20 12:41:05,103 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController [(null)] - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2026-04-20 12:41:05,103 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController [(null)] - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2026-04-20 12:41:05,103 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController [(null)] - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+[Header Microsoft Windows NT 6.2.9200.0]
+2026-04-20 12:45:17,434 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: PlatformFactoryToolCF
+2026-04-20 12:45:17,441 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: FeatureSecurityToolCF
+2026-04-20 12:45:17,444 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: StorageToolCF
+2026-04-20 12:45:17,501 [1] ERROR Core.Engine.ToolManager.Private.ToolFactory [(null)] - 
+System.IO.FileLoadException: Could not load file or assembly 'file:///\\sambaad.stud.ntnu.no\erikdoy\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3_Erik\Temp\Output\SqlCeDatabaseCF.dll' or one of its dependencies. Operation is not supported. (Exception from HRESULT: 0x80131515)
+File name: 'file:///\\sambaad.stud.ntnu.no\erikdoy\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3_Erik\Temp\Output\SqlCeDatabaseCF.dll' ---> System.NotSupportedException: An attempt was made to load an assembly from a network location which would have caused the assembly to be sandboxed in previous versions of the .NET Framework. This release of the .NET Framework does not enable CAS policy by default, so this load may be dangerous. If this load is not intended to sandbox the assembly, please enable the loadFromRemoteSources switch. See http://go.microsoft.com/fwlink/?LinkId=155569 for more information.
+   at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   at System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   at Core.Engine.ToolManager.Private.ToolFactory.c(IToolInfo A_0)
+   at Core.Engine.ToolManager.Private.ToolFactory.b(IToolInfo A_0)
+
+
+2026-04-20 12:45:17,545 [1] ERROR Core.Engine.ToolManager.Private.ToolFactory [(null)] - 
+System.IO.FileLoadException: Could not load file or assembly 'file:///\\sambaad.stud.ntnu.no\erikdoy\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3_Erik\Temp\Output\SQLiteDatabaseCF.dll' or one of its dependencies. Operation is not supported. (Exception from HRESULT: 0x80131515)
+File name: 'file:///\\sambaad.stud.ntnu.no\erikdoy\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3_Erik\Temp\Output\SQLiteDatabaseCF.dll' ---> System.NotSupportedException: An attempt was made to load an assembly from a network location which would have caused the assembly to be sandboxed in previous versions of the .NET Framework. This release of the .NET Framework does not enable CAS policy by default, so this load may be dangerous. If this load is not intended to sandbox the assembly, please enable the loadFromRemoteSources switch. See http://go.microsoft.com/fwlink/?LinkId=155569 for more information.
+   at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   at System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   at Core.Engine.ToolManager.Private.ToolFactory.c(IToolInfo A_0)
+   at Core.Engine.ToolManager.Private.ToolFactory.b(IToolInfo A_0)
+
+
+2026-04-20 12:45:17,549 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: SplashServiceTool
+2026-04-20 12:45:17,552 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: DatabaseToolCF
+2026-04-20 12:45:17,554 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: MultiLanguageToolCF
+2026-04-20 12:45:17,557 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: MessageBoxToolCF
+2026-04-20 12:45:17,560 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: OpcClientToolCF
+2026-04-20 12:45:17,563 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: SystemTagToolCF
+2026-04-20 12:45:17,565 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: StorageClientToolCF
+2026-04-20 12:45:17,568 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: NonVolatileToolCF
+2026-04-20 12:45:17,571 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: ProjectTool
+2026-04-20 12:45:17,574 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: AlarmTool
+2026-04-20 12:45:17,577 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: AuditTrailToolCF
+2026-04-20 12:45:17,580 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: UserChangedAuditTrailToolCF
+2026-04-20 12:45:17,593 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: BacklightTool
+2026-04-20 12:45:17,596 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: BrandTool
+2026-04-20 12:45:17,599 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: CachedDataItemToolCF
+2026-04-20 12:45:17,605 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: DateTimeEditToolCF
+2026-04-20 12:45:17,608 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: DebugLoggerTool
+2026-04-20 12:45:17,612 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: DeviceManagerToolCF
+2026-04-20 12:45:17,615 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: DriverPropertiesToolCF
+2026-04-20 12:45:17,618 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: EmailSenderTool
+2026-04-20 12:45:17,621 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: LicenseToolCF
+2026-04-20 12:45:17,624 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: NativeToolCF
+2026-04-20 12:45:17,627 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: NetworkToolCF
+2026-04-20 12:45:17,633 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: PrinterToolCF
+2026-04-20 12:45:17,635 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: ProjectInformationToolCF
+2026-04-20 12:45:17,638 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: RecipeToolCF
+2026-04-20 12:45:17,641 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: RenderableControlTool
+2026-04-20 12:45:17,645 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: CommandLineTool
+2026-04-20 12:45:17,648 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: MessageFilterTool
+2026-04-20 12:45:17,651 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: NotifierService
+2026-04-20 12:45:17,654 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: PrintScreenToolCF
+2026-04-20 12:45:17,656 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: TimerToolCF
+2026-04-20 12:45:17,659 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: Run
+2026-04-20 12:45:17,662 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: SimulationTool
+2026-04-20 12:45:17,671 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: ScreenManager
+2026-04-20 12:45:17,675 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: SecurityManagerToolCF
+2026-04-20 12:45:17,678 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: ObjectSerializationToolCF
+2026-04-20 12:45:17,681 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: SMSSenderTool
+2026-04-20 12:45:17,684 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: StorageCacheTool
+2026-04-20 12:45:17,687 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: StructuredTypesToolCF
+2026-04-20 12:45:17,690 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: SymbolService
+2026-04-20 12:45:17,693 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: SystemInformationToolCF
+2026-04-20 12:45:17,697 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: KeyPanelConfigToolCF
+2026-04-20 12:45:17,702 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: ScopeToolCF
+2026-04-20 12:45:17,704 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: TimeInformationToolCF
+2026-04-20 12:45:17,707 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: TrendDataToolCF
+2026-04-20 12:45:17,711 [1] INFO  Core.Engine.ToolManager.Private.Tools [(null)] - Loaded tool: WebServerConfigToolCF
+2026-04-20 12:45:18,600 [1] INFO  BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx [(null)] - System.DllNotFoundException: Unable to load DLL 'BeHwApi.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.BeHWAPI_IsOptimus()
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.IsOptimus()
+2026-04-20 12:45:18,607 [1] INFO  Neo.ApplicationFramework.Common.Runtime.GlobalsBase [(null)] - Version: 2.21.28.0
+2026-04-20 12:45:18,625 [1] INFO  BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx [(null)] - System.DllNotFoundException: Unable to load DLL 'BeHwApi.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.BeHWAPI_IsOptimus()
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.IsOptimus()
+2026-04-20 12:45:18,632 [1] INFO  Core.Engine.ToolManager.Private.ToolMgrCF [(null)] - Initializing ToolManager
+2026-04-20 12:45:19,045 [1] INFO  BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx [(null)] - System.DllNotFoundException: Unable to load DLL 'BeHwApi.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.BeHWAPI_IsOptimus()
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.IsOptimus()
+2026-04-20 12:45:19,098 [1] FATAL Neo.ApplicationFramework.Common.Runtime.GlobalsBase [(null)] - Unhandled Exception causing shutdown.
+System.ArgumentException: Storage provider 'SQLite Database' is not registered.
+   at Neo.ApplicationFramework.Storage.Common.StorageServiceCF.n(String A_0)
+   at Neo.ApplicationFramework.Storage.Common.StorageServiceCF.t(String A_0, IStorageProviderSettings A_1)
+   at Neo.ApplicationFramework.Storage.Common.StorageServiceCF.u(String A_0, IStorageProviderSettings A_1)
+   at Neo.ApplicationFramework.Tools.Storage.StorageCacheService.e(String storageName)
+   at Neo.ApplicationFramework.Tools.Storage.StorageCacheService.h(String storageName)
+   at Neo.ApplicationFramework.Tools.Storage.StorageClientToolCF.ab()
+   at Neo.ApplicationFramework.Tools.Storage.StorageClientToolCF.Run()
+   at Neo.ApplicationFramework.Tools.ToolBase.h()
+   at Core.Engine.ToolManager.Private.ToolMgrCF.v()
+   at Core.Engine.ToolManager.Private.ToolMgrCF.y()
+   at Core.Engine.ToolManager.Private.ToolMgrCF.ad()
+   at Neo.ApplicationFramework.Common.Runtime.GlobalsBase.Go(String executingAssemblyName, String executablePath, String[] args, String[] designersToCreate, String[] preloadScreenList, Func`1 startupobjectProvider)
+2026-04-20 12:45:24,704 [1] FATAL Neo.ApplicationFramework.Common.Runtime.GlobalsBase [(null)] - Unhandled Exception causing shutdown.
+System.ArgumentException: Storage provider 'SQLite Database' is not registered.
+   at Neo.ApplicationFramework.Storage.Common.StorageServiceCF.n(String A_0)
+   at Neo.ApplicationFramework.Storage.Common.StorageServiceCF.t(String A_0, IStorageProviderSettings A_1)
+   at Neo.ApplicationFramework.Storage.Common.StorageServiceCF.u(String A_0, IStorageProviderSettings A_1)
+   at Neo.ApplicationFramework.Tools.Storage.StorageCacheService.e(String storageName)
+   at Neo.ApplicationFramework.Tools.Storage.StorageCacheService.h(String storageName)
+   at Neo.ApplicationFramework.Tools.Storage.StorageClientToolCF.ab()
+   at Neo.ApplicationFramework.Tools.Storage.StorageClientToolCF.Run()
+   at Neo.ApplicationFramework.Tools.ToolBase.h()
+   at Core.Engine.ToolManager.Private.ToolMgrCF.v()
+   at Core.Engine.ToolManager.Private.ToolMgrCF.y()
+   at Core.Engine.ToolManager.Private.ToolMgrCF.ad()
+   at Neo.ApplicationFramework.Common.Runtime.GlobalsBase.Go(String executingAssemblyName, String executablePath, String[] args, String[] designersToCreate, String[] preloadScreenList, Func`1 startupobjectProvider)
+   at Neo.ApplicationFramework.Generated.Globals.Main(String[] args) in \\sambaad.stud.ntnu.no\erikdoy\.profil\stud\datasal\Desktop\IELET2104_Gruppe3\HMI_gruppe3_Erik\BuildFiles\HMI_gruppe3.cs:line 225
+2026-04-20 12:45:32,933 [1] INFO  Neo.ApplicationFramework.Common.Runtime.GlobalsBase [(null)] - Unable to successfully stop.
+System.ArgumentException: Storage provider 'SQLite Database' is not registered.
+   at Neo.ApplicationFramework.Storage.Common.StorageServiceCF.n(String A_0)
+   at Neo.ApplicationFramework.Storage.Common.StorageServiceCF.t(String A_0, IStorageProviderSettings A_1)
+   at Neo.ApplicationFramework.Storage.Common.StorageServiceCF.u(String A_0, IStorageProviderSettings A_1)
+   at Neo.ApplicationFramework.Tools.Storage.StorageCacheService.e(String storageName)
+   at Neo.ApplicationFramework.Tools.Storage.StorageCacheService.h(String storageName)
+   at Neo.ApplicationFramework.Tools.Storage.StorageClientToolCF.Stop()
+   at Neo.ApplicationFramework.Tools.Storage.StorageClientToolCF.ak()
+   at Core.Engine.ToolManager.Private.ToolMgrCF.s()
+   at Core.Engine.ToolManager.Private.ToolMgrCF.af()
+   at Neo.ApplicationFramework.Common.Runtime.GlobalsBase.Go(String executingAssemblyName, String executablePath, String[] args, String[] designersToCreate, String[] preloadScreenList, Func`1 startupobjectProvider)

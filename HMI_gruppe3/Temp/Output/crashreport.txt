@@ -1,0 +1,21 @@
+Crash report
+
+26-04-20 12:45:19
+Terminal: fe80::2911:e099:59cc:1bed%8, 2001:700:300:4111:4ea:775d:cdb1:163a, 2001:700:300:4111:f843:407d:2595:5053, 10.24.70.213
+Available RAM: 18985400 KB
+Available Project Location Memory: 3999676 KB
+--------------------------------------------------------------------------------
+Exception: Storage provider 'SQLite Database' is not registered.
+
+Stack Trace:    at Neo.ApplicationFramework.Storage.Common.StorageServiceCF.n(String A_0)
+   at Neo.ApplicationFramework.Storage.Common.StorageServiceCF.t(String A_0, IStorageProviderSettings A_1)
+   at Neo.ApplicationFramework.Storage.Common.StorageServiceCF.u(String A_0, IStorageProviderSettings A_1)
+   at Neo.ApplicationFramework.Tools.Storage.StorageCacheService.e(String storageName)
+   at Neo.ApplicationFramework.Tools.Storage.StorageCacheService.h(String storageName)
+   at Neo.ApplicationFramework.Tools.Storage.StorageClientToolCF.ab()
+   at Neo.ApplicationFramework.Tools.Storage.StorageClientToolCF.Run()
+   at Neo.ApplicationFramework.Tools.ToolBase.h()
+   at Core.Engine.ToolManager.Private.ToolMgrCF.v()
+   at Core.Engine.ToolManager.Private.ToolMgrCF.y()
+   at Core.Engine.ToolManager.Private.ToolMgrCF.ad()
+   at Neo.ApplicationFramework.Common.Runtime.GlobalsBase.Go(String executingAssemblyName, String executablePath, String[] args, String[] designersToCreate, String[] preloadScreenList, Func`1 startupobjectProvider)

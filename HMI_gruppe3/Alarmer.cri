@@ -27,24 +27,35 @@
     <Category Name="Font">
       <Items>
         <Item Target="Alarmer.AlarmViewer" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
-        <Item Target="Alarmer.DigitalClock" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
         <Item Target="Alarmer.Button11" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
         <Item Target="Alarmer.Button10" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
         <Item Target="Alarmer.Button13" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
         <Item Target="Alarmer.Button" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Alarmer.DigitalClock" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
         <Item Target="Alarmer.Text8" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
         <Item Target="Alarmer.Text9" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Alarmer.Text10" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Alarmer.Text11" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Alarmer.Text12" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
       </Items>
     </Category>
     <Category Name="GlobalDataItem">
       <Items>
         <Item Target="Alarmer.Ellipse1" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Alarm_synling" />
-        <Item Target="Alarmer.Text8" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Kritisk_alarm_synling" />
-        <Item Target="Alarmer.Text9" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Alarm_synling" />
         <Item Target="Alarmer.Ellipse3" TargetProperty="BlinkProperties.IsBlinkEnabled" Source="Tags.Kritisk_alarm_synling" />
         <Item Target="Alarmer.Ellipse3" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Kritisk_alarm_synling" />
+        <Item Target="Alarmer.Text8" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Kritisk_alarm_synling" />
+        <Item Target="Alarmer.Text9" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Alarm_synling" />
         <Item Target="Alarmer.Ellipse2" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Alarm_synling" />
         <Item Target="Alarmer.Ellipse" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Kritisk_alarm_synling" />
+        <Item Target="Alarmer.Text11" TargetProperty="Value" Source="Tags.StatusTxt" />
+        <Item Target="Alarmer.Text11" TargetProperty="BorderBrush" Source="Tags.StatusTxt" />
+        <Item Target="Alarmer.Text11" TargetProperty="Background" Source="Tags.StatusTxt" />
+        <Item Target="Alarmer.Text11" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.StatusTxt" />
+        <Item Target="Alarmer.Text12" TargetProperty="Value" Source="Tags.StatusTxt" />
+        <Item Target="Alarmer.Text12" TargetProperty="BorderBrush" Source="Tags.StatusTxt" />
+        <Item Target="Alarmer.Text12" TargetProperty="Background" Source="Tags.StatusTxt" />
+        <Item Target="Alarmer.Text12" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.StatusTxt" />
       </Items>
     </Category>
     <Category Name="Object">
@@ -69,7 +80,7 @@
           <ScreenName>Alarmer</ScreenName>
         </Item>
         <Item xsi:type="ScreenObjectsCrossReferenceItem">
-          <ObjectsCount>12</ObjectsCount>
+          <ObjectsCount>18</ObjectsCount>
           <ScreenName>Alarmer</ScreenName>
         </Item>
       </Items>

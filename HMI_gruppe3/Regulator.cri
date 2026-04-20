@@ -57,6 +57,10 @@
         <Item Target="Regulator.Text8" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
         <Item Target="Regulator.Text9" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
         <Item Target="Regulator.Text2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Regulator.Text5" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Regulator.TouchComboBox" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Regulator.Text6" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Regulator.Text13" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
       </Items>
     </Category>
     <Category Name="GlobalDataItem">
@@ -96,6 +100,15 @@
         <Item Target="Regulator.Text9" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Alarm_synling" />
         <Item Target="Regulator.Ellipse2" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Alarm_synling" />
         <Item Target="Regulator.Ellipse" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Kritisk_alarm_synling" />
+        <Item Target="Regulator.TouchComboBox" TargetProperty="Value" Source="Tags.Styring_frekvens_eller_ventil" />
+        <Item Target="Regulator.Text6" TargetProperty="Value" Source="Tags.StatusTxt" />
+        <Item Target="Regulator.Text6" TargetProperty="BorderBrush" Source="Tags.StatusTxt" />
+        <Item Target="Regulator.Text6" TargetProperty="Background" Source="Tags.StatusTxt" />
+        <Item Target="Regulator.Text6" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.StatusTxt" />
+        <Item Target="Regulator.Text13" TargetProperty="Value" Source="Tags.StatusTxt" />
+        <Item Target="Regulator.Text13" TargetProperty="BorderBrush" Source="Tags.StatusTxt" />
+        <Item Target="Regulator.Text13" TargetProperty="Background" Source="Tags.StatusTxt" />
+        <Item Target="Regulator.Text13" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.StatusTxt" />
       </Items>
     </Category>
     <Category Name="Object">
@@ -105,7 +118,9 @@
       <Items />
     </Category>
     <Category Name="Renderable">
-      <Items />
+      <Items>
+        <Item Target="Regulator.TouchComboBox" Source="Regulator.m_TouchComboBox.bmp" />
+      </Items>
     </Category>
     <Category Name="Report">
       <Items />
@@ -120,7 +135,7 @@
           <ScreenName>Regulator</ScreenName>
         </Item>
         <Item xsi:type="ScreenObjectsCrossReferenceItem">
-          <ObjectsCount>37</ObjectsCount>
+          <ObjectsCount>46</ObjectsCount>
           <ScreenName>Regulator</ScreenName>
         </Item>
       </Items>
