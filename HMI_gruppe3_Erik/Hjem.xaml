@@ -1,0 +1,974 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?neo version='2.21.28.0'?>
+<nacs:ScreenWindow Topmost="False" Title="Hjem" SizeToContent="WidthAndHeight" WindowStartupLocation="CenterScreen" WindowState="Normal" BorderStyle="ThreeDBorder" ScreenSize="800, 600" PopupScreen="False" StyleName="Default" IsCacheable="True" Background="#FFA7A7A7" Foreground="#FF000000" FontSize="12" FontStyle="Normal" FontWeight="Normal" Width="800" Height="600" Panel.ZIndex="3" nai:SecurityProperties.SecurityGroupsRequired="None" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:nacs="clr-namespace:Neo.ApplicationFramework.Controls.Screen;assembly=Controls" xmlns:nai="clr-namespace:Neo.ApplicationFramework.Interfaces;assembly=Interfaces" xmlns:nacxs="clr-namespace:Neo.ApplicationFramework.Common.Xaml.Serializer;assembly=Common" xmlns:nac="clr-namespace:Neo.ApplicationFramework.Controls;assembly=Controls" xmlns:nacd="clr-namespace:Neo.ApplicationFramework.Common.Data;assembly=CommonCF" xmlns:nacb="clr-namespace:Neo.ApplicationFramework.Common.Bevel;assembly=Common" xmlns:nacc="clr-namespace:Neo.ApplicationFramework.Common.Converters;assembly=Common" xmlns:nacc1="clr-namespace:Neo.ApplicationFramework.Controls.Controls;assembly=Controls" xmlns:nac1="clr-namespace:Neo.ApplicationFramework.Common;assembly=Common" xmlns:nacd1="clr-namespace:Neo.ApplicationFramework.Common.Dynamics;assembly=Common" xmlns:nacd2="clr-namespace:Neo.ApplicationFramework.Common.Dynamics;assembly=CommonCF" xmlns:nacgl="clr-namespace:Neo.ApplicationFramework.Common.Graphics.Logic;assembly=CommonCF" xmlns:nata="clr-namespace:Neo.ApplicationFramework.Tools.Action;assembly=Tools" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:nacs1="clr-namespace:Neo.ApplicationFramework.Controls.Symbol;assembly=Controls" xmlns:nacb1="clr-namespace:Neo.ApplicationFramework.Controls.Blink;assembly=Controls" xmlns:nact="clr-namespace:Neo.ApplicationFramework.Controls.TouchComboBox;assembly=Controls" xmlns:nacb2="clr-namespace:Neo.ApplicationFramework.Common.Behaviors;assembly=Common" xmlns:nac2="clr-namespace:Neo.ApplicationFramework.Common;assembly=CommonCF" x:Class="Neo.ApplicationFramework.Generated.Hjem">
+  <nai:ScriptProperties.ScriptEvents>
+    <nai:ScriptEventList>
+      <nacxs:EventHandlerInfo EventName="Opened" MethodName="Hjem_Opened" />
+    </nai:ScriptEventList>
+  </nai:ScriptProperties.ScriptEvents>
+  <nacs:ElementCanvas Name="m_EditorCanvas" Width="800" Height="600" FocusVisualStyle="{x:Null}" AllowDrop="True" ClipToBounds="True" Focusable="True" TextOptions.TextFormattingMode="Display" TextOptions.TextRenderingMode="ClearType" Panel.ZIndex="104">
+    <nac:Label Text="Styring" TextDecorations="{x:Null}" Background="#00FFFFFF" Foreground="#FF000000" FontFamily="Tahoma" FontSize="20" FontStyle="Normal" FontWeight="Normal" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="5,0,5,1" Name="m_Text2" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="12" Canvas.Left="542" Canvas.Top="265" />
+    <nac:Label Text="Settpunkt" TextDecorations="{x:Null}" Background="#00FFFFFF" Foreground="#FF000000" FontFamily="Tahoma" FontSize="20" FontStyle="Normal" FontWeight="Normal" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="5,0,5,1" Name="m_Text6" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="13" Canvas.Left="540" Canvas.Top="158" />
+    <nac:AnalogNumericFX AutoStretchFont="False" MaxNumberOfCharacters="3" LimitNumberOfCharacters="True" MaxValue="100" ValidateValueOnInput="True" Suffix="%" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontFamily="Tahoma" UndoLimit="1" Transparent="Visible" TextDecorations="{x:Null}" BorderBrush="#FF7F9DB9" BorderThickness="1,1,1,1" Foreground="#FF000000" FontSize="20" FontStyle="Normal" FontWeight="Normal" Padding="2,2,2,2" Name="m_AnalogNumeric6" Width="231" Height="36" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="14" KeyboardNavigation.TabNavigation="None" Canvas.Left="544" Canvas.Top="193">
+      <nac:AnalogNumericFX.Resources>
+        <ResourceDictionary>
+          <nacc:VariantValueConverter x:Key="ValueConverter" />
+        </ResourceDictionary>
+      </nac:AnalogNumericFX.Resources>
+      <nac:AnalogNumericFX.Value>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.Settpunkt].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>0</Binding.FallbackValue>
+        </Binding>
+      </nac:AnalogNumericFX.Value>
+      <nac:AnalogNumericFX.BevelEffectInfo>
+        <nacb:BevelEffectInfo Style="Sunken" Width="2" />
+      </nac:AnalogNumericFX.BevelEffectInfo>
+      <nac:AnalogNumericFX.Background>
+        <LinearGradientBrush StartPoint="0.5,1" EndPoint="0.5,0">
+          <LinearGradientBrush.GradientStops>
+            <GradientStopCollection>
+              <GradientStop Color="#FFFFFFFF" />
+              <GradientStop Color="#FFD4D0C8" Offset="1" />
+            </GradientStopCollection>
+          </LinearGradientBrush.GradientStops>
+        </LinearGradientBrush>
+      </nac:AnalogNumericFX.Background>
+    </nac:AnalogNumericFX>
+    <nacc1:Rectangle Fill="#FF7F7F7F" Stroke="#FF000000" Name="m_Rectangle11" Width="27" Height="39" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="15" Canvas.Left="176" Canvas.Top="453" />
+    <nac:Label Text="Utløpsventiler" TextDecorations="{x:Null}" Background="#00FFFFFF" Foreground="#FF000000" FontFamily="Tahoma" FontSize="20" FontStyle="Normal" FontWeight="Normal" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="5,0,5,1" Name="m_Text15" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="16" Canvas.Left="545" Canvas.Top="371" />
+    <nac:Button Text="V1" TextDecorations="{x:Null}" RequiresTransparency="True" SymbolTransparent="False" FontFamily="Tahoma" FontSize="15" FontStyle="Normal" FontWeight="Normal" Name="m_Button7" Width="77" Height="47" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="17" Canvas.Left="544" Canvas.Top="408" Style="{nac1:StyleMarkupExtension DefaultCF}">
+      <nac:Button.Resources>
+        <ResourceDictionary>
+          <nacd1:BrushDynamicsConverter x:Key="BackgroundConverter">
+            <nacd1:BrushDynamicsConverter.BrushIntervalMapper>
+              <nacd2:BrushCFIntervalMapper>
+                <nacd2:BrushCFIntervalMapper.Intervals>
+                  <nacd2:BrushCFIntervalList>
+                    <nacd2:BrushCFInterval Start="1" End="1">
+                      <nacd2:BrushCFInterval.Value>
+                        <nacgl:BrushCF StartColor="127, 127, 127" EndColor="" FillDirection="None" />
+                      </nacd2:BrushCFInterval.Value>
+                    </nacd2:BrushCFInterval>
+                  </nacd2:BrushCFIntervalList>
+                </nacd2:BrushCFIntervalMapper.Intervals>
+                <nacd2:BrushCFIntervalMapper.DefaultValue>
+                  <nacgl:BrushCF StartColor="White" EndColor="212, 208, 200" FillDirection="VerticalTopToBottom" />
+                </nacd2:BrushCFIntervalMapper.DefaultValue>
+              </nacd2:BrushCFIntervalMapper>
+            </nacd1:BrushDynamicsConverter.BrushIntervalMapper>
+          </nacd1:BrushDynamicsConverter>
+        </ResourceDictionary>
+      </nac:Button.Resources>
+      <nac:Button.Background>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.V1_bool].Value" Converter="{StaticResource BackgroundConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>
+            <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+              <LinearGradientBrush.GradientStops>
+                <GradientStopCollection>
+                  <GradientStop Color="#FFFFFFFF" Offset="0" />
+                  <GradientStop Color="#FFD4D0C8" Offset="1" />
+                </GradientStopCollection>
+              </LinearGradientBrush.GradientStops>
+            </LinearGradientBrush>
+          </Binding.FallbackValue>
+        </Binding>
+      </nac:Button.Background>
+      <nai:ActionProperties.Actions>
+        <nai:ActionList>
+          <nata:Action Name="Toggle Tag">
+            <nata:Action.ActionMethodInfo>
+              <nata:ActionMethodInfo Name="ToggleTag" ObjectName="Tags.V1_bool" EventName="Click" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False" />
+            </nata:Action.ActionMethodInfo>
+          </nata:Action>
+        </nai:ActionList>
+      </nai:ActionProperties.Actions>
+    </nac:Button>
+    <nac:Button Text="V2" TextDecorations="{x:Null}" RequiresTransparency="True" SymbolTransparent="False" FontFamily="Tahoma" FontSize="15" FontStyle="Normal" FontWeight="Normal" Name="m_Button8" Width="77" Height="47" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="18" Canvas.Left="621" Canvas.Top="408" Style="{nac1:StyleMarkupExtension DefaultCF}">
+      <nac:Button.Resources>
+        <ResourceDictionary>
+          <nacd1:BrushDynamicsConverter x:Key="BackgroundConverter">
+            <nacd1:BrushDynamicsConverter.BrushIntervalMapper>
+              <nacd2:BrushCFIntervalMapper>
+                <nacd2:BrushCFIntervalMapper.Intervals>
+                  <nacd2:BrushCFIntervalList>
+                    <nacd2:BrushCFInterval Start="1" End="1">
+                      <nacd2:BrushCFInterval.Value>
+                        <nacgl:BrushCF StartColor="127, 127, 127" EndColor="" FillDirection="None" />
+                      </nacd2:BrushCFInterval.Value>
+                    </nacd2:BrushCFInterval>
+                  </nacd2:BrushCFIntervalList>
+                </nacd2:BrushCFIntervalMapper.Intervals>
+                <nacd2:BrushCFIntervalMapper.DefaultValue>
+                  <nacgl:BrushCF StartColor="White" EndColor="212, 208, 200" FillDirection="VerticalTopToBottom" />
+                </nacd2:BrushCFIntervalMapper.DefaultValue>
+              </nacd2:BrushCFIntervalMapper>
+            </nacd1:BrushDynamicsConverter.BrushIntervalMapper>
+          </nacd1:BrushDynamicsConverter>
+        </ResourceDictionary>
+      </nac:Button.Resources>
+      <nac:Button.Background>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.V2_bool].Value" Converter="{StaticResource BackgroundConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>
+            <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+              <LinearGradientBrush.GradientStops>
+                <GradientStopCollection>
+                  <GradientStop Color="#FFFFFFFF" Offset="0" />
+                  <GradientStop Color="#FFD4D0C8" Offset="1" />
+                </GradientStopCollection>
+              </LinearGradientBrush.GradientStops>
+            </LinearGradientBrush>
+          </Binding.FallbackValue>
+        </Binding>
+      </nac:Button.Background>
+      <nai:ActionProperties.Actions>
+        <nai:ActionList>
+          <nata:Action Name="Toggle Tag">
+            <nata:Action.ActionMethodInfo>
+              <nata:ActionMethodInfo Name="ToggleTag" ObjectName="Tags.V2_bool" EventName="Click" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False" />
+            </nata:Action.ActionMethodInfo>
+          </nata:Action>
+        </nai:ActionList>
+      </nai:ActionProperties.Actions>
+    </nac:Button>
+    <nac:Button Text="V3" TextDecorations="{x:Null}" RequiresTransparency="True" SymbolTransparent="False" FontFamily="Tahoma" FontSize="15" FontStyle="Normal" FontWeight="Normal" Name="m_Button9" Width="77" Height="47" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="19" Canvas.Left="698" Canvas.Top="408" Style="{nac1:StyleMarkupExtension DefaultCF}">
+      <nac:Button.Resources>
+        <ResourceDictionary>
+          <nacd1:BrushDynamicsConverter x:Key="BackgroundConverter">
+            <nacd1:BrushDynamicsConverter.BrushIntervalMapper>
+              <nacd2:BrushCFIntervalMapper>
+                <nacd2:BrushCFIntervalMapper.Intervals>
+                  <nacd2:BrushCFIntervalList>
+                    <nacd2:BrushCFInterval Start="1" End="1">
+                      <nacd2:BrushCFInterval.Value>
+                        <nacgl:BrushCF StartColor="127, 127, 127" EndColor="" FillDirection="None" />
+                      </nacd2:BrushCFInterval.Value>
+                    </nacd2:BrushCFInterval>
+                  </nacd2:BrushCFIntervalList>
+                </nacd2:BrushCFIntervalMapper.Intervals>
+                <nacd2:BrushCFIntervalMapper.DefaultValue>
+                  <nacgl:BrushCF StartColor="White" EndColor="212, 208, 200" FillDirection="VerticalTopToBottom" />
+                </nacd2:BrushCFIntervalMapper.DefaultValue>
+              </nacd2:BrushCFIntervalMapper>
+            </nacd1:BrushDynamicsConverter.BrushIntervalMapper>
+          </nacd1:BrushDynamicsConverter>
+        </ResourceDictionary>
+      </nac:Button.Resources>
+      <nac:Button.Background>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.V3_bool].Value" Converter="{StaticResource BackgroundConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>
+            <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+              <LinearGradientBrush.GradientStops>
+                <GradientStopCollection>
+                  <GradientStop Color="#FFFFFFFF" Offset="0" />
+                  <GradientStop Color="#FFD4D0C8" Offset="1" />
+                </GradientStopCollection>
+              </LinearGradientBrush.GradientStops>
+            </LinearGradientBrush>
+          </Binding.FallbackValue>
+        </Binding>
+      </nac:Button.Background>
+      <nai:ActionProperties.Actions>
+        <nai:ActionList>
+          <nata:Action Name="Toggle Tag">
+            <nata:Action.ActionMethodInfo>
+              <nata:ActionMethodInfo Name="ToggleTag" ObjectName="Tags.V3_bool" EventName="Click" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False" />
+            </nata:Action.ActionMethodInfo>
+          </nata:Action>
+        </nai:ActionList>
+      </nai:ActionProperties.Actions>
+    </nac:Button>
+    <nac:Button Text="Hjem" MultiLine="False" WordWrap="False" RequiresTransparency="True" SymbolTransparent="False" FontSize="17" Name="m_Button10" Width="201" Height="40" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="20" Canvas.Left="-1" Canvas.Top="560" Style="{nac1:StyleMarkupExtension DefaultCF}">
+      <nac:Button.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Button.TextDecorations>
+      <nac:Button.Background>
+        <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+          <LinearGradientBrush.GradientStops>
+            <GradientStopCollection>
+              <GradientStop Color="#FFFFFFFF" Offset="0" />
+              <GradientStop Color="#FFD4D0C8" Offset="1" />
+            </GradientStopCollection>
+          </LinearGradientBrush.GradientStops>
+        </LinearGradientBrush>
+      </nac:Button.Background>
+      <nai:ActionProperties.Actions>
+        <nai:ActionList>
+          <nata:Action Name="Show Screen">
+            <nata:Action.ActionMethodInfo>
+              <nata:ActionMethodInfo Name="Show" ObjectName="Hjem" EventName="Click" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="Neo.ApplicationFramework.Tools.Action.ScreenInstanceObjectPathProvider, ToolsIde, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" ObjectPath="Default" ExplicitAuditTrail="False">
+                <nata:ActionMethodInfo.ActionParameterInfo>
+                  <nai:ActionParameterInfoList>
+                    <nata:ActionParameterInfo Position="0" Value="{x:Null}" ParameterName="position" ParameterTypeString="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" TagName="" />
+                  </nai:ActionParameterInfoList>
+                </nata:ActionMethodInfo.ActionParameterInfo>
+              </nata:ActionMethodInfo>
+            </nata:Action.ActionMethodInfo>
+          </nata:Action>
+        </nai:ActionList>
+      </nai:ActionProperties.Actions>
+    </nac:Button>
+    <nac:Button Text="Trender" RequiresTransparency="True" SymbolTransparent="False" FontSize="17" Name="m_Button13" Width="201" Height="40" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="21" Canvas.Left="599" Canvas.Top="560" Style="{nac1:StyleMarkupExtension DefaultCF}">
+      <nac:Button.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Button.TextDecorations>
+      <nac:Button.Background>
+        <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+          <LinearGradientBrush.GradientStops>
+            <GradientStopCollection>
+              <GradientStop Color="#FFFFFFFF" Offset="0" />
+              <GradientStop Color="#FFD4D0C8" Offset="1" />
+            </GradientStopCollection>
+          </LinearGradientBrush.GradientStops>
+        </LinearGradientBrush>
+      </nac:Button.Background>
+      <nai:ActionProperties.Actions>
+        <nai:ActionList>
+          <nata:Action Name="Show Screen">
+            <nata:Action.ActionMethodInfo>
+              <nata:ActionMethodInfo Name="Show" ObjectName="Trender" EventName="Click" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="Neo.ApplicationFramework.Tools.Action.ScreenInstanceObjectPathProvider, ToolsIde, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" ObjectPath="Default" ExplicitAuditTrail="False">
+                <nata:ActionMethodInfo.ActionParameterInfo>
+                  <nai:ActionParameterInfoList>
+                    <nata:ActionParameterInfo Position="0" Value="{x:Null}" ParameterName="position" ParameterTypeString="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" TagName="" />
+                  </nai:ActionParameterInfoList>
+                </nata:ActionMethodInfo.ActionParameterInfo>
+              </nata:ActionMethodInfo>
+            </nata:Action.ActionMethodInfo>
+          </nata:Action>
+        </nai:ActionList>
+      </nai:ActionProperties.Actions>
+    </nac:Button>
+    <nac:Button Text="Start" TextDecorations="{x:Null}" RequiresTransparency="True" SymbolTransparent="False" MultiPicture="False" FontFamily="Tahoma" FontSize="20" FontStyle="Normal" FontWeight="Normal" Name="m_Button14" Width="115" Height="47" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="23" Canvas.Left="544" Canvas.Top="81" Style="{nac1:StyleMarkupExtension DefaultCF}">
+      <nac:Button.Resources>
+        <ResourceDictionary>
+          <nacd1:BrushDynamicsConverter x:Key="BackgroundConverter">
+            <nacd1:BrushDynamicsConverter.BrushIntervalMapper>
+              <nacd2:BrushCFIntervalMapper>
+                <nacd2:BrushCFIntervalMapper.Intervals>
+                  <nacd2:BrushCFIntervalList>
+                    <nacd2:BrushCFInterval Start="1" End="1">
+                      <nacd2:BrushCFInterval.Value>
+                        <nacgl:BrushCF StartColor="34, 177, 76" EndColor="" FillDirection="None" />
+                      </nacd2:BrushCFInterval.Value>
+                    </nacd2:BrushCFInterval>
+                  </nacd2:BrushCFIntervalList>
+                </nacd2:BrushCFIntervalMapper.Intervals>
+                <nacd2:BrushCFIntervalMapper.DefaultValue>
+                  <nacgl:BrushCF StartColor="199, 216, 165" EndColor="" FillDirection="None" />
+                </nacd2:BrushCFIntervalMapper.DefaultValue>
+              </nacd2:BrushCFIntervalMapper>
+            </nacd1:BrushDynamicsConverter.BrushIntervalMapper>
+          </nacd1:BrushDynamicsConverter>
+        </ResourceDictionary>
+      </nac:Button.Resources>
+      <nac:Button.Background>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.Start_Stopp_farger].Value" Converter="{StaticResource BackgroundConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>
+            <SolidColorBrush>#FFC7D8A5</SolidColorBrush>
+          </Binding.FallbackValue>
+        </Binding>
+      </nac:Button.Background>
+      <nai:ActionProperties.Actions>
+        <nai:ActionList>
+          <nata:Action Name="Set Analog">
+            <nata:Action.ActionMethodInfo>
+              <nata:ActionMethodInfo Name="SetAnalog" ObjectName="Tags.Start_Stopp_farger" EventName="Click" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False">
+                <nata:ActionMethodInfo.ActionParameterInfo>
+                  <nai:ActionParameterInfoList>
+                    <nata:ActionParameterInfo Position="0" ParameterName="newValue" ParameterTypeString="Neo.ApplicationFramework.Interfaces.VariantValue, InterfacesCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" TagName="">
+                      <nata:ActionParameterInfo.Value>
+                        <s:Int32>1</s:Int32>
+                      </nata:ActionParameterInfo.Value>
+                    </nata:ActionParameterInfo>
+                  </nai:ActionParameterInfoList>
+                </nata:ActionMethodInfo.ActionParameterInfo>
+              </nata:ActionMethodInfo>
+            </nata:Action.ActionMethodInfo>
+          </nata:Action>
+        </nai:ActionList>
+      </nai:ActionProperties.Actions>
+    </nac:Button>
+    <nac:Button Text="Stopp" TextDecorations="{x:Null}" RequiresTransparency="True" SymbolTransparent="False" FontFamily="Tahoma" FontSize="20" FontStyle="Normal" FontWeight="Normal" Name="m_Button16" Width="115" Height="47" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="24" Canvas.Left="660" Canvas.Top="81" Style="{nac1:StyleMarkupExtension DefaultCF}">
+      <nac:Button.Resources>
+        <ResourceDictionary>
+          <nacd1:BrushDynamicsConverter x:Key="BackgroundConverter">
+            <nacd1:BrushDynamicsConverter.BrushIntervalMapper>
+              <nacd2:BrushCFIntervalMapper>
+                <nacd2:BrushCFIntervalMapper.Intervals>
+                  <nacd2:BrushCFIntervalList>
+                    <nacd2:BrushCFInterval>
+                      <nacd2:BrushCFInterval.Value>
+                        <nacgl:BrushCF StartColor="237, 28, 36" EndColor="" FillDirection="None" />
+                      </nacd2:BrushCFInterval.Value>
+                    </nacd2:BrushCFInterval>
+                  </nacd2:BrushCFIntervalList>
+                </nacd2:BrushCFIntervalMapper.Intervals>
+                <nacd2:BrushCFIntervalMapper.DefaultValue>
+                  <nacgl:BrushCF StartColor="221, 162, 160" EndColor="" FillDirection="None" />
+                </nacd2:BrushCFIntervalMapper.DefaultValue>
+              </nacd2:BrushCFIntervalMapper>
+            </nacd1:BrushDynamicsConverter.BrushIntervalMapper>
+          </nacd1:BrushDynamicsConverter>
+        </ResourceDictionary>
+      </nac:Button.Resources>
+      <nac:Button.Background>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.Start_Stopp_farger].Value" Converter="{StaticResource BackgroundConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>
+            <SolidColorBrush>#FFDDA2A0</SolidColorBrush>
+          </Binding.FallbackValue>
+        </Binding>
+      </nac:Button.Background>
+      <nai:ActionProperties.Actions>
+        <nai:ActionList>
+          <nata:Action Name="Set Analog">
+            <nata:Action.ActionMethodInfo>
+              <nata:ActionMethodInfo Name="SetAnalog" ObjectName="Tags.Start_Stopp_farger" EventName="Click" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False">
+                <nata:ActionMethodInfo.ActionParameterInfo>
+                  <nai:ActionParameterInfoList>
+                    <nata:ActionParameterInfo Position="0" ParameterName="newValue" ParameterTypeString="Neo.ApplicationFramework.Interfaces.VariantValue, InterfacesCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" TagName="">
+                      <nata:ActionParameterInfo.Value>
+                        <s:Int16>0</s:Int16>
+                      </nata:ActionParameterInfo.Value>
+                    </nata:ActionParameterInfo>
+                  </nai:ActionParameterInfoList>
+                </nata:ActionMethodInfo.ActionParameterInfo>
+              </nata:ActionMethodInfo>
+            </nata:Action.ActionMethodInfo>
+          </nata:Action>
+        </nai:ActionList>
+      </nai:ActionProperties.Actions>
+    </nac:Button>
+    <Polyline Points="0,0 30,1" Fill="{x:Null}" Stroke="#FF000000" Name="m_PolyLine" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="22" Canvas.Left="0" Canvas.Top="0" />
+    <nac:Label Text="Prosessverdi:" TextDecorations="{x:Null}" Background="#00FFFFFF" Foreground="#FF2D6BB7" FontFamily="Tahoma" FontSize="20" FontStyle="Normal" FontWeight="Normal" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="5,0,5,1" Name="m_Text5" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="26" Canvas.Left="227" Canvas.Top="186" />
+    <nac:DigitalClock ShowDayOfWeek="False" FontFamily="Tahoma" FontSize="20" Name="m_DigitalClock" Width="100" MinWidth="207.756666666667" Height="30" MinHeight="24.14" HorizontalAlignment="Center" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="27" Canvas.Left="545" Canvas.Top="16" />
+    <nac:Label Text="Regulatortype:" TextDecorations="{x:Null}" Background="#00FFFFFF" Foreground="#FF2D6BB7" FontFamily="Tahoma" FontSize="20" FontStyle="Normal" FontWeight="Normal" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="5,0,5,1" Name="m_Text" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="30" Canvas.Left="232" Canvas.Top="251" />
+    <nac:Label Text="Pådrag:" TextDecorations="{x:Null}" Background="#00FFFFFF" Foreground="#FF2D6BB7" FontFamily="Tahoma" FontSize="20" FontStyle="Normal" FontWeight="Normal" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="5,0,5,1" Name="m_Text1" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="31" Canvas.Left="232" Canvas.Top="372" />
+    <nac:Label Text="Modus: " TextDecorations="{x:Null}" Background="#00FFFFFF" Foreground="#FF2D6BB7" FontFamily="Tahoma" FontSize="20" FontStyle="Normal" FontWeight="Normal" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="5,0,5,1" Name="m_Text4" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="32" Canvas.Left="231" Canvas.Top="311" />
+    <nacs1:SymbolViewbox RequiresTransparency="True" ForceTransparency="False" Name="m_SymbolViewbox" Width="53" Height="62" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="34" Canvas.Left="89" Canvas.Top="487">
+      <nacs1:SymbolViewbox.Resources>
+        <ResourceDictionary>
+          <nacd1:BoolDynamicsConverter x:Key="VisibleDynamicsValueConverter" DefaultValue="True" TrueValue="1" />
+        </ResourceDictionary>
+      </nacs1:SymbolViewbox.Resources>
+      <nacb1:BlinkProperties.VisibleDynamicsValue>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.V2_bool].Value" Converter="{StaticResource VisibleDynamicsValueConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>
+            <s:Boolean>True</s:Boolean>
+          </Binding.FallbackValue>
+        </Binding>
+      </nacb1:BlinkProperties.VisibleDynamicsValue>
+      <Canvas Width="25.564453" Height="25.564453">
+        <Canvas>
+          <Path Data="F1M18.836914,13.453125L12.782227,13.453125C12.411133,13.453125,12.110352,13.15332,12.110352,12.78125L12.110352,12.78125C12.110352,12.410156,12.411133,12.108398,12.782227,12.108398L12.782227,12.108398 18.836914,12.108398C19.208008,12.108398,19.509766,12.410156,19.509766,12.78125L19.509766,12.78125C19.509766,13.15332,19.208008,13.453125,18.836914,13.453125L18.836914,13.453125z" Fill="#FF000000" />
+          <Canvas>
+            <Path Data="F1M6.728516,6.726563C10.072266,6.726563 12.782227,9.4375 12.782227,12.78125 12.782227,16.125 10.072266,18.835938 6.728516,18.835938 3.383789,18.835938 0.673828,16.125 0.673828,12.78125 0.673828,9.4375 3.383789,6.726563 6.728516,6.726563z" Fill="#FF7F7F7F" />
+            <Path Data="F1M6.728516,18.164063C9.699219,18.158203,12.103516,15.754883,12.110352,12.783203L12.110352,12.783203C12.103516,9.810547,9.699219,7.40625,6.728516,7.400391L6.728516,7.400391C3.754883,7.40625,1.351563,9.810547,1.345703,12.783203L1.345703,12.783203C1.351563,15.754883,3.754883,18.158203,6.728516,18.164063L6.728516,18.164063z M6.728516,19.509766C3.012695,19.509766,0,16.49707,0,12.783203L0,12.783203C0,9.066406,3.012695,6.054688,6.728516,6.054688L6.728516,6.054688C10.443359,6.054688,13.455078,9.066406,13.455078,12.783203L13.455078,12.783203C13.455078,16.49707,10.443359,19.509766,6.728516,19.509766L6.728516,19.509766z" Fill="#FF000000" />
+          </Canvas>
+          <Canvas>
+            <Path Data="F1M24.891602,0.672852L12.782227,24.890625 24.891602,24.890625 12.782227,0.672852 24.891602,0.672852z" Fill="#FF7F7F7F" />
+            <Path Data="F1M23.802734,1.345703L13.869141,1.345703 18.835938,11.279297 23.802734,1.345703 23.802734,1.345703z M23.803711,24.21875L18.836914,14.285156 13.869141,24.21875 23.803711,24.21875 23.803711,24.21875z M24.890625,0.672852L24.289063,0.373047 24.890625,0.672852 24.890625,0.672852z M25.492188,0.973633L19.586914,12.782227 25.492188,24.589844C25.595703,24.798828,25.586914,25.044922,25.464844,25.245117L25.464844,25.245117C25.339844,25.443359,25.123047,25.564453,24.890625,25.564453L24.890625,25.564453 12.782227,25.564453C12.548828,25.564453,12.333008,25.444336,12.209961,25.245117L12.209961,25.245117C12.086914,25.044922,12.076172,24.798828,12.180664,24.589844L12.180664,24.589844 18.084961,12.78125 12.180664,0.973633C12.075195,0.765625,12.086914,0.517578,12.209961,0.318359L12.209961,0.318359C12.333008,0.121094,12.548828,0,12.782227,0L12.782227,0 24.890625,0C25.123047,0,25.339844,0.121094,25.464844,0.318359L25.464844,0.318359C25.53125,0.426758,25.564453,0.548828,25.564453,0.670898L25.564453,0.670898C25.564453,0.774414,25.540039,0.87793,25.492188,0.973633L25.492188,0.973633z" Fill="#FF000000" />
+          </Canvas>
+          <Canvas>
+            <Path Data="F1M4.37207,15.80957C4.37207,16.181641,4.071289,16.482422,3.700195,16.482422L3.700195,16.482422C3.329102,16.482422,3.027344,16.181641,3.027344,15.80957L3.027344,15.80957 3.027344,9.754883C3.027344,9.382813,3.329102,9.082031,3.700195,9.082031L3.700195,9.082031C4.071289,9.082031,4.37207,9.382813,4.37207,9.754883L4.37207,9.754883 4.37207,15.80957 4.37207,15.80957z" Fill="#FF000000" />
+            <Path Data="F1M7.203125,13.257813C6.94043,13.519531,6.513672,13.519531,6.25293,13.257813L6.25293,13.257813 3.224609,10.230469C2.961914,9.967773,2.961914,9.541016,3.224609,9.27832L3.224609,9.27832C3.488281,9.017578,3.913086,9.017578,4.175781,9.27832L4.175781,9.27832 7.203125,12.305664C7.333984,12.4375,7.400391,12.609375,7.400391,12.78125L7.400391,12.78125C7.400391,12.955078,7.333984,13.126953,7.203125,13.257813L7.203125,13.257813z" Fill="#FF000000" />
+            <Path Data="F1M10.230469,10.231445L7.203125,13.256836C6.941406,13.519531,6.514648,13.519531,6.250977,13.256836L6.250977,13.256836C5.990234,12.996094,5.990234,12.568359,6.250977,12.305664L6.250977,12.305664 9.279297,9.27832C9.541992,9.016602,9.966797,9.016602,10.230469,9.27832L10.230469,9.27832C10.361328,9.410156,10.427734,9.582031,10.427734,9.754883L10.427734,9.754883C10.427734,9.927734,10.361328,10.099609,10.230469,10.231445L10.230469,10.231445z" Fill="#FF000000" />
+            <Path Data="F1M10.427734,15.80957C10.427734,16.181641,10.125977,16.481445,9.755859,16.481445L9.755859,16.481445C9.383789,16.481445,9.083008,16.181641,9.083008,15.80957L9.083008,15.80957 9.083008,9.754883C9.083008,9.382813,9.383789,9.082031,9.755859,9.082031L9.755859,9.082031C10.125977,9.082031,10.427734,9.382813,10.427734,9.754883L10.427734,9.754883 10.427734,15.80957 10.427734,15.80957z" Fill="#FF000000" />
+          </Canvas>
+        </Canvas>
+      </Canvas>
+    </nacs1:SymbolViewbox>
+    <nacc1:Rectangle Fill="#FF7F7F7F" Stroke="#FF000000" Name="m_Rectangle" Width="27" Height="39" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="35" Canvas.Left="115" Canvas.Top="453" />
+    <nacs1:SymbolViewbox RequiresTransparency="True" ForceTransparency="False" Name="m_SymbolViewbox2" Width="53" Height="62" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="37" Canvas.Left="28" Canvas.Top="487">
+      <nacs1:SymbolViewbox.Resources>
+        <ResourceDictionary>
+          <nacd1:BoolDynamicsConverter x:Key="VisibleDynamicsValueConverter" DefaultValue="True" TrueValue="1" />
+        </ResourceDictionary>
+      </nacs1:SymbolViewbox.Resources>
+      <nacb1:BlinkProperties.VisibleDynamicsValue>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.V1_bool].Value" Converter="{StaticResource VisibleDynamicsValueConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>
+            <s:Boolean>True</s:Boolean>
+          </Binding.FallbackValue>
+        </Binding>
+      </nacb1:BlinkProperties.VisibleDynamicsValue>
+      <Canvas Width="25.564453" Height="25.564453">
+        <Canvas>
+          <Path Data="F1M18.836914,13.453125L12.782227,13.453125C12.411133,13.453125,12.110352,13.15332,12.110352,12.78125L12.110352,12.78125C12.110352,12.410156,12.411133,12.108398,12.782227,12.108398L12.782227,12.108398 18.836914,12.108398C19.208008,12.108398,19.509766,12.410156,19.509766,12.78125L19.509766,12.78125C19.509766,13.15332,19.208008,13.453125,18.836914,13.453125L18.836914,13.453125z" Fill="#FF000000" />
+          <Canvas>
+            <Path Data="F1M6.728516,6.726563C10.072266,6.726563 12.782227,9.4375 12.782227,12.78125 12.782227,16.125 10.072266,18.835938 6.728516,18.835938 3.383789,18.835938 0.673828,16.125 0.673828,12.78125 0.673828,9.4375 3.383789,6.726563 6.728516,6.726563z" Fill="#FF7F7F7F" />
+            <Path Data="F1M6.728516,18.164063C9.699219,18.158203,12.103516,15.754883,12.110352,12.783203L12.110352,12.783203C12.103516,9.810547,9.699219,7.40625,6.728516,7.400391L6.728516,7.400391C3.754883,7.40625,1.351563,9.810547,1.345703,12.783203L1.345703,12.783203C1.351563,15.754883,3.754883,18.158203,6.728516,18.164063L6.728516,18.164063z M6.728516,19.509766C3.012695,19.509766,0,16.49707,0,12.783203L0,12.783203C0,9.066406,3.012695,6.054688,6.728516,6.054688L6.728516,6.054688C10.443359,6.054688,13.455078,9.066406,13.455078,12.783203L13.455078,12.783203C13.455078,16.49707,10.443359,19.509766,6.728516,19.509766L6.728516,19.509766z" Fill="#FF000000" />
+          </Canvas>
+          <Canvas>
+            <Path Data="F1M24.891602,0.672852L12.782227,24.890625 24.891602,24.890625 12.782227,0.672852 24.891602,0.672852z" Fill="#FF7F7F7F" />
+            <Path Data="F1M23.802734,1.345703L13.869141,1.345703 18.835938,11.279297 23.802734,1.345703 23.802734,1.345703z M23.803711,24.21875L18.836914,14.285156 13.869141,24.21875 23.803711,24.21875 23.803711,24.21875z M24.890625,0.672852L24.289063,0.373047 24.890625,0.672852 24.890625,0.672852z M25.492188,0.973633L19.586914,12.782227 25.492188,24.589844C25.595703,24.798828,25.586914,25.044922,25.464844,25.245117L25.464844,25.245117C25.339844,25.443359,25.123047,25.564453,24.890625,25.564453L24.890625,25.564453 12.782227,25.564453C12.548828,25.564453,12.333008,25.444336,12.209961,25.245117L12.209961,25.245117C12.086914,25.044922,12.076172,24.798828,12.180664,24.589844L12.180664,24.589844 18.084961,12.78125 12.180664,0.973633C12.075195,0.765625,12.086914,0.517578,12.209961,0.318359L12.209961,0.318359C12.333008,0.121094,12.548828,0,12.782227,0L12.782227,0 24.890625,0C25.123047,0,25.339844,0.121094,25.464844,0.318359L25.464844,0.318359C25.53125,0.426758,25.564453,0.548828,25.564453,0.670898L25.564453,0.670898C25.564453,0.774414,25.540039,0.87793,25.492188,0.973633L25.492188,0.973633z" Fill="#FF000000" />
+          </Canvas>
+          <Canvas>
+            <Path Data="F1M4.37207,15.80957C4.37207,16.181641,4.071289,16.482422,3.700195,16.482422L3.700195,16.482422C3.329102,16.482422,3.027344,16.181641,3.027344,15.80957L3.027344,15.80957 3.027344,9.754883C3.027344,9.382813,3.329102,9.082031,3.700195,9.082031L3.700195,9.082031C4.071289,9.082031,4.37207,9.382813,4.37207,9.754883L4.37207,9.754883 4.37207,15.80957 4.37207,15.80957z" Fill="#FF000000" />
+            <Path Data="F1M7.203125,13.257813C6.94043,13.519531,6.513672,13.519531,6.25293,13.257813L6.25293,13.257813 3.224609,10.230469C2.961914,9.967773,2.961914,9.541016,3.224609,9.27832L3.224609,9.27832C3.488281,9.017578,3.913086,9.017578,4.175781,9.27832L4.175781,9.27832 7.203125,12.305664C7.333984,12.4375,7.400391,12.609375,7.400391,12.78125L7.400391,12.78125C7.400391,12.955078,7.333984,13.126953,7.203125,13.257813L7.203125,13.257813z" Fill="#FF000000" />
+            <Path Data="F1M10.230469,10.231445L7.203125,13.256836C6.941406,13.519531,6.514648,13.519531,6.250977,13.256836L6.250977,13.256836C5.990234,12.996094,5.990234,12.568359,6.250977,12.305664L6.250977,12.305664 9.279297,9.27832C9.541992,9.016602,9.966797,9.016602,10.230469,9.27832L10.230469,9.27832C10.361328,9.410156,10.427734,9.582031,10.427734,9.754883L10.427734,9.754883C10.427734,9.927734,10.361328,10.099609,10.230469,10.231445L10.230469,10.231445z" Fill="#FF000000" />
+            <Path Data="F1M10.427734,15.80957C10.427734,16.181641,10.125977,16.481445,9.755859,16.481445L9.755859,16.481445C9.383789,16.481445,9.083008,16.181641,9.083008,15.80957L9.083008,15.80957 9.083008,9.754883C9.083008,9.382813,9.383789,9.082031,9.755859,9.082031L9.755859,9.082031C10.125977,9.082031,10.427734,9.382813,10.427734,9.754883L10.427734,9.754883 10.427734,15.80957 10.427734,15.80957z" Fill="#FF000000" />
+          </Canvas>
+        </Canvas>
+      </Canvas>
+    </nacs1:SymbolViewbox>
+    <nacc1:Rectangle Fill="#FF7F7F7F" Stroke="#FF000000" Name="m_Rectangle1" Width="27" Height="39" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="38" Canvas.Left="54" Canvas.Top="453" />
+    <nac:Button Text="Regulering" RequiresTransparency="True" SymbolTransparent="False" FontSize="17" Name="m_Button" Width="201" Height="40" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="40" Canvas.Left="199" Canvas.Top="560" Style="{nac1:StyleMarkupExtension DefaultCF}">
+      <nac:Button.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Button.TextDecorations>
+      <nac:Button.Background>
+        <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+          <LinearGradientBrush.GradientStops>
+            <GradientStopCollection>
+              <GradientStop Color="#FFFFFFFF" Offset="0" />
+              <GradientStop Color="#FFD4D0C8" Offset="1" />
+            </GradientStopCollection>
+          </LinearGradientBrush.GradientStops>
+        </LinearGradientBrush>
+      </nac:Button.Background>
+      <nai:ActionProperties.Actions>
+        <nai:ActionList>
+          <nata:Action Name="Show Screen">
+            <nata:Action.ActionMethodInfo>
+              <nata:ActionMethodInfo Name="Show" ObjectName="Regulator" EventName="Click" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="Neo.ApplicationFramework.Tools.Action.ScreenInstanceObjectPathProvider, ToolsIde, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" ObjectPath="Default" ExplicitAuditTrail="False">
+                <nata:ActionMethodInfo.ActionParameterInfo>
+                  <nai:ActionParameterInfoList>
+                    <nata:ActionParameterInfo Position="0" Value="{x:Null}" ParameterName="position" ParameterTypeString="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" TagName="" />
+                  </nai:ActionParameterInfoList>
+                </nata:ActionMethodInfo.ActionParameterInfo>
+              </nata:ActionMethodInfo>
+            </nata:Action.ActionMethodInfo>
+          </nata:Action>
+        </nai:ActionList>
+      </nai:ActionProperties.Actions>
+    </nac:Button>
+    <nact:TouchComboBoxHost IsSeparatorVisible="True" ScrollBarWidth="20" ItemHeight="30" AutoSizeItemHeight="True" ArrowBoxWidth="30" TouchScrollSensitivity="8" Background="#FFE3E3E3" FontSize="18" Width="231" Height="36" IndicatorMargin="0,0,0,0" RequiresTransparency="False" ForceTransparency="False" Name="m_TouchComboBox" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="41" Canvas.Left="544" Canvas.Top="302" nacb2:IntervalMapperBindingsBehavior.RebindInRuntime="True" Style="{nac1:StyleMarkupExtension ThirdPartyControlContentHostStyle}">
+      <nact:TouchComboBoxHost.Resources>
+        <ResourceDictionary>
+          <nacc:VariantValueConverter x:Key="ValueConverter" />
+        </ResourceDictionary>
+      </nact:TouchComboBoxHost.Resources>
+      <nact:TouchComboBoxHost.Value>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.Styring_frekvens_eller_ventil].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>
+            <s:Int32>0</s:Int32>
+          </Binding.FallbackValue>
+        </Binding>
+      </nact:TouchComboBoxHost.Value>
+      <nact:TouchComboBoxHost.IntervalMapper>
+        <nacd1:StringIntervalMapper DefaultValue="{x:Null}">
+          <nacd1:StringIntervalMapper.Intervals>
+            <nacd1:StringIntervalList>
+              <nacd1:StringInterval Start="1" End="1" Value="Frekvensomformer" />
+              <nacd1:StringInterval Start="2" End="2" Value="Reguleringsventil" />
+            </nacd1:StringIntervalList>
+          </nacd1:StringIntervalMapper.Intervals>
+        </nacd1:StringIntervalMapper>
+      </nact:TouchComboBoxHost.IntervalMapper>
+    </nact:TouchComboBoxHost>
+    <nacc1:LinearMeter Orientation="Vertical" MajorTickCount="6" MinorTickCount="1" IndicatorColor="#FF0000FF" Background="#FFFFFFFF" Foreground="#FF000000" FontSize="12" Width="175" Height="282" ScaleVisible="Visible" Transparent="Visible" ScaleColor="#FF000000" IndicatorMargin="8,14,31.65,14" RequiresTransparency="False" ForceTransparency="False" FontFamily="Tahoma" FontStyle="Normal" FontWeight="Normal" Name="m_LinearMeter" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="44" Canvas.Left="43" Canvas.Top="175" Style="{nac1:StyleMarkupExtension Vintage_Compact}">
+      <nacc1:LinearMeter.Resources>
+        <ResourceDictionary>
+          <nacc:VariantValueConverter x:Key="ValueConverter" />
+        </ResourceDictionary>
+      </nacc1:LinearMeter.Resources>
+      <nacc1:LinearMeter.Value>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.Prosessverdi].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>
+            <s:Double>0</s:Double>
+          </Binding.FallbackValue>
+        </Binding>
+      </nacc1:LinearMeter.Value>
+    </nacc1:LinearMeter>
+    <nacs1:SymbolViewbox RequiresTransparency="False" ForceTransparency="False" Name="m_SymbolViewbox3" Width="53" Height="62" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="10" Canvas.Left="150" Canvas.Top="487">
+      <Canvas Width="25.564453" Height="25.5625">
+        <Canvas>
+          <Path Data="F1M18.837891,13.453125L12.783203,13.453125C12.411133,13.453125,12.110352,13.152832,12.111328,12.78125L12.111328,12.78125C12.110352,12.408203,12.412109,12.108398,12.782227,12.108887L12.782227,12.108887 18.837891,12.10791C19.208008,12.108887,19.510742,12.408203,19.510742,12.78125L19.510742,12.78125C19.509766,13.152344,19.208984,13.453125,18.837891,13.453125L18.837891,13.453125z" Fill="#FF000000" />
+          <Canvas>
+            <Path Data="F1M6.728516,6.727051C10.072266,6.727051 12.782227,9.437012 12.782227,12.78125 12.782227,16.125488 10.073242,18.834961 6.728516,18.834473 3.384766,18.834961 0.674805,16.125 0.674805,12.78125 0.674805,9.436523 3.383789,6.727051 6.728516,6.727051z" Fill="#FFFFFFFF" />
+            <Path Data="F1M6.728516,18.164551C9.699219,18.157715,12.103516,15.75293,12.111328,12.78125L12.111328,12.78125C12.103516,9.809082,9.699219,7.404785,6.728516,7.399414L6.728516,7.399414C3.754883,7.404785,1.351563,9.808594,1.345703,12.781738L1.345703,12.781738C1.351563,15.75293,3.754883,18.158691,6.728516,18.164551L6.728516,18.164551z M6.728516,19.508301C3.013672,19.507813,0,16.496582,0,12.78125L0,12.78125C0,9.064453,3.013672,6.055176,6.728516,6.055176L6.728516,6.055176C10.443359,6.055176,13.455078,9.064453,13.455078,12.781738L13.455078,12.781738C13.455078,16.495605,10.443359,19.507813,6.728516,19.508301L6.728516,19.508301z" Fill="#FF000000" />
+          </Canvas>
+          <Canvas>
+            <Path Data="F1M24.892578,0.671387L12.782227,24.889648 24.892578,24.890137 12.782227,0.672363 24.892578,0.671387z" Fill="#FFFFFFFF" />
+            <Path Data="F1M23.803711,1.34375L13.869141,1.34375 18.836914,11.276855 23.803711,1.34375 23.803711,1.34375z M23.803711,24.217285L18.837891,14.283203 13.869141,24.216797 23.803711,24.217285 23.803711,24.217285z M24.890625,0.671875L24.289063,0.371094 24.890625,0.671875 24.890625,0.671875z M25.492188,0.973633L19.586914,12.781738 25.492188,24.588379C25.59668,24.798828,25.587891,25.043945,25.464844,25.243652L25.464844,25.243652C25.339844,25.442871,25.123047,25.562988,24.890625,25.5625L24.890625,25.5625 12.783203,25.5625C12.549805,25.5625,12.333984,25.443359,12.209961,25.242676L12.209961,25.242676C12.086914,25.044922,12.076172,24.799316,12.180664,24.587891L12.180664,24.587891 18.085938,12.78125 12.180664,0.974121C12.075195,0.763672,12.086914,0.515625,12.209961,0.318848L12.209961,0.318848C12.333008,0.119629,12.548828,0,12.782227,0L12.782227,0 24.890625,0.000488C25.124023,0,25.339844,0.119629,25.46582,0.318359L25.46582,0.318359C25.53125,0.427246,25.56543,0.548828,25.564453,0.671387L25.564453,0.671387C25.564453,0.773926,25.541016,0.87793,25.492188,0.973633L25.492188,0.973633z" Fill="#FF000000" />
+          </Canvas>
+          <Canvas>
+            <Path Data="F1M9.755859,16.480957L3.701172,16.480957C3.329102,16.480469,3.027344,16.179688,3.027344,15.808594L3.027344,15.808594C3.027344,15.437012,3.329102,15.135254,3.701172,15.134766L3.701172,15.134766 9.755859,15.134766C10.125977,15.134766,10.427734,15.436523,10.427734,15.809082L10.427734,15.809082C10.427734,16.179688,10.125977,16.480957,9.755859,16.480957L9.755859,16.480957z" Fill="#FF000000" />
+            <Path Data="F1M7.203125,13.257324L4.175781,16.285645C3.913086,16.546387,3.488281,16.545898,3.225586,16.285156L3.225586,16.285156C2.961914,16.021973,2.962891,15.595703,3.225586,15.33252L3.225586,15.33252 6.253906,12.304688C6.514648,12.043457,6.941406,12.043457,7.204102,12.304688L7.204102,12.304688C7.334961,12.435547,7.400391,12.60791,7.400391,12.781738L7.400391,12.781738C7.400391,12.953613,7.333984,13.125488,7.203125,13.257324L7.203125,13.257324z" Fill="#FF000000" />
+            <Path Data="F1M7.203125,13.257324C6.941406,13.518066,6.513672,13.519043,6.25293,13.257324L6.25293,13.257324 3.224609,10.22998C2.961914,9.967285,2.962891,9.539551,3.225586,9.278809L3.225586,9.278809C3.488281,9.016113,3.913086,9.015625,4.175781,9.279785L4.175781,9.279785 7.204102,12.304688C7.334961,12.435547,7.400391,12.60791,7.400391,12.781738L7.400391,12.781738C7.400391,12.953613,7.333984,13.125488,7.203125,13.257324L7.203125,13.257324z" Fill="#FF000000" />
+            <Path Data="F1M9.755859,10.426758L3.701172,10.426758C3.329102,10.427246,3.027344,10.125488,3.027344,9.754395L3.027344,9.754395C3.027344,9.382813,3.329102,9.080566,3.701172,9.080078L3.701172,9.080078 9.755859,9.080078C10.125977,9.080078,10.427734,9.382813,10.427734,9.754395L10.427734,9.754395C10.427734,10.125,10.125977,10.426758,9.755859,10.426758L9.755859,10.426758z" Fill="#FF000000" />
+          </Canvas>
+        </Canvas>
+      </Canvas>
+    </nacs1:SymbolViewbox>
+    <nacs1:SymbolViewbox RequiresTransparency="False" ForceTransparency="False" Name="m_SymbolViewbox4" Width="53" Height="62" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="33" Canvas.Left="89" Canvas.Top="487">
+      <Canvas Width="25.564453" Height="25.5625">
+        <Canvas>
+          <Path Data="F1M18.837891,13.453125L12.783203,13.453125C12.411133,13.453125,12.110352,13.152832,12.111328,12.78125L12.111328,12.78125C12.110352,12.408203,12.412109,12.108398,12.782227,12.108887L12.782227,12.108887 18.837891,12.10791C19.208008,12.108887,19.510742,12.408203,19.510742,12.78125L19.510742,12.78125C19.509766,13.152344,19.208984,13.453125,18.837891,13.453125L18.837891,13.453125z" Fill="#FF000000" />
+          <Canvas>
+            <Path Data="F1M6.728516,6.727051C10.072266,6.727051 12.782227,9.437012 12.782227,12.78125 12.782227,16.125488 10.073242,18.834961 6.728516,18.834473 3.384766,18.834961 0.674805,16.125 0.674805,12.78125 0.674805,9.436523 3.383789,6.727051 6.728516,6.727051z" Fill="#FFFFFFFF" />
+            <Path Data="F1M6.728516,18.164551C9.699219,18.157715,12.103516,15.75293,12.111328,12.78125L12.111328,12.78125C12.103516,9.809082,9.699219,7.404785,6.728516,7.399414L6.728516,7.399414C3.754883,7.404785,1.351563,9.808594,1.345703,12.781738L1.345703,12.781738C1.351563,15.75293,3.754883,18.158691,6.728516,18.164551L6.728516,18.164551z M6.728516,19.508301C3.013672,19.507813,0,16.496582,0,12.78125L0,12.78125C0,9.064453,3.013672,6.055176,6.728516,6.055176L6.728516,6.055176C10.443359,6.055176,13.455078,9.064453,13.455078,12.781738L13.455078,12.781738C13.455078,16.495605,10.443359,19.507813,6.728516,19.508301L6.728516,19.508301z" Fill="#FF000000" />
+          </Canvas>
+          <Canvas>
+            <Path Data="F1M24.892578,0.671387L12.782227,24.889648 24.892578,24.890137 12.782227,0.672363 24.892578,0.671387z" Fill="#FFFFFFFF" />
+            <Path Data="F1M23.803711,1.34375L13.869141,1.34375 18.836914,11.276855 23.803711,1.34375 23.803711,1.34375z M23.803711,24.217285L18.837891,14.283203 13.869141,24.216797 23.803711,24.217285 23.803711,24.217285z M24.890625,0.671875L24.289063,0.371094 24.890625,0.671875 24.890625,0.671875z M25.492188,0.973633L19.586914,12.781738 25.492188,24.588379C25.59668,24.798828,25.587891,25.043945,25.464844,25.243652L25.464844,25.243652C25.339844,25.442871,25.123047,25.562988,24.890625,25.5625L24.890625,25.5625 12.783203,25.5625C12.549805,25.5625,12.333984,25.443359,12.209961,25.242676L12.209961,25.242676C12.086914,25.044922,12.076172,24.799316,12.180664,24.587891L12.180664,24.587891 18.085938,12.78125 12.180664,0.974121C12.075195,0.763672,12.086914,0.515625,12.209961,0.318848L12.209961,0.318848C12.333008,0.119629,12.548828,0,12.782227,0L12.782227,0 24.890625,0.000488C25.124023,0,25.339844,0.119629,25.46582,0.318359L25.46582,0.318359C25.53125,0.427246,25.56543,0.548828,25.564453,0.671387L25.564453,0.671387C25.564453,0.773926,25.541016,0.87793,25.492188,0.973633L25.492188,0.973633z" Fill="#FF000000" />
+          </Canvas>
+          <Canvas>
+            <Path Data="F1M9.755859,16.480957L3.701172,16.480957C3.329102,16.480469,3.027344,16.179688,3.027344,15.808594L3.027344,15.808594C3.027344,15.437012,3.329102,15.135254,3.701172,15.134766L3.701172,15.134766 9.755859,15.134766C10.125977,15.134766,10.427734,15.436523,10.427734,15.809082L10.427734,15.809082C10.427734,16.179688,10.125977,16.480957,9.755859,16.480957L9.755859,16.480957z" Fill="#FF000000" />
+            <Path Data="F1M7.203125,13.257324L4.175781,16.285645C3.913086,16.546387,3.488281,16.545898,3.225586,16.285156L3.225586,16.285156C2.961914,16.021973,2.962891,15.595703,3.225586,15.33252L3.225586,15.33252 6.253906,12.304688C6.514648,12.043457,6.941406,12.043457,7.204102,12.304688L7.204102,12.304688C7.334961,12.435547,7.400391,12.60791,7.400391,12.781738L7.400391,12.781738C7.400391,12.953613,7.333984,13.125488,7.203125,13.257324L7.203125,13.257324z" Fill="#FF000000" />
+            <Path Data="F1M7.203125,13.257324C6.941406,13.518066,6.513672,13.519043,6.25293,13.257324L6.25293,13.257324 3.224609,10.22998C2.961914,9.967285,2.962891,9.539551,3.225586,9.278809L3.225586,9.278809C3.488281,9.016113,3.913086,9.015625,4.175781,9.279785L4.175781,9.279785 7.204102,12.304688C7.334961,12.435547,7.400391,12.60791,7.400391,12.781738L7.400391,12.781738C7.400391,12.953613,7.333984,13.125488,7.203125,13.257324L7.203125,13.257324z" Fill="#FF000000" />
+            <Path Data="F1M9.755859,10.426758L3.701172,10.426758C3.329102,10.427246,3.027344,10.125488,3.027344,9.754395L3.027344,9.754395C3.027344,9.382813,3.329102,9.080566,3.701172,9.080078L3.701172,9.080078 9.755859,9.080078C10.125977,9.080078,10.427734,9.382813,10.427734,9.754395L10.427734,9.754395C10.427734,10.125,10.125977,10.426758,9.755859,10.426758L9.755859,10.426758z" Fill="#FF000000" />
+          </Canvas>
+        </Canvas>
+      </Canvas>
+    </nacs1:SymbolViewbox>
+    <nacs1:SymbolViewbox RequiresTransparency="False" ForceTransparency="False" Name="m_SymbolViewbox5" Width="53" Height="62" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="36" Canvas.Left="28" Canvas.Top="487">
+      <Canvas Width="25.564453" Height="25.5625">
+        <Canvas>
+          <Path Data="F1M18.837891,13.453125L12.783203,13.453125C12.411133,13.453125,12.110352,13.152832,12.111328,12.78125L12.111328,12.78125C12.110352,12.408203,12.412109,12.108398,12.782227,12.108887L12.782227,12.108887 18.837891,12.10791C19.208008,12.108887,19.510742,12.408203,19.510742,12.78125L19.510742,12.78125C19.509766,13.152344,19.208984,13.453125,18.837891,13.453125L18.837891,13.453125z" Fill="#FF000000" />
+          <Canvas>
+            <Path Data="F1M6.728516,6.727051C10.072266,6.727051 12.782227,9.437012 12.782227,12.78125 12.782227,16.125488 10.073242,18.834961 6.728516,18.834473 3.384766,18.834961 0.674805,16.125 0.674805,12.78125 0.674805,9.436523 3.383789,6.727051 6.728516,6.727051z" Fill="#FFFFFFFF" />
+            <Path Data="F1M6.728516,18.164551C9.699219,18.157715,12.103516,15.75293,12.111328,12.78125L12.111328,12.78125C12.103516,9.809082,9.699219,7.404785,6.728516,7.399414L6.728516,7.399414C3.754883,7.404785,1.351563,9.808594,1.345703,12.781738L1.345703,12.781738C1.351563,15.75293,3.754883,18.158691,6.728516,18.164551L6.728516,18.164551z M6.728516,19.508301C3.013672,19.507813,0,16.496582,0,12.78125L0,12.78125C0,9.064453,3.013672,6.055176,6.728516,6.055176L6.728516,6.055176C10.443359,6.055176,13.455078,9.064453,13.455078,12.781738L13.455078,12.781738C13.455078,16.495605,10.443359,19.507813,6.728516,19.508301L6.728516,19.508301z" Fill="#FF000000" />
+          </Canvas>
+          <Canvas>
+            <Path Data="F1M24.892578,0.671387L12.782227,24.889648 24.892578,24.890137 12.782227,0.672363 24.892578,0.671387z" Fill="#FFFFFFFF" />
+            <Path Data="F1M23.803711,1.34375L13.869141,1.34375 18.836914,11.276855 23.803711,1.34375 23.803711,1.34375z M23.803711,24.217285L18.837891,14.283203 13.869141,24.216797 23.803711,24.217285 23.803711,24.217285z M24.890625,0.671875L24.289063,0.371094 24.890625,0.671875 24.890625,0.671875z M25.492188,0.973633L19.586914,12.781738 25.492188,24.588379C25.59668,24.798828,25.587891,25.043945,25.464844,25.243652L25.464844,25.243652C25.339844,25.442871,25.123047,25.562988,24.890625,25.5625L24.890625,25.5625 12.783203,25.5625C12.549805,25.5625,12.333984,25.443359,12.209961,25.242676L12.209961,25.242676C12.086914,25.044922,12.076172,24.799316,12.180664,24.587891L12.180664,24.587891 18.085938,12.78125 12.180664,0.974121C12.075195,0.763672,12.086914,0.515625,12.209961,0.318848L12.209961,0.318848C12.333008,0.119629,12.548828,0,12.782227,0L12.782227,0 24.890625,0.000488C25.124023,0,25.339844,0.119629,25.46582,0.318359L25.46582,0.318359C25.53125,0.427246,25.56543,0.548828,25.564453,0.671387L25.564453,0.671387C25.564453,0.773926,25.541016,0.87793,25.492188,0.973633L25.492188,0.973633z" Fill="#FF000000" />
+          </Canvas>
+          <Canvas>
+            <Path Data="F1M9.755859,16.480957L3.701172,16.480957C3.329102,16.480469,3.027344,16.179688,3.027344,15.808594L3.027344,15.808594C3.027344,15.437012,3.329102,15.135254,3.701172,15.134766L3.701172,15.134766 9.755859,15.134766C10.125977,15.134766,10.427734,15.436523,10.427734,15.809082L10.427734,15.809082C10.427734,16.179688,10.125977,16.480957,9.755859,16.480957L9.755859,16.480957z" Fill="#FF000000" />
+            <Path Data="F1M7.203125,13.257324L4.175781,16.285645C3.913086,16.546387,3.488281,16.545898,3.225586,16.285156L3.225586,16.285156C2.961914,16.021973,2.962891,15.595703,3.225586,15.33252L3.225586,15.33252 6.253906,12.304688C6.514648,12.043457,6.941406,12.043457,7.204102,12.304688L7.204102,12.304688C7.334961,12.435547,7.400391,12.60791,7.400391,12.781738L7.400391,12.781738C7.400391,12.953613,7.333984,13.125488,7.203125,13.257324L7.203125,13.257324z" Fill="#FF000000" />
+            <Path Data="F1M7.203125,13.257324C6.941406,13.518066,6.513672,13.519043,6.25293,13.257324L6.25293,13.257324 3.224609,10.22998C2.961914,9.967285,2.962891,9.539551,3.225586,9.278809L3.225586,9.278809C3.488281,9.016113,3.913086,9.015625,4.175781,9.279785L4.175781,9.279785 7.204102,12.304688C7.334961,12.435547,7.400391,12.60791,7.400391,12.781738L7.400391,12.781738C7.400391,12.953613,7.333984,13.125488,7.203125,13.257324L7.203125,13.257324z" Fill="#FF000000" />
+            <Path Data="F1M9.755859,10.426758L3.701172,10.426758C3.329102,10.427246,3.027344,10.125488,3.027344,9.754395L3.027344,9.754395C3.027344,9.382813,3.329102,9.080566,3.701172,9.080078L3.701172,9.080078 9.755859,9.080078C10.125977,9.080078,10.427734,9.382813,10.427734,9.754395L10.427734,9.754395C10.427734,10.125,10.125977,10.426758,9.755859,10.426758L9.755859,10.426758z" Fill="#FF000000" />
+          </Canvas>
+        </Canvas>
+      </Canvas>
+    </nacs1:SymbolViewbox>
+    <nacs1:SymbolViewbox RequiresTransparency="True" ForceTransparency="False" Name="m_SymbolViewbox1" Width="53" Height="62" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="11" Canvas.Left="150" Canvas.Top="487">
+      <nacs1:SymbolViewbox.Resources>
+        <ResourceDictionary>
+          <nacd1:BoolDynamicsConverter x:Key="VisibleDynamicsValueConverter" DefaultValue="True" TrueValue="1" />
+        </ResourceDictionary>
+      </nacs1:SymbolViewbox.Resources>
+      <nacb1:BlinkProperties.VisibleDynamicsValue>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.V3_bool].Value" Converter="{StaticResource VisibleDynamicsValueConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>
+            <s:Boolean>True</s:Boolean>
+          </Binding.FallbackValue>
+        </Binding>
+      </nacb1:BlinkProperties.VisibleDynamicsValue>
+      <Canvas Width="25.564453" Height="25.564453">
+        <Canvas>
+          <Path Data="F1M18.836914,13.453125L12.782227,13.453125C12.411133,13.453125,12.110352,13.15332,12.110352,12.78125L12.110352,12.78125C12.110352,12.410156,12.411133,12.108398,12.782227,12.108398L12.782227,12.108398 18.836914,12.108398C19.208008,12.108398,19.509766,12.410156,19.509766,12.78125L19.509766,12.78125C19.509766,13.15332,19.208008,13.453125,18.836914,13.453125L18.836914,13.453125z" Fill="#FF000000" />
+          <Canvas>
+            <Path Data="F1M6.728516,6.726563C10.072266,6.726563 12.782227,9.4375 12.782227,12.78125 12.782227,16.125 10.072266,18.835938 6.728516,18.835938 3.383789,18.835938 0.673828,16.125 0.673828,12.78125 0.673828,9.4375 3.383789,6.726563 6.728516,6.726563z" Fill="#FF7F7F7F" />
+            <Path Data="F1M6.728516,18.164063C9.699219,18.158203,12.103516,15.754883,12.110352,12.783203L12.110352,12.783203C12.103516,9.810547,9.699219,7.40625,6.728516,7.400391L6.728516,7.400391C3.754883,7.40625,1.351563,9.810547,1.345703,12.783203L1.345703,12.783203C1.351563,15.754883,3.754883,18.158203,6.728516,18.164063L6.728516,18.164063z M6.728516,19.509766C3.012695,19.509766,0,16.49707,0,12.783203L0,12.783203C0,9.066406,3.012695,6.054688,6.728516,6.054688L6.728516,6.054688C10.443359,6.054688,13.455078,9.066406,13.455078,12.783203L13.455078,12.783203C13.455078,16.49707,10.443359,19.509766,6.728516,19.509766L6.728516,19.509766z" Fill="#FF000000" />
+          </Canvas>
+          <Canvas>
+            <Path Data="F1M24.891602,0.672852L12.782227,24.890625 24.891602,24.890625 12.782227,0.672852 24.891602,0.672852z" Fill="#FF7F7F7F" />
+            <Path Data="F1M23.802734,1.345703L13.869141,1.345703 18.835938,11.279297 23.802734,1.345703 23.802734,1.345703z M23.803711,24.21875L18.836914,14.285156 13.869141,24.21875 23.803711,24.21875 23.803711,24.21875z M24.890625,0.672852L24.289063,0.373047 24.890625,0.672852 24.890625,0.672852z M25.492188,0.973633L19.586914,12.782227 25.492188,24.589844C25.595703,24.798828,25.586914,25.044922,25.464844,25.245117L25.464844,25.245117C25.339844,25.443359,25.123047,25.564453,24.890625,25.564453L24.890625,25.564453 12.782227,25.564453C12.548828,25.564453,12.333008,25.444336,12.209961,25.245117L12.209961,25.245117C12.086914,25.044922,12.076172,24.798828,12.180664,24.589844L12.180664,24.589844 18.084961,12.78125 12.180664,0.973633C12.075195,0.765625,12.086914,0.517578,12.209961,0.318359L12.209961,0.318359C12.333008,0.121094,12.548828,0,12.782227,0L12.782227,0 24.890625,0C25.123047,0,25.339844,0.121094,25.464844,0.318359L25.464844,0.318359C25.53125,0.426758,25.564453,0.548828,25.564453,0.670898L25.564453,0.670898C25.564453,0.774414,25.540039,0.87793,25.492188,0.973633L25.492188,0.973633z" Fill="#FF000000" />
+          </Canvas>
+          <Canvas>
+            <Path Data="F1M4.37207,15.80957C4.37207,16.181641,4.071289,16.482422,3.700195,16.482422L3.700195,16.482422C3.329102,16.482422,3.027344,16.181641,3.027344,15.80957L3.027344,15.80957 3.027344,9.754883C3.027344,9.382813,3.329102,9.082031,3.700195,9.082031L3.700195,9.082031C4.071289,9.082031,4.37207,9.382813,4.37207,9.754883L4.37207,9.754883 4.37207,15.80957 4.37207,15.80957z" Fill="#FF000000" />
+            <Path Data="F1M7.203125,13.257813C6.94043,13.519531,6.513672,13.519531,6.25293,13.257813L6.25293,13.257813 3.224609,10.230469C2.961914,9.967773,2.961914,9.541016,3.224609,9.27832L3.224609,9.27832C3.488281,9.017578,3.913086,9.017578,4.175781,9.27832L4.175781,9.27832 7.203125,12.305664C7.333984,12.4375,7.400391,12.609375,7.400391,12.78125L7.400391,12.78125C7.400391,12.955078,7.333984,13.126953,7.203125,13.257813L7.203125,13.257813z" Fill="#FF000000" />
+            <Path Data="F1M10.230469,10.231445L7.203125,13.256836C6.941406,13.519531,6.514648,13.519531,6.250977,13.256836L6.250977,13.256836C5.990234,12.996094,5.990234,12.568359,6.250977,12.305664L6.250977,12.305664 9.279297,9.27832C9.541992,9.016602,9.966797,9.016602,10.230469,9.27832L10.230469,9.27832C10.361328,9.410156,10.427734,9.582031,10.427734,9.754883L10.427734,9.754883C10.427734,9.927734,10.361328,10.099609,10.230469,10.231445L10.230469,10.231445z" Fill="#FF000000" />
+            <Path Data="F1M10.427734,15.80957C10.427734,16.181641,10.125977,16.481445,9.755859,16.481445L9.755859,16.481445C9.383789,16.481445,9.083008,16.181641,9.083008,15.80957L9.083008,15.80957 9.083008,9.754883C9.083008,9.382813,9.383789,9.082031,9.755859,9.082031L9.755859,9.082031C10.125977,9.082031,10.427734,9.382813,10.427734,9.754883L10.427734,9.754883 10.427734,15.80957 10.427734,15.80957z" Fill="#FF000000" />
+          </Canvas>
+        </Canvas>
+      </Canvas>
+    </nacs1:SymbolViewbox>
+    <nacs1:SymbolViewbox RequiresTransparency="True" ForceTransparency="False" Name="m_SymbolViewbox6" Width="52" Height="43" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="42" Canvas.Left="29" Canvas.Top="83">
+      <nacs1:SymbolViewbox.Resources>
+        <ResourceDictionary>
+          <nacd1:BoolDynamicsConverter x:Key="VisibleDynamicsValueConverter" DefaultValue="True" TrueValue="1" />
+        </ResourceDictionary>
+      </nacs1:SymbolViewbox.Resources>
+      <nacb1:BlinkProperties.VisibleDynamicsValue>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.Start_Stopp_farger].Value" Converter="{StaticResource VisibleDynamicsValueConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>
+            <s:Boolean>True</s:Boolean>
+          </Binding.FallbackValue>
+        </Binding>
+      </nacb1:BlinkProperties.VisibleDynamicsValue>
+      <Canvas Width="38" Height="38">
+        <Canvas>
+          <Canvas>
+            <Path Data="F1M1,19C1,9.058594 9.058594,1 19,1 28.941406,1 37,9.058594 37,19 37,28.941406 28.941406,37 19,37 9.058594,37 1,28.941406 1,19z" Fill="#FF7F7F7F" Stroke="#FF000000" StrokeThickness="2" StrokeMiterLimit="1" />
+            <Path Data="F1M4.825195,19C4.825195,11.171875 11.171875,4.826172 19,4.826172 26.828125,4.826172 33.174805,11.171875 33.174805,19 33.174805,26.828125 26.828125,33.173828 19,33.173828 11.171875,33.173828 4.825195,26.828125 4.825195,19z" Fill="#FFFFFFFF" Stroke="#FF000000" StrokeThickness="2" StrokeMiterLimit="1" />
+            <Path Data="F1M12.112305,6.839844L12.112305,31.160156 33.174805,19 12.112305,6.839844z" Fill="#FFFFFFFF" Stroke="#FF000000" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" />
+            <Path Data="F1M4.825195,19C4.825195,11.171875 11.171875,4.826172 19,4.826172 26.828125,4.826172 33.174805,11.171875 33.174805,19 33.174805,26.828125 26.828125,33.173828 19,33.173828 11.171875,33.173828 4.825195,26.828125 4.825195,19z" Stroke="#FF000000" StrokeThickness="2" StrokeMiterLimit="1" />
+          </Canvas>
+        </Canvas>
+      </Canvas>
+    </nacs1:SymbolViewbox>
+    <nacs1:SymbolViewbox RequiresTransparency="False" ForceTransparency="False" Name="m_SymbolViewbox7" Width="52" Height="43" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="6" Canvas.Left="29" Canvas.Top="83">
+      <Canvas Width="38" Height="38">
+        <Canvas>
+          <Canvas>
+            <Path Data="F1M1,19C1,9.058594 9.058594,1 19,1 28.941406,1 37,9.058594 37,19 37,28.939453 28.941406,37 19,37 9.058594,37 1,28.939453 1,19z" Fill="#FF7F7F7F" Stroke="#FF000000" StrokeThickness="2" StrokeMiterLimit="1" />
+            <Path Data="F1M4.825195,19C4.825195,11.169922 11.171875,4.824219 19,4.824219 26.828125,4.824219 33.174805,11.169922 33.174805,19 33.174805,26.828125 26.828125,33.173828 19,33.173828 11.171875,33.173828 4.825195,26.828125 4.825195,19z" Fill="#FFFFFFFF" Stroke="#FF000000" StrokeThickness="2" StrokeMiterLimit="1" />
+            <Path Data="F1M12.112305,6.837891L12.112305,31.160156 33.174805,19 12.112305,6.837891z" Fill="#FF7F7F7F" Stroke="#FF000000" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" />
+            <Path Data="F1M4.825195,19C4.825195,11.169922 11.171875,4.824219 19,4.824219 26.828125,4.824219 33.174805,11.169922 33.174805,19 33.174805,26.828125 26.828125,33.173828 19,33.173828 11.171875,33.173828 4.825195,26.828125 4.825195,19z" Stroke="#FF000000" StrokeThickness="2" StrokeMiterLimit="1" />
+          </Canvas>
+        </Canvas>
+      </Canvas>
+    </nacs1:SymbolViewbox>
+    <nacs1:Symbol MultiPicture="True" Stretch="True" FontSize="19" Name="m_MultiPicture1" Width="62" Height="53" RenderTransformOrigin="0.477482108518145,0.512333333333334" Visibility="Visible" Panel.ZIndex="5" Canvas.Left="110" Canvas.Top="69">
+      <nacs1:Symbol.SymbolIntervalMapper>
+        <nacd2:SymbolIntervalMapper>
+          <nacd2:SymbolIntervalMapper.Intervals>
+            <nacd2:SymbolIntervalList>
+              <nacd2:SymbolInterval>
+                <nacd2:SymbolInterval.Value>
+                  <nac2:MultiSymbolItem SymbolName="2v_mag_grey rotated 0" Transparent="False" />
+                </nacd2:SymbolInterval.Value>
+              </nacd2:SymbolInterval>
+              <nacd2:SymbolInterval Start="1" End="1">
+                <nacd2:SymbolInterval.Value>
+                  <nac2:MultiSymbolItem SymbolName="2v_mag_green rotated 0" Transparent="False" />
+                </nacd2:SymbolInterval.Value>
+              </nacd2:SymbolInterval>
+              <nacd2:SymbolInterval Start="2" End="2">
+                <nacd2:SymbolInterval.Value>
+                  <nac2:MultiSymbolItem SymbolName="2v_mag_green_red_fl rotated 0" Transparent="False" />
+                </nacd2:SymbolInterval.Value>
+              </nacd2:SymbolInterval>
+              <nacd2:SymbolInterval Start="3" End="3">
+                <nacd2:SymbolInterval.Value>
+                  <nac2:MultiSymbolItem SymbolName="2v_mag_red_fl rotated 0" Transparent="False" />
+                </nacd2:SymbolInterval.Value>
+              </nacd2:SymbolInterval>
+            </nacd2:SymbolIntervalList>
+          </nacd2:SymbolIntervalMapper.Intervals>
+        </nacd2:SymbolIntervalMapper>
+      </nacs1:Symbol.SymbolIntervalMapper>
+    </nacs1:Symbol>
+    <nacs1:SymbolViewbox RequiresTransparency="True" ForceTransparency="False" Name="m_SymbolViewbox8" Width="62" Height="53" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="8" Canvas.Left="109" Canvas.Top="69">
+      <nacs1:SymbolViewbox.Resources>
+        <ResourceDictionary>
+          <nacd1:BoolDynamicsConverter x:Key="VisibleDynamicsValueConverter" DefaultValue="True" TrueValue="1" />
+        </ResourceDictionary>
+      </nacs1:SymbolViewbox.Resources>
+      <nacb1:BlinkProperties.VisibleDynamicsValue>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.Start_Stopp_farger].Value" Converter="{StaticResource VisibleDynamicsValueConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>
+            <s:Boolean>True</s:Boolean>
+          </Binding.FallbackValue>
+        </Binding>
+      </nacb1:BlinkProperties.VisibleDynamicsValue>
+      <Canvas Width="25.5625" Height="25.564453">
+        <Canvas>
+          <Path Data="F1M12.109375,18.836914L12.109375,12.782227C12.109375,12.411133,12.410156,12.110352,12.78125,12.110352L12.78125,12.110352C13.154297,12.110352,13.454102,12.411133,13.454102,12.782227L13.454102,12.782227 13.454102,18.836914C13.454102,19.208008,13.154297,19.509766,12.78125,19.509766L12.78125,19.509766C12.410156,19.509766,12.109375,19.208008,12.109375,18.836914L12.109375,18.836914z" Fill="#FF000000" />
+          <Canvas>
+            <Path Data="F1M18.835938,6.728516C18.835938,10.072266 16.125977,12.782227 12.78125,12.782227 9.4375,12.782227 6.727539,10.072266 6.727539,6.728516 6.727539,3.383789 9.4375,0.673828 12.78125,0.673828 16.125977,0.673828 18.835938,3.383789 18.835938,6.728516z" Fill="#FFFFFFFF" />
+            <Path Data="F1M7.398438,6.728516C7.404297,9.699219,9.80957,12.103516,12.78125,12.110352L12.78125,12.110352C15.753906,12.103516,18.158203,9.699219,18.163086,6.728516L18.163086,6.728516C18.158203,3.754883,15.753906,1.351563,12.78125,1.345703L12.78125,1.345703C9.80957,1.351563,7.404297,3.754883,7.398438,6.728516L7.398438,6.728516z M6.054688,6.728516C6.054688,3.012695,9.066406,0,12.78125,0L12.78125,0C16.498047,0,19.507813,3.012695,19.507813,6.728516L19.507813,6.728516C19.507813,10.443359,16.498047,13.455078,12.78125,13.455078L12.78125,13.455078C9.066406,13.455078,6.054688,10.443359,6.054688,6.728516L6.054688,6.728516z" Fill="#FF000000" />
+          </Canvas>
+          <Canvas>
+            <Path Data="F1M24.890625,24.891602L0.672852,12.782227 0.672852,24.891602 24.890625,12.782227 24.890625,24.891602z" Fill="#FFFFFFFF" />
+            <Path Data="F1M24.21875,23.802734L24.21875,13.869141 14.285156,18.835938 24.21875,23.802734 24.21875,23.802734z M1.345703,23.803711L11.279297,18.836914 1.345703,13.869141 1.345703,23.803711 1.345703,23.803711z M24.890625,24.890625L25.191406,24.289063 24.890625,24.890625 24.890625,24.890625z M24.588867,25.492188L12.78125,19.586914 0.974609,25.492188C0.763672,25.595703,0.518555,25.586914,0.319336,25.464844L0.319336,25.464844C0.119141,25.339844,0,25.123047,0,24.890625L0,24.890625 0,12.782227C0,12.548828,0.119141,12.333008,0.319336,12.209961L0.319336,12.209961C0.517578,12.086914,0.763672,12.076172,0.974609,12.180664L0.974609,12.180664 12.78125,18.084961 24.588867,12.180664C24.798828,12.075195,25.046875,12.086914,25.244141,12.209961L25.244141,12.209961C25.443359,12.333008,25.5625,12.548828,25.5625,12.782227L25.5625,12.782227 25.5625,24.890625C25.5625,25.123047,25.443359,25.339844,25.244141,25.464844L25.244141,25.464844C25.135742,25.53125,25.013672,25.564453,24.891602,25.564453L24.891602,25.564453C24.789063,25.564453,24.68457,25.540039,24.588867,25.492188L24.588867,25.492188z" Fill="#FF000000" />
+          </Canvas>
+          <Canvas>
+            <Path Data="F1M9.082031,9.755859L9.082031,3.701172C9.082031,3.329102,9.382813,3.027344,9.753906,3.027344L9.753906,3.027344C10.125977,3.027344,10.427734,3.329102,10.427734,3.701172L10.427734,3.701172 10.427734,9.755859C10.427734,10.125977,10.125977,10.427734,9.753906,10.427734L9.753906,10.427734C9.382813,10.427734,9.082031,10.125977,9.082031,9.755859L9.082031,9.755859z" Fill="#FF000000" />
+            <Path Data="F1M12.305664,7.203125L9.277344,4.175781C9.016602,3.913086,9.016602,3.488281,9.277344,3.224609L9.277344,3.224609C9.541016,2.961914,9.966797,2.961914,10.230469,3.224609L10.230469,3.224609 13.257813,6.25293C13.519531,6.513672,13.519531,6.94043,13.257813,7.203125L13.257813,7.203125C13.126953,7.333984,12.954102,7.400391,12.78125,7.400391L12.78125,7.400391C12.609375,7.400391,12.4375,7.333984,12.305664,7.203125L12.305664,7.203125z" Fill="#FF000000" />
+            <Path Data="F1M12.305664,7.203125C12.043945,6.94043,12.043945,6.513672,12.305664,6.25293L12.305664,6.25293 15.333008,3.224609C15.595703,2.961914,16.022461,2.961914,16.283203,3.224609L16.283203,3.224609C16.546875,3.488281,16.546875,3.913086,16.283203,4.175781L16.283203,4.175781 13.257813,7.203125C13.126953,7.333984,12.954102,7.400391,12.78125,7.400391L12.78125,7.400391C12.609375,7.400391,12.4375,7.333984,12.305664,7.203125L12.305664,7.203125z" Fill="#FF000000" />
+            <Path Data="F1M15.135742,9.755859L15.135742,3.701172C15.135742,3.329102,15.4375,3.027344,15.808594,3.027344L15.808594,3.027344C16.179688,3.027344,16.482422,3.329102,16.482422,3.701172L16.482422,3.701172 16.482422,9.755859C16.482422,10.125977,16.179688,10.427734,15.808594,10.427734L15.808594,10.427734C15.4375,10.427734,15.135742,10.125977,15.135742,9.755859L15.135742,9.755859z" Fill="#FF000000" />
+          </Canvas>
+        </Canvas>
+      </Canvas>
+    </nacs1:SymbolViewbox>
+    <nacc1:Rectangle Fill="#FF7F7F7F" Stroke="#FF000000" Name="m_Rectangle3" Width="105" Height="27" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="4" Canvas.Left="9" Canvas.Top="95" />
+    <nac:Group Name="m_Group1" Width="36" Height="82" RenderTransformOrigin="0.5,0.5" Panel.ZIndex="43" Canvas.Left="167" Canvas.Top="94">
+      <nacc1:Rectangle Fill="#FF7F7F7F" Stroke="#FF7F7F7F" StrokeThickness="1" Name="m_Rectangle6" Width="23" Height="25" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="47" Canvas.Left="2" Canvas.Top="1" />
+      <nac:Group Name="m_Group" Width="36" Height="82" RenderTransformOrigin="0.5,0.5" Panel.ZIndex="46" Canvas.Left="0" Canvas.Top="0">
+        <nacc1:Rectangle Fill="#FF7F7F7F" Stroke="#FF000000" StrokeThickness="1" Name="m_Rectangle4" Width="27" Height="27" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="43" Canvas.Left="0" Canvas.Top="0" />
+        <nacc1:Rectangle Fill="#FF7F7F7F" Stroke="#FF000000" Name="m_Rectangle5" Width="27" Height="82" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="44" Canvas.Left="9" Canvas.Top="0" />
+      </nac:Group>
+    </nac:Group>
+    <nac:Button Text="Alarmer" RequiresTransparency="True" SymbolTransparent="False" FontSize="17" Name="m_Button11" Width="201" Height="40" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="9" Canvas.Left="400" Canvas.Top="560" Style="{nac1:StyleMarkupExtension DefaultCF}">
+      <nac:Button.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Button.TextDecorations>
+      <nai:ActionProperties.Actions>
+        <nai:ActionList>
+          <nata:Action Name="Show Screen">
+            <nata:Action.ActionMethodInfo>
+              <nata:ActionMethodInfo Name="Show" ObjectName="Alarmer" EventName="Click" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="Neo.ApplicationFramework.Tools.Action.ScreenInstanceObjectPathProvider, ToolsIde, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" ObjectPath="Default" ExplicitAuditTrail="False">
+                <nata:ActionMethodInfo.ActionParameterInfo>
+                  <nai:ActionParameterInfoList>
+                    <nata:ActionParameterInfo Position="0" Value="{x:Null}" ParameterName="position" ParameterTypeString="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" TagName="" />
+                  </nai:ActionParameterInfoList>
+                </nata:ActionMethodInfo.ActionParameterInfo>
+              </nata:ActionMethodInfo>
+            </nata:Action.ActionMethodInfo>
+          </nata:Action>
+        </nai:ActionList>
+      </nai:ActionProperties.Actions>
+    </nac:Button>
+    <nacc1:Rectangle Fill="#FFE3E3E3" Stroke="#FF7F7F7F" StrokeThickness="1" Name="m_Rectangle2" Width="256" Height="489" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="7" Canvas.Left="530" Canvas.Top="60" />
+    <nac:Label MultiLine="False" WordWrap="False" Text="Text" Background="#00FFFFFF" Foreground="#FF2D6BB7" FontFamily="Tahoma" FontSize="20" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="5,0,5,1" Name="m_Text7" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="46" Canvas.Left="387" Canvas.Top="311">
+      <nac:Label.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Label.TextDecorations>
+    </nac:Label>
+    <nac:Label Text="Text" Background="#00FFFFFF" Foreground="#FF2D6BB7" FontFamily="Tahoma" FontSize="20" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="5,0,5,1" Name="m_Text3" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="45" Canvas.Left="387" Canvas.Top="251">
+      <nac:Label.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Label.TextDecorations>
+    </nac:Label>
+    <nac:AnalogNumericFX AutoStretchFont="False" LimitNumberOfCharacters="True" Suffix="%" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontFamily="Tahoma" UndoLimit="1" Transparent="Visible" TextDecorations="{x:Null}" BorderBrush="#FFE3E3E3" BorderThickness="1,1,1,1" Background="#FFE3E3E3" Foreground="#FF2D6BB7" FontSize="20" FontStyle="Normal" FontWeight="Normal" Padding="2,2,2,2" Name="m_AnalogNumeric3" Width="54" Height="32" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="39" KeyboardNavigation.TabNavigation="None" Canvas.Left="381" Canvas.Top="371">
+      <nac:AnalogNumericFX.Resources>
+        <ResourceDictionary>
+          <nacc:VariantValueConverter x:Key="ValueConverter" />
+        </ResourceDictionary>
+      </nac:AnalogNumericFX.Resources>
+      <nac:AnalogNumericFX.Value>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.Pådrag].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>0</Binding.FallbackValue>
+        </Binding>
+      </nac:AnalogNumericFX.Value>
+      <nac:AnalogNumericFX.BevelEffectInfo>
+        <nacb:BevelEffectInfo Style="None" Width="2" />
+      </nac:AnalogNumericFX.BevelEffectInfo>
+    </nac:AnalogNumericFX>
+    <nac:AnalogNumericFX AutoStretchFont="False" MaxNumberOfCharacters="3" LimitNumberOfCharacters="True" Suffix="%" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontFamily="Tahoma" UndoLimit="1" Transparent="Visible" TextDecorations="{x:Null}" BorderBrush="#FFE3E3E3" BorderThickness="1,1,1,1" Background="#FFE3E3E3" Foreground="#FF2D6BB7" FontSize="20" FontStyle="Normal" FontWeight="Normal" Padding="2,2,2,2" Name="m_AnalogNumeric1" Width="54" Height="32" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="25" KeyboardNavigation.TabNavigation="None" Canvas.Left="381" Canvas.Top="185">
+      <nac:AnalogNumericFX.Resources>
+        <ResourceDictionary>
+          <nacc:VariantValueConverter x:Key="ValueConverter" />
+        </ResourceDictionary>
+      </nac:AnalogNumericFX.Resources>
+      <nac:AnalogNumericFX.Value>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.Prosessverdi].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>0</Binding.FallbackValue>
+        </Binding>
+      </nac:AnalogNumericFX.Value>
+      <nac:AnalogNumericFX.BevelEffectInfo>
+        <nacb:BevelEffectInfo Style="None" Width="2" />
+      </nac:AnalogNumericFX.BevelEffectInfo>
+    </nac:AnalogNumericFX>
+    <nacc1:Ellipse Fill="#FFFFA500" Stroke="#FF000000" StrokeThickness="1" Name="m_Ellipse1" Width="35" Height="35" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="47" nacb1:BlinkProperties.IsBlinkEnabled="False" nacb1:BlinkProperties.BlinkInterval="800" Canvas.Left="422" Canvas.Top="563">
+      <nacc1:Ellipse.Resources>
+        <ResourceDictionary>
+          <nacd1:BoolDynamicsConverter x:Key="VisibleDynamicsValueConverter" DefaultValue="True" TrueValue="1" />
+        </ResourceDictionary>
+      </nacc1:Ellipse.Resources>
+      <nacb1:BlinkProperties.VisibleDynamicsValue>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.Alarm_synling].Value" Converter="{StaticResource VisibleDynamicsValueConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>
+            <s:Boolean>True</s:Boolean>
+          </Binding.FallbackValue>
+        </Binding>
+      </nacb1:BlinkProperties.VisibleDynamicsValue>
+    </nacc1:Ellipse>
+    <nac:Button Text="(kritisk)" RequiresTransparency="True" SymbolTransparent="False" FontSize="15" Name="m_Button1" Width="70" Height="28" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="48" Canvas.Left="329" Canvas.Top="88" Style="{nac1:StyleMarkupExtension DefaultCF}">
+      <nac:Button.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Button.TextDecorations>
+      <nai:ActionProperties.Actions>
+        <nai:ActionList>
+          <nata:Action Name="Set Analog">
+            <nata:Action.ActionMethodInfo>
+              <nata:ActionMethodInfo Name="SetAnalog" ObjectName="Tags.Kritisk_alarm_synling" EventName="Click" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False">
+                <nata:ActionMethodInfo.ActionParameterInfo>
+                  <nai:ActionParameterInfoList>
+                    <nata:ActionParameterInfo Position="0" ParameterName="newValue" ParameterTypeString="Neo.ApplicationFramework.Interfaces.VariantValue, InterfacesCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" TagName="">
+                      <nata:ActionParameterInfo.Value>
+                        <s:Int32>1</s:Int32>
+                      </nata:ActionParameterInfo.Value>
+                    </nata:ActionParameterInfo>
+                  </nai:ActionParameterInfoList>
+                </nata:ActionMethodInfo.ActionParameterInfo>
+              </nata:ActionMethodInfo>
+            </nata:Action.ActionMethodInfo>
+          </nata:Action>
+        </nai:ActionList>
+      </nai:ActionProperties.Actions>
+    </nac:Button>
+    <nac:Label Text="Alarm" Background="#00FFFFFF" Foreground="#FF000000" FontFamily="Tahoma" FontSize="26" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="6.5,0,6.5,1" Name="m_Text9" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="28" Canvas.Left="357" Canvas.Top="12">
+      <nac:Label.Resources>
+        <ResourceDictionary>
+          <nacd1:BoolDynamicsConverter x:Key="VisibleDynamicsValueConverter" DefaultValue="True" TrueValue="1" />
+        </ResourceDictionary>
+      </nac:Label.Resources>
+      <nacb1:BlinkProperties.VisibleDynamicsValue>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.Alarm_synling].Value" Converter="{StaticResource VisibleDynamicsValueConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>
+            <s:Boolean>True</s:Boolean>
+          </Binding.FallbackValue>
+        </Binding>
+      </nacb1:BlinkProperties.VisibleDynamicsValue>
+      <nac:Label.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Label.TextDecorations>
+    </nac:Label>
+    <nacc1:Ellipse Fill="#FFFFA500" Stroke="#FF000000" StrokeThickness="1" Name="m_Ellipse2" Width="35" Height="35" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="51" nacb1:BlinkProperties.BlinkInterval="1200" Canvas.Left="325" Canvas.Top="13">
+      <nacc1:Ellipse.Resources>
+        <ResourceDictionary>
+          <nacd1:BoolDynamicsConverter x:Key="VisibleDynamicsValueConverter" DefaultValue="True" TrueValue="1" />
+        </ResourceDictionary>
+      </nacc1:Ellipse.Resources>
+      <nacb1:BlinkProperties.VisibleDynamicsValue>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.Alarm_synling].Value" Converter="{StaticResource VisibleDynamicsValueConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>
+            <s:Boolean>True</s:Boolean>
+          </Binding.FallbackValue>
+        </Binding>
+      </nacb1:BlinkProperties.VisibleDynamicsValue>
+    </nacc1:Ellipse>
+    <nacc1:Ellipse Fill="#FFFF0000" Stroke="#FF000000" StrokeThickness="1" Name="m_Ellipse" Width="35" Height="35" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="52" nacb1:BlinkProperties.BlinkInterval="1200" Canvas.Left="325" Canvas.Top="13">
+      <nacc1:Ellipse.Resources>
+        <ResourceDictionary>
+          <nacd1:BoolDynamicsConverter x:Key="VisibleDynamicsValueConverter" DefaultValue="True" TrueValue="1" />
+        </ResourceDictionary>
+      </nacc1:Ellipse.Resources>
+      <nacb1:BlinkProperties.VisibleDynamicsValue>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.Kritisk_alarm_synling].Value" Converter="{StaticResource VisibleDynamicsValueConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>
+            <s:Boolean>True</s:Boolean>
+          </Binding.FallbackValue>
+        </Binding>
+      </nacb1:BlinkProperties.VisibleDynamicsValue>
+    </nacc1:Ellipse>
+    <nac:Label Text="Alarm" Background="#00FFFFFF" Foreground="#FF000000" FontFamily="Tahoma" FontSize="26" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="6.5,0,6.5,1" Name="m_Text8" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="29" Canvas.Left="357" Canvas.Top="12">
+      <nac:Label.Resources>
+        <ResourceDictionary>
+          <nacd1:BoolDynamicsConverter x:Key="VisibleDynamicsValueConverter" DefaultValue="True" TrueValue="1" />
+        </ResourceDictionary>
+      </nac:Label.Resources>
+      <nacb1:BlinkProperties.VisibleDynamicsValue>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.Kritisk_alarm_synling].Value" Converter="{StaticResource VisibleDynamicsValueConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>
+            <s:Boolean>True</s:Boolean>
+          </Binding.FallbackValue>
+        </Binding>
+      </nacb1:BlinkProperties.VisibleDynamicsValue>
+      <nac:Label.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Label.TextDecorations>
+    </nac:Label>
+    <nacc1:Ellipse Fill="#FFFF0000" Stroke="#FF000000" StrokeThickness="1" Name="m_Ellipse3" Width="35" Height="35" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="49" nacb1:BlinkProperties.BlinkInterval="800" Canvas.Left="422" Canvas.Top="563">
+      <nacc1:Ellipse.Resources>
+        <ResourceDictionary>
+          <nacd1:BoolDynamicsConverter x:Key="VisibleDynamicsValueConverter" DefaultValue="True" TrueValue="1" />
+          <nacd1:BoolDynamicsConverter x:Key="IsBlinkEnabledConverter" DefaultValue="False" TrueValue="1" />
+        </ResourceDictionary>
+      </nacc1:Ellipse.Resources>
+      <nacb1:BlinkProperties.IsBlinkEnabled>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.Kritisk_alarm_synling].Value" Converter="{StaticResource IsBlinkEnabledConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>
+            <s:Boolean>False</s:Boolean>
+          </Binding.FallbackValue>
+        </Binding>
+      </nacb1:BlinkProperties.IsBlinkEnabled>
+      <nacb1:BlinkProperties.VisibleDynamicsValue>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.Kritisk_alarm_synling].Value" Converter="{StaticResource VisibleDynamicsValueConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>
+            <s:Boolean>True</s:Boolean>
+          </Binding.FallbackValue>
+        </Binding>
+      </nacb1:BlinkProperties.VisibleDynamicsValue>
+    </nacc1:Ellipse>
+    <nac:Button Text="(alarm)" RequiresTransparency="True" SymbolTransparent="False" FontSize="15" Name="m_Button2" Width="70" Height="28" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="50" Canvas.Left="251" Canvas.Top="88" Style="{nac1:StyleMarkupExtension DefaultCF}">
+      <nac:Button.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Button.TextDecorations>
+      <nai:ActionProperties.Actions>
+        <nai:ActionList>
+          <nata:Action Name="Set Analog">
+            <nata:Action.ActionMethodInfo>
+              <nata:ActionMethodInfo Name="SetAnalog" ObjectName="Tags.Alarm_synling" EventName="Click" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False">
+                <nata:ActionMethodInfo.ActionParameterInfo>
+                  <nai:ActionParameterInfoList>
+                    <nata:ActionParameterInfo Position="0" ParameterName="newValue" ParameterTypeString="Neo.ApplicationFramework.Interfaces.VariantValue, InterfacesCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" TagName="">
+                      <nata:ActionParameterInfo.Value>
+                        <s:Int32>1</s:Int32>
+                      </nata:ActionParameterInfo.Value>
+                    </nata:ActionParameterInfo>
+                  </nai:ActionParameterInfoList>
+                </nata:ActionMethodInfo.ActionParameterInfo>
+              </nata:ActionMethodInfo>
+            </nata:Action.ActionMethodInfo>
+          </nata:Action>
+        </nai:ActionList>
+      </nai:ActionProperties.Actions>
+    </nac:Button>
+    <nac:AnalogNumericFX AutoStretchFont="False" NumberOfDecimals="0" MaxNumberOfCharacters="2" LimitNumberOfCharacters="True" Suffix="%" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontFamily="Tahoma" UndoLimit="1" Transparent="Visible" BorderBrush="#FF7F9DB9" BorderThickness="1,1,1,1" Foreground="#FF000000" FontSize="20" Padding="2,2,2,2" Name="m_AnalogNumeric" Width="44" Height="29" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="53" KeyboardNavigation.TabNavigation="None" Canvas.Left="37" Canvas.Top="129">
+      <nac:AnalogNumericFX.Resources>
+        <ResourceDictionary>
+          <nacd1:BoolDynamicsConverter x:Key="VisibleDynamicsValueConverter" DefaultValue="True" TrueValue="1" />
+          <nacc:VariantValueConverter x:Key="ValueConverter" />
+        </ResourceDictionary>
+      </nac:AnalogNumericFX.Resources>
+      <nac:AnalogNumericFX.Value>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.Frekvensomformer_åpning].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>0</Binding.FallbackValue>
+        </Binding>
+      </nac:AnalogNumericFX.Value>
+      <nacb1:BlinkProperties.VisibleDynamicsValue>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.Styring_frekvens_eller_ventil].Value" Converter="{StaticResource VisibleDynamicsValueConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>
+            <s:Boolean>True</s:Boolean>
+          </Binding.FallbackValue>
+        </Binding>
+      </nacb1:BlinkProperties.VisibleDynamicsValue>
+      <nac:AnalogNumericFX.BevelEffectInfo>
+        <nacb:BevelEffectInfo Style="Sunken" Width="2" />
+      </nac:AnalogNumericFX.BevelEffectInfo>
+      <nac:AnalogNumericFX.TextDecorations>
+        <TextDecorationCollection />
+      </nac:AnalogNumericFX.TextDecorations>
+      <nac:AnalogNumericFX.Background>
+        <LinearGradientBrush StartPoint="0.5,1" EndPoint="0.5,0">
+          <LinearGradientBrush.GradientStops>
+            <GradientStopCollection>
+              <GradientStop Color="#FFFFFFFF" />
+              <GradientStop Color="#FFD4D0C8" Offset="1" />
+            </GradientStopCollection>
+          </LinearGradientBrush.GradientStops>
+        </LinearGradientBrush>
+      </nac:AnalogNumericFX.Background>
+    </nac:AnalogNumericFX>
+    <nac:AnalogNumericFX AutoStretchFont="False" NumberOfDecimals="0" MaxNumberOfCharacters="2" LimitNumberOfCharacters="True" Suffix="%" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontFamily="Tahoma" UndoLimit="1" Transparent="Visible" BorderBrush="#FF7F9DB9" BorderThickness="1,1,1,1" Foreground="#FF000000" FontSize="20" Padding="2,2,2,2" Name="m_AnalogNumeric2" Width="44" Height="29" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="54" KeyboardNavigation.TabNavigation="None" Canvas.Left="115" Canvas.Top="130">
+      <nac:AnalogNumericFX.Resources>
+        <ResourceDictionary>
+          <nacd1:BoolDynamicsConverter x:Key="VisibleDynamicsValueConverter" DefaultValue="True" TrueValue="2" />
+          <nacc:VariantValueConverter x:Key="ValueConverter" />
+        </ResourceDictionary>
+      </nac:AnalogNumericFX.Resources>
+      <nac:AnalogNumericFX.Value>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.Regventil_åpning].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>0</Binding.FallbackValue>
+        </Binding>
+      </nac:AnalogNumericFX.Value>
+      <nacb1:BlinkProperties.VisibleDynamicsValue>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.Styring_frekvens_eller_ventil].Value" Converter="{StaticResource VisibleDynamicsValueConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>
+            <s:Boolean>True</s:Boolean>
+          </Binding.FallbackValue>
+        </Binding>
+      </nacb1:BlinkProperties.VisibleDynamicsValue>
+      <nac:AnalogNumericFX.BevelEffectInfo>
+        <nacb:BevelEffectInfo Style="Sunken" Width="2" />
+      </nac:AnalogNumericFX.BevelEffectInfo>
+      <nac:AnalogNumericFX.TextDecorations>
+        <TextDecorationCollection />
+      </nac:AnalogNumericFX.TextDecorations>
+      <nac:AnalogNumericFX.Background>
+        <LinearGradientBrush StartPoint="0.5,1" EndPoint="0.5,0">
+          <LinearGradientBrush.GradientStops>
+            <GradientStopCollection>
+              <GradientStop Color="#FFFFFFFF" />
+              <GradientStop Color="#FFD4D0C8" Offset="1" />
+            </GradientStopCollection>
+          </LinearGradientBrush.GradientStops>
+        </LinearGradientBrush>
+      </nac:AnalogNumericFX.Background>
+    </nac:AnalogNumericFX>
+    <nacc1:Rectangle Fill="#FFE3E3E3" Stroke="#FF7F7F7F" StrokeThickness="1" Name="m_Rectangle7" Width="501" Height="489" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="3" Canvas.Left="9" Canvas.Top="60" />
+    <nacc1:Rectangle Fill="#FFE3E3E3" Stroke="#FF000000" Name="m_Rectangle8" Width="240" Height="44" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="55" Canvas.Left="9" Canvas.Top="9" />
+    <nacc1:Rectangle Fill="#FFE3E3E3" Stroke="#FF000000" Name="m_Rectangle9" Width="255" Height="44" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="1" Canvas.Left="531" Canvas.Top="9" />
+    <nacc1:Rectangle Fill="#FFE3E3E3" Stroke="#FF000000" Name="m_Rectangle10" Width="240" Height="44" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="2" Canvas.Left="270" Canvas.Top="8" />
+    <nac:Label Text="STATUS" Background="#00FFFFFF" Foreground="#FF000000" FontFamily="Tahoma" FontSize="20" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="5,0,5,1" Name="m_Text10" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="56" Canvas.Left="43" Canvas.Top="16">
+      <nac:Label.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Label.TextDecorations>
+    </nac:Label>
+  </nacs:ElementCanvas>
+</nacs:ScreenWindow>

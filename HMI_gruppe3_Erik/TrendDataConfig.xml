@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TrendDataSources>
+  <TrendViewer Name="Trender.TrendViewer" TimeRangeBoundDataItem="" TrendWidth="569" TimeRange="PT10M">
+    <GlobalDataItems>
+      <GlobalDataItem DataSourceName="Tags.Pådrag" />
+      <GlobalDataItem DataSourceName="Tags.Settpunkt" />
+      <GlobalDataItem DataSourceName="Tags.Prosessverdi" />
+    </GlobalDataItems>
+  </TrendViewer>
+</TrendDataSources>

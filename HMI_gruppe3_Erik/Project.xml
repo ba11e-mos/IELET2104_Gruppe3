@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project SchemaVersion="2.21.28.0">
+  <Guid>5f485c4d-e89a-4531-936e-a361ed40687e</Guid>
+  <ProjectFiles>
+    <ProjectFile Name="AlarmServer.neo" ModifiedDate="2026-04-18T12:07:50.698894+02:00" Length="1053" />
+    <ProjectFile Name="MultipleLanguages.neo" ModifiedDate="2026-04-18T13:34:40.8290891+02:00" Length="50204" />
+    <ProjectFile Name="Expressions.neo" ModifiedDate="2026-04-18T12:07:50.861901+02:00" Length="457" />
+    <ProjectFile Name="LicenseRootComponent.neo" ModifiedDate="2026-04-18T12:07:51.035875+02:00" Length="8675" />
+    <ProjectFile Name="Tags.neo" ModifiedDate="2026-04-18T12:07:51.303862+02:00" Length="19504" />
+    <ProjectFile Name="Tags.Script.cs" ModifiedDate="2026-04-18T12:07:51.295862+02:00" Length="2163" />
+    <ProjectFile Name="ProjectConfiguration.neo" ModifiedDate="2026-04-18T12:07:51.065874+02:00" Length="6377" />
+    <ProjectFile Name="Security.neo" ModifiedDate="2026-04-18T12:27:15.353906+02:00" Length="449" />
+    <ProjectFile Name="Security.xml" ModifiedDate="2026-04-18T12:27:15.360903+02:00" Length="693" />
+    <ProjectFile Name="SntpClientRootComponent.neo" ModifiedDate="2026-04-18T12:07:51.138876+02:00" Length="468" />
+    <ProjectFile Name="ProjectImages.neo" ModifiedDate="2026-04-18T12:07:51.075873+02:00" Length="454" />
+    <ProjectFile Name="Symbols\alarm.png" ModifiedDate="2026-04-18T12:07:51.169868+02:00" Length="12464" />
+    <ProjectFile Name="Symbols\p1proc.m_bl21.png" ModifiedDate="2026-04-18T12:07:51.276866+02:00" Length="3808" />
+    <ProjectFile Name="Symbols\p1proc.m_bl22.png" ModifiedDate="2026-04-18T12:07:51.281864+02:00" Length="4032" />
+    <ProjectFile Name="Symbols\p1proc.m_bl61.png" ModifiedDate="2026-04-18T12:07:51.286863+02:00" Length="3506" />
+    <ProjectFile Name="Symbols\p1proc.m_bl62.png" ModifiedDate="2026-04-18T12:07:51.290862+02:00" Length="3907" />
+    <ProjectFile Name="Symbols\2v_mag_green rotated 0.lib" ModifiedDate="2026-04-18T12:07:51.150872+02:00" Length="8342" />
+    <ProjectFile Name="Symbols\2v_mag_green_red_fl rotated 0.lib" ModifiedDate="2026-04-18T12:07:51.15587+02:00" Length="8853" />
+    <ProjectFile Name="Symbols\2v_mag_grey rotated 0.lib" ModifiedDate="2026-04-18T12:07:51.15987+02:00" Length="8684" />
+    <ProjectFile Name="Symbols\2v_mag_red_fl rotated 0.lib" ModifiedDate="2026-04-18T12:07:51.164871+02:00" Length="8548" />
+    <ProjectFile Name="Symbols\beijer-electronics1.lib" ModifiedDate="2026-04-18T12:07:51.173869+02:00" Length="9452" />
+    <ProjectFile Name="Symbols\button black.lib" ModifiedDate="2026-04-18T12:07:51.178868+02:00" Length="23615" />
+    <ProjectFile Name="Symbols\button blue.lib" ModifiedDate="2026-04-18T12:07:51.18387+02:00" Length="20992" />
+    <ProjectFile Name="Symbols\button gray.lib" ModifiedDate="2026-04-18T12:07:51.188867+02:00" Length="21769" />
+    <ProjectFile Name="Symbols\button green.lib" ModifiedDate="2026-04-18T12:07:51.193867+02:00" Length="24062" />
+    <ProjectFile Name="Symbols\button orange.lib" ModifiedDate="2026-04-18T12:07:51.198868+02:00" Length="22948" />
+    <ProjectFile Name="Symbols\button purple.lib" ModifiedDate="2026-04-18T12:07:51.203866+02:00" Length="23453" />
+    <ProjectFile Name="Symbols\button red.lib" ModifiedDate="2026-04-18T12:07:51.208868+02:00" Length="22995" />
+    <ProjectFile Name="Symbols\button yellow.lib" ModifiedDate="2026-04-18T12:07:51.213866+02:00" Length="24287" />
+    <ProjectFile Name="Symbols\led_blue.lib" ModifiedDate="2026-04-18T12:07:51.220865+02:00" Length="34762" />
+    <ProjectFile Name="Symbols\led_green.lib" ModifiedDate="2026-04-18T12:07:51.225865+02:00" Length="34325" />
+    <ProjectFile Name="Symbols\led_orange.lib" ModifiedDate="2026-04-18T12:07:51.233865+02:00" Length="33546" />
+    <ProjectFile Name="Symbols\led_purple.lib" ModifiedDate="2026-04-18T12:07:51.238865+02:00" Length="34652" />
+    <ProjectFile Name="Symbols\led_red.lib" ModifiedDate="2026-04-18T12:07:51.243869+02:00" Length="33316" />
+    <ProjectFile Name="Symbols\led_white.lib" ModifiedDate="2026-04-18T12:07:51.248865+02:00" Length="31319" />
+    <ProjectFile Name="Symbols\led_white_off.lib" ModifiedDate="2026-04-18T12:07:51.256866+02:00" Length="30321" />
+    <ProjectFile Name="Symbols\led_yellow.lib" ModifiedDate="2026-04-18T12:07:51.261864+02:00" Length="34573" />
+    <ProjectFile Name="Symbols\light_green electrical.lib" ModifiedDate="2026-04-18T12:07:51.266867+02:00" Length="27200" />
+    <ProjectFile Name="Symbols\light_red_fl electrical.lib" ModifiedDate="2026-04-18T12:07:51.271869+02:00" Length="25484" />
+    <ProjectFile Name="Hjem.neoxaml" ModifiedDate="2026-04-18T13:34:40.9208395+02:00" Length="793" />
+    <ProjectFile Name="Hjem.Script.cs" ModifiedDate="2026-04-18T13:34:40.9218413+02:00" Length="972" />
+    <ProjectFile Name="Hjem.xaml" ModifiedDate="2026-04-18T13:34:41.1634662+02:00" Length="99319" />
+    <ProjectFile Name="Alarmer.neoxaml" ModifiedDate="2026-04-18T13:34:41.8903121+02:00" Length="796" />
+    <ProjectFile Name="Alarmer.xaml" ModifiedDate="2026-04-18T13:34:41.9258381+02:00" Length="18525" />
+    <ProjectFile Name="Trender.neoxaml" ModifiedDate="2026-04-18T13:34:42.0948961+02:00" Length="796" />
+    <ProjectFile Name="Trender.Script.cs" ModifiedDate="2026-04-18T13:34:42.0958991+02:00" Length="782" />
+    <ProjectFile Name="Trender.xaml" ModifiedDate="2026-04-18T13:34:42.148198+02:00" Length="20446" />
+    <ProjectFile Name="Regulator.neoxaml" ModifiedDate="2026-04-18T13:34:42.4278341+02:00" Length="798" />
+    <ProjectFile Name="Regulator.Script.cs" ModifiedDate="2026-04-18T13:34:42.4299992+02:00" Length="3101" />
+    <ProjectFile Name="Regulator.xaml" ModifiedDate="2026-04-18T13:34:42.5222145+02:00" Length="77166" />
+    <ProjectFile Name="Printer1.xml" ModifiedDate="2026-04-18T12:07:51.05188+02:00" Length="850" />
+    <ProjectFile Name="Controller1.neo" ModifiedDate="2026-04-18T12:07:50.843886+02:00" Length="3493" />
+  </ProjectFiles>
+</Project>
