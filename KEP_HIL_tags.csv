@@ -1,0 +1,11 @@
+Tag Name,Address,Data Type,Respect Data Type,Client Access,Scan Rate,Scaling,Raw Low,Raw High,Scaled Low,Scaled High,Scaled Data Type,Clamp Low,Clamp High,Eng Units,Description,Negate Value
+Settpunkt_Referanse_glob,D0000000,Short,1,R/W,100,,,,,,,,,,Settpunkt referanse (satt fra HMI),
+Settpunkt_Kp_glob,D0000002,Float,1,R/W,100,,,,,,,,,,Settpunkt Kp (satt fra HMI),
+Settpunkt_Ki_glob,D0000004,Float,1,R/W,100,,,,,,,,,,Settpunkt Ki (satt fra HMI),
+Settpunkt_Kd_glob,D0000006,Float,1,R/W,100,,,,,,,,,,Settpunkt Kd (satt fra HMI),
+Tf_glob,D0000008,Float,1,R/W,100,,,,,,,,,,Filterkoeffisient Tf,
+Tankp,D0000010,Float,1,R,100,,,,,,,,,,Tanknivå prosessverdi,
+fP_glob,D0000012,Float,1,R,100,,,,,,,,,,P-bidrag fra PID,
+fI_glob,D0000014,Float,1,R,100,,,,,,,,,,I-bidrag fra PID,
+fDD,D0000016,Float,1,R,100,,,,,,,,,,D-bidrag (derivert) fra PID,
+Pådrag,D0000020,Float,1,R,100,,,,,,,,,,PID utgangspådrag,
