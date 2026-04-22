@@ -7,17 +7,18 @@
 
 namespace Neo.ApplicationFramework.Generated
 {
-    using System.Windows.Forms;
-    using System;
-    using System.Drawing;
-    using Neo.ApplicationFramework.Tools;
-    using Neo.ApplicationFramework.Common.Graphics.Logic;
-    using Neo.ApplicationFramework.Controls;
-    using Neo.ApplicationFramework.Interfaces;
+	using System.Windows.Forms;
+	using System;
+	using System.Drawing;
+	using Neo.ApplicationFramework.Tools;
+	using Neo.ApplicationFramework.Common.Graphics.Logic;
+	using Neo.ApplicationFramework.Controls;
+	using Neo.ApplicationFramework.Interfaces;
     
     
-    public partial class Tags
-    {
+	public partial class Tags
+	{
+		bool oppdatererFraModus = false;
 		
 		void Styring_frekvens_eller_ventil_ValueChange(System.Object sender, Neo.ApplicationFramework.Interfaces.Events.ValueChangedEventArgs e)
 		{
@@ -60,5 +61,5 @@ namespace Neo.ApplicationFramework.Generated
 			OppdaterRegulatorType();
 		}
 	
-    }
+	}
 }

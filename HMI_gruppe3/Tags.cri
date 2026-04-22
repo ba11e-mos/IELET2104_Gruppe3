@@ -25,6 +25,11 @@
         <Item Target="Tags" TargetProperty="Frekvensomformer_åpning" Source="Controller1.DataItem8" />
         <Item Target="Tags" TargetProperty="Settpunkt" Source="Controller1.DataItem13" />
         <Item Target="Tags" TargetProperty="Organ" Source="Controller1.DataItem9" />
+        <Item Target="Tags" TargetProperty="Alarm_høy" Source="Controller1.DataItem10" />
+        <Item Target="Tags" TargetProperty="Alarm_kritisk_høy" Source="Controller1.DataItem11" />
+        <Item Target="Tags" TargetProperty="Alarm_lav" Source="Controller1.DataItem12" />
+        <Item Target="Tags" TargetProperty="Alarm_kritisk_lav" Source="Controller1.DataItem14" />
+        <Item Target="Tags" TargetProperty="Reset_alarm" Source="Controller1.DataItem15" />
       </Items>
     </Category>
     <Category Name="Recipe">

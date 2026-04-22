@@ -1,23 +1,16 @@
-//--------------------------------------------------------------
-// Press F1 to get help about using script.
-// To access an object that is not located in the current class, start the call with Globals.
-// When using events and timers be cautious not to generate memoryleaks,
-// please see the help for more information.
-//---------------------------------------------------------------
-
 namespace Neo.ApplicationFramework.Generated
 {
-    using System.Windows.Forms;
-    using System;
-    using System.Drawing;
-    using Neo.ApplicationFramework.Tools;
-    using Neo.ApplicationFramework.Common.Graphics.Logic;
-    using Neo.ApplicationFramework.Controls;
-    using Neo.ApplicationFramework.Interfaces;
+	using System.Windows.Forms;
+	using System;
+	using System.Drawing;
+	using Neo.ApplicationFramework.Tools;
+	using Neo.ApplicationFramework.Common.Graphics.Logic;
+	using Neo.ApplicationFramework.Controls;
+	using Neo.ApplicationFramework.Interfaces;
     
     
-    public partial class Regulator
-    {
+	public partial class Regulator
+	{
 		
 		void Button_Click(System.Object sender, System.EventArgs e)
 		{
@@ -84,6 +77,8 @@ namespace Neo.ApplicationFramework.Generated
 			AnalogNumeric3.Value = Globals.Tags.Kd.Value;
 		}
 		
+		
+		
 		void Regulator_Opened(System.Object sender, System.EventArgs e)
 		{
 			Globals.Tags.Kp.Value = Nom_Kp_PID;
@@ -92,9 +87,8 @@ namespace Neo.ApplicationFramework.Generated
 			AnalogNumeric.Value = Globals.Tags.Kp.Value;
 			AnalogNumeric2.Value = Globals.Tags.Ki.Value;
 			AnalogNumeric3.Value = Globals.Tags.Kd.Value;
-		}
+		} 
 		
 		
-		
-    }
+	}
 }

@@ -64,7 +64,15 @@ namespace Neo.ApplicationFramework.Generated
 		
 		public Neo.ApplicationFramework.Tools.OpcClient.LightweightTag StatusTxt;
 		
-		public Neo.ApplicationFramework.Tools.OpcClient.LightweightTag Aktiv_Alarm;
+		public Neo.ApplicationFramework.Tools.OpcClient.LightweightTag Alarm_høy;
+		
+		public Neo.ApplicationFramework.Tools.OpcClient.LightweightTag Alarm_kritisk_høy;
+		
+		public Neo.ApplicationFramework.Tools.OpcClient.LightweightTag Alarm_lav;
+		
+		public Neo.ApplicationFramework.Tools.OpcClient.LightweightTag Alarm_kritisk_lav;
+		
+		public Neo.ApplicationFramework.Tools.OpcClient.LightweightTag Reset_alarm;
 		
 		public Neo.ApplicationFramework.Tools.OpcClient.PollGroup PollGroup1;
 		
@@ -128,7 +136,11 @@ namespace Neo.ApplicationFramework.Generated
 			this.Organ = new Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem("Organ", ((Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE)(Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE.DT_BIT)), ((short)(1)), 0D, 1D, ((short)(0)), false, "Value Change", ((Neo.ApplicationFramework.Interfaces.AccessRights)((Neo.ApplicationFramework.Interfaces.AccessRights.Read | Neo.ApplicationFramework.Interfaces.AccessRights.Write))), "PollGroup1", false, false, ((Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE)(Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE.DT_BOOLEAN)), "", ((short)(1)), "", "");
 			this.sModus = new Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem("sModus", ((Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE)(Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE.DT_DEFAULT)), ((short)(1)), 0D, 1D, ((short)(0)), false, "Value Change", ((Neo.ApplicationFramework.Interfaces.AccessRights)((Neo.ApplicationFramework.Interfaces.AccessRights.Read | Neo.ApplicationFramework.Interfaces.AccessRights.Write))), "PollGroup1", false, false, ((Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE)(Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE.DT_STRING)), "", ((short)(1)), "", "");
 			this.StatusTxt = new Neo.ApplicationFramework.Tools.OpcClient.LightweightTag("StatusTxt", "", 500, ((Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE)(Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE.DT_BOOLEAN)), false, "", null);
-			this.Aktiv_Alarm = new Neo.ApplicationFramework.Tools.OpcClient.LightweightTag("Aktiv_Alarm", "", 500, ((Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE)(Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE.DT_BOOLEAN)), false, "", null);
+			this.Alarm_høy = new Neo.ApplicationFramework.Tools.OpcClient.LightweightTag("Alarm_høy", "Controller1.DataItem10", 500, ((Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE)(Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE.DT_BOOLEAN)), false, "", null);
+			this.Alarm_kritisk_høy = new Neo.ApplicationFramework.Tools.OpcClient.LightweightTag("Alarm_kritisk_høy", "Controller1.DataItem11", 500, ((Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE)(Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE.DT_BOOLEAN)), false, "", null);
+			this.Alarm_lav = new Neo.ApplicationFramework.Tools.OpcClient.LightweightTag("Alarm_lav", "Controller1.DataItem12", 500, ((Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE)(Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE.DT_BOOLEAN)), false, "", null);
+			this.Alarm_kritisk_lav = new Neo.ApplicationFramework.Tools.OpcClient.LightweightTag("Alarm_kritisk_lav", "Controller1.DataItem14", 500, ((Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE)(Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE.DT_BOOLEAN)), false, "", null);
+			this.Reset_alarm = new Neo.ApplicationFramework.Tools.OpcClient.LightweightTag("Reset_alarm", "Controller1.DataItem15", 500, ((Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE)(Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE.DT_BOOLEAN)), false, "", null);
 			this.PollGroup1 = new Neo.ApplicationFramework.Tools.OpcClient.PollGroup();
 			this.PollGroup2 = new Neo.ApplicationFramework.Tools.OpcClient.PollGroup();
 			this.PollGroup3 = new Neo.ApplicationFramework.Tools.OpcClient.PollGroup();
@@ -195,7 +207,11 @@ namespace Neo.ApplicationFramework.Generated
 			this.GlobalDataItems.Add(this.Organ);
 			this.GlobalDataItems.Add(this.sModus);
 			this.LightweightTags.Add(this.StatusTxt);
-			this.LightweightTags.Add(this.Aktiv_Alarm);
+			this.LightweightTags.Add(this.Alarm_høy);
+			this.LightweightTags.Add(this.Alarm_kritisk_høy);
+			this.LightweightTags.Add(this.Alarm_lav);
+			this.LightweightTags.Add(this.Alarm_kritisk_lav);
+			this.LightweightTags.Add(this.Reset_alarm);
 			this.PollGroup1.Interval = 500;
 			this.PollGroup1.Name = "PollGroup1";
 			this.PollGroup2.Interval = 500;

@@ -7,9 +7,9 @@
     </nai:ScriptEventList>
   </nai:ScriptProperties.ScriptEvents>
   <nacs:ElementCanvas Name="m_EditorCanvas" Width="800" Height="600" FocusVisualStyle="{x:Null}" AllowDrop="True" ClipToBounds="True" Focusable="True" TextOptions.TextFormattingMode="Display" TextOptions.TextRenderingMode="ClearType" Panel.ZIndex="104">
-    <nac:Label Text="Styring" TextDecorations="{x:Null}" Background="#00FFFFFF" Foreground="#FF000000" FontFamily="Tahoma" FontSize="20" FontStyle="Normal" FontWeight="Normal" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="5,0,5,1" Name="m_Text2" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="12" Canvas.Left="542" Canvas.Top="265" />
-    <nac:Label Text="Settpunkt" TextDecorations="{x:Null}" Background="#00FFFFFF" Foreground="#FF000000" FontFamily="Tahoma" FontSize="20" FontStyle="Normal" FontWeight="Normal" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="5,0,5,1" Name="m_Text6" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="13" Canvas.Left="540" Canvas.Top="158" />
-    <nac:AnalogNumericFX AutoStretchFont="False" MaxNumberOfCharacters="3" LimitNumberOfCharacters="True" MaxValue="100" ValidateValueOnInput="True" Suffix="%" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontFamily="Tahoma" UndoLimit="1" Transparent="Visible" TextDecorations="{x:Null}" BorderBrush="#FF7F9DB9" BorderThickness="1,1,1,1" Foreground="#FF000000" FontSize="20" FontStyle="Normal" FontWeight="Normal" Padding="2,2,2,2" Name="m_AnalogNumeric6" Width="231" Height="36" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="14" KeyboardNavigation.TabNavigation="None" Canvas.Left="544" Canvas.Top="193">
+    <nac:Label Text="Styring" TextDecorations="{x:Null}" Background="#00FFFFFF" Foreground="#FF000000" FontFamily="Tahoma" FontSize="20" FontStyle="Normal" FontWeight="Normal" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="5,0,5,1" Name="m_Text2" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="12" Canvas.Left="544" Canvas.Top="322" />
+    <nac:Label Text="Settpunkt" TextDecorations="{x:Null}" Background="#00FFFFFF" Foreground="#FF000000" FontFamily="Tahoma" FontSize="20" FontStyle="Normal" FontWeight="Normal" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="5,0,5,1" Name="m_Text6" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="13" Canvas.Left="540" Canvas.Top="148" />
+    <nac:AnalogNumericFX AutoStretchFont="False" MaxNumberOfCharacters="3" LimitNumberOfCharacters="True" MaxValue="100" ValidateValueOnInput="True" Suffix="%" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontFamily="Tahoma" UndoLimit="1" Transparent="Visible" TextDecorations="{x:Null}" BorderBrush="#FF7F9DB9" BorderThickness="1,1,1,1" Foreground="#FF000000" FontSize="20" FontStyle="Normal" FontWeight="Normal" Padding="2,2,2,2" Name="m_AnalogNumeric6" Width="231" Height="36" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="14" KeyboardNavigation.TabNavigation="None" Canvas.Left="544" Canvas.Top="183">
       <nac:AnalogNumericFX.Resources>
         <ResourceDictionary>
           <nacc:VariantValueConverter x:Key="ValueConverter" />
@@ -35,8 +35,8 @@
       </nac:AnalogNumericFX.Background>
     </nac:AnalogNumericFX>
     <nacc1:Rectangle Fill="#FF7F7F7F" Stroke="#FF000000" Name="m_Rectangle11" Width="27" Height="39" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="15" Canvas.Left="176" Canvas.Top="453" />
-    <nac:Label Text="Utløpsventiler" TextDecorations="{x:Null}" Background="#00FFFFFF" Foreground="#FF000000" FontFamily="Tahoma" FontSize="20" FontStyle="Normal" FontWeight="Normal" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="5,0,5,1" Name="m_Text15" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="16" Canvas.Left="545" Canvas.Top="371" />
-    <nac:Button Text="V1" TextDecorations="{x:Null}" RequiresTransparency="True" SymbolTransparent="False" FontFamily="Tahoma" FontSize="15" FontStyle="Normal" FontWeight="Normal" Name="m_Button7" Width="77" Height="47" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="17" Canvas.Left="544" Canvas.Top="408" Style="{nac1:StyleMarkupExtension DefaultCF}">
+    <nac:Label Text="Utløpsventiler" TextDecorations="{x:Null}" Background="#00FFFFFF" Foreground="#FF000000" FontFamily="Tahoma" FontSize="20" FontStyle="Normal" FontWeight="Normal" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="5,0,5,1" Name="m_Text15" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="16" Canvas.Left="545" Canvas.Top="410" />
+    <nac:Button Text="V1" TextDecorations="{x:Null}" RequiresTransparency="True" SymbolTransparent="False" FontFamily="Tahoma" FontSize="15" FontStyle="Normal" FontWeight="Normal" Name="m_Button7" Width="77" Height="47" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="17" Canvas.Left="544" Canvas.Top="447" Style="{nac1:StyleMarkupExtension DefaultCF}">
       <nac:Button.Resources>
         <ResourceDictionary>
           <nacd1:BrushDynamicsConverter x:Key="BackgroundConverter">
@@ -83,7 +83,7 @@
         </nai:ActionList>
       </nai:ActionProperties.Actions>
     </nac:Button>
-    <nac:Button Text="V2" TextDecorations="{x:Null}" RequiresTransparency="True" SymbolTransparent="False" FontFamily="Tahoma" FontSize="15" FontStyle="Normal" FontWeight="Normal" Name="m_Button8" Width="77" Height="47" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="18" Canvas.Left="621" Canvas.Top="408" Style="{nac1:StyleMarkupExtension DefaultCF}">
+    <nac:Button Text="V2" TextDecorations="{x:Null}" RequiresTransparency="True" SymbolTransparent="False" FontFamily="Tahoma" FontSize="15" FontStyle="Normal" FontWeight="Normal" Name="m_Button8" Width="77" Height="47" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="18" Canvas.Left="621" Canvas.Top="447" Style="{nac1:StyleMarkupExtension DefaultCF}">
       <nac:Button.Resources>
         <ResourceDictionary>
           <nacd1:BrushDynamicsConverter x:Key="BackgroundConverter">
@@ -130,7 +130,7 @@
         </nai:ActionList>
       </nai:ActionProperties.Actions>
     </nac:Button>
-    <nac:Button Text="V3" TextDecorations="{x:Null}" RequiresTransparency="True" SymbolTransparent="False" FontFamily="Tahoma" FontSize="15" FontStyle="Normal" FontWeight="Normal" Name="m_Button9" Width="77" Height="47" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="19" Canvas.Left="698" Canvas.Top="408" Style="{nac1:StyleMarkupExtension DefaultCF}">
+    <nac:Button Text="V3" TextDecorations="{x:Null}" RequiresTransparency="True" SymbolTransparent="False" FontFamily="Tahoma" FontSize="15" FontStyle="Normal" FontWeight="Normal" Name="m_Button9" Width="77" Height="47" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="19" Canvas.Left="698" Canvas.Top="447" Style="{nac1:StyleMarkupExtension DefaultCF}">
       <nac:Button.Resources>
         <ResourceDictionary>
           <nacd1:BrushDynamicsConverter x:Key="BackgroundConverter">
@@ -388,9 +388,9 @@
     <Polyline Points="0,0 30,1" Fill="{x:Null}" Stroke="#FF000000" Name="m_PolyLine" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="22" Canvas.Left="0" Canvas.Top="0" />
     <nac:Label Text="Prosessverdi:" TextDecorations="{x:Null}" Background="#00FFFFFF" Foreground="#FF2D6BB7" FontFamily="Tahoma" FontSize="20" FontStyle="Normal" FontWeight="Normal" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="5,0,5,1" Name="m_Text5" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="26" Canvas.Left="227" Canvas.Top="186" />
     <nac:DigitalClock ShowDayOfWeek="False" FontFamily="Tahoma" FontSize="20" Name="m_DigitalClock" Width="100" MinWidth="207.756666666667" Height="30" MinHeight="24.14" HorizontalAlignment="Center" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="27" Canvas.Left="545" Canvas.Top="16" />
-    <nac:Label Text="Regulatortype:" TextDecorations="{x:Null}" Background="#00FFFFFF" Foreground="#FF2D6BB7" FontFamily="Tahoma" FontSize="20" FontStyle="Normal" FontWeight="Normal" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="5,0,5,1" Name="m_Text" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="30" Canvas.Left="232" Canvas.Top="251" />
-    <nac:Label Text="Pådrag:" TextDecorations="{x:Null}" Background="#00FFFFFF" Foreground="#FF2D6BB7" FontFamily="Tahoma" FontSize="20" FontStyle="Normal" FontWeight="Normal" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="5,0,5,1" Name="m_Text1" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="31" Canvas.Left="232" Canvas.Top="372" />
-    <nac:Label Text="Modus: " TextDecorations="{x:Null}" Background="#00FFFFFF" Foreground="#FF2D6BB7" FontFamily="Tahoma" FontSize="20" FontStyle="Normal" FontWeight="Normal" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="5,0,5,1" Name="m_Text4" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="32" Canvas.Left="231" Canvas.Top="311" />
+    <nac:Label Text="Regulatortype:" TextDecorations="{x:Null}" Background="#00FFFFFF" Foreground="#FF2D6BB7" FontFamily="Tahoma" FontSize="20" FontStyle="Normal" FontWeight="Normal" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="5,0,5,1" Name="m_Text" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="30" Canvas.Left="226" Canvas.Top="251" />
+    <nac:Label Text="Pådrag:" TextDecorations="{x:Null}" Background="#00FFFFFF" Foreground="#FF2D6BB7" FontFamily="Tahoma" FontSize="20" FontStyle="Normal" FontWeight="Normal" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="5,0,5,1" Name="m_Text1" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="31" Canvas.Left="227" Canvas.Top="372" />
+    <nac:Label Text="Modus: " TextDecorations="{x:Null}" Background="#00FFFFFF" Foreground="#FF2D6BB7" FontFamily="Tahoma" FontSize="20" FontStyle="Normal" FontWeight="Normal" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="5,0,5,1" Name="m_Text4" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="32" Canvas.Left="226" Canvas.Top="311" />
     <nacs1:SymbolViewbox RequiresTransparency="True" ForceTransparency="False" Name="m_SymbolViewbox" Width="53" Height="62" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="34" Canvas.Left="89" Canvas.Top="487">
       <nacs1:SymbolViewbox.Resources>
         <ResourceDictionary>
@@ -489,7 +489,7 @@
         </nai:ActionList>
       </nai:ActionProperties.Actions>
     </nac:Button>
-    <nact:TouchComboBoxHost IsSeparatorVisible="True" ScrollBarWidth="20" ItemHeight="30" AutoSizeItemHeight="True" ArrowBoxWidth="30" TouchScrollSensitivity="8" Background="#FFE3E3E3" FontSize="18" Width="231" Height="36" IndicatorMargin="0,0,0,0" RequiresTransparency="False" ForceTransparency="False" Name="m_TouchComboBox" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="41" Canvas.Left="544" Canvas.Top="302" nacb2:IntervalMapperBindingsBehavior.RebindInRuntime="True" Style="{nac1:StyleMarkupExtension ThirdPartyControlContentHostStyle}">
+    <nact:TouchComboBoxHost IsSeparatorVisible="True" ScrollBarWidth="20" ItemHeight="30" AutoSizeItemHeight="True" ArrowBoxWidth="30" TouchScrollSensitivity="8" Background="#FFE3E3E3" FontSize="18" Width="231" Height="36" IndicatorMargin="0,0,0,0" RequiresTransparency="False" ForceTransparency="False" Name="m_TouchComboBox" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="41" Canvas.Left="546" Canvas.Top="359" nacb2:IntervalMapperBindingsBehavior.RebindInRuntime="True" Style="{nac1:StyleMarkupExtension ThirdPartyControlContentHostStyle}">
       <nact:TouchComboBoxHost.Resources>
         <ResourceDictionary>
           <nacc:VariantValueConverter x:Key="ValueConverter" />
@@ -1166,35 +1166,69 @@
         </nacd1:StringIntervalMapper>
       </nac:Label.TextIntervalMapper>
     </nac:Label>
-    <nac:Label Text="AKTIV" Background="#00FFFFFF" Foreground="#FF000000" FontFamily="Tahoma" FontSize="20" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="5,0,5,1" Name="m_Text13" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="59" Canvas.Left="294" Canvas.Top="153" nacb2:IntervalMapperBindingsBehavior.RebindInRuntime="True">
-      <nac:Label.Resources>
-        <ResourceDictionary>
-          <nacc:VariantValueConverter x:Key="ValueConverter" />
-          <nacd1:BoolDynamicsConverter x:Key="VisibleDynamicsValueConverter" DefaultValue="True" TrueValue="1" />
-        </ResourceDictionary>
-      </nac:Label.Resources>
-      <nac:Label.Value>
-        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.Aktiv_Alarm].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True" />
-      </nac:Label.Value>
-      <nacb1:BlinkProperties.VisibleDynamicsValue>
-        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.Aktiv_Alarm].Value" Converter="{StaticResource VisibleDynamicsValueConverter}" ValidatesOnExceptions="True">
-          <Binding.FallbackValue>
-            <s:Boolean>True</s:Boolean>
-          </Binding.FallbackValue>
-        </Binding>
-      </nacb1:BlinkProperties.VisibleDynamicsValue>
-      <nac:Label.TextDecorations>
+    <nac:AnalogNumericFX AutoStretchFont="False" MaxValue="100" Suffix="%/s" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontFamily="Tahoma" UndoLimit="1" Transparent="Visible" TextDecorations="{x:Null}" BorderBrush="#FF7F9DB9" BorderThickness="1,1,1,1" Foreground="#FF000000" FontSize="20" FontStyle="Normal" FontWeight="Normal" Padding="2,2,2,2" Name="m_AnalogNumeric8" Width="230" Height="30" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="60" KeyboardNavigation.TabNavigation="None" Canvas.Left="545" Canvas.Top="274">
+      <nac:AnalogNumericFX.BevelEffectInfo>
+        <nacb:BevelEffectInfo Style="Sunken" Width="2" />
+      </nac:AnalogNumericFX.BevelEffectInfo>
+      <nac:AnalogNumericFX.Background>
+        <LinearGradientBrush StartPoint="0.5,1" EndPoint="0.5,0">
+          <LinearGradientBrush.GradientStops>
+            <GradientStopCollection>
+              <GradientStop Color="#FFFFFFFF" />
+              <GradientStop Color="#FFD4D0C8" Offset="1" />
+            </GradientStopCollection>
+          </LinearGradientBrush.GradientStops>
+        </LinearGradientBrush>
+      </nac:AnalogNumericFX.Background>
+    </nac:AnalogNumericFX>
+    <nac:Label Text="Ratebegrensning" TextDecorations="{x:Null}" Background="#00FFFFFF" Foreground="#FF000000" FontFamily="Tahoma" FontSize="22" FontStyle="Normal" FontWeight="Normal" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="5.5,0,5.5,1" Name="m_Text16" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="61" Canvas.Left="545" Canvas.Top="233" />
+    <nac:Button Text="alarm høy" RequiresTransparency="True" SymbolTransparent="False" FontSize="15" Name="m_Button3" Width="100" Height="40" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="62" Canvas.Left="400" Canvas.Top="124" Style="{nac1:StyleMarkupExtension DefaultCF}">
+      <nac:Button.TextDecorations>
         <TextDecorationCollection />
-      </nac:Label.TextDecorations>
-      <nac:Label.TextIntervalMapper>
-        <nacd1:StringIntervalMapper DefaultValue="AKTIV">
-          <nacd1:StringIntervalMapper.Intervals>
-            <nacd1:StringIntervalList>
-              <nacd1:StringInterval Start="1" End="1" Value="AKTIV" />
-            </nacd1:StringIntervalList>
-          </nacd1:StringIntervalMapper.Intervals>
-        </nacd1:StringIntervalMapper>
-      </nac:Label.TextIntervalMapper>
-    </nac:Label>
+      </nac:Button.TextDecorations>
+      <nai:ActionProperties.Actions>
+        <nai:ActionList>
+          <nata:Action Name="Set Analog">
+            <nata:Action.ActionMethodInfo>
+              <nata:ActionMethodInfo Name="SetAnalog" ObjectName="Tags.Alarm_høy" EventName="Click" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False">
+                <nata:ActionMethodInfo.ActionParameterInfo>
+                  <nai:ActionParameterInfoList>
+                    <nata:ActionParameterInfo Position="0" ParameterName="newValue" ParameterTypeString="Neo.ApplicationFramework.Interfaces.VariantValue, InterfacesCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" TagName="">
+                      <nata:ActionParameterInfo.Value>
+                        <s:Int32>1</s:Int32>
+                      </nata:ActionParameterInfo.Value>
+                    </nata:ActionParameterInfo>
+                  </nai:ActionParameterInfoList>
+                </nata:ActionMethodInfo.ActionParameterInfo>
+              </nata:ActionMethodInfo>
+            </nata:Action.ActionMethodInfo>
+          </nata:Action>
+        </nai:ActionList>
+      </nai:ActionProperties.Actions>
+    </nac:Button>
+    <nac:Button Text="Reset Alarm" RequiresTransparency="True" SymbolTransparent="False" FontSize="15" Name="m_Button4" Width="119" Height="45" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="63" Canvas.Left="254" Canvas.Top="121" Style="{nac1:StyleMarkupExtension DefaultCF}">
+      <nac:Button.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Button.TextDecorations>
+      <nai:ActionProperties.Actions>
+        <nai:ActionList>
+          <nata:Action Name="Set Analog">
+            <nata:Action.ActionMethodInfo>
+              <nata:ActionMethodInfo Name="SetAnalog" ObjectName="Tags.Reset_alarm" EventName="Click" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False">
+                <nata:ActionMethodInfo.ActionParameterInfo>
+                  <nai:ActionParameterInfoList>
+                    <nata:ActionParameterInfo Position="0" ParameterName="newValue" ParameterTypeString="Neo.ApplicationFramework.Interfaces.VariantValue, InterfacesCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" TagName="">
+                      <nata:ActionParameterInfo.Value>
+                        <s:Int32>1</s:Int32>
+                      </nata:ActionParameterInfo.Value>
+                    </nata:ActionParameterInfo>
+                  </nai:ActionParameterInfoList>
+                </nata:ActionMethodInfo.ActionParameterInfo>
+              </nata:ActionMethodInfo>
+            </nata:Action.ActionMethodInfo>
+          </nata:Action>
+        </nai:ActionList>
+      </nai:ActionProperties.Actions>
+    </nac:Button>
   </nacs:ElementCanvas>
 </nacs:ScreenWindow>

@@ -56,11 +56,17 @@
         <Item Target="Regulator.Button1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
         <Item Target="Regulator.Text8" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
         <Item Target="Regulator.Text9" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
-        <Item Target="Regulator.Text2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
         <Item Target="Regulator.Text5" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
         <Item Target="Regulator.TouchComboBox" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Regulator.Text2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
         <Item Target="Regulator.Text6" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
         <Item Target="Regulator.Text13" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Regulator.Text15" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Regulator.AnalogNumeric6" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Regulator.TrendViewer" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Regulator.Button7" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Regulator.Button8" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Regulator.Button9" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
       </Items>
     </Category>
     <Category Name="GlobalDataItem">
@@ -109,6 +115,17 @@
         <Item Target="Regulator.Text13" TargetProperty="BorderBrush" Source="Tags.StatusTxt" />
         <Item Target="Regulator.Text13" TargetProperty="Background" Source="Tags.StatusTxt" />
         <Item Target="Regulator.Text13" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.StatusTxt" />
+        <Item Target="Regulator.AnalogNumeric6" TargetProperty="Value" Source="Tags.Settpunkt" />
+        <Item xsi:type="DecoratedItem" Target="Regulator.TrendViewer.Curve" TargetProperty="DataSourceName" Source="Tags.Prosessverdi" />
+        <Item xsi:type="ActionItem" Target="Regulator.Button7" TargetProperty="Actions" Source="Tags.V1_bool" Event="Click" Action="Toggle Tag" Param="" />
+        <Item Target="Regulator.Button7" TargetProperty="Background" Source="Tags.V1_bool" />
+        <Item xsi:type="ActionItem" Target="Regulator.Button8" TargetProperty="Actions" Source="Tags.V2_bool" Event="Click" Action="Toggle Tag" Param="" />
+        <Item Target="Regulator.Button8" TargetProperty="Background" Source="Tags.V2_bool" />
+        <Item xsi:type="ActionItem" Target="Regulator.Button9" TargetProperty="Actions" Source="Tags.V3_bool" Event="Click" Action="Toggle Tag" Param="" />
+        <Item Target="Regulator.Button9" TargetProperty="Background" Source="Tags.V3_bool" />
+        <Item Target="Regulator.SymbolViewbox2" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.V1_bool" />
+        <Item Target="Regulator.SymbolViewbox" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.V2_bool" />
+        <Item Target="Regulator.SymbolViewbox1" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.V3_bool" />
       </Items>
     </Category>
     <Category Name="Object">
@@ -120,6 +137,10 @@
     <Category Name="Renderable">
       <Items>
         <Item Target="Regulator.TouchComboBox" Source="Regulator.m_TouchComboBox.bmp" />
+        <Item Target="Regulator.TrendViewer" Source="Regulator.m_TrendViewer.bmp" />
+        <Item Target="Regulator.SymbolViewbox2" Source="Regulator.m_SymbolViewbox2.bmp" />
+        <Item Target="Regulator.SymbolViewbox" Source="Regulator.m_SymbolViewbox.bmp" />
+        <Item Target="Regulator.SymbolViewbox1" Source="Regulator.m_SymbolViewbox1.bmp" />
       </Items>
     </Category>
     <Category Name="Report">
@@ -135,7 +156,7 @@
           <ScreenName>Regulator</ScreenName>
         </Item>
         <Item xsi:type="ScreenObjectsCrossReferenceItem">
-          <ObjectsCount>46</ObjectsCount>
+          <ObjectsCount>56</ObjectsCount>
           <ScreenName>Regulator</ScreenName>
         </Item>
       </Items>
@@ -159,6 +180,9 @@
         <Item xsi:type="ActionItem" Target="Regulator.Button15" TargetProperty="Actions" Source="Tags.Foroverkobling_farger" Event="Click" Action="Set Analog" Param="" />
         <Item xsi:type="ActionItem" Target="Regulator.Button17" TargetProperty="Actions" Source="Tags.PID_farger" Event="Click" Action="Set Analog" Param="" />
         <Item xsi:type="ActionItem" Target="Regulator.Button6" TargetProperty="Actions" Source="Tags.PID_farger" Event="Click" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="Regulator.Button7" TargetProperty="Actions" Source="Tags.V1_bool" Event="Click" Action="Toggle Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="Regulator.Button8" TargetProperty="Actions" Source="Tags.V2_bool" Event="Click" Action="Toggle Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="Regulator.Button9" TargetProperty="Actions" Source="Tags.V3_bool" Event="Click" Action="Toggle Tag" Param="" />
       </Items>
     </Category>
     <Category Name="Symbol">
@@ -168,7 +192,13 @@
       <Items />
     </Category>
     <Category Name="TrendViewer">
-      <Items />
+      <Items>
+        <Item xsi:type="TrendViewerItem" Target="Regulator.TrendViewer" TrendWidth="186" TimeRangeBoundDataItem="" TimeRange="PT4M">
+          <DataSourceNames>
+            <DataSourceName>Tags.Prosessverdi</DataSourceName>
+          </DataSourceNames>
+        </Item>
+      </Items>
     </Category>
     <Category Name="Uri">
       <Items />

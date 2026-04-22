@@ -16,6 +16,11 @@
       <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.DataItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" ItemID="D11" DataType="DT_INTEGER2" d1p1:Site.Name="DataItem8" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" />
       <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.DataItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" ItemID="D20" DataType="DT_INTEGER2" d1p1:Site.Name="DataItem13" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" />
       <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.DataItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" ItemID="M23" DataType="DT_BIT" d1p1:Site.Name="DataItem9" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" />
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.DataItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" ItemID="M28" DataType="DT_BIT" d1p1:Site.Name="DataItem10" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" />
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.DataItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" ItemID="M29" DataType="DT_BIT" d1p1:Site.Name="DataItem11" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" />
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.DataItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" ItemID="M27" DataType="DT_BIT" d1p1:Site.Name="DataItem12" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" />
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.DataItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" ItemID="M26" DataType="DT_BIT" d1p1:Site.Name="DataItem14" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" />
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.DataItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" ItemID="M25" DataType="DT_BIT" d1p1:Site.Name="DataItem15" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" />
     </DataItems>
   </Object>
 </NeoItem>

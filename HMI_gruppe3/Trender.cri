@@ -35,9 +35,9 @@
         <Item Target="Trender.DigitalClock" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
         <Item Target="Trender.Text8" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
         <Item Target="Trender.Text9" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Trender.Text10" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
         <Item Target="Trender.Text11" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
         <Item Target="Trender.Text12" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
-        <Item Target="Trender.Text10" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
       </Items>
     </Category>
     <Category Name="GlobalDataItem">

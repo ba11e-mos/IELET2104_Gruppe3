@@ -57,7 +57,10 @@
         <Item Target="Hjem.Text10" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
         <Item Target="Hjem.Text11" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
         <Item Target="Hjem.Text12" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
-        <Item Target="Hjem.Text13" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Hjem.Button4" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Hjem.Button3" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Hjem.Text16" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Hjem.AnalogNumeric8" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
       </Items>
     </Category>
     <Category Name="GlobalDataItem">
@@ -105,8 +108,8 @@
         <Item Target="Hjem.Text12" TargetProperty="BorderBrush" Source="Tags.StatusTxt" />
         <Item Target="Hjem.Text12" TargetProperty="Background" Source="Tags.StatusTxt" />
         <Item Target="Hjem.Text12" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.StatusTxt" />
-        <Item Target="Hjem.Text13" TargetProperty="Value" Source="Tags.Aktiv_Alarm" />
-        <Item Target="Hjem.Text13" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Aktiv_Alarm" />
+        <Item xsi:type="ActionItem" Target="Hjem.Button4" TargetProperty="Actions" Source="Tags.Reset_alarm" Event="Click" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="Hjem.Button3" TargetProperty="Actions" Source="Tags.Alarm_høy" Event="Click" Action="Set Analog" Param="" />
       </Items>
     </Category>
     <Category Name="Object">
@@ -143,7 +146,7 @@
           <ScreenName>Hjem</ScreenName>
         </Item>
         <Item xsi:type="ScreenObjectsCrossReferenceItem">
-          <ObjectsCount>61</ObjectsCount>
+          <ObjectsCount>64</ObjectsCount>
           <ScreenName>Hjem</ScreenName>
         </Item>
       </Items>
@@ -165,6 +168,8 @@
         <Item xsi:type="ActionItem" Target="Hjem.Button16" TargetProperty="Actions" Source="Tags.StatusTxt" Event="Click" Action="Set Analog" Param="" />
         <Item xsi:type="ActionItem" Target="Hjem.Button1" TargetProperty="Actions" Source="Tags.Kritisk_alarm_synling" Event="Click" Action="Set Analog" Param="" />
         <Item xsi:type="ActionItem" Target="Hjem.Button2" TargetProperty="Actions" Source="Tags.Alarm_synling" Event="Click" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="Hjem.Button4" TargetProperty="Actions" Source="Tags.Reset_alarm" Event="Click" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="Hjem.Button3" TargetProperty="Actions" Source="Tags.Alarm_høy" Event="Click" Action="Set Analog" Param="" />
       </Items>
     </Category>
     <Category Name="Symbol">
