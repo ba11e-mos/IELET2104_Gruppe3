@@ -81,8 +81,10 @@
         <Item xsi:type="ActionItem" Target="Regulator.Button4" TargetProperty="Actions" Source="Tags.PID_farger" Event="Click" Action="Set Analog" Param="" />
         <Item Target="Regulator.Button4" TargetProperty="Background" Source="Tags.PID_farger" />
         <Item xsi:type="ActionItem" Target="Regulator.Button12" TargetProperty="Actions" Source="Tags.Foroverkobling_farger" Event="Click" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="Regulator.Button12" TargetProperty="Actions" Source="Tags.Bruk_foroverkobling" Event="Click" Action="Reset Tag" Param="" />
         <Item Target="Regulator.Button12" TargetProperty="Background" Source="Tags.Foroverkobling_farger" />
         <Item xsi:type="ActionItem" Target="Regulator.Button15" TargetProperty="Actions" Source="Tags.Foroverkobling_farger" Event="Click" Action="Set Analog" Param="" />
+        <Item Target="Regulator.Button15" TargetProperty="Value" Source="Tags.Bruk_foroverkobling" />
         <Item Target="Regulator.Button15" TargetProperty="Background" Source="Tags.Foroverkobling_farger" />
         <Item Target="Regulator.Text4" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Auto_man_farger" />
         <Item Target="Regulator.Text7" TargetProperty="Foreground" Source="Tags.PID_farger" />
@@ -123,9 +125,9 @@
         <Item Target="Regulator.Button8" TargetProperty="Background" Source="Tags.V2_bool" />
         <Item xsi:type="ActionItem" Target="Regulator.Button9" TargetProperty="Actions" Source="Tags.V3_bool" Event="Click" Action="Toggle Tag" Param="" />
         <Item Target="Regulator.Button9" TargetProperty="Background" Source="Tags.V3_bool" />
-        <Item Target="Regulator.SymbolViewbox2" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.V1_bool" />
-        <Item Target="Regulator.SymbolViewbox" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.V2_bool" />
         <Item Target="Regulator.SymbolViewbox1" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.V3_bool" />
+        <Item Target="Regulator.SymbolViewbox" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.V2_bool" />
+        <Item Target="Regulator.SymbolViewbox2" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.V1_bool" />
       </Items>
     </Category>
     <Category Name="Object">
@@ -138,9 +140,9 @@
       <Items>
         <Item Target="Regulator.TouchComboBox" Source="Regulator.m_TouchComboBox.bmp" />
         <Item Target="Regulator.TrendViewer" Source="Regulator.m_TrendViewer.bmp" />
-        <Item Target="Regulator.SymbolViewbox2" Source="Regulator.m_SymbolViewbox2.bmp" />
-        <Item Target="Regulator.SymbolViewbox" Source="Regulator.m_SymbolViewbox.bmp" />
         <Item Target="Regulator.SymbolViewbox1" Source="Regulator.m_SymbolViewbox1.bmp" />
+        <Item Target="Regulator.SymbolViewbox" Source="Regulator.m_SymbolViewbox.bmp" />
+        <Item Target="Regulator.SymbolViewbox2" Source="Regulator.m_SymbolViewbox2.bmp" />
       </Items>
     </Category>
     <Category Name="Report">
@@ -177,6 +179,7 @@
         <Item xsi:type="ActionItem" Target="Regulator.Button3" TargetProperty="Actions" Source="Tags.PID_farger" Event="Click" Action="Set Analog" Param="" />
         <Item xsi:type="ActionItem" Target="Regulator.Button4" TargetProperty="Actions" Source="Tags.PID_farger" Event="Click" Action="Set Analog" Param="" />
         <Item xsi:type="ActionItem" Target="Regulator.Button12" TargetProperty="Actions" Source="Tags.Foroverkobling_farger" Event="Click" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="Regulator.Button12" TargetProperty="Actions" Source="Tags.Bruk_foroverkobling" Event="Click" Action="Reset Tag" Param="" />
         <Item xsi:type="ActionItem" Target="Regulator.Button15" TargetProperty="Actions" Source="Tags.Foroverkobling_farger" Event="Click" Action="Set Analog" Param="" />
         <Item xsi:type="ActionItem" Target="Regulator.Button17" TargetProperty="Actions" Source="Tags.PID_farger" Event="Click" Action="Set Analog" Param="" />
         <Item xsi:type="ActionItem" Target="Regulator.Button6" TargetProperty="Actions" Source="Tags.PID_farger" Event="Click" Action="Set Analog" Param="" />

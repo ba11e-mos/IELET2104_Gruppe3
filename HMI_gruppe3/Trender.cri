@@ -24,7 +24,7 @@
     </Category>
     <Category Name="Font">
       <Items>
-        <Item Target="Trender.Text" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Trender.Text3" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
         <Item Target="Trender.Text1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
         <Item Target="Trender.Text2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
         <Item Target="Trender.TrendViewer" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
@@ -38,6 +38,7 @@
         <Item Target="Trender.Text10" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
         <Item Target="Trender.Text11" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
         <Item Target="Trender.Text12" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Trender.Text" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
       </Items>
     </Category>
     <Category Name="GlobalDataItem">
@@ -86,7 +87,7 @@
           <ScreenName>Trender</ScreenName>
         </Item>
         <Item xsi:type="ScreenObjectsCrossReferenceItem">
-          <ObjectsCount>21</ObjectsCount>
+          <ObjectsCount>25</ObjectsCount>
           <ScreenName>Trender</ScreenName>
         </Item>
       </Items>
@@ -105,7 +106,7 @@
     </Category>
     <Category Name="TrendViewer">
       <Items>
-        <Item xsi:type="TrendViewerItem" Target="Trender.TrendViewer" TrendWidth="549" TimeRangeBoundDataItem="" TimeRange="PT10M">
+        <Item xsi:type="TrendViewerItem" Target="Trender.TrendViewer" TrendWidth="683" TimeRangeBoundDataItem="" TimeRange="PT10M">
           <DataSourceNames>
             <DataSourceName>Tags.Pådrag</DataSourceName>
             <DataSourceName>Tags.Settpunkt</DataSourceName>

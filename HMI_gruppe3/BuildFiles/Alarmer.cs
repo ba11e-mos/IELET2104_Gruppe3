@@ -22,6 +22,8 @@ namespace Neo.ApplicationFramework.Generated {
         
         private Neo.ApplicationFramework.Controls.Alarm.AlarmViewer m_AlarmViewer;
         
+        private Neo.ApplicationFramework.Controls.Controls.RectangleCF m_Rectangle;
+        
         private Neo.ApplicationFramework.Controls.Controls.Button m_Button11;
         
         private Neo.ApplicationFramework.Controls.Controls.Button m_Button10;
@@ -56,6 +58,8 @@ namespace Neo.ApplicationFramework.Generated {
         
         private Neo.ApplicationFramework.Controls.Controls.Label m_Text12;
         
+        private Neo.ApplicationFramework.Controls.Controls.Button m_Button4;
+        
         private bool m_Initialized_Alarmer;
         
         private Neo.ApplicationFramework.Common.Dynamics.BrushDynamicsConverterCF brushdynamicsconvertercf1;
@@ -72,7 +76,14 @@ namespace Neo.ApplicationFramework.Generated {
             this.m_Button10.Click += new System.EventHandler(this.m_Button10_Action_Click);
             this.m_Button13.Click += new System.EventHandler(this.m_Button13_Action_Click);
             this.m_Button.Click += new System.EventHandler(this.m_Button_Action_Click);
+            this.m_Button4.Click += new System.EventHandler(this.m_Button4_Action_Click);
             this.ApplyLanguageInitialize();
+        }
+        
+        protected Neo.ApplicationFramework.Controls.Script.ShapeCFAdapter Rectangle {
+            get {
+                return this.AdapterService.CreateAdapter<Neo.ApplicationFramework.Controls.Script.ShapeCFAdapter>(this.m_Rectangle);
+            }
         }
         
         public Neo.ApplicationFramework.Controls.Script.AlarmViewerCFAdapter AlarmViewer {
@@ -183,6 +194,12 @@ namespace Neo.ApplicationFramework.Generated {
             }
         }
         
+        protected Neo.ApplicationFramework.Controls.Script.ButtonCFAdapter Button4 {
+            get {
+                return this.AdapterService.CreateAdapter<Neo.ApplicationFramework.Controls.Script.ButtonCFAdapter>(this.m_Button4);
+            }
+        }
+        
         private void InitializeComponent() {
             this.brushdynamicsconvertercf4 = new Neo.ApplicationFramework.Common.Dynamics.BrushDynamicsConverterCF();
             this.brushdynamicsconvertercf3 = new Neo.ApplicationFramework.Common.Dynamics.BrushDynamicsConverterCF();
@@ -208,7 +225,9 @@ namespace Neo.ApplicationFramework.Generated {
             Neo.ApplicationFramework.Common.Dynamics.StringIntervalMapperCF stringintervalmappercf2 = new Neo.ApplicationFramework.Common.Dynamics.StringIntervalMapperCF();
             Neo.ApplicationFramework.Common.Dynamics.StringIntervalCF stringintervalcf3 = new Neo.ApplicationFramework.Common.Dynamics.StringIntervalCF();
             Neo.ApplicationFramework.Common.Dynamics.StringIntervalCF stringintervalcf4 = new Neo.ApplicationFramework.Common.Dynamics.StringIntervalCF();
+            Neo.ApplicationFramework.Common.Dynamics.SymbolIntervalMapper symbolintervalmapper5 = new Neo.ApplicationFramework.Common.Dynamics.SymbolIntervalMapper();
             this.m_AlarmViewer = new Neo.ApplicationFramework.Controls.Alarm.AlarmViewer();
+            this.m_Rectangle = new Neo.ApplicationFramework.Controls.Controls.RectangleCF();
             this.m_Button11 = new Neo.ApplicationFramework.Controls.Controls.Button();
             this.m_Button10 = new Neo.ApplicationFramework.Controls.Controls.Button();
             this.m_Button13 = new Neo.ApplicationFramework.Controls.Controls.Button();
@@ -226,6 +245,7 @@ namespace Neo.ApplicationFramework.Generated {
             this.m_Text10 = new Neo.ApplicationFramework.Controls.Controls.Label();
             this.m_Text11 = new Neo.ApplicationFramework.Controls.Controls.Label();
             this.m_Text12 = new Neo.ApplicationFramework.Controls.Controls.Label();
+            this.m_Button4 = new Neo.ApplicationFramework.Controls.Controls.Button();
             ((System.ComponentModel.ISupportInitialize)(this.m_AlarmViewer)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.m_Button11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.m_Button10)).BeginInit();
@@ -237,6 +257,7 @@ namespace Neo.ApplicationFramework.Generated {
             ((System.ComponentModel.ISupportInitialize)(this.m_Text10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.m_Text11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.m_Text12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.m_Button4)).BeginInit();
             this.SuspendLayout();
             // 
             // Alarmer
@@ -273,7 +294,7 @@ namespace Neo.ApplicationFramework.Generated {
             this.m_AlarmViewer.Name = "m_AlarmViewer";
             this.m_AlarmViewer.PauseButtonIsVisible = false;
             this.m_AlarmViewer.ScreenOwnerName = "Alarmer";
-            this.m_AlarmViewer.Size = new System.Drawing.Size(798, 470);
+            this.m_AlarmViewer.Size = new System.Drawing.Size(798, 395);
             this.m_AlarmViewer.TabIndex = 2147483647;
             alarmcolumninfo1.ColumnWidth = 80D;
             alarmcolumninfo1.HeaderName = "State";
@@ -293,6 +314,21 @@ namespace Neo.ApplicationFramework.Generated {
                     ((Neo.ApplicationFramework.Interfaces.IColumnInfo)(alarmcolumninfo3)),
                     ((Neo.ApplicationFramework.Interfaces.IColumnInfo)(alarmcolumninfo4))};
             this.m_AlarmViewer.VisibleDynamicsValue = true;
+            // 
+            // m_Rectangle
+            // 
+            this.m_Rectangle.BitmapEffect = new Neo.ApplicationFramework.Common.Graphics.Logic.BitmapEffectCF();
+            this.m_Rectangle.BlinkDynamicsValue = false;
+            this.m_Rectangle.EnabledDynamicsValue = true;
+            this.m_Rectangle.Fill = new Neo.ApplicationFramework.Common.Graphics.Logic.BrushCF(System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(227)))), ((int)(((byte)(227))))), System.Drawing.Color.Empty, Neo.ApplicationFramework.Interfaces.FillDirection.None);
+            this.m_Rectangle.Height = 84;
+            this.m_Rectangle.Left = 1;
+            this.m_Rectangle.Name = "m_Rectangle";
+            this.m_Rectangle.ScreenOwnerName = "Alarmer";
+            this.m_Rectangle.Stroke = new Neo.ApplicationFramework.Common.Graphics.Logic.BrushCF(System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(227)))), ((int)(((byte)(227))))), System.Drawing.Color.Empty, Neo.ApplicationFramework.Interfaces.FillDirection.None);
+            this.m_Rectangle.Top = 477;
+            this.m_Rectangle.VisibleDynamicsValue = true;
+            this.m_Rectangle.Width = 800;
             // 
             // m_Button11
             // 
@@ -466,7 +502,7 @@ namespace Neo.ApplicationFramework.Generated {
             this.m_DigitalClock.ScreenOwnerName = "Alarmer";
             this.m_DigitalClock.ShowDayOfWeek = false;
             this.m_DigitalClock.ShowSeconds = true;
-            this.m_DigitalClock.Text = "22.04.2026 15:06:27";
+            this.m_DigitalClock.Text = "23.04.2026 13:33:57";
             this.m_DigitalClock.Top = 27;
             this.m_DigitalClock.VisibleDynamicsValue = true;
             this.m_DigitalClock.Width = 205;
@@ -612,6 +648,31 @@ namespace Neo.ApplicationFramework.Generated {
             this.m_Text12.Top = 26;
             this.m_Text12.VisibleDynamicsValue = true;
             this.m_Text12.Width = 49;
+            // 
+            // m_Button4
+            // 
+            this.m_Button4.Background = new Neo.ApplicationFramework.Common.Graphics.Logic.BrushCF(System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255))))), System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(208)))), ((int)(((byte)(200))))), Neo.ApplicationFramework.Interfaces.FillDirection.VerticalTopToBottom);
+            this.m_Button4.BlinkDynamicsValue = false;
+            this.m_Button4.BorderBrush = new Neo.ApplicationFramework.Common.Graphics.Logic.BrushCF(System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(112)))), ((int)(((byte)(112))))), System.Drawing.Color.Empty, Neo.ApplicationFramework.Interfaces.FillDirection.None);
+            this.m_Button4.BorderThickness = new Neo.ApplicationFramework.Common.Graphics.Logic.ThicknessCF(1D, 1D, 1D, 1D);
+            this.m_Button4.EnabledDynamicsValue = true;
+            this.m_Button4.FontSizePixels = 15;
+            this.m_Button4.ForceTransparency = true;
+            this.m_Button4.Height = 64;
+            this.m_Button4.IndicatorMargin = null;
+            this.m_Button4.Left = 629;
+            this.m_Button4.Name = "m_Button4";
+            this.m_Button4.RequiresTransparency = true;
+            this.m_Button4.ScreenOwnerName = "Alarmer";
+            this.m_Button4.SymbolIntervalMapper = symbolintervalmapper5;
+            this.m_Button4.TextHeight = 18;
+            this.m_Button4.TextValue = 0D;
+            this.m_Button4.TextWidth = 129;
+            this.m_Button4.Top = 487;
+            this.m_Button4.Value = 0D;
+            this.m_Button4.VisibleDynamicsValue = true;
+            this.m_Button4.VisualPropertiesHashCode = 979087720;
+            this.m_Button4.Width = 139;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.ClientSize = new System.Drawing.Size(800, 600);
             this.IsCacheable = true;
@@ -669,6 +730,7 @@ namespace Neo.ApplicationFramework.Generated {
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Never)]
         public override void AddDrawingPrimitives() {
             base.AddDrawingPrimitives();
+            this.DrawingPrimitives.Add(this.m_Rectangle);
             this.DrawingPrimitives.Add(this.m_Button11);
             this.DrawingPrimitives.Add(this.m_Button10);
             this.DrawingPrimitives.Add(this.m_Button13);
@@ -686,6 +748,7 @@ namespace Neo.ApplicationFramework.Generated {
             this.DrawingPrimitives.Add(this.m_Text10);
             this.DrawingPrimitives.Add(this.m_Text11);
             this.DrawingPrimitives.Add(this.m_Text12);
+            this.DrawingPrimitives.Add(this.m_Button4);
             ((System.ComponentModel.ISupportInitialize)(this.m_Button11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.m_Button10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.m_Button13)).EndInit();
@@ -696,6 +759,7 @@ namespace Neo.ApplicationFramework.Generated {
             ((System.ComponentModel.ISupportInitialize)(this.m_Text10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.m_Text11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.m_Text12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.m_Button4)).EndInit();
         }
         
         private void m_Button11_Action_Click(object sender, System.EventArgs e) {
@@ -718,6 +782,15 @@ namespace Neo.ApplicationFramework.Generated {
             Neo.ApplicationFramework.Generated.Globals.Regulator.Show();
         }
         
+        private void m_Button4_Action_Click(object sender, System.EventArgs e) {
+            Neo.ApplicationFramework.Generated.Globals.AuditTrailService.LogAction("m_Button4", "Click", "Set Analog", "Tags.Reset_alarm", "");
+            Neo.ApplicationFramework.Generated.Globals.Tags.Reset_alarm.SetAnalog(1);
+            Neo.ApplicationFramework.Generated.Globals.AuditTrailService.LogAction("m_Button4", "Click", "Set Analog", "Tags.Alarm_synling", "");
+            Neo.ApplicationFramework.Generated.Globals.Tags.Alarm_synling.SetAnalog(0);
+            Neo.ApplicationFramework.Generated.Globals.AuditTrailService.LogAction("m_Button4", "Click", "Reset Tag", "Tags.Kritisk_alarm_synling", "");
+            Neo.ApplicationFramework.Generated.Globals.Tags.Kritisk_alarm_synling.ResetTag();
+        }
+        
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Never)]
         private void ApplyLanguageInternal() {
             Neo.ApplicationFramework.Tools.MultiLanguage.MultiLanguageResourceManager resources = new Neo.ApplicationFramework.Tools.MultiLanguage.MultiLanguageResourceManager(typeof(Alarmer));
@@ -730,6 +803,7 @@ namespace Neo.ApplicationFramework.Generated {
             this.m_Text10.Text = resources.GetText("Alarmer.Text10.Text", "STATUS");
             this.m_Text11.Text = resources.GetText("Alarmer.Text11.Text", "StatusTxt");
             this.m_Text12.Text = resources.GetText("Alarmer.Text12.Text", "StatusTxt");
+            this.m_Button4.Text = resources.GetText("Alarmer.Button4.Text", "Reset Alarm");
             resources.ApplyTexts(this.m_Text11, "Texts", "Alarmer.Text11.Texts[0]", "DRIFT", "Alarmer.Text11.Texts[1]", "INAKTIV");
             resources.ApplyTexts(this.m_Text12, "Texts", "Alarmer.Text12.Texts[0]", "DRIFT", "Alarmer.Text12.Texts[1]", "INAKTIV");
             this.ApplyResourcesOnForm();

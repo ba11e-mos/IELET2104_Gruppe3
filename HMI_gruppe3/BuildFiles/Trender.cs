@@ -20,11 +20,7 @@ namespace Neo.ApplicationFramework.Generated {
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Never)]
     public partial class Trender : Neo.ApplicationFramework.Controls.Controls.Form {
         
-        private Neo.ApplicationFramework.Controls.Controls.Label m_Text;
-        
         private Neo.ApplicationFramework.Controls.Controls.Label m_Text1;
-        
-        private Neo.ApplicationFramework.Controls.Controls.Label m_Text2;
         
         private Neo.ApplicationFramework.Controls.Trend.TrendViewerCF m_TrendViewer;
         
@@ -62,6 +58,18 @@ namespace Neo.ApplicationFramework.Generated {
         
         private Neo.ApplicationFramework.Controls.Controls.Label m_Text12;
         
+        private Neo.ApplicationFramework.Controls.Controls.Label m_Text;
+        
+        private Neo.ApplicationFramework.Controls.Controls.Label m_Text2;
+        
+        private Neo.ApplicationFramework.Controls.Controls.Label m_Text3;
+        
+        private Neo.ApplicationFramework.Controls.Controls.RectangleCF m_Rectangle;
+        
+        private Neo.ApplicationFramework.Controls.Controls.RectangleCF m_Rectangle1;
+        
+        private Neo.ApplicationFramework.Controls.Controls.RectangleCF m_Rectangle2;
+        
         private bool m_Initialized_Trender;
         
         private Neo.ApplicationFramework.Common.Dynamics.BrushDynamicsConverterCF brushdynamicsconvertercf1;
@@ -81,21 +89,9 @@ namespace Neo.ApplicationFramework.Generated {
             this.ApplyLanguageInitialize();
         }
         
-        protected Neo.ApplicationFramework.Controls.Script.TextControlCFAdapter Text {
-            get {
-                return this.AdapterService.CreateAdapter<Neo.ApplicationFramework.Controls.Script.TextControlCFAdapter>(this.m_Text);
-            }
-        }
-        
         protected Neo.ApplicationFramework.Controls.Script.TextControlCFAdapter Text1 {
             get {
                 return this.AdapterService.CreateAdapter<Neo.ApplicationFramework.Controls.Script.TextControlCFAdapter>(this.m_Text1);
-            }
-        }
-        
-        protected Neo.ApplicationFramework.Controls.Script.TextControlCFAdapter Text2 {
-            get {
-                return this.AdapterService.CreateAdapter<Neo.ApplicationFramework.Controls.Script.TextControlCFAdapter>(this.m_Text2);
             }
         }
         
@@ -207,6 +203,42 @@ namespace Neo.ApplicationFramework.Generated {
             }
         }
         
+        protected Neo.ApplicationFramework.Controls.Script.TextControlCFAdapter Text {
+            get {
+                return this.AdapterService.CreateAdapter<Neo.ApplicationFramework.Controls.Script.TextControlCFAdapter>(this.m_Text);
+            }
+        }
+        
+        protected Neo.ApplicationFramework.Controls.Script.TextControlCFAdapter Text2 {
+            get {
+                return this.AdapterService.CreateAdapter<Neo.ApplicationFramework.Controls.Script.TextControlCFAdapter>(this.m_Text2);
+            }
+        }
+        
+        protected Neo.ApplicationFramework.Controls.Script.TextControlCFAdapter Text3 {
+            get {
+                return this.AdapterService.CreateAdapter<Neo.ApplicationFramework.Controls.Script.TextControlCFAdapter>(this.m_Text3);
+            }
+        }
+        
+        protected Neo.ApplicationFramework.Controls.Script.ShapeCFAdapter Rectangle {
+            get {
+                return this.AdapterService.CreateAdapter<Neo.ApplicationFramework.Controls.Script.ShapeCFAdapter>(this.m_Rectangle);
+            }
+        }
+        
+        protected Neo.ApplicationFramework.Controls.Script.ShapeCFAdapter Rectangle1 {
+            get {
+                return this.AdapterService.CreateAdapter<Neo.ApplicationFramework.Controls.Script.ShapeCFAdapter>(this.m_Rectangle1);
+            }
+        }
+        
+        protected Neo.ApplicationFramework.Controls.Script.ShapeCFAdapter Rectangle2 {
+            get {
+                return this.AdapterService.CreateAdapter<Neo.ApplicationFramework.Controls.Script.ShapeCFAdapter>(this.m_Rectangle2);
+            }
+        }
+        
         private void InitializeComponent() {
             this.brushdynamicsconvertercf4 = new Neo.ApplicationFramework.Common.Dynamics.BrushDynamicsConverterCF();
             this.brushdynamicsconvertercf3 = new Neo.ApplicationFramework.Common.Dynamics.BrushDynamicsConverterCF();
@@ -229,9 +261,7 @@ namespace Neo.ApplicationFramework.Generated {
             Neo.ApplicationFramework.Common.Dynamics.StringIntervalMapperCF stringintervalmappercf2 = new Neo.ApplicationFramework.Common.Dynamics.StringIntervalMapperCF();
             Neo.ApplicationFramework.Common.Dynamics.StringIntervalCF stringintervalcf3 = new Neo.ApplicationFramework.Common.Dynamics.StringIntervalCF();
             Neo.ApplicationFramework.Common.Dynamics.StringIntervalCF stringintervalcf4 = new Neo.ApplicationFramework.Common.Dynamics.StringIntervalCF();
-            this.m_Text = new Neo.ApplicationFramework.Controls.Controls.Label();
             this.m_Text1 = new Neo.ApplicationFramework.Controls.Controls.Label();
-            this.m_Text2 = new Neo.ApplicationFramework.Controls.Controls.Label();
             this.m_TrendViewer = new Neo.ApplicationFramework.Controls.Trend.TrendViewerCF();
             this.m_Button11 = new Neo.ApplicationFramework.Controls.Controls.Button();
             this.m_Button10 = new Neo.ApplicationFramework.Controls.Controls.Button();
@@ -250,9 +280,13 @@ namespace Neo.ApplicationFramework.Generated {
             this.m_Text10 = new Neo.ApplicationFramework.Controls.Controls.Label();
             this.m_Text11 = new Neo.ApplicationFramework.Controls.Controls.Label();
             this.m_Text12 = new Neo.ApplicationFramework.Controls.Controls.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.m_Text)).BeginInit();
+            this.m_Text = new Neo.ApplicationFramework.Controls.Controls.Label();
+            this.m_Text2 = new Neo.ApplicationFramework.Controls.Controls.Label();
+            this.m_Text3 = new Neo.ApplicationFramework.Controls.Controls.Label();
+            this.m_Rectangle = new Neo.ApplicationFramework.Controls.Controls.RectangleCF();
+            this.m_Rectangle1 = new Neo.ApplicationFramework.Controls.Controls.RectangleCF();
+            this.m_Rectangle2 = new Neo.ApplicationFramework.Controls.Controls.RectangleCF();
             ((System.ComponentModel.ISupportInitialize)(this.m_Text1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.m_Text2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.m_TrendViewer)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.m_Button11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.m_Button10)).BeginInit();
@@ -264,6 +298,9 @@ namespace Neo.ApplicationFramework.Generated {
             ((System.ComponentModel.ISupportInitialize)(this.m_Text10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.m_Text11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.m_Text12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.m_Text)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.m_Text2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.m_Text3)).BeginInit();
             this.SuspendLayout();
             // 
             // Trender
@@ -271,19 +308,6 @@ namespace Neo.ApplicationFramework.Generated {
             this.Background = new Neo.ApplicationFramework.Common.Graphics.Logic.BrushCF(System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(167)))), ((int)(((byte)(167))))), System.Drawing.Color.Empty, Neo.ApplicationFramework.Interfaces.FillDirection.None);
             this.BorderStyle = Neo.ApplicationFramework.Interfaces.ScreenBorderStyle.ThreeDBorder;
             this.ControlBox = false;
-            // 
-            // m_Text
-            // 
-            this.m_Text.BlinkDynamicsValue = false;
-            this.m_Text.EnabledDynamicsValue = true;
-            this.m_Text.FontSizePixels = 20;
-            this.m_Text.Height = 21;
-            this.m_Text.Left = 681;
-            this.m_Text.Name = "m_Text";
-            this.m_Text.ScreenOwnerName = "Trender";
-            this.m_Text.Top = 170;
-            this.m_Text.VisibleDynamicsValue = true;
-            this.m_Text.Width = 54;
             // 
             // m_Text1
             // 
@@ -298,19 +322,6 @@ namespace Neo.ApplicationFramework.Generated {
             this.m_Text1.VisibleDynamicsValue = true;
             this.m_Text1.Width = 2;
             // 
-            // m_Text2
-            // 
-            this.m_Text2.BlinkDynamicsValue = false;
-            this.m_Text2.EnabledDynamicsValue = true;
-            this.m_Text2.FontSizePixels = 20;
-            this.m_Text2.Height = 21;
-            this.m_Text2.Left = 674;
-            this.m_Text2.Name = "m_Text2";
-            this.m_Text2.ScreenOwnerName = "Trender";
-            this.m_Text2.Top = 212;
-            this.m_Text2.VisibleDynamicsValue = true;
-            this.m_Text2.Width = 68;
-            // 
             // m_TrendViewer
             // 
             this.m_TrendViewer.Background = new Neo.ApplicationFramework.Common.Graphics.Logic.BrushCF(System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(227)))), ((int)(((byte)(227))))), System.Drawing.Color.Empty, Neo.ApplicationFramework.Interfaces.FillDirection.None);
@@ -320,31 +331,31 @@ namespace Neo.ApplicationFramework.Generated {
             curvecf1.DataSourceName = "Tags.Pådrag";
             curvecf1.DisplayName = "Curve";
             curvecf1.EnabledDynamicsValue = true;
-            curvecf1.Height = 418;
+            curvecf1.Height = 367;
             curvecf1.ScreenOwnerName = null;
             curvecf1.Stroke = new Neo.ApplicationFramework.Common.Graphics.Logic.BrushCF(System.Drawing.Color.Red, System.Drawing.Color.Empty, Neo.ApplicationFramework.Interfaces.FillDirection.None);
             curvecf1.VisibleDynamicsValue = true;
-            curvecf1.Width = 549;
+            curvecf1.Width = 683;
             curvecf2.BlinkDynamicsValue = false;
             curvecf2.Color = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(187)))), ((int)(((byte)(97)))));
             curvecf2.DataSourceName = "Tags.Settpunkt";
             curvecf2.DisplayName = "Curve1";
             curvecf2.EnabledDynamicsValue = true;
-            curvecf2.Height = 418;
+            curvecf2.Height = 367;
             curvecf2.ScreenOwnerName = null;
             curvecf2.Stroke = new Neo.ApplicationFramework.Common.Graphics.Logic.BrushCF(System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(187)))), ((int)(((byte)(97))))), System.Drawing.Color.Empty, Neo.ApplicationFramework.Interfaces.FillDirection.None);
             curvecf2.VisibleDynamicsValue = true;
-            curvecf2.Width = 549;
+            curvecf2.Width = 683;
             curvecf3.BlinkDynamicsValue = false;
             curvecf3.Color = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(73)))), ((int)(((byte)(125)))));
             curvecf3.DataSourceName = "Tags.Prosessverdi";
             curvecf3.DisplayName = "Curve2";
             curvecf3.EnabledDynamicsValue = true;
-            curvecf3.Height = 418;
+            curvecf3.Height = 367;
             curvecf3.ScreenOwnerName = null;
             curvecf3.Stroke = new Neo.ApplicationFramework.Common.Graphics.Logic.BrushCF(System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(73)))), ((int)(((byte)(125))))), System.Drawing.Color.Empty, Neo.ApplicationFramework.Interfaces.FillDirection.None);
             curvecf3.VisibleDynamicsValue = true;
-            curvecf3.Width = 549;
+            curvecf3.Width = 683;
             this.m_TrendViewer.Curves.Add(curvecf1);
             this.m_TrendViewer.Curves.Add(curvecf2);
             this.m_TrendViewer.Curves.Add(curvecf3);
@@ -353,32 +364,32 @@ namespace Neo.ApplicationFramework.Generated {
             this.m_TrendViewer.ForceTransparency = false;
             this.m_TrendViewer.Foreground = new Neo.ApplicationFramework.Common.Graphics.Logic.BrushCF(System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255))))), System.Drawing.Color.Empty, Neo.ApplicationFramework.Interfaces.FillDirection.None);
             this.m_TrendViewer.GridLineColor = new Neo.ApplicationFramework.Common.Graphics.Logic.BrushCF(System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255))))), System.Drawing.Color.Empty, Neo.ApplicationFramework.Interfaces.FillDirection.None);
-            this.m_TrendViewer.Height = 499;
-            this.m_TrendViewer.IndicatorMargin = new Neo.ApplicationFramework.Common.Graphics.Logic.ThicknessCF(52D, 33.791D, 52D, 47D);
+            this.m_TrendViewer.Height = 444;
+            this.m_TrendViewer.IndicatorMargin = new Neo.ApplicationFramework.Common.Graphics.Logic.ThicknessCF(52D, 30.325999999999965D, 52D, 47D);
             this.m_TrendViewer.Left = 13;
             this.m_TrendViewer.Name = "m_TrendViewer";
-            this.m_TrendViewer.RequiresTransparency = false;
+            this.m_TrendViewer.RequiresTransparency = true;
             this.m_TrendViewer.ScaleColor = new Neo.ApplicationFramework.Common.Graphics.Logic.BrushCF(System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255))))), System.Drawing.Color.Empty, Neo.ApplicationFramework.Interfaces.FillDirection.None);
             this.m_TrendViewer.ScreenOwnerName = "Trender";
             this.m_TrendViewer.TimeOffset = System.TimeSpan.Parse("00:00:00");
             this.m_TrendViewer.TimeRange = System.TimeSpan.Parse("00:10:00");
             this.m_TrendViewer.TimeScaleMaximum = 39083.5D;
             this.m_TrendViewer.TimeScaleMinimum = 39083.493055555555D;
-            this.m_TrendViewer.TimeTextScaleMargin = new Neo.ApplicationFramework.Common.Graphics.Logic.ThicknessCF(52D, 469D, 52D, 16.723333333333358D);
+            this.m_TrendViewer.TimeTextScaleMargin = new Neo.ApplicationFramework.Common.Graphics.Logic.ThicknessCF(52D, 414D, 52D, 16.723333333333358D);
             this.m_TrendViewer.Top = 54;
             this.m_TrendViewer.Value = 0D;
-            this.m_TrendViewer.ValueMajorScaleMargin = new Neo.ApplicationFramework.Common.Graphics.Logic.ThicknessCF(32D, 33.791D, 611D, 47D);
-            this.m_TrendViewer.ValueMajorScaleMaxMargin = new Neo.ApplicationFramework.Common.Graphics.Logic.ThicknessCF(611D, 33.791D, 32D, 47D);
-            this.m_TrendViewer.ValueMinorScaleMargin = new Neo.ApplicationFramework.Common.Graphics.Logic.ThicknessCF(37D, 33.791D, 611D, 47D);
-            this.m_TrendViewer.ValueMinorScaleMaxMargin = new Neo.ApplicationFramework.Common.Graphics.Logic.ThicknessCF(611D, 33.791D, 37D, 47D);
+            this.m_TrendViewer.ValueMajorScaleMargin = new Neo.ApplicationFramework.Common.Graphics.Logic.ThicknessCF(32D, 30.325999999999965D, 745D, 47D);
+            this.m_TrendViewer.ValueMajorScaleMaxMargin = new Neo.ApplicationFramework.Common.Graphics.Logic.ThicknessCF(745D, 30.325999999999965D, 32D, 47D);
+            this.m_TrendViewer.ValueMinorScaleMargin = new Neo.ApplicationFramework.Common.Graphics.Logic.ThicknessCF(37D, 30.325999999999965D, 745D, 47D);
+            this.m_TrendViewer.ValueMinorScaleMaxMargin = new Neo.ApplicationFramework.Common.Graphics.Logic.ThicknessCF(745D, 30.325999999999965D, 37D, 47D);
             this.m_TrendViewer.ValueScaleMajorTickCount = 11;
             this.m_TrendViewer.ValueScaleMaximum = 100D;
             this.m_TrendViewer.ValueScaleMinimum = 0D;
             this.m_TrendViewer.ValueScaleMinorTickCount = 4;
-            this.m_TrendViewer.ValueTextScaleMargin = new Neo.ApplicationFramework.Common.Graphics.Logic.ThicknessCF(11.989999999999998D, 33.791D, 623D, 47D);
-            this.m_TrendViewer.ValueTextScaleMaxMargin = new Neo.ApplicationFramework.Common.Graphics.Logic.ThicknessCF(623D, 33.791D, 11.990000000000009D, 47D);
+            this.m_TrendViewer.ValueTextScaleMargin = new Neo.ApplicationFramework.Common.Graphics.Logic.ThicknessCF(11.989999999999998D, 30.325999999999965D, 757D, 47D);
+            this.m_TrendViewer.ValueTextScaleMaxMargin = new Neo.ApplicationFramework.Common.Graphics.Logic.ThicknessCF(757D, 30.325999999999965D, 11.990000000000009D, 47D);
             this.m_TrendViewer.VisibleDynamicsValue = true;
-            this.m_TrendViewer.Width = 653;
+            this.m_TrendViewer.Width = 787;
             // 
             // m_Button11
             // 
@@ -502,13 +513,13 @@ namespace Neo.ApplicationFramework.Generated {
             this.m_Ellipse3.EnabledDynamicsValue = true;
             this.m_Ellipse3.Fill = new Neo.ApplicationFramework.Common.Graphics.Logic.BrushCF(System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(0)))), ((int)(((byte)(0))))), System.Drawing.Color.Empty, Neo.ApplicationFramework.Interfaces.FillDirection.None);
             this.m_Ellipse3.Height = 35;
-            this.m_Ellipse3.Left = 422;
+            this.m_Ellipse3.Left = 421;
             this.m_Ellipse3.Name = "m_Ellipse3";
             this.m_Ellipse3.ScreenOwnerName = "Trender";
             this.m_Ellipse3.Stroke = new Neo.ApplicationFramework.Common.Graphics.Logic.BrushCF(System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0))))), System.Drawing.Color.Empty, Neo.ApplicationFramework.Interfaces.FillDirection.None);
             this.m_Ellipse3.Top = 563;
             this.m_Ellipse3.VisibleDynamicsValue = true;
-            this.m_Ellipse3.Width = 35;
+            this.m_Ellipse3.Width = 36;
             // 
             // m_Rectangle4
             // 
@@ -552,7 +563,7 @@ namespace Neo.ApplicationFramework.Generated {
             this.m_DigitalClock.ScreenOwnerName = "Trender";
             this.m_DigitalClock.ShowDayOfWeek = false;
             this.m_DigitalClock.ShowSeconds = true;
-            this.m_DigitalClock.Text = "22.04.2026 14:11:13";
+            this.m_DigitalClock.Text = "23.04.2026 13:33:58";
             this.m_DigitalClock.Top = 8;
             this.m_DigitalClock.VisibleDynamicsValue = true;
             this.m_DigitalClock.Width = 205;
@@ -698,6 +709,90 @@ namespace Neo.ApplicationFramework.Generated {
             this.m_Text12.Top = 8;
             this.m_Text12.VisibleDynamicsValue = true;
             this.m_Text12.Width = 49;
+            // 
+            // m_Text
+            // 
+            this.m_Text.BlinkDynamicsValue = false;
+            this.m_Text.EnabledDynamicsValue = true;
+            this.m_Text.FontSizePixels = 18;
+            this.m_Text.Height = 21;
+            this.m_Text.Left = 127;
+            this.m_Text.Name = "m_Text";
+            this.m_Text.ScreenOwnerName = "Trender";
+            this.m_Text.Top = 507;
+            this.m_Text.VisibleDynamicsValue = true;
+            this.m_Text.Width = 54;
+            // 
+            // m_Text2
+            // 
+            this.m_Text2.BlinkDynamicsValue = false;
+            this.m_Text2.EnabledDynamicsValue = true;
+            this.m_Text2.FontSizePixels = 18;
+            this.m_Text2.Height = 21;
+            this.m_Text2.Left = 290;
+            this.m_Text2.Name = "m_Text2";
+            this.m_Text2.ScreenOwnerName = "Trender";
+            this.m_Text2.Top = 506;
+            this.m_Text2.VisibleDynamicsValue = true;
+            this.m_Text2.Width = 68;
+            // 
+            // m_Text3
+            // 
+            this.m_Text3.BlinkDynamicsValue = false;
+            this.m_Text3.EnabledDynamicsValue = true;
+            this.m_Text3.FontSizePixels = 18;
+            this.m_Text3.Height = 21;
+            this.m_Text3.Left = 464;
+            this.m_Text3.Name = "m_Text3";
+            this.m_Text3.ScreenOwnerName = "Trender";
+            this.m_Text3.Top = 506;
+            this.m_Text3.VisibleDynamicsValue = true;
+            this.m_Text3.Width = 41;
+            // 
+            // m_Rectangle
+            // 
+            this.m_Rectangle.BitmapEffect = new Neo.ApplicationFramework.Common.Graphics.Logic.BitmapEffectCF();
+            this.m_Rectangle.BlinkDynamicsValue = false;
+            this.m_Rectangle.EnabledDynamicsValue = true;
+            this.m_Rectangle.Fill = new Neo.ApplicationFramework.Common.Graphics.Logic.BrushCF(System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(187)))), ((int)(((byte)(97))))), System.Drawing.Color.Empty, Neo.ApplicationFramework.Interfaces.FillDirection.None);
+            this.m_Rectangle.Height = 21;
+            this.m_Rectangle.Left = 99;
+            this.m_Rectangle.Name = "m_Rectangle";
+            this.m_Rectangle.ScreenOwnerName = "Trender";
+            this.m_Rectangle.Stroke = new Neo.ApplicationFramework.Common.Graphics.Logic.BrushCF(System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0))))), System.Drawing.Color.Empty, Neo.ApplicationFramework.Interfaces.FillDirection.None);
+            this.m_Rectangle.Top = 509;
+            this.m_Rectangle.VisibleDynamicsValue = true;
+            this.m_Rectangle.Width = 26;
+            // 
+            // m_Rectangle1
+            // 
+            this.m_Rectangle1.BitmapEffect = new Neo.ApplicationFramework.Common.Graphics.Logic.BitmapEffectCF();
+            this.m_Rectangle1.BlinkDynamicsValue = false;
+            this.m_Rectangle1.EnabledDynamicsValue = true;
+            this.m_Rectangle1.Fill = new Neo.ApplicationFramework.Common.Graphics.Logic.BrushCF(System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(130)))), ((int)(((byte)(180))))), System.Drawing.Color.Empty, Neo.ApplicationFramework.Interfaces.FillDirection.None);
+            this.m_Rectangle1.Height = 21;
+            this.m_Rectangle1.Left = 256;
+            this.m_Rectangle1.Name = "m_Rectangle1";
+            this.m_Rectangle1.ScreenOwnerName = "Trender";
+            this.m_Rectangle1.Stroke = new Neo.ApplicationFramework.Common.Graphics.Logic.BrushCF(System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0))))), System.Drawing.Color.Empty, Neo.ApplicationFramework.Interfaces.FillDirection.None);
+            this.m_Rectangle1.Top = 509;
+            this.m_Rectangle1.VisibleDynamicsValue = true;
+            this.m_Rectangle1.Width = 26;
+            // 
+            // m_Rectangle2
+            // 
+            this.m_Rectangle2.BitmapEffect = new Neo.ApplicationFramework.Common.Graphics.Logic.BitmapEffectCF();
+            this.m_Rectangle2.BlinkDynamicsValue = false;
+            this.m_Rectangle2.EnabledDynamicsValue = true;
+            this.m_Rectangle2.Fill = new Neo.ApplicationFramework.Common.Graphics.Logic.BrushCF(System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(0)))), ((int)(((byte)(0))))), System.Drawing.Color.Empty, Neo.ApplicationFramework.Interfaces.FillDirection.None);
+            this.m_Rectangle2.Height = 21;
+            this.m_Rectangle2.Left = 430;
+            this.m_Rectangle2.Name = "m_Rectangle2";
+            this.m_Rectangle2.ScreenOwnerName = "Trender";
+            this.m_Rectangle2.Stroke = new Neo.ApplicationFramework.Common.Graphics.Logic.BrushCF(System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0))))), System.Drawing.Color.Empty, Neo.ApplicationFramework.Interfaces.FillDirection.None);
+            this.m_Rectangle2.Top = 509;
+            this.m_Rectangle2.VisibleDynamicsValue = true;
+            this.m_Rectangle2.Width = 26;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.ClientSize = new System.Drawing.Size(800, 600);
             this.IsCacheable = true;
@@ -753,9 +848,7 @@ namespace Neo.ApplicationFramework.Generated {
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Never)]
         public override void AddDrawingPrimitives() {
             base.AddDrawingPrimitives();
-            this.DrawingPrimitives.Add(this.m_Text);
             this.DrawingPrimitives.Add(this.m_Text1);
-            this.DrawingPrimitives.Add(this.m_Text2);
             this.DrawingPrimitives.Add(this.m_TrendViewer);
             this.DrawingPrimitives.Add(this.m_Button11);
             this.DrawingPrimitives.Add(this.m_Button10);
@@ -774,9 +867,13 @@ namespace Neo.ApplicationFramework.Generated {
             this.DrawingPrimitives.Add(this.m_Text10);
             this.DrawingPrimitives.Add(this.m_Text11);
             this.DrawingPrimitives.Add(this.m_Text12);
-            ((System.ComponentModel.ISupportInitialize)(this.m_Text)).EndInit();
+            this.DrawingPrimitives.Add(this.m_Text);
+            this.DrawingPrimitives.Add(this.m_Text2);
+            this.DrawingPrimitives.Add(this.m_Text3);
+            this.DrawingPrimitives.Add(this.m_Rectangle);
+            this.DrawingPrimitives.Add(this.m_Rectangle1);
+            this.DrawingPrimitives.Add(this.m_Rectangle2);
             ((System.ComponentModel.ISupportInitialize)(this.m_Text1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.m_Text2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.m_TrendViewer)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.m_Button11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.m_Button10)).EndInit();
@@ -788,6 +885,9 @@ namespace Neo.ApplicationFramework.Generated {
             ((System.ComponentModel.ISupportInitialize)(this.m_Text10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.m_Text11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.m_Text12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.m_Text)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.m_Text2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.m_Text3)).EndInit();
         }
         
         private void m_Button11_Action_Click(object sender, System.EventArgs e) {
@@ -813,20 +913,21 @@ namespace Neo.ApplicationFramework.Generated {
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Never)]
         private void ApplyLanguageInternal() {
             Neo.ApplicationFramework.Tools.MultiLanguage.MultiLanguageResourceManager resources = new Neo.ApplicationFramework.Tools.MultiLanguage.MultiLanguageResourceManager(typeof(Trender));
-            this.m_Text.Text = resources.GetText("Trender.Text.Text", "Settpunkt");
-            this.m_Text2.Text = resources.GetText("Trender.Text2.Text", "Prosessverdi");
             this.m_Button11.Text = resources.GetText("Trender.Button11.Text", "Alarmer");
             this.m_Button10.Text = resources.GetText("Trender.Button10.Text", "Hjem");
             this.m_Button13.Text = resources.GetText("Trender.Button13.Text", "Trender");
             this.m_Button.Text = resources.GetText("Trender.Button.Text", "Regulering");
-            this.m_TrendViewer.Curves[0].DisplayName = resources.GetText("Trender.TrendViewer.Curves[0].DisplayName", "Curve");
-            this.m_TrendViewer.Curves[1].DisplayName = resources.GetText("Trender.TrendViewer.Curves[1].DisplayName", "Curve1");
-            this.m_TrendViewer.Curves[2].DisplayName = resources.GetText("Trender.TrendViewer.Curves[2].DisplayName", "Curve2");
             this.m_Text8.Text = resources.GetText("Trender.Text8.Text", "Alarm");
             this.m_Text9.Text = resources.GetText("Trender.Text9.Text", "Alarm");
             this.m_Text10.Text = resources.GetText("Trender.Text10.Text", "STATUS");
             this.m_Text11.Text = resources.GetText("Trender.Text11.Text", "StatusTxt");
             this.m_Text12.Text = resources.GetText("Trender.Text12.Text", "StatusTxt");
+            this.m_Text.Text = resources.GetText("Trender.Text.Text", "Settpunkt");
+            this.m_Text2.Text = resources.GetText("Trender.Text2.Text", "Prosessverdi");
+            this.m_Text3.Text = resources.GetText("Trender.Text3.Text", "Pådrag");
+            this.m_TrendViewer.Curves[0].DisplayName = resources.GetText("Trender.TrendViewer.Curves[0].DisplayName", "Curve");
+            this.m_TrendViewer.Curves[1].DisplayName = resources.GetText("Trender.TrendViewer.Curves[1].DisplayName", "Curve1");
+            this.m_TrendViewer.Curves[2].DisplayName = resources.GetText("Trender.TrendViewer.Curves[2].DisplayName", "Curve2");
             resources.ApplyTexts(this.m_Text11, "Texts", "Trender.Text11.Texts[0]", "DRIFT", "Trender.Text11.Texts[1]", "INAKTIV");
             resources.ApplyTexts(this.m_Text12, "Texts", "Trender.Text12.Texts[0]", "DRIFT", "Trender.Text12.Texts[1]", "INAKTIV");
             this.ApplyResourcesOnForm();
@@ -877,19 +978,19 @@ namespace Neo.ApplicationFramework.Generated {
             Neo.ApplicationFramework.Common.Data.DynamicBinding dynamicBinding8 = new Neo.ApplicationFramework.Common.Data.DynamicBinding("Value", Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateProxy("Tags.StatusTxt"), "Value", true, System.Windows.Forms.DataSourceUpdateMode.Never, Neo.ApplicationFramework.Common.Dynamics.VariantValueConverterCF.Default);
             this.m_Text11.DataBindings.Add(dynamicBinding8);
             this.m_DynamicBindings.Add(dynamicBinding8);
-            Neo.ApplicationFramework.Common.Data.DynamicBinding dynamicBinding9 = new Neo.ApplicationFramework.Common.Data.DynamicBinding("VisibleDynamicsValue", Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateProxy("Tags.Kritisk_alarm_synling"), "Value", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged, Neo.ApplicationFramework.Common.Dynamics.BoolDynamicsConverterCF.TrueValueOne);
+            Neo.ApplicationFramework.Common.Data.DynamicBinding dynamicBinding9 = new Neo.ApplicationFramework.Common.Data.DynamicBinding("VisibleDynamicsValue", Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateProxy("Tags.Kritisk_alarm_synling"), "Value", true, System.Windows.Forms.DataSourceUpdateMode.Never, Neo.ApplicationFramework.Common.Dynamics.BoolDynamicsConverterCF.TrueValueOne);
             this.m_Ellipse3.DataBindings.Add(dynamicBinding9);
             this.m_DynamicBindings.Add(dynamicBinding9);
-            Neo.ApplicationFramework.Common.Data.DynamicBinding dynamicBinding10 = new Neo.ApplicationFramework.Common.Data.DynamicBinding("IsBlinkEnabled", Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateProxy("Tags.Kritisk_alarm_synling"), "Value", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged, Neo.ApplicationFramework.Common.Dynamics.BoolDynamicsConverterCF.TrueValueOne);
+            Neo.ApplicationFramework.Common.Data.DynamicBinding dynamicBinding10 = new Neo.ApplicationFramework.Common.Data.DynamicBinding("IsBlinkEnabled", Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateProxy("Tags.Kritisk_alarm_synling"), "Value", true, System.Windows.Forms.DataSourceUpdateMode.Never, Neo.ApplicationFramework.Common.Dynamics.BoolDynamicsConverterCF.TrueValueOne);
             this.m_Ellipse3.DataBindings.Add(dynamicBinding10);
             this.m_DynamicBindings.Add(dynamicBinding10);
             Neo.ApplicationFramework.Common.Data.DynamicBinding dynamicBinding11 = new Neo.ApplicationFramework.Common.Data.DynamicBinding("VisibleDynamicsValue", Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateProxy("Tags.Alarm_synling"), "Value", true, System.Windows.Forms.DataSourceUpdateMode.Never, Neo.ApplicationFramework.Common.Dynamics.BoolDynamicsConverterCF.TrueValueOne);
             this.m_Ellipse1.DataBindings.Add(dynamicBinding11);
             this.m_DynamicBindings.Add(dynamicBinding11);
-            Neo.ApplicationFramework.Common.Data.DynamicBinding dynamicBinding12 = new Neo.ApplicationFramework.Common.Data.DynamicBinding("VisibleDynamicsValue", Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateProxy("Tags.Kritisk_alarm_synling"), "Value", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged, Neo.ApplicationFramework.Common.Dynamics.BoolDynamicsConverterCF.TrueValueOne);
+            Neo.ApplicationFramework.Common.Data.DynamicBinding dynamicBinding12 = new Neo.ApplicationFramework.Common.Data.DynamicBinding("VisibleDynamicsValue", Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateProxy("Tags.Kritisk_alarm_synling"), "Value", true, System.Windows.Forms.DataSourceUpdateMode.Never, Neo.ApplicationFramework.Common.Dynamics.BoolDynamicsConverterCF.TrueValueOne);
             this.m_Text8.DataBindings.Add(dynamicBinding12);
             this.m_DynamicBindings.Add(dynamicBinding12);
-            Neo.ApplicationFramework.Common.Data.DynamicBinding dynamicBinding13 = new Neo.ApplicationFramework.Common.Data.DynamicBinding("VisibleDynamicsValue", Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateProxy("Tags.Kritisk_alarm_synling"), "Value", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged, Neo.ApplicationFramework.Common.Dynamics.BoolDynamicsConverterCF.TrueValueOne);
+            Neo.ApplicationFramework.Common.Data.DynamicBinding dynamicBinding13 = new Neo.ApplicationFramework.Common.Data.DynamicBinding("VisibleDynamicsValue", Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateProxy("Tags.Kritisk_alarm_synling"), "Value", true, System.Windows.Forms.DataSourceUpdateMode.Never, Neo.ApplicationFramework.Common.Dynamics.BoolDynamicsConverterCF.TrueValueOne);
             this.m_Ellipse.DataBindings.Add(dynamicBinding13);
             this.m_DynamicBindings.Add(dynamicBinding13);
             Neo.ApplicationFramework.Common.Data.DynamicBinding dynamicBinding14 = new Neo.ApplicationFramework.Common.Data.DynamicBinding("VisibleDynamicsValue", Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateProxy("Tags.Alarm_synling"), "Value", true, System.Windows.Forms.DataSourceUpdateMode.Never, Neo.ApplicationFramework.Common.Dynamics.BoolDynamicsConverterCF.TrueValueOne);

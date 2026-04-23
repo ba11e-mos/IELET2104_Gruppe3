@@ -58,19 +58,9 @@
           <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Trender" />
         </ReferenceValue>
       </Object>
-      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="Trender" ObjectName="Text" PropertyName="Text" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
-        <ReferenceValue>
-          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Settpunkt" />
-        </ReferenceValue>
-      </Object>
       <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="Trender" ObjectName="Text1" PropertyName="Text" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
         <ReferenceValue>
           <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="" />
-        </ReferenceValue>
-      </Object>
-      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="Trender" ObjectName="Text2" PropertyName="Text" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
-        <ReferenceValue>
-          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Prosessverdi" />
         </ReferenceValue>
       </Object>
       <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="Regulator" ObjectName="Button" PropertyName="Text" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
@@ -308,11 +298,6 @@
           <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="%" />
         </ReferenceValue>
       </Object>
-      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="Hjem" ObjectName="Button1" PropertyName="Text" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
-        <ReferenceValue>
-          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="(kritisk)" />
-        </ReferenceValue>
-      </Object>
       <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="Regulator" ObjectName="Button6" PropertyName="Text" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
         <ReferenceValue>
           <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="P" />
@@ -388,11 +373,6 @@
           <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Alarm" />
         </ReferenceValue>
       </Object>
-      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="Hjem" ObjectName="Button2" PropertyName="Text" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
-        <ReferenceValue>
-          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="(alarm)" />
-        </ReferenceValue>
-      </Object>
       <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="Regulator" ObjectName="Text8" PropertyName="Text" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
         <ReferenceValue>
           <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Alarm" />
@@ -421,21 +401,6 @@
       <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="Hjem" ObjectName="AnalogNumeric2" PropertyName="Suffix" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
         <ReferenceValue>
           <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="%" />
-        </ReferenceValue>
-      </Object>
-      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="Trender" ObjectName="TrendViewer" PropertyName="Curves[0].DisplayName" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
-        <ReferenceValue>
-          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Curve" />
-        </ReferenceValue>
-      </Object>
-      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="Trender" ObjectName="TrendViewer" PropertyName="Curves[1].DisplayName" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
-        <ReferenceValue>
-          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Curve1" />
-        </ReferenceValue>
-      </Object>
-      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="Trender" ObjectName="TrendViewer" PropertyName="Curves[2].DisplayName" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
-        <ReferenceValue>
-          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Curve2" />
         </ReferenceValue>
       </Object>
       <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="Hjem" ObjectName="Text10" PropertyName="Text" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
@@ -658,11 +623,6 @@
           <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="%" />
         </ReferenceValue>
       </Object>
-      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="Regulator" ObjectName="TrendViewer" PropertyName="Curves[0].DisplayName" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
-        <ReferenceValue>
-          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Curve" />
-        </ReferenceValue>
-      </Object>
       <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="Hjem" ObjectName="AnalogNumeric8" PropertyName="Prefix" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
         <ReferenceValue>
           <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="" />
@@ -676,11 +636,6 @@
       <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="Hjem" ObjectName="Text16" PropertyName="Text" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
         <ReferenceValue>
           <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Ratebegrensning" />
-        </ReferenceValue>
-      </Object>
-      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="Hjem" ObjectName="Button3" PropertyName="Text" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
-        <ReferenceValue>
-          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="alarm høy" />
         </ReferenceValue>
       </Object>
       <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="Regulator" ObjectName="Button7" PropertyName="Text" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
@@ -698,7 +653,42 @@
           <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="V3" />
         </ReferenceValue>
       </Object>
-      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="Hjem" ObjectName="Button4" PropertyName="Text" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="Regulator" ObjectName="TrendViewer" PropertyName="Curves[0].DisplayName" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Curve" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="Trender" ObjectName="Text" PropertyName="Text" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Settpunkt" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="Trender" ObjectName="Text2" PropertyName="Text" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Prosessverdi" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="Trender" ObjectName="Text3" PropertyName="Text" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Pådrag" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="Trender" ObjectName="TrendViewer" PropertyName="Curves[0].DisplayName" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Curve" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="Trender" ObjectName="TrendViewer" PropertyName="Curves[1].DisplayName" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Curve1" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="Trender" ObjectName="TrendViewer" PropertyName="Curves[2].DisplayName" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Curve2" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DesignerName="Alarmer" ObjectName="Button4" PropertyName="Text" IsActive="True" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" IsPublic="True">
         <ReferenceValue>
           <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Reset Alarm" />
         </ReferenceValue>

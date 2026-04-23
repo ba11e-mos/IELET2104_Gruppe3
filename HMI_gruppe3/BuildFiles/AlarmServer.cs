@@ -197,7 +197,7 @@ namespace Neo.ApplicationFramework.Generated
 			dynamicstring1.Text = "KRITISK HØY";
 			this.Default_Prosessverdi_kritisk_høy.DynamicString = dynamicstring1;
 			this.Default_Prosessverdi_kritisk_høy.EnableDistribution = false;
-			this.Default_Prosessverdi_kritisk_høy.GroupId = new System.Guid("c84e743b-23e5-4751-85e0-1578f3e6d5c7");
+			this.Default_Prosessverdi_kritisk_høy.GroupId = new System.Guid("eea00163-70bc-437c-b0bc-b057ade8de2b");
 			this.Default_Prosessverdi_kritisk_høy.GroupName = "Default";
 			this.Default_Prosessverdi_kritisk_høy.History = true;
 			this.Default_Prosessverdi_kritisk_høy.IsDigitalValue = false;
@@ -214,7 +214,7 @@ namespace Neo.ApplicationFramework.Generated
 			dynamicstring2.Text = "HØY";
 			this.Default_Prosessverd_høy.DynamicString = dynamicstring2;
 			this.Default_Prosessverd_høy.EnableDistribution = false;
-			this.Default_Prosessverd_høy.GroupId = new System.Guid("c84e743b-23e5-4751-85e0-1578f3e6d5c7");
+			this.Default_Prosessverd_høy.GroupId = new System.Guid("eea00163-70bc-437c-b0bc-b057ade8de2b");
 			this.Default_Prosessverd_høy.GroupName = "Default";
 			this.Default_Prosessverd_høy.History = true;
 			this.Default_Prosessverd_høy.IsDigitalValue = false;
@@ -231,7 +231,7 @@ namespace Neo.ApplicationFramework.Generated
 			dynamicstring3.Text = "LAV";
 			this.Default_Prosessverdi2_lav.DynamicString = dynamicstring3;
 			this.Default_Prosessverdi2_lav.EnableDistribution = false;
-			this.Default_Prosessverdi2_lav.GroupId = new System.Guid("c84e743b-23e5-4751-85e0-1578f3e6d5c7");
+			this.Default_Prosessverdi2_lav.GroupId = new System.Guid("eea00163-70bc-437c-b0bc-b057ade8de2b");
 			this.Default_Prosessverdi2_lav.GroupName = "Default";
 			this.Default_Prosessverdi2_lav.History = true;
 			this.Default_Prosessverdi2_lav.IsDigitalValue = false;
@@ -248,7 +248,7 @@ namespace Neo.ApplicationFramework.Generated
 			dynamicstring4.Text = "KRITISK LAV";
 			this.Default_Prosessverdi3_kritisk_lav.DynamicString = dynamicstring4;
 			this.Default_Prosessverdi3_kritisk_lav.EnableDistribution = false;
-			this.Default_Prosessverdi3_kritisk_lav.GroupId = new System.Guid("c84e743b-23e5-4751-85e0-1578f3e6d5c7");
+			this.Default_Prosessverdi3_kritisk_lav.GroupId = new System.Guid("eea00163-70bc-437c-b0bc-b057ade8de2b");
 			this.Default_Prosessverdi3_kritisk_lav.GroupName = "Default";
 			this.Default_Prosessverdi3_kritisk_lav.History = true;
 			this.Default_Prosessverdi3_kritisk_lav.IsDigitalValue = false;
@@ -265,7 +265,7 @@ namespace Neo.ApplicationFramework.Generated
 			dynamicstring5.Text = "Alarm";
 			this.Default_Prosessverdi4.DynamicString = dynamicstring5;
 			this.Default_Prosessverdi4.EnableDistribution = false;
-			this.Default_Prosessverdi4.GroupId = new System.Guid("c84e743b-23e5-4751-85e0-1578f3e6d5c7");
+			this.Default_Prosessverdi4.GroupId = new System.Guid("eea00163-70bc-437c-b0bc-b057ade8de2b");
 			this.Default_Prosessverdi4.GroupName = "Default";
 			this.Default_Prosessverdi4.History = true;
 			this.Default_Prosessverdi4.IsDigitalValue = false;
@@ -282,7 +282,7 @@ namespace Neo.ApplicationFramework.Generated
 			dynamicstring6.Text = "Alarm_kritisk";
 			this.Default_Prosessverdi5.DynamicString = dynamicstring6;
 			this.Default_Prosessverdi5.EnableDistribution = false;
-			this.Default_Prosessverdi5.GroupId = new System.Guid("c84e743b-23e5-4751-85e0-1578f3e6d5c7");
+			this.Default_Prosessverdi5.GroupId = new System.Guid("eea00163-70bc-437c-b0bc-b057ade8de2b");
 			this.Default_Prosessverdi5.GroupName = "Default";
 			this.Default_Prosessverdi5.History = true;
 			this.Default_Prosessverdi5.IsDigitalValue = false;
