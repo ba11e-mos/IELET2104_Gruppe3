@@ -121,7 +121,7 @@
           </Object>
         </GlobalDataSubItems>
       </Object>
-      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DataType="DT_INTEGER2" GlobalDataType="DT_REAL8" d1p1:Site.Name="Pådrag" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e">
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" Gain="0.01" DataType="DT_INTEGER2" GlobalDataType="DT_REAL8" d1p1:Site.Name="Pådrag" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e">
         <GlobalDataSubItems>
           <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null">
             <DataItemNames>
@@ -179,25 +179,58 @@
           <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" />
         </GlobalDataSubItems>
       </Object>
-      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" GlobalDataType="DT_REAL4" d1p1:Site.Name="Kp" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e">
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" Gain="0.01" DataType="DT_INTEGER2" GlobalDataType="DT_REAL4" d1p1:Site.Name="Kp" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e">
         <GlobalDataSubItems>
-          <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" />
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null">
+            <DataItemNames>
+              <KeyValuePair>
+                <Key>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Controller1" />
+                </Key>
+                <Value>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="DataItem19" />
+                </Value>
+              </KeyValuePair>
+            </DataItemNames>
+          </Object>
         </GlobalDataSubItems>
         <Events>
           <Event Name="ValueChange" EventHandler="Kp_ValueChange" />
         </Events>
       </Object>
-      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" GlobalDataType="DT_REAL4" d1p1:Site.Name="Ki" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e">
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" Gain="0.01" DataType="DT_INTEGER2" GlobalDataType="DT_REAL4" AccessRight="Read" d1p1:Site.Name="Ki" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e">
         <GlobalDataSubItems>
-          <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" />
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null">
+            <DataItemNames>
+              <KeyValuePair>
+                <Key>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Controller1" />
+                </Key>
+                <Value>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="DataItem20" />
+                </Value>
+              </KeyValuePair>
+            </DataItemNames>
+          </Object>
         </GlobalDataSubItems>
         <Events>
           <Event Name="ValueChange" EventHandler="Ki_ValueChange" />
         </Events>
       </Object>
-      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" GlobalDataType="DT_REAL4" d1p1:Site.Name="Kd" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e">
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" Gain="0.01" DataType="DT_INTEGER2" GlobalDataType="DT_REAL4" AccessRight="Read" d1p1:Site.Name="Kd" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e">
         <GlobalDataSubItems>
-          <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" />
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null">
+            <DataItemNames>
+              <KeyValuePair>
+                <Key>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Controller1" />
+                </Key>
+                <Value>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="DataItem21" />
+                </Value>
+              </KeyValuePair>
+            </DataItemNames>
+          </Object>
         </GlobalDataSubItems>
         <Events>
           <Event Name="ValueChange" EventHandler="Kd_ValueChange" />
@@ -319,6 +352,70 @@
                 </Key>
                 <Value>
                   <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="DataItem15" />
+                </Value>
+              </KeyValuePair>
+            </DataItemNames>
+          </Object>
+        </GlobalDataSubItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DataType="DT_BIT" GlobalDataType="DT_BOOLEAN" d1p1:Site.Name="Start" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e">
+        <GlobalDataSubItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null">
+            <DataItemNames>
+              <KeyValuePair>
+                <Key>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Controller1" />
+                </Key>
+                <Value>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="DataItem16" />
+                </Value>
+              </KeyValuePair>
+            </DataItemNames>
+          </Object>
+        </GlobalDataSubItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DataType="DT_BIT" GlobalDataType="DT_BOOLEAN" d1p1:Site.Name="Stopp" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e">
+        <GlobalDataSubItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null">
+            <DataItemNames>
+              <KeyValuePair>
+                <Key>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Controller1" />
+                </Key>
+                <Value>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="DataItem17" />
+                </Value>
+              </KeyValuePair>
+            </DataItemNames>
+          </Object>
+        </GlobalDataSubItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" DataType="DT_BIT" GlobalDataType="DT_BOOLEAN" d1p1:Site.Name="Bruk_foroverkobling" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e">
+        <GlobalDataSubItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null">
+            <DataItemNames>
+              <KeyValuePair>
+                <Key>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Controller1" />
+                </Key>
+                <Value>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="DataItem18" />
+                </Value>
+              </KeyValuePair>
+            </DataItemNames>
+          </Object>
+        </GlobalDataSubItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" Gain="0.01" DataType="DT_INTEGER2" d1p1:Site.Name="Derivasjonsfilter_parameter" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e">
+        <GlobalDataSubItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null">
+            <DataItemNames>
+              <KeyValuePair>
+                <Key>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Controller1" />
+                </Key>
+                <Value>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="DataItem22" />
                 </Value>
               </KeyValuePair>
             </DataItemNames>

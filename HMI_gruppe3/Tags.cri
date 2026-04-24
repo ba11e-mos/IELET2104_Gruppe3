@@ -23,6 +23,9 @@
         <Item Target="Tags" TargetProperty="Pådrag" Source="Controller1.DataItem5" />
         <Item Target="Tags" TargetProperty="Alarm_synling" Source="Controller1.DataItem4" />
         <Item Target="Tags" TargetProperty="Frekvensomformer_åpning" Source="Controller1.DataItem8" />
+        <Item Target="Tags" TargetProperty="Kp" Source="Controller1.DataItem19" />
+        <Item Target="Tags" TargetProperty="Ki" Source="Controller1.DataItem20" />
+        <Item Target="Tags" TargetProperty="Kd" Source="Controller1.DataItem21" />
         <Item Target="Tags" TargetProperty="Settpunkt" Source="Controller1.DataItem13" />
         <Item Target="Tags" TargetProperty="Organ" Source="Controller1.DataItem9" />
         <Item Target="Tags" TargetProperty="Alarm_høy" Source="Controller1.DataItem10" />
@@ -30,6 +33,10 @@
         <Item Target="Tags" TargetProperty="Alarm_lav" Source="Controller1.DataItem12" />
         <Item Target="Tags" TargetProperty="Alarm_kritisk_lav" Source="Controller1.DataItem14" />
         <Item Target="Tags" TargetProperty="Reset_alarm" Source="Controller1.DataItem15" />
+        <Item Target="Tags" TargetProperty="Start" Source="Controller1.DataItem16" />
+        <Item Target="Tags" TargetProperty="Stopp" Source="Controller1.DataItem17" />
+        <Item Target="Tags" TargetProperty="Bruk_foroverkobling" Source="Controller1.DataItem18" />
+        <Item Target="Tags" TargetProperty="Derivasjonsfilter_parameter" Source="Controller1.DataItem22" />
       </Items>
     </Category>
     <Category Name="Recipe">

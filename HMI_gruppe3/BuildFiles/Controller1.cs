@@ -46,6 +46,20 @@ namespace Neo.ApplicationFramework.Generated
 		
 		private Neo.ApplicationFramework.Tools.OpcClient.DataItem DataItem15;
 		
+		private Neo.ApplicationFramework.Tools.OpcClient.DataItem DataItem16;
+		
+		private Neo.ApplicationFramework.Tools.OpcClient.DataItem DataItem17;
+		
+		private Neo.ApplicationFramework.Tools.OpcClient.DataItem DataItem18;
+		
+		private Neo.ApplicationFramework.Tools.OpcClient.DataItem DataItem19;
+		
+		private Neo.ApplicationFramework.Tools.OpcClient.DataItem DataItem20;
+		
+		private Neo.ApplicationFramework.Tools.OpcClient.DataItem DataItem21;
+		
+		private Neo.ApplicationFramework.Tools.OpcClient.DataItem DataItem22;
+		
 		public Controller1()
 		{
 			this.InitializeComponent();
@@ -78,7 +92,7 @@ namespace Neo.ApplicationFramework.Generated
 			this.DataItem2 = new Neo.ApplicationFramework.Tools.OpcClient.DataItem("DataItem2", "M21", ((Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE)(Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE.DT_BIT)), ((short)(1)), 0D, 1D, ((short)(0)), false);
 			this.DataItem3 = new Neo.ApplicationFramework.Tools.OpcClient.DataItem("DataItem3", "M22", ((Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE)(Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE.DT_BIT)), ((short)(1)), 0D, 1D, ((short)(0)), false);
 			this.DataItem4 = new Neo.ApplicationFramework.Tools.OpcClient.DataItem("DataItem4", "M30", ((Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE)(Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE.DT_BIT)), ((short)(1)), 0D, 1D, ((short)(0)), false);
-			this.DataItem5 = new Neo.ApplicationFramework.Tools.OpcClient.DataItem("DataItem5", "D12", ((Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE)(Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE.DT_INTEGER2)), ((short)(1)), 0D, 1D, ((short)(0)), false);
+			this.DataItem5 = new Neo.ApplicationFramework.Tools.OpcClient.DataItem("DataItem5", "D12", ((Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE)(Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE.DT_INTEGER2)), ((short)(1)), 0D, 0.01D, ((short)(0)), false);
 			this.DataItem6 = new Neo.ApplicationFramework.Tools.OpcClient.DataItem("DataItem6", "M24", ((Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE)(Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE.DT_BIT)), ((short)(1)), 0D, 1D, ((short)(0)), false);
 			this.DataItem7 = new Neo.ApplicationFramework.Tools.OpcClient.DataItem("DataItem7", "D0", ((Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE)(Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE.DT_INTEGER2)), ((short)(1)), 0D, 1D, ((short)(0)), false);
 			this.DataItem8 = new Neo.ApplicationFramework.Tools.OpcClient.DataItem("DataItem8", "D11", ((Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE)(Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE.DT_INTEGER2)), ((short)(1)), 0D, 1D, ((short)(0)), false);
@@ -89,6 +103,13 @@ namespace Neo.ApplicationFramework.Generated
 			this.DataItem12 = new Neo.ApplicationFramework.Tools.OpcClient.DataItem("DataItem12", "M27", ((Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE)(Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE.DT_BIT)), ((short)(1)), 0D, 1D, ((short)(0)), false);
 			this.DataItem14 = new Neo.ApplicationFramework.Tools.OpcClient.DataItem("DataItem14", "M26", ((Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE)(Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE.DT_BIT)), ((short)(1)), 0D, 1D, ((short)(0)), false);
 			this.DataItem15 = new Neo.ApplicationFramework.Tools.OpcClient.DataItem("DataItem15", "M25", ((Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE)(Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE.DT_BIT)), ((short)(1)), 0D, 1D, ((short)(0)), false);
+			this.DataItem16 = new Neo.ApplicationFramework.Tools.OpcClient.DataItem("DataItem16", "M32", ((Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE)(Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE.DT_BIT)), ((short)(1)), 0D, 1D, ((short)(0)), false);
+			this.DataItem17 = new Neo.ApplicationFramework.Tools.OpcClient.DataItem("DataItem17", "M33", ((Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE)(Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE.DT_BIT)), ((short)(1)), 0D, 1D, ((short)(0)), false);
+			this.DataItem18 = new Neo.ApplicationFramework.Tools.OpcClient.DataItem("DataItem18", "M31", ((Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE)(Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE.DT_BIT)), ((short)(1)), 0D, 1D, ((short)(0)), false);
+			this.DataItem19 = new Neo.ApplicationFramework.Tools.OpcClient.DataItem("DataItem19", "D14", ((Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE)(Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE.DT_INTEGER2)), ((short)(1)), 0D, 0.01D, ((short)(0)), false);
+			this.DataItem20 = new Neo.ApplicationFramework.Tools.OpcClient.DataItem("DataItem20", "D15", ((Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE)(Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE.DT_INTEGER2)), ((short)(1)), 0D, 0.01D, ((short)(0)), false);
+			this.DataItem21 = new Neo.ApplicationFramework.Tools.OpcClient.DataItem("DataItem21", "D16", ((Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE)(Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE.DT_INTEGER2)), ((short)(1)), 0D, 0.01D, ((short)(0)), false);
+			this.DataItem22 = new Neo.ApplicationFramework.Tools.OpcClient.DataItem("DataItem22", "D17", ((Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE)(Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE.DT_INTEGER2)), ((short)(1)), 0D, 0.01D, ((short)(0)), false);
 		}
 		
 		private void InitializeBeginInits()
@@ -109,6 +130,13 @@ namespace Neo.ApplicationFramework.Generated
 			((System.ComponentModel.ISupportInitialize)(this.DataItem12)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.DataItem14)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.DataItem15)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.DataItem16)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.DataItem17)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.DataItem18)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.DataItem19)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.DataItem20)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.DataItem21)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.DataItem22)).BeginInit();
 		}
 		
 		private void InitializeEndInits()
@@ -128,6 +156,13 @@ namespace Neo.ApplicationFramework.Generated
 			((System.ComponentModel.ISupportInitialize)(this.DataItem12)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.DataItem14)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.DataItem15)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.DataItem16)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.DataItem17)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.DataItem18)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.DataItem19)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.DataItem20)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.DataItem21)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.DataItem22)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this)).EndInit();
 		}
 		
@@ -148,6 +183,13 @@ namespace Neo.ApplicationFramework.Generated
 			this.DataItems.Add(this.DataItem12);
 			this.DataItems.Add(this.DataItem14);
 			this.DataItems.Add(this.DataItem15);
+			this.DataItems.Add(this.DataItem16);
+			this.DataItems.Add(this.DataItem17);
+			this.DataItems.Add(this.DataItem18);
+			this.DataItems.Add(this.DataItem19);
+			this.DataItems.Add(this.DataItem20);
+			this.DataItems.Add(this.DataItem21);
+			this.DataItems.Add(this.DataItem22);
 			this.Driver = "MELSEC_A_Series_(E71)_Ethernet_Pre2.MELSEC_A_Series_(E71)_Ethernet_Pre2.1";
 			this.Node = "";
 			this.Servername = "Beijer.InprocessNeo.1";

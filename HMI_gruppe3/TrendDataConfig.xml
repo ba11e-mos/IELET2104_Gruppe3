@@ -7,7 +7,7 @@
       <GlobalDataItem DataSourceName="Tags.Prosessverdi" />
     </GlobalDataItems>
   </TrendViewer>
-  <TrendViewer Name="Regulator.TrendViewer" TimeRangeBoundDataItem="" TrendWidth="157" TimeRange="PT4M">
+  <TrendViewer Name="Regulator.TrendViewer" TimeRangeBoundDataItem="" TrendWidth="186" TimeRange="PT4M">
     <GlobalDataItems>
       <GlobalDataItem DataSourceName="Tags.Prosessverdi" />
     </GlobalDataItems>

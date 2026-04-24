@@ -155,7 +155,7 @@
         </nai:ActionList>
       </nai:ActionProperties.Actions>
     </nac:Button>
-    <nac:Button Text="PI" TextDecorations="{x:Null}" RequiresTransparency="True" SymbolTransparent="False" FontFamily="Tahoma" FontSize="26" FontStyle="Normal" FontWeight="Normal" Name="m_Button3" Width="49" Height="45" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="6" Canvas.Left="618" Canvas.Top="312" Style="{nac1:StyleMarkupExtension DefaultCF}">
+    <nac:Button Text="PI" TextDecorations="{x:Null}" RequiresTransparency="True" SymbolTransparent="False" FontFamily="Tahoma" FontSize="26" FontStyle="Normal" FontWeight="Normal" Name="m_Button3" Width="52" Height="45" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="6" Canvas.Left="671" Canvas.Top="312" Style="{nac1:StyleMarkupExtension DefaultCF}">
       <nac:Button.Resources>
         <ResourceDictionary>
           <nacd1:BrushDynamicsConverter x:Key="BackgroundConverter">
@@ -217,7 +217,7 @@
         </nai:ActionList>
       </nai:ActionProperties.Actions>
     </nac:Button>
-    <nac:Button Text="PID" TextDecorations="{x:Null}" RequiresTransparency="True" SymbolTransparent="False" FontFamily="Tahoma" FontSize="26" FontStyle="Normal" FontWeight="Normal" Name="m_Button4" Width="49" Height="45" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="7" Canvas.Left="715" Canvas.Top="312" Style="{nac1:StyleMarkupExtension DefaultCF}">
+    <nac:Button Text="PID" TextDecorations="{x:Null}" RequiresTransparency="True" SymbolTransparent="False" FontFamily="Tahoma" FontSize="26" FontStyle="Normal" FontWeight="Normal" Name="m_Button4" Width="52" Height="45" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="7" Canvas.Left="721" Canvas.Top="312" Style="{nac1:StyleMarkupExtension DefaultCF}">
       <nac:Button.Resources>
         <ResourceDictionary>
           <nacd1:BrushDynamicsConverter x:Key="BackgroundConverter">
@@ -336,21 +336,35 @@
       </nac:Button.TextDecorations>
       <nai:ActionProperties.Actions>
         <nai:ActionList>
-          <nata:Action Name="Set Analog">
-            <nata:Action.ActionMethodInfo>
-              <nata:ActionMethodInfo Name="SetAnalog" ObjectName="Tags.Foroverkobling_farger" EventName="Click" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False">
-                <nata:ActionMethodInfo.ActionParameterInfo>
-                  <nai:ActionParameterInfoList>
-                    <nata:ActionParameterInfo Position="0" ParameterName="newValue" ParameterTypeString="Neo.ApplicationFramework.Interfaces.VariantValue, InterfacesCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" TagName="">
-                      <nata:ActionParameterInfo.Value>
-                        <s:Int32>1</s:Int32>
-                      </nata:ActionParameterInfo.Value>
-                    </nata:ActionParameterInfo>
-                  </nai:ActionParameterInfoList>
-                </nata:ActionMethodInfo.ActionParameterInfo>
-              </nata:ActionMethodInfo>
-            </nata:Action.ActionMethodInfo>
-          </nata:Action>
+          <nata:MultiAction Name="Multi Action">
+            <nata:MultiAction.Actions>
+              <nai:ActionList>
+                <nata:Action Name="Set Analog">
+                  <nata:Action.ActionMethodInfo>
+                    <nata:ActionMethodInfo Name="SetAnalog" ObjectName="Tags.Foroverkobling_farger" EventName="Click" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False">
+                      <nata:ActionMethodInfo.ActionParameterInfo>
+                        <nai:ActionParameterInfoList>
+                          <nata:ActionParameterInfo Position="0" ParameterName="newValue" ParameterTypeString="Neo.ApplicationFramework.Interfaces.VariantValue, InterfacesCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" TagName="">
+                            <nata:ActionParameterInfo.Value>
+                              <s:Int32>1</s:Int32>
+                            </nata:ActionParameterInfo.Value>
+                          </nata:ActionParameterInfo>
+                        </nai:ActionParameterInfoList>
+                      </nata:ActionMethodInfo.ActionParameterInfo>
+                    </nata:ActionMethodInfo>
+                  </nata:Action.ActionMethodInfo>
+                </nata:Action>
+                <nata:Action Name="Reset Tag">
+                  <nata:Action.ActionMethodInfo>
+                    <nata:ActionMethodInfo Name="ResetTag" ObjectName="Tags.Bruk_foroverkobling" EventName="Click" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False" />
+                  </nata:Action.ActionMethodInfo>
+                </nata:Action>
+              </nai:ActionList>
+            </nata:MultiAction.Actions>
+            <nata:MultiAction.ActionMethodInfo>
+              <nata:ActionMethodInfo Name="" ObjectName="" EventName="Click" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False" />
+            </nata:MultiAction.ActionMethodInfo>
+          </nata:MultiAction>
         </nai:ActionList>
       </nai:ActionProperties.Actions>
     </nac:Button>
@@ -385,8 +399,16 @@
               </nacd2:BrushCFIntervalMapper>
             </nacd1:BrushDynamicsConverter.BrushIntervalMapper>
           </nacd1:BrushDynamicsConverter>
+          <nacc:VariantValueConverter x:Key="ValueConverter" />
         </ResourceDictionary>
       </nac:Button.Resources>
+      <nac:Button.Value>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.Bruk_foroverkobling].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>
+            <s:Double>0</s:Double>
+          </Binding.FallbackValue>
+        </Binding>
+      </nac:Button.Value>
       <nac:Button.Background>
         <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.Foroverkobling_farger].Value" Converter="{StaticResource BackgroundConverter}" ValidatesOnExceptions="True">
           <Binding.FallbackValue>
@@ -406,21 +428,35 @@
       </nac:Button.TextDecorations>
       <nai:ActionProperties.Actions>
         <nai:ActionList>
-          <nata:Action Name="Set Analog">
-            <nata:Action.ActionMethodInfo>
-              <nata:ActionMethodInfo Name="SetAnalog" ObjectName="Tags.Foroverkobling_farger" EventName="Click" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False">
-                <nata:ActionMethodInfo.ActionParameterInfo>
-                  <nai:ActionParameterInfoList>
-                    <nata:ActionParameterInfo Position="0" ParameterName="newValue" ParameterTypeString="Neo.ApplicationFramework.Interfaces.VariantValue, InterfacesCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" TagName="">
-                      <nata:ActionParameterInfo.Value>
-                        <s:Int16>2</s:Int16>
-                      </nata:ActionParameterInfo.Value>
-                    </nata:ActionParameterInfo>
-                  </nai:ActionParameterInfoList>
-                </nata:ActionMethodInfo.ActionParameterInfo>
-              </nata:ActionMethodInfo>
-            </nata:Action.ActionMethodInfo>
-          </nata:Action>
+          <nata:MultiAction Name="Multi Action">
+            <nata:MultiAction.Actions>
+              <nai:ActionList>
+                <nata:Action Name="Set Analog">
+                  <nata:Action.ActionMethodInfo>
+                    <nata:ActionMethodInfo Name="SetAnalog" ObjectName="Tags.Foroverkobling_farger" EventName="Click" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False">
+                      <nata:ActionMethodInfo.ActionParameterInfo>
+                        <nai:ActionParameterInfoList>
+                          <nata:ActionParameterInfo Position="0" ParameterName="newValue" ParameterTypeString="Neo.ApplicationFramework.Interfaces.VariantValue, InterfacesCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" TagName="">
+                            <nata:ActionParameterInfo.Value>
+                              <s:Int16>2</s:Int16>
+                            </nata:ActionParameterInfo.Value>
+                          </nata:ActionParameterInfo>
+                        </nai:ActionParameterInfoList>
+                      </nata:ActionMethodInfo.ActionParameterInfo>
+                    </nata:ActionMethodInfo>
+                  </nata:Action.ActionMethodInfo>
+                </nata:Action>
+                <nata:Action Name="Set Tag">
+                  <nata:Action.ActionMethodInfo>
+                    <nata:ActionMethodInfo Name="SetTag" ObjectName="" EventName="Click" ReferenceType="ThisTag" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False" />
+                  </nata:Action.ActionMethodInfo>
+                </nata:Action>
+              </nai:ActionList>
+            </nata:MultiAction.Actions>
+            <nata:MultiAction.ActionMethodInfo>
+              <nata:ActionMethodInfo Name="" ObjectName="" EventName="Click" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False" />
+            </nata:MultiAction.ActionMethodInfo>
+          </nata:MultiAction>
         </nai:ActionList>
       </nai:ActionProperties.Actions>
     </nac:Button>
@@ -430,7 +466,7 @@
         <TextDecorationCollection />
       </nac:Label.TextDecorations>
     </nac:Label>
-    <nac:Label Text="Nom. pådrag:" Background="#00FFFFFF" Foreground="#FF000000" FontFamily="Tahoma" FontSize="22" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="5.5,0,5.5,1" Name="m_Text4" Width="151" Height="33" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="13" Canvas.Left="32" Canvas.Top="276">
+    <nac:Label Text="Nom. pådrag:" Background="#00FFFFFF" Foreground="#FF000000" FontFamily="Tahoma" FontSize="22" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="5.5,0,5.5,1" Name="m_Text4" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="13" Canvas.Left="32" Canvas.Top="276">
       <nac:Label.Resources>
         <ResourceDictionary>
           <nacd1:BoolDynamicsConverter x:Key="VisibleDynamicsValueConverter" DefaultValue="True" TrueValue="2" />
@@ -483,7 +519,7 @@
         </Binding>
       </nac:Label.Foreground>
     </nac:Label>
-    <nac:Button Text="PD" TextDecorations="{x:Null}" RequiresTransparency="True" SymbolTransparent="False" FontFamily="Tahoma" FontSize="26" FontStyle="Normal" FontWeight="Normal" Name="m_Button17" Width="49" Height="45" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="15" Canvas.Left="665" Canvas.Top="312" Style="{nac1:StyleMarkupExtension DefaultCF}">
+    <nac:Button Text="PD" TextDecorations="{x:Null}" RequiresTransparency="True" SymbolTransparent="False" FontFamily="Tahoma" FontSize="26" FontStyle="Normal" FontWeight="Normal" Name="m_Button17" Width="52" Height="45" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="15" Canvas.Left="619" Canvas.Top="312" Style="{nac1:StyleMarkupExtension DefaultCF}">
       <nac:Button.Resources>
         <ResourceDictionary>
           <nacd1:BrushDynamicsConverter x:Key="BackgroundConverter">
@@ -795,7 +831,7 @@
         </LinearGradientBrush>
       </nac:AnalogNumericFX.Background>
     </nac:AnalogNumericFX>
-    <nac:Label Text="Man. pådrag:" Background="#00FFFFFF" Foreground="#FF000000" FontFamily="Tahoma" FontSize="22" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="5.5,0,5.5,1" Name="m_Text14" Width="151" Height="33" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="22" Canvas.Left="39" Canvas.Top="277">
+    <nac:Label Text="Man. pådrag:" Background="#00FFFFFF" Foreground="#FF000000" FontFamily="Tahoma" FontSize="22" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="5.5,0,5.5,1" Name="m_Text14" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="22" Canvas.Left="39" Canvas.Top="277">
       <nac:Label.Resources>
         <ResourceDictionary>
           <nacd1:BoolDynamicsConverter x:Key="VisibleDynamicsValueConverter" DefaultValue="True" TrueValue="1" />
@@ -813,7 +849,7 @@
       </nac:Label.TextDecorations>
     </nac:Label>
     <nac:DigitalClock ShowDayOfWeek="False" FontFamily="Tahoma" FontSize="20" Name="m_DigitalClock" Width="100" MinWidth="207.756666666667" Height="30" MinHeight="24.14" HorizontalAlignment="Center" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="29" Canvas.Left="563" Canvas.Top="27" />
-    <nac:Button Text="P" TextDecorations="{x:Null}" RequiresTransparency="True" SymbolTransparent="False" FontFamily="Tahoma" FontSize="26" FontStyle="Normal" FontWeight="Normal" Name="m_Button6" Width="49" Height="45" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="30" Canvas.Left="576" Canvas.Top="312" Style="{nac1:StyleMarkupExtension DefaultCF}">
+    <nac:Button Text="P" TextDecorations="{x:Null}" RequiresTransparency="True" SymbolTransparent="False" FontFamily="Tahoma" FontSize="26" FontStyle="Normal" FontWeight="Normal" Name="m_Button6" Width="52" Height="45" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="30" Canvas.Left="566" Canvas.Top="312" Style="{nac1:StyleMarkupExtension DefaultCF}">
       <nac:Button.Resources>
         <ResourceDictionary>
           <nacd1:BrushDynamicsConverter x:Key="BackgroundConverter">
@@ -1295,7 +1331,7 @@
     <nacc1:Rectangle Fill="#FFE3E3E3" Stroke="#FF000000" Name="m_Rectangle2" Width="249" Height="452" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="54" Canvas.Left="293" Canvas.Top="81" />
     <nact1:TrendViewer GridVisible="Visible" Width="249" Height="454" Background="#FFE3E3E3" FontSize="11" IndicatorMargin="24,11,39.01,29.2766666666666" RequiresTransparency="False" ForceTransparency="False" FontFamily="Tahoma" FontStyle="Normal" FontWeight="Normal" Name="m_TrendViewer" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="55" Canvas.Left="293" Canvas.Top="79" Style="{nac1:StyleMarkupExtension Vintage_Compact}">
       <nact1:TrendViewer.Curves>
-        <nact1:Curve DisplayName="Curve" Color="0, 114, 188" Thickness="2" DataSourceName="Tags.Prosessverdi" ValueScaleMaximumDataConnection="{x:Null}" ValueScaleMinimumDataConnection="{x:Null}" ExpressionName="{x:Null}" />
+        <nact1:Curve DisplayName="Curve" Color="0, 114, 188" Thickness="6" DataSourceName="Tags.Prosessverdi" ValueScaleMaximumDataConnection="{x:Null}" ValueScaleMinimumDataConnection="{x:Null}" ExpressionName="{x:Null}" Visibility="Visible" />
       </nact1:TrendViewer.Curves>
     </nact1:TrendViewer>
     <nac:Button Text="V1" TextDecorations="{x:Null}" RequiresTransparency="True" SymbolTransparent="False" FontFamily="Tahoma" FontSize="15" FontStyle="Normal" FontWeight="Normal" Name="m_Button7" Width="77" Height="47" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="56" Canvas.Left="32" Canvas.Top="342" Style="{nac1:StyleMarkupExtension DefaultCF}">

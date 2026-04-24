@@ -37,6 +37,7 @@
         <Item Target="Alarmer.Text10" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
         <Item Target="Alarmer.Text11" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
         <Item Target="Alarmer.Text12" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Alarmer.Button4" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
       </Items>
     </Category>
     <Category Name="GlobalDataItem">
@@ -56,6 +57,9 @@
         <Item Target="Alarmer.Text12" TargetProperty="BorderBrush" Source="Tags.StatusTxt" />
         <Item Target="Alarmer.Text12" TargetProperty="Background" Source="Tags.StatusTxt" />
         <Item Target="Alarmer.Text12" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.StatusTxt" />
+        <Item xsi:type="ActionItem" Target="Alarmer.Button4" TargetProperty="Actions" Source="Tags.Reset_alarm" Event="Click" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="Alarmer.Button4" TargetProperty="Actions" Source="Tags.Alarm_synling" Event="Click" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="Alarmer.Button4" TargetProperty="Actions" Source="Tags.Kritisk_alarm_synling" Event="Click" Action="Reset Tag" Param="" />
       </Items>
     </Category>
     <Category Name="Object">
@@ -80,7 +84,7 @@
           <ScreenName>Alarmer</ScreenName>
         </Item>
         <Item xsi:type="ScreenObjectsCrossReferenceItem">
-          <ObjectsCount>18</ObjectsCount>
+          <ObjectsCount>20</ObjectsCount>
           <ScreenName>Alarmer</ScreenName>
         </Item>
       </Items>
@@ -89,7 +93,11 @@
       <Items />
     </Category>
     <Category Name="StructuredTag">
-      <Items />
+      <Items>
+        <Item xsi:type="ActionItem" Target="Alarmer.Button4" TargetProperty="Actions" Source="Tags.Reset_alarm" Event="Click" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="Alarmer.Button4" TargetProperty="Actions" Source="Tags.Alarm_synling" Event="Click" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="Alarmer.Button4" TargetProperty="Actions" Source="Tags.Kritisk_alarm_synling" Event="Click" Action="Reset Tag" Param="" />
+      </Items>
     </Category>
     <Category Name="Symbol">
       <Items />
