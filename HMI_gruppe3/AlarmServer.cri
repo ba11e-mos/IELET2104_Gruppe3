@@ -15,16 +15,10 @@
     </Category>
     <Category Name="GlobalDataItem">
       <Items>
-        <Item xsi:type="ActionItem" Target="AlarmServer.Default.Prosessverdi_kritisk_høy" TargetProperty="Action" Source="Tags.Kritisk_alarm_synling" Event="AlarmActive" Action="Set Analog" Param="" />
         <Item Target="AlarmServer.Default.Prosessverdi_kritisk_høy" TargetProperty="Value" Source="Tags.Alarm_kritisk_høy" />
-        <Item xsi:type="ActionItem" Target="AlarmServer.Default.Prosessverd_høy" TargetProperty="Action" Source="Tags.Alarm_synling" Event="AlarmActive" Action="Set Analog" Param="" />
         <Item Target="AlarmServer.Default.Prosessverd_høy" TargetProperty="Value" Source="Tags.Alarm_høy" />
-        <Item xsi:type="ActionItem" Target="AlarmServer.Default.Prosessverdi2_lav" TargetProperty="Action" Source="Tags.Alarm_synling" Event="AlarmActive" Action="Set Analog" Param="" />
         <Item Target="AlarmServer.Default.Prosessverdi2_lav" TargetProperty="Value" Source="Tags.Alarm_lav" />
-        <Item xsi:type="ActionItem" Target="AlarmServer.Default.Prosessverdi3_kritisk_lav" TargetProperty="Action" Source="Tags.Kritisk_alarm_synling" Event="AlarmActive" Action="Set Analog" Param="" />
         <Item Target="AlarmServer.Default.Prosessverdi3_kritisk_lav" TargetProperty="Value" Source="Tags.Alarm_kritisk_lav" />
-        <Item Target="AlarmServer.Default.Prosessverdi4" TargetProperty="Value" Source="Tags.Alarm_synling" />
-        <Item Target="AlarmServer.Default.Prosessverdi5" TargetProperty="Value" Source="Tags.Kritisk_alarm_synling" />
       </Items>
     </Category>
     <Category Name="Recipe">
@@ -41,16 +35,10 @@
     </Category>
     <Category Name="StructuredTag">
       <Items>
-        <Item xsi:type="ActionItem" Target="AlarmServer.Default.Prosessverdi_kritisk_høy" TargetProperty="Action" Source="Tags.Kritisk_alarm_synling" Event="AlarmActive" Action="Set Analog" Param="" />
         <Item Target="AlarmServer.Default.Prosessverdi_kritisk_høy" TargetProperty="Value" Source="Tags.Alarm_kritisk_høy" />
-        <Item xsi:type="ActionItem" Target="AlarmServer.Default.Prosessverd_høy" TargetProperty="Action" Source="Tags.Alarm_synling" Event="AlarmActive" Action="Set Analog" Param="" />
         <Item Target="AlarmServer.Default.Prosessverd_høy" TargetProperty="Value" Source="Tags.Alarm_høy" />
-        <Item xsi:type="ActionItem" Target="AlarmServer.Default.Prosessverdi2_lav" TargetProperty="Action" Source="Tags.Alarm_synling" Event="AlarmActive" Action="Set Analog" Param="" />
         <Item Target="AlarmServer.Default.Prosessverdi2_lav" TargetProperty="Value" Source="Tags.Alarm_lav" />
-        <Item xsi:type="ActionItem" Target="AlarmServer.Default.Prosessverdi3_kritisk_lav" TargetProperty="Action" Source="Tags.Kritisk_alarm_synling" Event="AlarmActive" Action="Set Analog" Param="" />
         <Item Target="AlarmServer.Default.Prosessverdi3_kritisk_lav" TargetProperty="Value" Source="Tags.Alarm_kritisk_lav" />
-        <Item Target="AlarmServer.Default.Prosessverdi4" TargetProperty="Value" Source="Tags.Alarm_synling" />
-        <Item Target="AlarmServer.Default.Prosessverdi5" TargetProperty="Value" Source="Tags.Kritisk_alarm_synling" />
       </Items>
     </Category>
   </Categories>

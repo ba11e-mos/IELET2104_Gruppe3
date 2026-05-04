@@ -48,8 +48,6 @@
         <Item Target="Hjem.Text3" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
         <Item Target="Hjem.AnalogNumeric3" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
         <Item Target="Hjem.AnalogNumeric1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
-        <Item Target="Hjem.Text9" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
-        <Item Target="Hjem.Text8" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
         <Item Target="Hjem.AnalogNumeric" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
         <Item Target="Hjem.AnalogNumeric2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
         <Item Target="Hjem.Text10" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
@@ -57,45 +55,59 @@
         <Item Target="Hjem.Text12" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
         <Item Target="Hjem.AnalogNumeric8" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
         <Item Target="Hjem.Text16" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Hjem.Text18" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Hjem.Text19" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Hjem.Text14" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Hjem.Text13" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Hjem.Text21_a" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Hjem.Text22_a" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Hjem.AnalogNumeric4" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Hjem.Text24" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Hjem.Text21" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
       </Items>
     </Category>
     <Category Name="GlobalDataItem">
       <Items>
         <Item Target="Hjem.AnalogNumeric6" TargetProperty="Value" Source="Tags.Settpunkt" />
+        <Item Target="Hjem.AnalogNumeric6" TargetProperty="EnabledProperties.EnabledDynamicsValue" Source="Tags.Done" />
         <Item xsi:type="ActionItem" Target="Hjem.Button7" TargetProperty="Actions" Source="Tags.V1_bool" Event="Click" Action="Toggle Tag" Param="" />
         <Item Target="Hjem.Button7" TargetProperty="Background" Source="Tags.V1_bool" />
+        <Item Target="Hjem.Button7" TargetProperty="EnabledProperties.EnabledDynamicsValue" Source="Tags.Done" />
         <Item xsi:type="ActionItem" Target="Hjem.Button8" TargetProperty="Actions" Source="Tags.V2_bool" Event="Click" Action="Toggle Tag" Param="" />
         <Item Target="Hjem.Button8" TargetProperty="Background" Source="Tags.V2_bool" />
+        <Item Target="Hjem.Button8" TargetProperty="EnabledProperties.EnabledDynamicsValue" Source="Tags.Done" />
         <Item xsi:type="ActionItem" Target="Hjem.Button9" TargetProperty="Actions" Source="Tags.V3_bool" Event="Click" Action="Toggle Tag" Param="" />
         <Item Target="Hjem.Button9" TargetProperty="Background" Source="Tags.V3_bool" />
+        <Item Target="Hjem.Button9" TargetProperty="EnabledProperties.EnabledDynamicsValue" Source="Tags.Done" />
         <Item xsi:type="ActionItem" Target="Hjem.Button14" TargetProperty="Actions" Source="Tags.Start_Stopp_farger" Event="Click" Action="Set Analog" Param="" />
         <Item xsi:type="ActionItem" Target="Hjem.Button14" TargetProperty="Actions" Source="Tags.StatusTxt" Event="Click" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="Hjem.Button14" TargetProperty="Actions" Source="Tags.Start" Event="Click" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="Hjem.Button14" TargetProperty="Actions" Source="Tags.Stopp" Event="Click" Action="Set Analog" Param="" />
         <Item Target="Hjem.Button14" TargetProperty="Value" Source="Tags.Start" />
         <Item Target="Hjem.Button14" TargetProperty="Background" Source="Tags.Start_Stopp_farger" />
         <Item xsi:type="ActionItem" Target="Hjem.Button16" TargetProperty="Actions" Source="Tags.Start_Stopp_farger" Event="Click" Action="Set Analog" Param="" />
         <Item xsi:type="ActionItem" Target="Hjem.Button16" TargetProperty="Actions" Source="Tags.StatusTxt" Event="Click" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="Hjem.Button16" TargetProperty="Actions" Source="Tags.Stopp" Event="Click" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="Hjem.Button16" TargetProperty="Actions" Source="Tags.Start" Event="Click" Action="Set Analog" Param="" />
         <Item Target="Hjem.Button16" TargetProperty="Value" Source="Tags.Stopp" />
         <Item Target="Hjem.Button16" TargetProperty="Background" Source="Tags.Start_Stopp_farger" />
-        <Item Target="Hjem.SymbolViewbox" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.V2_bool" />
-        <Item Target="Hjem.SymbolViewbox2" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.V1_bool" />
-        <Item Target="Hjem.TouchComboBox" TargetProperty="Value" Source="Tags.Styring_frekvens_eller_ventil" />
+        <Item Target="Hjem.TouchComboBox" TargetProperty="Value" Source="Tags.Organ" />
+        <Item Target="Hjem.TouchComboBox" TargetProperty="EnabledProperties.EnabledDynamicsValue" Source="Tags.Done" />
         <Item Target="Hjem.LinearMeter" TargetProperty="Value" Source="Tags.Prosessverdi" />
-        <Item Target="Hjem.SymbolViewbox1" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.V3_bool" />
+        <Item Target="Hjem.SymbolViewbox3" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.V3_bool" />
+        <Item Target="Hjem.SymbolViewbox4" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.V2_bool" />
+        <Item Target="Hjem.SymbolViewbox5" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.V1_bool" />
         <Item Target="Hjem.SymbolViewbox6" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Start_Stopp_farger" />
         <Item Target="Hjem.SymbolViewbox8" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Start_Stopp_farger" />
-        <Item Target="Hjem.AnalogNumeric3" TargetProperty="Value" Source="Tags.Pådrag" />
+        <Item Target="Hjem.Text7" TargetProperty="Value" Source="Tags.Modus" />
+        <Item Target="Hjem.Text3" TargetProperty="Value" Source="Tags.RegulatorTekst" />
+        <Item Target="Hjem.AnalogNumeric3" TargetProperty="Value" Source="Tags.ManueltPådrag" />
+        <Item Target="Hjem.AnalogNumeric3" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Modus" />
         <Item Target="Hjem.AnalogNumeric1" TargetProperty="Value" Source="Tags.Prosessverdi" />
-        <Item Target="Hjem.Ellipse1" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Alarm_synling" />
-        <Item Target="Hjem.Text9" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Alarm_synling" />
-        <Item Target="Hjem.Ellipse2" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Alarm_synling" />
-        <Item Target="Hjem.Ellipse" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Kritisk_alarm_synling" />
-        <Item Target="Hjem.Text8" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Kritisk_alarm_synling" />
-        <Item Target="Hjem.Ellipse3" TargetProperty="BlinkProperties.IsBlinkEnabled" Source="Tags.Kritisk_alarm_synling" />
-        <Item Target="Hjem.Ellipse3" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Kritisk_alarm_synling" />
-        <Item Target="Hjem.AnalogNumeric" TargetProperty="Value" Source="Tags.Frekvensomformer_åpning" />
-        <Item Target="Hjem.AnalogNumeric" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Styring_frekvens_eller_ventil" />
-        <Item Target="Hjem.AnalogNumeric2" TargetProperty="Value" Source="Tags.Regventil_åpning" />
-        <Item Target="Hjem.AnalogNumeric2" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Styring_frekvens_eller_ventil" />
+        <Item Target="Hjem.AnalogNumeric" TargetProperty="Value" Source="Tags.Pådrag" />
+        <Item Target="Hjem.AnalogNumeric" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Organ" />
+        <Item Target="Hjem.AnalogNumeric2" TargetProperty="Value" Source="Tags.Pådrag" />
+        <Item Target="Hjem.AnalogNumeric2" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Organ" />
         <Item Target="Hjem.Text11" TargetProperty="Value" Source="Tags.StatusTxt" />
         <Item Target="Hjem.Text11" TargetProperty="BorderBrush" Source="Tags.StatusTxt" />
         <Item Target="Hjem.Text11" TargetProperty="Background" Source="Tags.StatusTxt" />
@@ -104,6 +116,31 @@
         <Item Target="Hjem.Text12" TargetProperty="BorderBrush" Source="Tags.StatusTxt" />
         <Item Target="Hjem.Text12" TargetProperty="Background" Source="Tags.StatusTxt" />
         <Item Target="Hjem.Text12" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.StatusTxt" />
+        <Item Target="Hjem.AnalogNumeric8" TargetProperty="Value" Source="Tags.Ratebegrensning" />
+        <Item Target="Hjem.Text19" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Bruk_foroverkobling" />
+        <Item Target="Hjem.Text14" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Bruk_foroverkobling" />
+        <Item Target="Hjem.Ellipse" TargetProperty="BlinkProperties.IsBlinkEnabled" Source="Tags.Alarm_kritisk_høy" />
+        <Item Target="Hjem.Ellipse" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Alarm_kritisk_høy" />
+        <Item Target="Hjem.Ellipse1" TargetProperty="BlinkProperties.IsBlinkEnabled" Source="Tags.Alarm_høy" />
+        <Item Target="Hjem.Ellipse1" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Alarm_høy" />
+        <Item Target="Hjem.Ellipse2" TargetProperty="BlinkProperties.IsBlinkEnabled" Source="Tags.Alarm_kritisk_lav" />
+        <Item Target="Hjem.Ellipse2" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Alarm_kritisk_lav" />
+        <Item Target="Hjem.Ellipse3" TargetProperty="BlinkProperties.IsBlinkEnabled" Source="Tags.Alarm_lav" />
+        <Item Target="Hjem.Ellipse3" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Alarm_lav" />
+        <Item Target="Hjem.Text21_a" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Organ" />
+        <Item Target="Hjem.Text22_a" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Organ" />
+        <Item Target="Hjem.AnalogNumeric4" TargetProperty="Value" Source="Tags.Pådrag" />
+        <Item Target="Hjem.AnalogNumeric4" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Modus" />
+        <Item Target="Hjem.Text24" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Kvitter_synlig" />
+        <Item Target="Hjem.Text21" TargetProperty="Value" Source="Tags.Alarm_tekst" />
+        <Item Target="Hjem.Ellipse4" TargetProperty="BlinkProperties.IsBlinkEnabled" Source="Tags.Alarm_kritisk_høy" />
+        <Item Target="Hjem.Ellipse4" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Alarm_kritisk_høy" />
+        <Item Target="Hjem.Ellipse5" TargetProperty="BlinkProperties.IsBlinkEnabled" Source="Tags.Alarm_høy" />
+        <Item Target="Hjem.Ellipse5" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Alarm_høy" />
+        <Item Target="Hjem.Ellipse6" TargetProperty="BlinkProperties.IsBlinkEnabled" Source="Tags.Alarm_kritisk_lav" />
+        <Item Target="Hjem.Ellipse6" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Alarm_kritisk_lav" />
+        <Item Target="Hjem.Ellipse7" TargetProperty="BlinkProperties.IsBlinkEnabled" Source="Tags.Alarm_lav" />
+        <Item Target="Hjem.Ellipse7" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Alarm_lav" />
       </Items>
     </Category>
     <Category Name="Object">
@@ -140,7 +177,7 @@
           <ScreenName>Hjem</ScreenName>
         </Item>
         <Item xsi:type="ScreenObjectsCrossReferenceItem">
-          <ObjectsCount>61</ObjectsCount>
+          <ObjectsCount>71</ObjectsCount>
           <ScreenName>Hjem</ScreenName>
         </Item>
       </Items>
@@ -149,6 +186,15 @@
       <Items>
         <Item Target="Hjem.Script.cs" Source="Tags.Regulatortype" />
         <Item Target="Hjem.Script.cs" Source="Tags.sModus" />
+        <Item Target="Hjem.Script.cs" Source="Tags.Start" />
+        <Item Target="Hjem.Script.cs" Source="Tags.Stopp" />
+        <Item Target="Hjem.Script.cs" Source="Tags.Done" />
+        <Item Target="Hjem.Script.cs" Source="Tags.Ratebegrensning" />
+        <Item Target="Hjem.Script.cs" Source="Tags.Regulator" />
+        <Item Target="Hjem.Script.cs" Source="Tags.PID_farger" />
+        <Item Target="Hjem.Script.cs" Source="Tags.Organ" />
+        <Item Target="Hjem.Script.cs" Source="Tags.Foroverkobling_farger" />
+        <Item Target="Hjem.Script.cs" Source="Tags.Auto_man_farger" />
       </Items>
     </Category>
     <Category Name="StructuredTag">
@@ -158,8 +204,12 @@
         <Item xsi:type="ActionItem" Target="Hjem.Button9" TargetProperty="Actions" Source="Tags.V3_bool" Event="Click" Action="Toggle Tag" Param="" />
         <Item xsi:type="ActionItem" Target="Hjem.Button14" TargetProperty="Actions" Source="Tags.Start_Stopp_farger" Event="Click" Action="Set Analog" Param="" />
         <Item xsi:type="ActionItem" Target="Hjem.Button14" TargetProperty="Actions" Source="Tags.StatusTxt" Event="Click" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="Hjem.Button14" TargetProperty="Actions" Source="Tags.Start" Event="Click" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="Hjem.Button14" TargetProperty="Actions" Source="Tags.Stopp" Event="Click" Action="Set Analog" Param="" />
         <Item xsi:type="ActionItem" Target="Hjem.Button16" TargetProperty="Actions" Source="Tags.Start_Stopp_farger" Event="Click" Action="Set Analog" Param="" />
         <Item xsi:type="ActionItem" Target="Hjem.Button16" TargetProperty="Actions" Source="Tags.StatusTxt" Event="Click" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="Hjem.Button16" TargetProperty="Actions" Source="Tags.Stopp" Event="Click" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="Hjem.Button16" TargetProperty="Actions" Source="Tags.Start" Event="Click" Action="Set Analog" Param="" />
       </Items>
     </Category>
     <Category Name="Symbol">

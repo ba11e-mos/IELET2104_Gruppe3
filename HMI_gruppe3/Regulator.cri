@@ -48,86 +48,136 @@
         <Item Target="Regulator.Text16" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
         <Item Target="Regulator.AnalogNumeric5" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
         <Item Target="Regulator.Text14" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
-        <Item Target="Regulator.DigitalClock" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
         <Item Target="Regulator.Button6" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
         <Item Target="Regulator.Button11" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
         <Item Target="Regulator.Button10" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
         <Item Target="Regulator.Button13" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
         <Item Target="Regulator.Button1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
-        <Item Target="Regulator.Text8" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
-        <Item Target="Regulator.Text9" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
         <Item Target="Regulator.Text5" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
         <Item Target="Regulator.TouchComboBox" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
-        <Item Target="Regulator.Text2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
-        <Item Target="Regulator.Text6" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
-        <Item Target="Regulator.Text13" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
         <Item Target="Regulator.Text15" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
         <Item Target="Regulator.AnalogNumeric6" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
         <Item Target="Regulator.TrendViewer" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
         <Item Target="Regulator.Button7" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
         <Item Target="Regulator.Button8" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
         <Item Target="Regulator.Button9" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Regulator.Text19" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Regulator.Text20" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Regulator.Text21" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Regulator.DigitalClock" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Regulator.Text2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Regulator.Text6" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Regulator.Text8" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Regulator.Text13" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Regulator.Text9" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Regulator.AnalogNumeric1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Regulator.Text17" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
       </Items>
     </Category>
     <Category Name="GlobalDataItem">
       <Items>
         <Item xsi:type="ActionItem" Target="Regulator.Button" TargetProperty="Actions" Source="Tags.Auto_man_farger" Event="Click" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="Regulator.Button" TargetProperty="Actions" Source="Tags.Modus" Event="Click" Action="Set Analog" Param="" />
+        <Item Target="Regulator.Button" TargetProperty="Value" Source="Tags.Modus" />
         <Item Target="Regulator.Button" TargetProperty="Background" Source="Tags.Auto_man_farger" />
+        <Item Target="Regulator.Button" TargetProperty="EnabledProperties.EnabledDynamicsValue" Source="Tags.Done" />
         <Item xsi:type="ActionItem" Target="Regulator.Button2" TargetProperty="Actions" Source="Tags.Auto_man_farger" Event="Click" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="Regulator.Button2" TargetProperty="Actions" Source="Tags.Modus" Event="Click" Action="Set Analog" Param="" />
         <Item Target="Regulator.Button2" TargetProperty="Value" Source="Tags.Modus" />
         <Item Target="Regulator.Button2" TargetProperty="Background" Source="Tags.Auto_man_farger" />
+        <Item Target="Regulator.Button2" TargetProperty="EnabledProperties.EnabledDynamicsValue" Source="Tags.Done" />
         <Item xsi:type="ActionItem" Target="Regulator.Button3" TargetProperty="Actions" Source="Tags.PID_farger" Event="Click" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="Regulator.Button3" TargetProperty="Actions" Source="Tags.Regulator" Event="Click" Action="Set Analog" Param="" />
+        <Item Target="Regulator.Button3" TargetProperty="Value" Source="Tags.Regulator" />
         <Item Target="Regulator.Button3" TargetProperty="Background" Source="Tags.PID_farger" />
+        <Item Target="Regulator.Button3" TargetProperty="EnabledProperties.EnabledDynamicsValue" Source="Tags.Done" />
         <Item xsi:type="ActionItem" Target="Regulator.Button4" TargetProperty="Actions" Source="Tags.PID_farger" Event="Click" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="Regulator.Button4" TargetProperty="Actions" Source="Tags.Regulator" Event="Click" Action="Set Analog" Param="" />
+        <Item Target="Regulator.Button4" TargetProperty="Value" Source="Tags.Regulator" />
         <Item Target="Regulator.Button4" TargetProperty="Background" Source="Tags.PID_farger" />
+        <Item Target="Regulator.Button4" TargetProperty="EnabledProperties.EnabledDynamicsValue" Source="Tags.Done" />
         <Item xsi:type="ActionItem" Target="Regulator.Button12" TargetProperty="Actions" Source="Tags.Foroverkobling_farger" Event="Click" Action="Set Analog" Param="" />
-        <Item xsi:type="ActionItem" Target="Regulator.Button12" TargetProperty="Actions" Source="Tags.Bruk_foroverkobling" Event="Click" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="Regulator.Button12" TargetProperty="Actions" Source="Tags.Bruk_foroverkobling" Event="Click" Action="Set Analog" Param="" />
+        <Item Target="Regulator.Button12" TargetProperty="Value" Source="Tags.Bruk_foroverkobling" />
         <Item Target="Regulator.Button12" TargetProperty="Background" Source="Tags.Foroverkobling_farger" />
+        <Item Target="Regulator.Button12" TargetProperty="EnabledProperties.EnabledDynamicsValue" Source="Tags.Done" />
         <Item xsi:type="ActionItem" Target="Regulator.Button15" TargetProperty="Actions" Source="Tags.Foroverkobling_farger" Event="Click" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="Regulator.Button15" TargetProperty="Actions" Source="Tags.Bruk_foroverkobling" Event="Click" Action="Set Analog" Param="" />
         <Item Target="Regulator.Button15" TargetProperty="Value" Source="Tags.Bruk_foroverkobling" />
         <Item Target="Regulator.Button15" TargetProperty="Background" Source="Tags.Foroverkobling_farger" />
+        <Item Target="Regulator.Button15" TargetProperty="EnabledProperties.EnabledDynamicsValue" Source="Tags.Done" />
         <Item Target="Regulator.Text4" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Auto_man_farger" />
         <Item Target="Regulator.Text7" TargetProperty="Foreground" Source="Tags.PID_farger" />
         <Item xsi:type="ActionItem" Target="Regulator.Button17" TargetProperty="Actions" Source="Tags.PID_farger" Event="Click" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="Regulator.Button17" TargetProperty="Actions" Source="Tags.Regulator" Event="Click" Action="Set Analog" Param="" />
+        <Item Target="Regulator.Button17" TargetProperty="Value" Source="Tags.Regulator" />
         <Item Target="Regulator.Button17" TargetProperty="Background" Source="Tags.PID_farger" />
+        <Item Target="Regulator.Button17" TargetProperty="EnabledProperties.EnabledDynamicsValue" Source="Tags.Done" />
         <Item Target="Regulator.AnalogNumeric" TargetProperty="Value" Source="Tags.Kp" />
         <Item Target="Regulator.Text11" TargetProperty="Foreground" Source="Tags.PID_farger" />
         <Item Target="Regulator.AnalogNumeric2" TargetProperty="Value" Source="Tags.Ki" />
         <Item Target="Regulator.Text12" TargetProperty="Foreground" Source="Tags.PID_farger" />
         <Item Target="Regulator.AnalogNumeric3" TargetProperty="Value" Source="Tags.Kd" />
+        <Item Target="Regulator.AnalogNumeric4" TargetProperty="Value" Source="Tags.NomineltPådrag" />
         <Item Target="Regulator.AnalogNumeric4" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Auto_man_farger" />
-        <Item Target="Regulator.AnalogNumeric5" TargetProperty="Value" Source="Tags.Pådrag" />
+        <Item Target="Regulator.AnalogNumeric7" TargetProperty="Value" Source="Tags.Derivasjonsfilter_parameter" />
+        <Item Target="Regulator.AnalogNumeric8" TargetProperty="Value" Source="Tags.Ratebegrensning" />
+        <Item Target="Regulator.AnalogNumeric5" TargetProperty="Value" Source="Tags.ManueltPådrag" />
         <Item Target="Regulator.AnalogNumeric5" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Auto_man_farger" />
+        <Item Target="Regulator.AnalogNumeric5" TargetProperty="EnabledProperties.EnabledDynamicsValue" Source="Tags.Done" />
         <Item Target="Regulator.Text14" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Auto_man_farger" />
         <Item xsi:type="ActionItem" Target="Regulator.Button6" TargetProperty="Actions" Source="Tags.PID_farger" Event="Click" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="Regulator.Button6" TargetProperty="Actions" Source="Tags.Regulator" Event="Click" Action="Set Analog" Param="" />
+        <Item Target="Regulator.Button6" TargetProperty="Value" Source="Tags.Regulator" />
         <Item Target="Regulator.Button6" TargetProperty="Background" Source="Tags.PID_farger" />
-        <Item Target="Regulator.Ellipse1" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Alarm_synling" />
-        <Item Target="Regulator.Ellipse3" TargetProperty="BlinkProperties.IsBlinkEnabled" Source="Tags.Kritisk_alarm_synling" />
-        <Item Target="Regulator.Ellipse3" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Kritisk_alarm_synling" />
-        <Item Target="Regulator.Text8" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Kritisk_alarm_synling" />
-        <Item Target="Regulator.Text9" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Alarm_synling" />
-        <Item Target="Regulator.Ellipse2" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Alarm_synling" />
-        <Item Target="Regulator.Ellipse" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Kritisk_alarm_synling" />
-        <Item Target="Regulator.TouchComboBox" TargetProperty="Value" Source="Tags.Styring_frekvens_eller_ventil" />
+        <Item Target="Regulator.Button6" TargetProperty="EnabledProperties.EnabledDynamicsValue" Source="Tags.Done" />
+        <Item Target="Regulator.TouchComboBox" TargetProperty="Value" Source="Tags.Organ" />
+        <Item Target="Regulator.TouchComboBox" TargetProperty="EnabledProperties.EnabledDynamicsValue" Source="Tags.Done" />
+        <Item Target="Regulator.AnalogNumeric6" TargetProperty="Value" Source="Tags.Settpunkt" />
+        <Item Target="Regulator.AnalogNumeric6" TargetProperty="EnabledProperties.EnabledDynamicsValue" Source="Tags.Done" />
+        <Item xsi:type="DecoratedItem" Target="Regulator.TrendViewer.Curve" TargetProperty="DataSourceName" Source="Tags.Prosessverdi" />
+        <Item xsi:type="DecoratedItem" Target="Regulator.TrendViewer.Curve1" TargetProperty="DataSourceName" Source="Tags.Pådrag" />
+        <Item xsi:type="DecoratedItem" Target="Regulator.TrendViewer.Curve2" TargetProperty="DataSourceName" Source="Tags.ReferanseDempet" />
+        <Item xsi:type="ActionItem" Target="Regulator.Button7" TargetProperty="Actions" Source="Tags.V1_bool" Event="Click" Action="Toggle Tag" Param="" />
+        <Item Target="Regulator.Button7" TargetProperty="Background" Source="Tags.V1_bool" />
+        <Item Target="Regulator.Button7" TargetProperty="EnabledProperties.EnabledDynamicsValue" Source="Tags.Done" />
+        <Item xsi:type="ActionItem" Target="Regulator.Button8" TargetProperty="Actions" Source="Tags.V2_bool" Event="Click" Action="Toggle Tag" Param="" />
+        <Item Target="Regulator.Button8" TargetProperty="Background" Source="Tags.V2_bool" />
+        <Item Target="Regulator.Button8" TargetProperty="EnabledProperties.EnabledDynamicsValue" Source="Tags.Done" />
+        <Item xsi:type="ActionItem" Target="Regulator.Button9" TargetProperty="Actions" Source="Tags.V3_bool" Event="Click" Action="Toggle Tag" Param="" />
+        <Item Target="Regulator.Button9" TargetProperty="Background" Source="Tags.V3_bool" />
+        <Item Target="Regulator.Button9" TargetProperty="EnabledProperties.EnabledDynamicsValue" Source="Tags.Done" />
+        <Item Target="Regulator.Ellipse" TargetProperty="BlinkProperties.IsBlinkEnabled" Source="Tags.Alarm_kritisk_høy" />
+        <Item Target="Regulator.Ellipse" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Alarm_kritisk_høy" />
+        <Item Target="Regulator.Ellipse1" TargetProperty="BlinkProperties.IsBlinkEnabled" Source="Tags.Alarm_høy" />
+        <Item Target="Regulator.Ellipse1" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Alarm_høy" />
+        <Item Target="Regulator.Ellipse2" TargetProperty="BlinkProperties.IsBlinkEnabled" Source="Tags.Alarm_kritisk_lav" />
+        <Item Target="Regulator.Ellipse2" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Alarm_kritisk_lav" />
+        <Item Target="Regulator.Ellipse3" TargetProperty="BlinkProperties.IsBlinkEnabled" Source="Tags.Alarm_lav" />
+        <Item Target="Regulator.Ellipse3" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Alarm_lav" />
+        <Item Target="Regulator.SymbolViewbox3" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.V3_bool" />
+        <Item Target="Regulator.SymbolViewbox4" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.V2_bool" />
+        <Item Target="Regulator.SymbolViewbox5" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.V1_bool" />
         <Item Target="Regulator.Text6" TargetProperty="Value" Source="Tags.StatusTxt" />
         <Item Target="Regulator.Text6" TargetProperty="BorderBrush" Source="Tags.StatusTxt" />
         <Item Target="Regulator.Text6" TargetProperty="Background" Source="Tags.StatusTxt" />
         <Item Target="Regulator.Text6" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.StatusTxt" />
-        <Item Target="Regulator.Text13" TargetProperty="Value" Source="Tags.StatusTxt" />
-        <Item Target="Regulator.Text13" TargetProperty="BorderBrush" Source="Tags.StatusTxt" />
-        <Item Target="Regulator.Text13" TargetProperty="Background" Source="Tags.StatusTxt" />
-        <Item Target="Regulator.Text13" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.StatusTxt" />
-        <Item Target="Regulator.AnalogNumeric6" TargetProperty="Value" Source="Tags.Settpunkt" />
-        <Item xsi:type="DecoratedItem" Target="Regulator.TrendViewer.Curve" TargetProperty="DataSourceName" Source="Tags.Prosessverdi" />
-        <Item xsi:type="ActionItem" Target="Regulator.Button7" TargetProperty="Actions" Source="Tags.V1_bool" Event="Click" Action="Toggle Tag" Param="" />
-        <Item Target="Regulator.Button7" TargetProperty="Background" Source="Tags.V1_bool" />
-        <Item xsi:type="ActionItem" Target="Regulator.Button8" TargetProperty="Actions" Source="Tags.V2_bool" Event="Click" Action="Toggle Tag" Param="" />
-        <Item Target="Regulator.Button8" TargetProperty="Background" Source="Tags.V2_bool" />
-        <Item xsi:type="ActionItem" Target="Regulator.Button9" TargetProperty="Actions" Source="Tags.V3_bool" Event="Click" Action="Toggle Tag" Param="" />
-        <Item Target="Regulator.Button9" TargetProperty="Background" Source="Tags.V3_bool" />
-        <Item Target="Regulator.SymbolViewbox1" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.V3_bool" />
-        <Item Target="Regulator.SymbolViewbox" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.V2_bool" />
-        <Item Target="Regulator.SymbolViewbox2" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.V1_bool" />
+        <Item Target="Regulator.Text8" TargetProperty="Value" Source="Tags.StatusTxt" />
+        <Item Target="Regulator.Text8" TargetProperty="BorderBrush" Source="Tags.StatusTxt" />
+        <Item Target="Regulator.Text8" TargetProperty="Background" Source="Tags.StatusTxt" />
+        <Item Target="Regulator.Text8" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.StatusTxt" />
+        <Item Target="Regulator.Text9" TargetProperty="Value" Source="Tags.Alarm_tekst" />
+        <Item Target="Regulator.Ellipse4" TargetProperty="BlinkProperties.IsBlinkEnabled" Source="Tags.Alarm_kritisk_høy" />
+        <Item Target="Regulator.Ellipse4" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Alarm_kritisk_høy" />
+        <Item Target="Regulator.Ellipse5" TargetProperty="BlinkProperties.IsBlinkEnabled" Source="Tags.Alarm_høy" />
+        <Item Target="Regulator.Ellipse5" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Alarm_høy" />
+        <Item Target="Regulator.Ellipse6" TargetProperty="BlinkProperties.IsBlinkEnabled" Source="Tags.Alarm_kritisk_lav" />
+        <Item Target="Regulator.Ellipse6" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Alarm_kritisk_lav" />
+        <Item Target="Regulator.Ellipse7" TargetProperty="BlinkProperties.IsBlinkEnabled" Source="Tags.Alarm_lav" />
+        <Item Target="Regulator.Ellipse7" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Alarm_lav" />
+        <Item Target="Regulator.AnalogNumeric1" TargetProperty="Value" Source="Tags.NomineltPådragI" />
+        <Item Target="Regulator.AnalogNumeric1" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Auto_man_farger" />
+        <Item Target="Regulator.Text17" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Auto_man_farger" />
       </Items>
     </Category>
     <Category Name="Object">
@@ -143,6 +193,9 @@
         <Item Target="Regulator.SymbolViewbox1" Source="Regulator.m_SymbolViewbox1.bmp" />
         <Item Target="Regulator.SymbolViewbox" Source="Regulator.m_SymbolViewbox.bmp" />
         <Item Target="Regulator.SymbolViewbox2" Source="Regulator.m_SymbolViewbox2.bmp" />
+        <Item Target="Regulator.SymbolViewbox3" Source="Regulator.m_SymbolViewbox3.bmp" />
+        <Item Target="Regulator.SymbolViewbox4" Source="Regulator.m_SymbolViewbox4.bmp" />
+        <Item Target="Regulator.SymbolViewbox5" Source="Regulator.m_SymbolViewbox5.bmp" />
       </Items>
     </Category>
     <Category Name="Report">
@@ -158,7 +211,7 @@
           <ScreenName>Regulator</ScreenName>
         </Item>
         <Item xsi:type="ScreenObjectsCrossReferenceItem">
-          <ObjectsCount>56</ObjectsCount>
+          <ObjectsCount>71</ObjectsCount>
           <ScreenName>Regulator</ScreenName>
         </Item>
       </Items>
@@ -166,23 +219,31 @@
     <Category Name="Script">
       <Items>
         <Item Target="Regulator.Script.cs" Source="Tags.Modus" />
-        <Item Target="Regulator.Script.cs" Source="Tags.sModus" />
+        <Item Target="Regulator.Script.cs" Source="Tags.ModusText" />
         <Item Target="Regulator.Script.cs" Source="Tags.Kp" />
         <Item Target="Regulator.Script.cs" Source="Tags.Ki" />
         <Item Target="Regulator.Script.cs" Source="Tags.Kd" />
+        <Item Target="Regulator.Script.cs" Source="Tags.Bruk_foroverkobling" />
       </Items>
     </Category>
     <Category Name="StructuredTag">
       <Items>
         <Item xsi:type="ActionItem" Target="Regulator.Button" TargetProperty="Actions" Source="Tags.Auto_man_farger" Event="Click" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="Regulator.Button" TargetProperty="Actions" Source="Tags.Modus" Event="Click" Action="Set Analog" Param="" />
         <Item xsi:type="ActionItem" Target="Regulator.Button2" TargetProperty="Actions" Source="Tags.Auto_man_farger" Event="Click" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="Regulator.Button2" TargetProperty="Actions" Source="Tags.Modus" Event="Click" Action="Set Analog" Param="" />
         <Item xsi:type="ActionItem" Target="Regulator.Button3" TargetProperty="Actions" Source="Tags.PID_farger" Event="Click" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="Regulator.Button3" TargetProperty="Actions" Source="Tags.Regulator" Event="Click" Action="Set Analog" Param="" />
         <Item xsi:type="ActionItem" Target="Regulator.Button4" TargetProperty="Actions" Source="Tags.PID_farger" Event="Click" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="Regulator.Button4" TargetProperty="Actions" Source="Tags.Regulator" Event="Click" Action="Set Analog" Param="" />
         <Item xsi:type="ActionItem" Target="Regulator.Button12" TargetProperty="Actions" Source="Tags.Foroverkobling_farger" Event="Click" Action="Set Analog" Param="" />
-        <Item xsi:type="ActionItem" Target="Regulator.Button12" TargetProperty="Actions" Source="Tags.Bruk_foroverkobling" Event="Click" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="Regulator.Button12" TargetProperty="Actions" Source="Tags.Bruk_foroverkobling" Event="Click" Action="Set Analog" Param="" />
         <Item xsi:type="ActionItem" Target="Regulator.Button15" TargetProperty="Actions" Source="Tags.Foroverkobling_farger" Event="Click" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="Regulator.Button15" TargetProperty="Actions" Source="Tags.Bruk_foroverkobling" Event="Click" Action="Set Analog" Param="" />
         <Item xsi:type="ActionItem" Target="Regulator.Button17" TargetProperty="Actions" Source="Tags.PID_farger" Event="Click" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="Regulator.Button17" TargetProperty="Actions" Source="Tags.Regulator" Event="Click" Action="Set Analog" Param="" />
         <Item xsi:type="ActionItem" Target="Regulator.Button6" TargetProperty="Actions" Source="Tags.PID_farger" Event="Click" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="Regulator.Button6" TargetProperty="Actions" Source="Tags.Regulator" Event="Click" Action="Set Analog" Param="" />
         <Item xsi:type="ActionItem" Target="Regulator.Button7" TargetProperty="Actions" Source="Tags.V1_bool" Event="Click" Action="Toggle Tag" Param="" />
         <Item xsi:type="ActionItem" Target="Regulator.Button8" TargetProperty="Actions" Source="Tags.V2_bool" Event="Click" Action="Toggle Tag" Param="" />
         <Item xsi:type="ActionItem" Target="Regulator.Button9" TargetProperty="Actions" Source="Tags.V3_bool" Event="Click" Action="Toggle Tag" Param="" />
@@ -196,9 +257,11 @@
     </Category>
     <Category Name="TrendViewer">
       <Items>
-        <Item xsi:type="TrendViewerItem" Target="Regulator.TrendViewer" TrendWidth="186" TimeRangeBoundDataItem="" TimeRange="PT4M">
+        <Item xsi:type="TrendViewerItem" Target="Regulator.TrendViewer" TrendWidth="189" TimeRangeBoundDataItem="" TimeRange="PT1M">
           <DataSourceNames>
             <DataSourceName>Tags.Prosessverdi</DataSourceName>
+            <DataSourceName>Tags.Pådrag</DataSourceName>
+            <DataSourceName>Tags.ReferanseDempet</DataSourceName>
           </DataSourceNames>
         </Item>
       </Items>

@@ -27,17 +27,9 @@ namespace Neo.ApplicationFramework.Generated
 		
 		private Neo.ApplicationFramework.Tools.Alarm.AlarmItem m_Default_Prosessverdi3_kritisk_lav;
 		
-		private Neo.ApplicationFramework.Tools.Alarm.AlarmItem m_Default_Prosessverdi4;
-		
-		private Neo.ApplicationFramework.Tools.Alarm.AlarmItem m_Default_Prosessverdi5;
-		
 		public AlarmServer()
 		{
 			this.InitializeComponent();
-			this.Default_Prosessverdi_kritisk_høy.AlarmActive += new System.EventHandler(this.Default_Prosessverdi_kritisk_høy_Action_AlarmActive);
-			this.Default_Prosessverd_høy.AlarmActive += new System.EventHandler(this.Default_Prosessverd_høy_Action_AlarmActive);
-			this.Default_Prosessverdi2_lav.AlarmActive += new System.EventHandler(this.Default_Prosessverdi2_lav_Action_AlarmActive);
-			this.Default_Prosessverdi3_kritisk_lav.AlarmActive += new System.EventHandler(this.Default_Prosessverdi3_kritisk_lav_Action_AlarmActive);
 			this.ApplyLanguageInternal();
 		}
 		
@@ -101,30 +93,6 @@ namespace Neo.ApplicationFramework.Generated
 			}
 		}
 		
-		public Neo.ApplicationFramework.Tools.Alarm.AlarmItem Default_Prosessverdi4
-		{
-			get
-			{
-				return this.m_Default_Prosessverdi4;
-			}
-			set
-			{
-				this.m_Default_Prosessverdi4 = value;
-			}
-		}
-		
-		public Neo.ApplicationFramework.Tools.Alarm.AlarmItem Default_Prosessverdi5
-		{
-			get
-			{
-				return this.m_Default_Prosessverdi5;
-			}
-			set
-			{
-				this.m_Default_Prosessverdi5 = value;
-			}
-		}
-		
 		private void InitializeComponent()
 		{
 			this.InitializeObjectCreations();
@@ -143,12 +111,10 @@ namespace Neo.ApplicationFramework.Generated
 		public override void ConnectDataBindings()
 		{
 			base.ConnectDataBindings();
+			this.Default_Prosessverdi2_lav.DataBindings.Add(new Neo.ApplicationFramework.Common.Data.DynamicBinding("Value", ((Neo.ApplicationFramework.Common.Data.RealtimeDataItemProxy)(Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateRealtimeProxy("Tags.Alarm_lav"))), "Value", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged, null));
 			this.Default_Prosessverdi3_kritisk_lav.DataBindings.Add(new Neo.ApplicationFramework.Common.Data.DynamicBinding("Value", ((Neo.ApplicationFramework.Common.Data.RealtimeDataItemProxy)(Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateRealtimeProxy("Tags.Alarm_kritisk_lav"))), "Value", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged, null));
-			this.Default_Prosessverdi4.DataBindings.Add(new Neo.ApplicationFramework.Common.Data.DynamicBinding("Value", ((Neo.ApplicationFramework.Common.Data.RealtimeDataItemProxy)(Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateRealtimeProxy("Tags.Alarm_synling"))), "Value", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged, null));
-			this.Default_Prosessverdi5.DataBindings.Add(new Neo.ApplicationFramework.Common.Data.DynamicBinding("Value", ((Neo.ApplicationFramework.Common.Data.RealtimeDataItemProxy)(Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateRealtimeProxy("Tags.Kritisk_alarm_synling"))), "Value", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged, null));
 			this.Default_Prosessverdi_kritisk_høy.DataBindings.Add(new Neo.ApplicationFramework.Common.Data.DynamicBinding("Value", ((Neo.ApplicationFramework.Common.Data.RealtimeDataItemProxy)(Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateRealtimeProxy("Tags.Alarm_kritisk_høy"))), "Value", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged, null));
 			this.Default_Prosessverd_høy.DataBindings.Add(new Neo.ApplicationFramework.Common.Data.DynamicBinding("Value", ((Neo.ApplicationFramework.Common.Data.RealtimeDataItemProxy)(Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateRealtimeProxy("Tags.Alarm_høy"))), "Value", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged, null));
-			this.Default_Prosessverdi2_lav.DataBindings.Add(new Neo.ApplicationFramework.Common.Data.DynamicBinding("Value", ((Neo.ApplicationFramework.Common.Data.RealtimeDataItemProxy)(Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateRealtimeProxy("Tags.Alarm_lav"))), "Value", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged, null));
 		}
 		
 		private void InitializeObjectCreations()
@@ -158,8 +124,6 @@ namespace Neo.ApplicationFramework.Generated
 			this.Default_Prosessverd_høy = new Neo.ApplicationFramework.Tools.Alarm.AlarmItem();
 			this.Default_Prosessverdi2_lav = new Neo.ApplicationFramework.Tools.Alarm.AlarmItem();
 			this.Default_Prosessverdi3_kritisk_lav = new Neo.ApplicationFramework.Tools.Alarm.AlarmItem();
-			this.Default_Prosessverdi4 = new Neo.ApplicationFramework.Tools.Alarm.AlarmItem();
-			this.Default_Prosessverdi5 = new Neo.ApplicationFramework.Tools.Alarm.AlarmItem();
 		}
 		
 		private void InitializeBeginInits()
@@ -168,8 +132,6 @@ namespace Neo.ApplicationFramework.Generated
 			((System.ComponentModel.ISupportInitialize)(this.Default_Prosessverd_høy)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.Default_Prosessverdi2_lav)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.Default_Prosessverdi3_kritisk_lav)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.Default_Prosessverdi4)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.Default_Prosessverdi5)).BeginInit();
 		}
 		
 		private void InitializeEndInits()
@@ -178,8 +140,6 @@ namespace Neo.ApplicationFramework.Generated
 			((System.ComponentModel.ISupportInitialize)(this.Default_Prosessverd_høy)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.Default_Prosessverdi2_lav)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.Default_Prosessverdi3_kritisk_lav)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.Default_Prosessverdi4)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.Default_Prosessverdi5)).EndInit();
 		}
 		
 		private void InitializeObjects()
@@ -197,7 +157,7 @@ namespace Neo.ApplicationFramework.Generated
 			dynamicstring1.Text = "KRITISK HØY";
 			this.Default_Prosessverdi_kritisk_høy.DynamicString = dynamicstring1;
 			this.Default_Prosessverdi_kritisk_høy.EnableDistribution = false;
-			this.Default_Prosessverdi_kritisk_høy.GroupId = new System.Guid("eea00163-70bc-437c-b0bc-b057ade8de2b");
+			this.Default_Prosessverdi_kritisk_høy.GroupId = new System.Guid("65d1d57a-ce89-4ea1-af0b-46f8793c6545");
 			this.Default_Prosessverdi_kritisk_høy.GroupName = "Default";
 			this.Default_Prosessverdi_kritisk_høy.History = true;
 			this.Default_Prosessverdi_kritisk_høy.IsDigitalValue = false;
@@ -214,7 +174,7 @@ namespace Neo.ApplicationFramework.Generated
 			dynamicstring2.Text = "HØY";
 			this.Default_Prosessverd_høy.DynamicString = dynamicstring2;
 			this.Default_Prosessverd_høy.EnableDistribution = false;
-			this.Default_Prosessverd_høy.GroupId = new System.Guid("eea00163-70bc-437c-b0bc-b057ade8de2b");
+			this.Default_Prosessverd_høy.GroupId = new System.Guid("65d1d57a-ce89-4ea1-af0b-46f8793c6545");
 			this.Default_Prosessverd_høy.GroupName = "Default";
 			this.Default_Prosessverd_høy.History = true;
 			this.Default_Prosessverd_høy.IsDigitalValue = false;
@@ -231,7 +191,7 @@ namespace Neo.ApplicationFramework.Generated
 			dynamicstring3.Text = "LAV";
 			this.Default_Prosessverdi2_lav.DynamicString = dynamicstring3;
 			this.Default_Prosessverdi2_lav.EnableDistribution = false;
-			this.Default_Prosessverdi2_lav.GroupId = new System.Guid("eea00163-70bc-437c-b0bc-b057ade8de2b");
+			this.Default_Prosessverdi2_lav.GroupId = new System.Guid("65d1d57a-ce89-4ea1-af0b-46f8793c6545");
 			this.Default_Prosessverdi2_lav.GroupName = "Default";
 			this.Default_Prosessverdi2_lav.History = true;
 			this.Default_Prosessverdi2_lav.IsDigitalValue = false;
@@ -248,7 +208,7 @@ namespace Neo.ApplicationFramework.Generated
 			dynamicstring4.Text = "KRITISK LAV";
 			this.Default_Prosessverdi3_kritisk_lav.DynamicString = dynamicstring4;
 			this.Default_Prosessverdi3_kritisk_lav.EnableDistribution = false;
-			this.Default_Prosessverdi3_kritisk_lav.GroupId = new System.Guid("eea00163-70bc-437c-b0bc-b057ade8de2b");
+			this.Default_Prosessverdi3_kritisk_lav.GroupId = new System.Guid("65d1d57a-ce89-4ea1-af0b-46f8793c6545");
 			this.Default_Prosessverdi3_kritisk_lav.GroupName = "Default";
 			this.Default_Prosessverdi3_kritisk_lav.History = true;
 			this.Default_Prosessverdi3_kritisk_lav.IsDigitalValue = false;
@@ -256,46 +216,10 @@ namespace Neo.ApplicationFramework.Generated
 			this.Default_Prosessverdi3_kritisk_lav.OutputDevices = null;
 			this.Default_Prosessverdi3_kritisk_lav.RepeatCount = false;
 			this.Default_Prosessverdi3_kritisk_lav.TriggerValue = 1;
-			this.Default_Prosessverdi4.AcknowledgeRequired = true;
-			this.Default_Prosessverdi4.ComparerType = Neo.ApplicationFramework.Interfaces.ComparerTypes.EqualTo;
-			this.Default_Prosessverdi4.Contacts = null;
-			this.Default_Prosessverdi4.DefaultText = "Alarm";
-			this.Default_Prosessverdi4.DisplayName = "Prosessverdi4";
-			Neo.ApplicationFramework.Common.Dynamics.DynamicString dynamicstring5 = new Neo.ApplicationFramework.Common.Dynamics.DynamicString();
-			dynamicstring5.Text = "Alarm";
-			this.Default_Prosessverdi4.DynamicString = dynamicstring5;
-			this.Default_Prosessverdi4.EnableDistribution = false;
-			this.Default_Prosessverdi4.GroupId = new System.Guid("eea00163-70bc-437c-b0bc-b057ade8de2b");
-			this.Default_Prosessverdi4.GroupName = "Default";
-			this.Default_Prosessverdi4.History = true;
-			this.Default_Prosessverdi4.IsDigitalValue = false;
-			this.Default_Prosessverdi4.Name = "Default_Prosessverdi4";
-			this.Default_Prosessverdi4.OutputDevices = null;
-			this.Default_Prosessverdi4.RepeatCount = false;
-			this.Default_Prosessverdi4.TriggerValue = 1;
-			this.Default_Prosessverdi5.AcknowledgeRequired = true;
-			this.Default_Prosessverdi5.ComparerType = Neo.ApplicationFramework.Interfaces.ComparerTypes.EqualTo;
-			this.Default_Prosessverdi5.Contacts = null;
-			this.Default_Prosessverdi5.DefaultText = "Alarm_kritisk";
-			this.Default_Prosessverdi5.DisplayName = "Prosessverdi5";
-			Neo.ApplicationFramework.Common.Dynamics.DynamicString dynamicstring6 = new Neo.ApplicationFramework.Common.Dynamics.DynamicString();
-			dynamicstring6.Text = "Alarm_kritisk";
-			this.Default_Prosessverdi5.DynamicString = dynamicstring6;
-			this.Default_Prosessverdi5.EnableDistribution = false;
-			this.Default_Prosessverdi5.GroupId = new System.Guid("eea00163-70bc-437c-b0bc-b057ade8de2b");
-			this.Default_Prosessverdi5.GroupName = "Default";
-			this.Default_Prosessverdi5.History = true;
-			this.Default_Prosessverdi5.IsDigitalValue = false;
-			this.Default_Prosessverdi5.Name = "Default_Prosessverdi5";
-			this.Default_Prosessverdi5.OutputDevices = null;
-			this.Default_Prosessverdi5.RepeatCount = false;
-			this.Default_Prosessverdi5.TriggerValue = 1;
 			this.Default.AlarmItems.Add(this.Default_Prosessverdi_kritisk_høy);
 			this.Default.AlarmItems.Add(this.Default_Prosessverd_høy);
 			this.Default.AlarmItems.Add(this.Default_Prosessverdi2_lav);
 			this.Default.AlarmItems.Add(this.Default_Prosessverdi3_kritisk_lav);
-			this.Default.AlarmItems.Add(this.Default_Prosessverdi4);
-			this.Default.AlarmItems.Add(this.Default_Prosessverdi5);
 			this.Default.EnableDistribution = false;
 			this.Default.InactiveBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(204)))), ((int)(((byte)(71)))));
 			this.Default.InactiveForeColor = System.Drawing.Color.Black;
@@ -319,30 +243,7 @@ namespace Neo.ApplicationFramework.Generated
 			this.StorageEvent.State = Neo.ApplicationFramework.Interfaces.AlarmState.Normal;
 			this.StorageEvent.TableName = "AlarmServer";
 			this.StorageEvent.Text = "";
-		}
-		
-		private void Default_Prosessverdi_kritisk_høy_Action_AlarmActive(object sender, System.EventArgs e)
-		{
-			Neo.ApplicationFramework.Generated.Globals.AuditTrailService.LogAction("Default_Prosessverdi_kritisk_høy", "AlarmActive", "Set Analog", "Tags.Kritisk_alarm_synling", "");
-			Neo.ApplicationFramework.Generated.Globals.Tags.Kritisk_alarm_synling.SetAnalog(1);
-		}
-		
-		private void Default_Prosessverd_høy_Action_AlarmActive(object sender, System.EventArgs e)
-		{
-			Neo.ApplicationFramework.Generated.Globals.AuditTrailService.LogAction("Default_Prosessverd_høy", "AlarmActive", "Set Analog", "Tags.Alarm_synling", "");
-			Neo.ApplicationFramework.Generated.Globals.Tags.Alarm_synling.SetAnalog(1);
-		}
-		
-		private void Default_Prosessverdi2_lav_Action_AlarmActive(object sender, System.EventArgs e)
-		{
-			Neo.ApplicationFramework.Generated.Globals.AuditTrailService.LogAction("Default_Prosessverdi2_lav", "AlarmActive", "Set Analog", "Tags.Alarm_synling", "");
-			Neo.ApplicationFramework.Generated.Globals.Tags.Alarm_synling.SetAnalog(1);
-		}
-		
-		private void Default_Prosessverdi3_kritisk_lav_Action_AlarmActive(object sender, System.EventArgs e)
-		{
-			Neo.ApplicationFramework.Generated.Globals.AuditTrailService.LogAction("Default_Prosessverdi3_kritisk_lav", "AlarmActive", "Set Analog", "Tags.Kritisk_alarm_synling", "");
-			Neo.ApplicationFramework.Generated.Globals.Tags.Kritisk_alarm_synling.SetAnalog(1);
+			this.SummaryAlarmComponentMode = Neo.ApplicationFramework.Interfaces.AlarmServerAlarmEventsState.Never;
 		}
 		
 		[System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Never)]
@@ -354,8 +255,6 @@ namespace Neo.ApplicationFramework.Generated
 			this.m_Default_Prosessverd_høy.StaticText = resources.GetText("AlarmServer.Default_Prosessverd_høy.StaticText", "HØY");
 			this.m_Default_Prosessverdi2_lav.StaticText = resources.GetText("AlarmServer.Default_Prosessverdi2_lav.StaticText", "LAV");
 			this.m_Default_Prosessverdi3_kritisk_lav.StaticText = resources.GetText("AlarmServer.Default_Prosessverdi3_kritisk_lav.StaticText", "KRITISK LAV");
-			this.m_Default_Prosessverdi4.StaticText = resources.GetText("AlarmServer.Default_Prosessverdi4.StaticText", "Alarm");
-			this.m_Default_Prosessverdi5.StaticText = resources.GetText("AlarmServer.Default_Prosessverdi5.StaticText", "Alarm_kritisk");
 		}
 		
 		[System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Never)]

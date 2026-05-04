@@ -2,13 +2,13 @@
 <Project SchemaVersion="2.21.28.0">
   <Guid>5f485c4d-e89a-4531-936e-a361ed40687e</Guid>
   <ProjectFiles>
-    <ProjectFile Name="AlarmServer.neo" ModifiedDate="2026-04-23T08:27:09.899146+02:00" Length="24160" />
-    <ProjectFile Name="AlarmServer.Script.cs" ModifiedDate="2026-04-23T08:27:09.872148+02:00" Length="776" />
-    <ProjectFile Name="MultipleLanguages.neo" ModifiedDate="2026-04-23T08:27:10.625122+02:00" Length="74770" />
+    <ProjectFile Name="AlarmServer.neo" ModifiedDate="2026-05-01T16:40:55.5501726+02:00" Length="12846" />
+    <ProjectFile Name="AlarmServer.Script.cs" ModifiedDate="2026-05-01T16:40:55.5511802+02:00" Length="776" />
+    <ProjectFile Name="MultipleLanguages.neo" ModifiedDate="2026-05-04T13:41:43.3055267+02:00" Length="85265" />
     <ProjectFile Name="Expressions.neo" ModifiedDate="2026-04-23T08:27:10.426119+02:00" Length="457" />
     <ProjectFile Name="LicenseRootComponent.neo" ModifiedDate="2026-04-23T08:27:10.594111+02:00" Length="8675" />
-    <ProjectFile Name="Tags.neo" ModifiedDate="2026-04-23T08:27:11.43307+02:00" Length="25382" />
-    <ProjectFile Name="Tags.Script.cs" ModifiedDate="2026-04-23T08:27:11.400077+02:00" Length="2169" />
+    <ProjectFile Name="Tags.neo" ModifiedDate="2026-05-04T12:33:47.3731203+02:00" Length="44180" />
+    <ProjectFile Name="Tags.Script.cs" ModifiedDate="2026-05-04T12:33:47.3751304+02:00" Length="7503" />
     <ProjectFile Name="ProjectConfiguration.neo" ModifiedDate="2026-04-23T08:27:10.682102+02:00" Length="6377" />
     <ProjectFile Name="Security.neo" ModifiedDate="2026-04-23T08:27:10.873088+02:00" Length="449" />
     <ProjectFile Name="Security.xml" ModifiedDate="2026-04-23T08:27:10.890092+02:00" Length="693" />
@@ -42,18 +42,19 @@
     <ProjectFile Name="Symbols\led_yellow.lib" ModifiedDate="2026-04-23T08:27:11.294076+02:00" Length="34573" />
     <ProjectFile Name="Symbols\light_green electrical.lib" ModifiedDate="2026-04-23T08:27:11.308063+02:00" Length="27200" />
     <ProjectFile Name="Symbols\light_red_fl electrical.lib" ModifiedDate="2026-04-23T08:27:11.321066+02:00" Length="25484" />
-    <ProjectFile Name="Hjem.neoxaml" ModifiedDate="2026-04-23T09:44:00.756633+02:00" Length="793" />
-    <ProjectFile Name="Hjem.Script.cs" ModifiedDate="2026-04-23T09:44:00.783632+02:00" Length="972" />
-    <ProjectFile Name="Hjem.xaml" ModifiedDate="2026-04-23T09:44:01.44109+02:00" Length="117405" />
-    <ProjectFile Name="Alarmer.neoxaml" ModifiedDate="2026-04-23T08:27:09.938139+02:00" Length="796" />
-    <ProjectFile Name="Alarmer.xaml" ModifiedDate="2026-04-23T08:27:09.990136+02:00" Length="29205" />
-    <ProjectFile Name="Trender.neoxaml" ModifiedDate="2026-04-23T08:27:18.690165+02:00" Length="796" />
-    <ProjectFile Name="Trender.Script.cs" ModifiedDate="2026-04-23T08:27:18.662173+02:00" Length="782" />
-    <ProjectFile Name="Trender.xaml" ModifiedDate="2026-04-23T08:27:18.753169+02:00" Length="30039" />
-    <ProjectFile Name="Regulator.neoxaml" ModifiedDate="2026-04-23T08:27:10.768096+02:00" Length="798" />
-    <ProjectFile Name="Regulator.Script.cs" ModifiedDate="2026-04-23T08:27:10.722119+02:00" Length="2679" />
-    <ProjectFile Name="Regulator.xaml" ModifiedDate="2026-04-23T08:27:10.82809+02:00" Length="117051" />
-    <ProjectFile Name="Controller1.neo" ModifiedDate="2026-04-23T08:27:10.375122+02:00" Length="4773" />
+    <ProjectFile Name="Hjem.neoxaml" ModifiedDate="2026-05-04T16:16:02.0228599+02:00" Length="793" />
+    <ProjectFile Name="Hjem.Script.cs" ModifiedDate="2026-05-04T16:16:02.0238245+02:00" Length="1620" />
+    <ProjectFile Name="Hjem.xaml" ModifiedDate="2026-05-04T16:16:02.2618123+02:00" Length="136966" />
+    <ProjectFile Name="Alarmer.neoxaml" ModifiedDate="2026-05-04T13:43:04.281099+02:00" Length="796" />
+    <ProjectFile Name="Alarmer.Script.cs" ModifiedDate="2026-05-04T13:43:04.281099+02:00" Length="782" />
+    <ProjectFile Name="Alarmer.xaml" ModifiedDate="2026-05-04T13:43:04.3333968+02:00" Length="38061" />
+    <ProjectFile Name="Trender.neoxaml" ModifiedDate="2026-05-04T09:18:17.5241271+02:00" Length="796" />
+    <ProjectFile Name="Trender.Script.cs" ModifiedDate="2026-05-04T09:18:17.5250909+02:00" Length="782" />
+    <ProjectFile Name="Trender.xaml" ModifiedDate="2026-05-04T09:18:17.5972627+02:00" Length="37609" />
+    <ProjectFile Name="Regulator.neoxaml" ModifiedDate="2026-05-04T12:36:30.338783+02:00" Length="798" />
+    <ProjectFile Name="Regulator.Script.cs" ModifiedDate="2026-05-04T12:36:30.338783+02:00" Length="2944" />
+    <ProjectFile Name="Regulator.xaml" ModifiedDate="2026-05-04T12:36:30.5468633+02:00" Length="172373" />
+    <ProjectFile Name="Controller1.neo" ModifiedDate="2026-05-04T09:41:42.1939742+02:00" Length="8490" />
     <ProjectFile Name="Printer1.xml" ModifiedDate="2026-04-23T08:27:10.639102+02:00" Length="850" />
   </ProjectFiles>
 </Project>

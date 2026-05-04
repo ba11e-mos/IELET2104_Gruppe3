@@ -1,15 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <TrendDataSources>
-  <TrendViewer Name="Trender.TrendViewer" TimeRangeBoundDataItem="" TrendWidth="549" TimeRange="PT10M">
+  <TrendViewer Name="Trender.TrendViewer" TimeRangeBoundDataItem="" TrendWidth="673" TimeRange="PT10M">
     <GlobalDataItems>
       <GlobalDataItem DataSourceName="Tags.Pådrag" />
       <GlobalDataItem DataSourceName="Tags.Settpunkt" />
       <GlobalDataItem DataSourceName="Tags.Prosessverdi" />
     </GlobalDataItems>
   </TrendViewer>
-  <TrendViewer Name="Regulator.TrendViewer" TimeRangeBoundDataItem="" TrendWidth="186" TimeRange="PT4M">
+  <TrendViewer Name="Regulator.TrendViewer" TimeRangeBoundDataItem="" TrendWidth="189" TimeRange="PT1M">
     <GlobalDataItems>
       <GlobalDataItem DataSourceName="Tags.Prosessverdi" />
+      <GlobalDataItem DataSourceName="Tags.Pådrag" />
+      <GlobalDataItem DataSourceName="Tags.ReferanseDempet" />
     </GlobalDataItems>
   </TrendViewer>
 </TrendDataSources>

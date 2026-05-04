@@ -15,14 +15,14 @@ namespace Neo.ApplicationFramework.Generated
 		void Button_Click(System.Object sender, System.EventArgs e)
 		{
 			Globals.Tags.Modus.Value = true;
-			Globals.Tags.sModus.Value = "Manuell";
+			Globals.Tags.ModusText.Value = "Manuell";
 
 		}
 
 		void Button2_Click(System.Object sender, System.EventArgs e)
 		{
 			Globals.Tags.Modus.Value = false;
-			Globals.Tags.sModus.Value = "Auto";
+			Globals.Tags.ModusText.Value = "Auto";
 		}
 		
 		float Nom_Kp_P = 1.5f;
@@ -87,8 +87,19 @@ namespace Neo.ApplicationFramework.Generated
 			AnalogNumeric.Value = Globals.Tags.Kp.Value;
 			AnalogNumeric2.Value = Globals.Tags.Ki.Value;
 			AnalogNumeric3.Value = Globals.Tags.Kd.Value;
-		} 
+		}
+		
+		void Button15_Click(System.Object sender, System.EventArgs e)
+		{
+			Globals.Tags.Bruk_foroverkobling.Value = 1;
+		}
+		
+		void Button12_Click(System.Object sender, System.EventArgs e)
+		{
+			Globals.Tags.Bruk_foroverkobling.Value = 0;
+		}
 		
 		
+		  
 	}
 }

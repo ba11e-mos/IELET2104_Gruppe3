@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?neo version='2.21.28.0'?>
 <NeoItem d1p1:Serializer="Neo.ApplicationFramework.Common.Serialization.ObjectSerializer" xmlns:d1p1="urn:Neo.ApplicationFramework.Serializer">
-  <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmServer, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" d1p1:Site.Name="AlarmServer" ActionName="" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" MaximumAlarmEventsToDistribute="100" ServerPort="1000">
+  <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmServer, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" SummaryAlarmComponentMode="Never" d1p1:Site.Name="AlarmServer" ActionName="" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e" MaximumAlarmEventsToDistribute="100" ServerPort="1000">
     <AlarmGroups>
       <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmGroup, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" Name="Default" Text="Default" ActiveBackColor="191, 19, 41" InactiveBackColor="241, 204, 71" AcknowledgeBackColor="67, 127, 70" NormalBackColor="Window" ActiveForeColor="Black" InactiveForeColor="Black" AcknowledgeForeColor="Black" NormalForeColor="Black" EnableDistribution="False" d1p1:Site.Name="Default" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e">
         <AlarmItems>
-          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="c84e743b-23e5-4751-85e0-1578f3e6d5c7" GroupName="Default" DisplayName="Prosessverdi_kritisk_høy" Name="Default_Prosessverdi_kritisk_høy" AcknowledgeRequired="True" EnableDistribution="False" StaticText="KRITISK HØY" DefaultText="KRITISK HØY" d1p1:Site.Name="Default_Prosessverdi_kritisk_høy" ComparerType="EqualTo" ActionName="Set Analog" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e">
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="65d1d57a-ce89-4ea1-af0b-46f8793c6545" GroupName="Default" DisplayName="Prosessverdi_kritisk_høy" Name="Default_Prosessverdi_kritisk_høy" AcknowledgeRequired="True" EnableDistribution="False" StaticText="KRITISK HØY" DefaultText="KRITISK HØY" d1p1:Site.Name="Default_Prosessverdi_kritisk_høy" ComparerType="EqualTo" ActionName="" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e">
             <TriggerValue>
               <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="1" />
             </TriggerValue>
@@ -34,23 +34,8 @@
                 </InstanceDescriptor>
               </Object>
             </DataBindings>
-            <Action>
-              <Object d1p1:type="Neo.ApplicationFramework.Tools.Action.Action, Tools, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" Name="Set Analog">
-                <ActionMethodInfo>
-                  <Object d1p1:type="Neo.ApplicationFramework.Tools.Action.ActionMethodInfo, Tools, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" Name="SetAnalog" ObjectName="Tags.Kritisk_alarm_synling" EventName="AlarmActive" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False">
-                    <ActionParameterInfo>
-                      <Object d1p1:type="Neo.ApplicationFramework.Tools.Action.ActionParameterInfo, Tools, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" Position="0" ParameterName="newValue" ParameterTypeString="Neo.ApplicationFramework.Interfaces.VariantValue, InterfacesCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" TagName="">
-                        <Value>
-                          <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="1" />
-                        </Value>
-                      </Object>
-                    </ActionParameterInfo>
-                  </Object>
-                </ActionMethodInfo>
-              </Object>
-            </Action>
           </Object>
-          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="c84e743b-23e5-4751-85e0-1578f3e6d5c7" GroupName="Default" DisplayName="Prosessverd_høy" Name="Default_Prosessverd_høy" AcknowledgeRequired="True" EnableDistribution="False" StaticText="HØY" DefaultText="HØY" d1p1:Site.Name="Default_Prosessverd_høy" ComparerType="EqualTo" ActionName="Set Analog" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e">
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="65d1d57a-ce89-4ea1-af0b-46f8793c6545" GroupName="Default" DisplayName="Prosessverd_høy" Name="Default_Prosessverd_høy" AcknowledgeRequired="True" EnableDistribution="False" StaticText="HØY" DefaultText="HØY" d1p1:Site.Name="Default_Prosessverd_høy" ComparerType="EqualTo" ActionName="" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e">
             <TriggerValue>
               <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="1" />
             </TriggerValue>
@@ -79,23 +64,8 @@
                 </InstanceDescriptor>
               </Object>
             </DataBindings>
-            <Action>
-              <Object d1p1:type="Neo.ApplicationFramework.Tools.Action.Action, Tools, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" Name="Set Analog">
-                <ActionMethodInfo>
-                  <Object d1p1:type="Neo.ApplicationFramework.Tools.Action.ActionMethodInfo, Tools, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" Name="SetAnalog" ObjectName="Tags.Alarm_synling" EventName="AlarmActive" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False">
-                    <ActionParameterInfo>
-                      <Object d1p1:type="Neo.ApplicationFramework.Tools.Action.ActionParameterInfo, Tools, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" Position="0" ParameterName="newValue" ParameterTypeString="Neo.ApplicationFramework.Interfaces.VariantValue, InterfacesCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" TagName="">
-                        <Value>
-                          <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="1" />
-                        </Value>
-                      </Object>
-                    </ActionParameterInfo>
-                  </Object>
-                </ActionMethodInfo>
-              </Object>
-            </Action>
           </Object>
-          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="c84e743b-23e5-4751-85e0-1578f3e6d5c7" GroupName="Default" DisplayName="Prosessverdi2_lav" Name="Default_Prosessverdi2_lav" AcknowledgeRequired="True" EnableDistribution="False" StaticText="LAV" DefaultText="LAV" d1p1:Site.Name="Default_Prosessverdi2_lav" ComparerType="EqualTo" ActionName="Set Analog" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e">
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="65d1d57a-ce89-4ea1-af0b-46f8793c6545" GroupName="Default" DisplayName="Prosessverdi2_lav" Name="Default_Prosessverdi2_lav" AcknowledgeRequired="True" EnableDistribution="False" StaticText="LAV" DefaultText="LAV" d1p1:Site.Name="Default_Prosessverdi2_lav" ComparerType="EqualTo" ActionName="" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e">
             <TriggerValue>
               <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="1" />
             </TriggerValue>
@@ -124,23 +94,8 @@
                 </InstanceDescriptor>
               </Object>
             </DataBindings>
-            <Action>
-              <Object d1p1:type="Neo.ApplicationFramework.Tools.Action.Action, Tools, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" Name="Set Analog">
-                <ActionMethodInfo>
-                  <Object d1p1:type="Neo.ApplicationFramework.Tools.Action.ActionMethodInfo, Tools, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" Name="SetAnalog" ObjectName="Tags.Alarm_synling" EventName="AlarmActive" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False">
-                    <ActionParameterInfo>
-                      <Object d1p1:type="Neo.ApplicationFramework.Tools.Action.ActionParameterInfo, Tools, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" Position="0" ParameterName="newValue" ParameterTypeString="Neo.ApplicationFramework.Interfaces.VariantValue, InterfacesCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" TagName="">
-                        <Value>
-                          <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="1" />
-                        </Value>
-                      </Object>
-                    </ActionParameterInfo>
-                  </Object>
-                </ActionMethodInfo>
-              </Object>
-            </Action>
           </Object>
-          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="c84e743b-23e5-4751-85e0-1578f3e6d5c7" GroupName="Default" DisplayName="Prosessverdi3_kritisk_lav" Name="Default_Prosessverdi3_kritisk_lav" AcknowledgeRequired="True" EnableDistribution="False" StaticText="KRITISK LAV" DefaultText="KRITISK LAV" d1p1:Site.Name="Default_Prosessverdi3_kritisk_lav" ComparerType="EqualTo" ActionName="Set Analog" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e">
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="65d1d57a-ce89-4ea1-af0b-46f8793c6545" GroupName="Default" DisplayName="Prosessverdi3_kritisk_lav" Name="Default_Prosessverdi3_kritisk_lav" AcknowledgeRequired="True" EnableDistribution="False" StaticText="KRITISK LAV" DefaultText="KRITISK LAV" d1p1:Site.Name="Default_Prosessverdi3_kritisk_lav" ComparerType="EqualTo" ActionName="" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e">
             <TriggerValue>
               <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="1" />
             </TriggerValue>
@@ -154,81 +109,6 @@
                     <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
                   </Parameter>
                   <Parameter Name="DataSource" Value="Tags.Alarm_kritisk_lav" />
-                  <Parameter Name="DataMember">
-                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
-                  </Parameter>
-                  <Parameter Name="FormattingEnabled">
-                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
-                  </Parameter>
-                  <Parameter Name="DataSourceUpdateMode">
-                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="OnPropertyChanged" MemberType="Field" />
-                    </Object>
-                  </Parameter>
-                  <Parameter Name="Converter" Value="" />
-                </InstanceDescriptor>
-              </Object>
-            </DataBindings>
-            <Action>
-              <Object d1p1:type="Neo.ApplicationFramework.Tools.Action.Action, Tools, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" Name="Set Analog">
-                <ActionMethodInfo>
-                  <Object d1p1:type="Neo.ApplicationFramework.Tools.Action.ActionMethodInfo, Tools, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" Name="SetAnalog" ObjectName="Tags.Kritisk_alarm_synling" EventName="AlarmActive" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False">
-                    <ActionParameterInfo>
-                      <Object d1p1:type="Neo.ApplicationFramework.Tools.Action.ActionParameterInfo, Tools, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" Position="0" ParameterName="newValue" ParameterTypeString="Neo.ApplicationFramework.Interfaces.VariantValue, InterfacesCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" TagName="">
-                        <Value>
-                          <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="1" />
-                        </Value>
-                      </Object>
-                    </ActionParameterInfo>
-                  </Object>
-                </ActionMethodInfo>
-              </Object>
-            </Action>
-          </Object>
-          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="c84e743b-23e5-4751-85e0-1578f3e6d5c7" GroupName="Default" DisplayName="Prosessverdi4" Name="Default_Prosessverdi4" AcknowledgeRequired="True" EnableDistribution="False" StaticText="Alarm" DefaultText="Alarm" d1p1:Site.Name="Default_Prosessverdi4" ComparerType="EqualTo" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e">
-            <TriggerValue>
-              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="1" />
-            </TriggerValue>
-            <DynamicString>
-              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" Text="Alarm" />
-            </DynamicString>
-            <DataBindings>
-              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null">
-                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
-                  <Parameter Name="PropertyName">
-                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
-                  </Parameter>
-                  <Parameter Name="DataSource" Value="Tags.Alarm_synling" />
-                  <Parameter Name="DataMember">
-                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
-                  </Parameter>
-                  <Parameter Name="FormattingEnabled">
-                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
-                  </Parameter>
-                  <Parameter Name="DataSourceUpdateMode">
-                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="OnPropertyChanged" MemberType="Field" />
-                    </Object>
-                  </Parameter>
-                  <Parameter Name="Converter" Value="" />
-                </InstanceDescriptor>
-              </Object>
-            </DataBindings>
-          </Object>
-          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="c84e743b-23e5-4751-85e0-1578f3e6d5c7" GroupName="Default" DisplayName="Prosessverdi5" Name="Default_Prosessverdi5" AcknowledgeRequired="True" EnableDistribution="False" StaticText="Alarm_kritisk" DefaultText="Alarm_kritisk" d1p1:Site.Name="Default_Prosessverdi5" ComparerType="EqualTo" ProjectGuid="5f485c4d-e89a-4531-936e-a361ed40687e">
-            <TriggerValue>
-              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="1" />
-            </TriggerValue>
-            <DynamicString>
-              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" Text="Alarm_kritisk" />
-            </DynamicString>
-            <DataBindings>
-              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null">
-                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
-                  <Parameter Name="PropertyName">
-                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
-                  </Parameter>
-                  <Parameter Name="DataSource" Value="Tags.Kritisk_alarm_synling" />
                   <Parameter Name="DataMember">
                     <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
                   </Parameter>

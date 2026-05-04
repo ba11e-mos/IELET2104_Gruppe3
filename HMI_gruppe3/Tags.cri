@@ -19,7 +19,7 @@
         <Item Target="Tags" TargetProperty="V2_bool" Source="Controller1.DataItem2" />
         <Item Target="Tags" TargetProperty="V3_bool" Source="Controller1.DataItem3" />
         <Item Target="Tags" TargetProperty="Prosessverdi" Source="Controller1.DataItem7" />
-        <Item Target="Tags" TargetProperty="Modus" Source="Controller1.DataItem6" />
+        <Item Target="Tags" TargetProperty="Modus" Source="Controller1.DataItem24" />
         <Item Target="Tags" TargetProperty="Pådrag" Source="Controller1.DataItem5" />
         <Item Target="Tags" TargetProperty="Alarm_synling" Source="Controller1.DataItem4" />
         <Item Target="Tags" TargetProperty="Frekvensomformer_åpning" Source="Controller1.DataItem8" />
@@ -37,6 +37,13 @@
         <Item Target="Tags" TargetProperty="Stopp" Source="Controller1.DataItem17" />
         <Item Target="Tags" TargetProperty="Bruk_foroverkobling" Source="Controller1.DataItem18" />
         <Item Target="Tags" TargetProperty="Derivasjonsfilter_parameter" Source="Controller1.DataItem22" />
+        <Item Target="Tags" TargetProperty="Ratebegrensning" Source="Controller1.DataItem23" />
+        <Item Target="Tags" TargetProperty="Regulator" Source="Controller1.DataItem6" />
+        <Item Target="Tags" TargetProperty="AlarmAktiv" Source="Controller1.DataItem25" />
+        <Item Target="Tags" TargetProperty="ManueltPådrag" Source="Controller1.DataItem26" />
+        <Item Target="Tags" TargetProperty="NomineltPådrag" Source="Controller1.DataItem27" />
+        <Item Target="Tags" TargetProperty="ReferanseDempet" Source="Controller1.DataItem28" />
+        <Item Target="Tags" TargetProperty="Done" Source="Controller1.DataItem29" />
       </Items>
     </Category>
     <Category Name="Recipe">
@@ -50,16 +57,51 @@
     </Category>
     <Category Name="Script">
       <Items>
-        <Item Target="Tags.Script.cs" TargetProperty="ValueChange" Source="Tags.Styring_frekvens_eller_ventil" />
+        <Item Target="Tags.Script.cs" TargetProperty="ValueChange" Source="Tags.Modus" />
         <Item Target="Tags.Script.cs" TargetProperty="ValueChange" Source="Tags.Kp" />
         <Item Target="Tags.Script.cs" TargetProperty="ValueChange" Source="Tags.Ki" />
         <Item Target="Tags.Script.cs" TargetProperty="ValueChange" Source="Tags.Kd" />
+        <Item Target="Tags.Script.cs" TargetProperty="ValueChange" Source="Tags.Alarm_høy" />
+        <Item Target="Tags.Script.cs" TargetProperty="ValueChange" Source="Tags.Alarm_kritisk_høy" />
+        <Item Target="Tags.Script.cs" TargetProperty="ValueChange" Source="Tags.Alarm_lav" />
+        <Item Target="Tags.Script.cs" TargetProperty="ValueChange" Source="Tags.Alarm_kritisk_lav" />
+        <Item Target="Tags.Script.cs" TargetProperty="ValueOn" Source="Tags.Start" />
+        <Item Target="Tags.Script.cs" TargetProperty="ValueOn" Source="Tags.Stopp" />
+        <Item Target="Tags.Script.cs" TargetProperty="ValueOn" Source="Tags.Bruk_foroverkobling" />
+        <Item Target="Tags.Script.cs" TargetProperty="ValueOff" Source="Tags.Bruk_foroverkobling" />
+        <Item Target="Tags.Script.cs" TargetProperty="ValueChange" Source="Tags.Regulator" />
+        <Item Target="Tags.Script.cs" TargetProperty="ValueChange" Source="Tags.AlarmAktiv" />
+        <Item Target="Tags.Script.cs" Source="Tags.V1_bool" />
+        <Item Target="Tags.Script.cs" Source="Tags.V2_bool" />
+        <Item Target="Tags.Script.cs" Source="Tags.V3_bool" />
+        <Item Target="Tags.Script.cs" Source="Tags.Foroverkobling_farger" />
+        <Item Target="Tags.Script.cs" Source="Tags.Start_Stopp_farger" />
+        <Item Target="Tags.Script.cs" Source="Tags.Auto_man_farger" />
+        <Item Target="Tags.Script.cs" Source="Tags.PID_farger" />
         <Item Target="Tags.Script.cs" Source="Tags.Styring_frekvens_eller_ventil" />
         <Item Target="Tags.Script.cs" Source="Tags.Regulatortype" />
+        <Item Target="Tags.Script.cs" Source="Tags.Modus" />
         <Item Target="Tags.Script.cs" Source="Tags.Kp" />
         <Item Target="Tags.Script.cs" Source="Tags.Ki" />
         <Item Target="Tags.Script.cs" Source="Tags.Kd" />
         <Item Target="Tags.Script.cs" Source="Tags.Organ" />
+        <Item Target="Tags.Script.cs" Source="Tags.sModus" />
+        <Item Target="Tags.Script.cs" Source="Tags.StatusTxt" />
+        <Item Target="Tags.Script.cs" Source="Tags.Alarm_høy" />
+        <Item Target="Tags.Script.cs" Source="Tags.Alarm_kritisk_høy" />
+        <Item Target="Tags.Script.cs" Source="Tags.Alarm_lav" />
+        <Item Target="Tags.Script.cs" Source="Tags.Alarm_kritisk_lav" />
+        <Item Target="Tags.Script.cs" Source="Tags.Reset_alarm" />
+        <Item Target="Tags.Script.cs" Source="Tags.Start" />
+        <Item Target="Tags.Script.cs" Source="Tags.Stopp" />
+        <Item Target="Tags.Script.cs" Source="Tags.Regulator" />
+        <Item Target="Tags.Script.cs" Source="Tags.AlarmAktiv" />
+        <Item Target="Tags.Script.cs" Source="Tags.Kvitter_synlig" />
+        <Item Target="Tags.Script.cs" Source="Tags.Alarm_tekst" />
+        <Item Target="Tags.Script.cs" Source="Tags.Test_verdi" />
+        <Item Target="Tags.Script.cs" Source="Tags.RegulatorTekst" />
+        <Item Target="Tags.Script.cs" Source="Tags.RegulatorHist" />
+        <Item Target="Tags.Script.cs" Source="Tags.ModusText" />
       </Items>
     </Category>
     <Category Name="StructuredTag">
